@@ -47,7 +47,7 @@ def parse_file(In_File, Out_File):
 
 
 def main():
-    parse_file("InFile.txt","OutFile.txt")
+    parse_file("trails/InFile.txt","trails/OutFile.txt")
 
 if __name__ == "__main__":
     main()
