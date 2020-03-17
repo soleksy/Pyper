@@ -106,7 +106,6 @@ def main():
         commands += replace_spaces(hep_args.BAI) + "%20"
     if hep_args.cn is not None:
         flag = 1
-        print("XD")
         commands += "collaboration:" + replace_spaces(hep_args.cn) + "%20"
     if hep_args.ac is not None:
         flag = 1
