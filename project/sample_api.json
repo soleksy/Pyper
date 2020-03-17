@@ -1,0 +1,283 @@
+[
+  {
+    "creation_date": "2020-02-25T04:44:06",
+    "creator": {
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
+    },
+    "title": {
+      "title": "J-PET Framework: Software platform for PET tomography data reconstruction and analysis"
+    }
+  },
+  {
+    "creation_date": "2019-11-28T04:50:15",
+    "creator": {
+      "first_name": "S.",
+      "last_name": "Sharma",
+      "full_name": "Sharma, S."
+    },
+    "title": {
+      "title": "Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner"
+    }
+  },
+  {
+    "creation_date": "2019-11-26T04:04:20",
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
+    },
+    "title": {
+      "title": "Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models"
+    }
+  },
+  {
+    "creation_date": "2019-01-21T03:55:22",
+    "creator": {
+      "first_name": "N.",
+      "last_name": "Krawczyk",
+      "full_name": "Krawczyk, N."
+    },
+    "title": {
+      "title": "Simulation studies of annihilation-photon\u2019s polarisation via Compton scattering with the J-PET tomograph"
+    }
+  },
+  {
+    "creation_date": "2018-09-28T04:32:59",
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Feasibility studies of the polarization of photons beyond the optical wavelength regime with the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2018-09-18T11:36:39",
+    "creator": {
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
+    },
+    "title": {
+      "title": "Commissioning of the J-PET detector in view of the positron annihilation lifetime spectroscopy"
+    }
+  },
+  {
+    "creation_date": "2018-09-05T04:11:18",
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "J.",
+      "last_name": "Raj",
+      "full_name": "Raj, J."
+    },
+    "title": {
+      "title": "A feasibility study of the time reversal violation test based on polarization of annihilation photons from the decay of ortho-Positronium with the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2018-08-02T05:13:07",
+    "creator": {
+      "first_name": "Pawe\u0142",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, Pawe\u0142"
+    },
+    "title": {
+      "title": "Estimating the NEMA characteristics of the J-PET tomograph using the GATE package"
+    }
+  },
+  {
+    "creation_date": "2018-05-31T04:28:16",
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Feasibility study of the positronium imaging with the J-PET tomograph"
+    }
+  },
+  {
+    "creation_date": "2018-04-20T03:40:43",
+    "creator": {
+      "affiliation": "AGH-UST, Cracow",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
+    },
+    "title": {
+      "title": "Feasibility Study of the Time Reversal Symmetry Tests in Decay of Metastable Positronium Atoms with the J-PET Detector"
+    }
+  },
+  {
+    "creation_date": "2018-03-05T04:00:01",
+    "creator": {
+      "first_name": "R.",
+      "last_name": "Mase\u0142ek",
+      "full_name": "Mase\u0142ek, R."
+    },
+    "title": {
+      "title": "Towards 2+1 photon tomography: Energy-based selection of two 511 keV photons and a prompt photon with the J-PET scanner"
+    }
+  },
+  {
+    "creation_date": "2017-12-15T10:59:35",
+    "creator": {
+      "first_name": "Muhsin",
+      "last_name": "Mohammed",
+      "full_name": "Mohammed, Muhsin"
+    },
+    "title": {
+      "title": "A Method to Produce Linearly Polarized Positrons and Positronium Atoms with the J-PET Detector"
+    }
+  },
+  {
+    "creation_date": "2017-11-01T06:33:12",
+    "creator": {
+      "first_name": "S.",
+      "last_name": "Nied\u017awiecki",
+      "full_name": "Nied\u017awiecki, S."
+    },
+    "title": {
+      "title": "J-PET: a new technology for the whole-body PET imaging"
+    }
+  },
+  {
+    "creation_date": "2017-10-31T06:33:59",
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Czerwi\u0144ski",
+      "full_name": "Czerwi\u0144ski, E."
+    },
+    "title": {
+      "title": "Commissioning of the J-PET detector for studies of decays of positronium atoms"
+    }
+  },
+  {
+    "creation_date": "2017-10-31T06:33:56",
+    "creator": {
+      "first_name": "R.Y.",
+      "last_name": "Shopa",
+      "full_name": "Shopa, R.Y."
+    },
+    "title": {
+      "title": "Three-dimensional image reconstruction in J-PET using Filtered Back Projection method"
+    }
+  },
+  {
+    "creation_date": "2017-10-17T07:15:30",
+    "creator": {
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
+    },
+    "title": {
+      "title": "Analysis procedure of the positronium lifetime spectra for the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2017-10-17T07:15:28",
+    "creator": {
+      "first_name": "M.",
+      "last_name": "Skurzok",
+      "full_name": "Skurzok, M."
+    },
+    "title": {
+      "title": "Time calibration of the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2017-06-06T06:19:54",
+    "creator": {
+      "first_name": "L.",
+      "last_name": "Raczy\u0144ski",
+      "full_name": "Raczy\u0144ski, L."
+    },
+    "title": {
+      "title": "Calculation of the time resolution of the J-PET tomograph using kernel density estimation"
+    }
+  },
+  {
+    "creation_date": "2016-07-29T06:24:06",
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "D.",
+      "last_name": "Kami\u0144ska",
+      "full_name": "Kami\u0144ska, D."
+    },
+    "title": {
+      "title": "A feasibility study of ortho-positronium decays measurement with the J-PET scanner based on plastic scintillators"
+    }
+  },
+  {
+    "creation_date": "2016-02-25T04:45:11",
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
+    },
+    "title": {
+      "title": "Trilateration-based reconstruction of ortho-positronium decays into three photons with the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:18:04",
+    "creator": {
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
+    },
+    "title": {
+      "title": "Overview of the software architecture and data flow for the J-PET tomography device"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:17:59",
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, P."
+    },
+    "title": {
+      "title": "Scatter fraction of the J-PET tomography scanner"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:17:56",
+    "creator": {
+      "first_name": "G.",
+      "last_name": "Korcyl",
+      "full_name": "Korcyl, G."
+    },
+    "title": {
+      "title": "Sampling FEE and Trigger-less DAQ for the J-PET Scanner"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:17:53",
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Kubicz",
+      "full_name": "Kubicz, E."
+    },
+    "title": {
+      "title": "Beam profile investigation of the new collimator system for the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:15:33",
+    "creator": {
+      "first_name": "B.",
+      "last_name": "Jasi\u0144ska",
+      "full_name": "Jasi\u0144ska, B."
+    },
+    "title": {
+      "title": "Determination of the 3\\gamma fraction from positron annihilation in mesoporous materials for symmetry violation experiment with J-PET scanner"
+    }
+  }
+]
