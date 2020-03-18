@@ -5,8 +5,9 @@ from collections import defaultdict
 
 
 def hep_url_generator(command_string, format, BAI):
-    if format in ['json', 'out', None]:
-        format = "recjson"
+
+    format = "recjson"
+
     if BAI:
         url = "http://inspirehep.net/search?ln=en&cc=HepNames&p=" + \
             command_string + "&of=" + format

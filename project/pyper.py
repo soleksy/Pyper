@@ -61,14 +61,14 @@ def main():
         required=False,
         help="If you want to search for papers published by people affiliated to a particular institution, you can use this operator. Note, however, that you need to know how the institution is registered in INSPIRE’s database",
         type=str)
-    
+
     # Wrtie result to the JSON file
     parser_HEP.add_argument(
-        "-save",
+        "-show",
         required=False,
         help="Write contents of the query to the json file",
         type=str,
-        choices=['json'],
+        choices=['json', 'out'],
     )
     # Article based search arguments:
     parser_HEP.add_argument(
@@ -76,7 +76,7 @@ def main():
         required=False,
         help="Adds title of the paper to the query",
         type=str)
-    
+
     # need to add: TEXKEY , EPRINT, DOI, REPORT_NUMBER , RECORD_ID, DOC_TYPE
     # DATE , JOURNAL ,CITATION NUMBER , CITATION OF A RECORD
 
@@ -114,16 +114,27 @@ def main():
         flag = 1
         commands += "affiliation:" + replace_spaces(hep_args.ea) + "%20"
 
+
+
     if flag == 0:
         print("Choose at least one query variable try:\n" +
               "python3 pyper.py HEP -h " + "for more information")
     else:
-        if hep_args.save is not None:
-            url = hep_helper.hep_url_generator(commands, hep_args.save, BAI)
-            hep_helper.save_to_json(url, "sample_api.json")
-        else:
-            url = hep_helper.hep_url_generator(commands, hep_args.save, BAI)
-            hep_helper.display_in_cmd(url)
+        if hep_args.show is not None:
+            if hep_args.show == "json":
+
+                url = hep_helper.hep_url_generator(
+                    commands, hep_args.show, BAI)
+
+                hep_helper.save_to_json(url, "sample_api.json")
+
+            else:
+
+                url = hep_helper.hep_url_generator(
+                    commands, hep_args.show, BAI)
+
+                hep_helper.display_in_cmd(url)
+
 
 
 if __name__ == "__main__":
