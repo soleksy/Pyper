@@ -1,299 +1,283 @@
 [
   {
-    "creation_date": "2019-09-12T06:57:44",
+    "creation_date": "2020-02-25T04:44:06",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
     },
     "title": {
-      "title": "Amplitude analysis of the $B^+ \\rightarrow \\pi^+\\pi^+\\pi^-$ decay"
+      "title": "J-PET Framework: Software platform for PET tomography data reconstruction and analysis"
     }
   },
   {
-    "creation_date": "2019-05-23T10:14:17",
+    "creation_date": "2019-11-28T04:50:15",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "S.",
+      "last_name": "Sharma",
+      "full_name": "Sharma, S."
     },
     "title": {
-      "title": "Amplitude analysis of $B^{\\pm} \\to \\pi^{\\pm} K^{+} K^{-}$ decays"
+      "title": "Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner"
     }
   },
   {
-    "creation_date": "2019-05-17T08:12:18",
+    "creation_date": "2019-11-26T04:04:20",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
     },
     "title": {
-      "title": "Amplitude analysis of the $B^0_{(s)} \\to K^{*0} \\overline{K}^{*0}$ decays and measurement of the branching fraction of the $B^0 \\to K^{*0} \\overline{K}^{*0}$ decay"
+      "title": "Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models"
     }
   },
   {
-    "creation_date": "2019-02-22T04:25:10",
+    "creation_date": "2019-01-21T03:55:22",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "N.",
+      "last_name": "Krawczyk",
+      "full_name": "Krawczyk, N."
     },
     "title": {
-      "title": "Amplitude analysis of $B^{0}_{s} \\rightarrow K^{0}_{\\textrm{S}} K^{\\pm}\\pi^{\\mp}$ decays"
+      "title": "Simulation studies of annihilation-photon\u2019s polarisation via Compton scattering with the J-PET tomograph"
     }
   },
   {
-    "creation_date": "2019-02-18T03:49:31",
+    "creation_date": "2018-09-28T04:32:59",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
     },
     "title": {
-      "title": "Dalitz plot analysis of the $D^+\\to K^-K^+K^+$ decay"
+      "title": "Feasibility studies of the polarization of photons beyond the optical wavelength regime with the J-PET detector"
     }
   },
   {
-    "creation_date": "2018-12-19T11:48:44",
+    "creation_date": "2018-09-18T11:36:39",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
     },
     "title": {
-      "title": "Study of the $B^0\\to \\rho(770)^0 K^*(892)^0$ decay with an amplitude analysis of $B^0\\to (\\pi^+\\pi^-) (K^+\\pi^-)$ decays"
+      "title": "Commissioning of the J-PET detector in view of the positron annihilation lifetime spectroscopy"
     }
   },
   {
-    "creation_date": "2018-11-21T09:29:54",
+    "creation_date": "2018-09-05T04:11:18",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "affiliation": "Jagiellonian U.",
+      "first_name": "J.",
+      "last_name": "Raj",
+      "full_name": "Raj, J."
     },
     "title": {
-      "title": "Search for $CP$ violation through an amplitude analysis of $D^0 \\to K^+ K^- \\pi^+ \\pi^-$ decays"
+      "title": "A feasibility study of the time reversal violation test based on polarization of annihilation photons from the decay of ortho-Positronium with the J-PET detector"
     }
   },
   {
-    "creation_date": "2016-09-16T05:47:46",
+    "creation_date": "2018-08-02T05:13:07",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "Pawe\u0142",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, Pawe\u0142"
     },
     "title": {
-      "title": "Differential branching fraction and angular moments analysis of the decay $B^0 \\to K^+ \\pi^- \\mu^+ \\mu^-$ in the $K^*_{0,2}(1430)^0$ region"
+      "title": "Estimating the NEMA characteristics of the J-PET tomograph using the GATE package"
     }
   },
   {
-    "creation_date": "2016-08-04T07:32:40",
+    "creation_date": "2018-05-31T04:28:16",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
     },
     "title": {
-      "title": "Amplitude analysis of $B^{-} \\to D^{+} \\pi^{-} \\pi^{-}$ decays"
+      "title": "Feasibility study of the positronium imaging with the J-PET tomograph"
     }
   },
   {
-    "creation_date": "2016-06-28T05:54:33",
+    "creation_date": "2018-04-20T03:40:43",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "affiliation": "AGH-UST, Cracow",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
     },
     "title": {
-      "title": "Amplitude analysis of $B^+\\to J/\\psi \\phi K^+$ decays"
+      "title": "Feasibility Study of the Time Reversal Symmetry Tests in Decay of Metastable Positronium Atoms with the J-PET Detector"
     }
   },
   {
-    "creation_date": "2016-06-28T05:54:27",
+    "creation_date": "2018-03-05T04:00:01",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "R.",
+      "last_name": "Mase\u0142ek",
+      "full_name": "Mase\u0142ek, R."
     },
     "title": {
-      "title": "Observation of $J/\\psi\\phi$ structures consistent with exotic states from amplitude analysis of $B^+\\to J/\\psi \\phi K^+$ decays"
+      "title": "Towards 2+1 photon tomography: Energy-based selection of two 511 keV photons and a prompt photon with the J-PET scanner"
     }
   },
   {
-    "creation_date": "2016-02-11T04:45:36",
+    "creation_date": "2017-12-15T10:59:35",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "Muhsin",
+      "last_name": "Mohammed",
+      "full_name": "Mohammed, Muhsin"
     },
     "title": {
-      "title": "Constraints on the unitarity triangle angle $\\gamma$ from Dalitz plot analysis of $B^0 \\to D K^+ \\pi^-$ decays"
+      "title": "A Method to Produce Linearly Polarized Positrons and Positronium Atoms with the J-PET Detector"
     }
   },
   {
-    "creation_date": "2015-12-15T04:57:13",
+    "creation_date": "2017-11-01T06:33:12",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "S.",
+      "last_name": "Nied\u017awiecki",
+      "full_name": "Nied\u017awiecki, S."
     },
     "title": {
-      "title": "Angular analysis of the $B^{0} \\to K^{*0} \\mu^{+} \\mu^{-}$ decay using 3 fb$^{-1}$ of integrated luminosity"
+      "title": "J-PET: a new technology for the whole-body PET imaging"
     }
   },
   {
-    "creation_date": "2015-06-30T05:25:18",
+    "creation_date": "2017-10-31T06:33:59",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "E.",
+      "last_name": "Czerwi\u0144ski",
+      "full_name": "Czerwi\u0144ski, E."
     },
     "title": {
-      "title": "Angular analysis and differential branching fraction of the decay $B^0_s\\to\\phi\\mu^+\\mu^-$"
+      "title": "Commissioning of the J-PET detector for studies of decays of positronium atoms"
     }
   },
   {
-    "creation_date": "2015-05-08T08:46:48",
+    "creation_date": "2017-10-31T06:33:56",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "R.Y.",
+      "last_name": "Shopa",
+      "full_name": "Shopa, R.Y."
     },
     "title": {
-      "title": "Dalitz plot analysis of $B^0 \\to \\overline{D}^0 \\pi^+\\pi^-$ decays"
+      "title": "Three-dimensional image reconstruction in J-PET using Filtered Back Projection method"
     }
   },
   {
-    "creation_date": "2015-05-08T08:45:20",
+    "creation_date": "2017-10-17T07:15:30",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "CERN",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
     },
     "title": {
-      "title": "Amplitude analysis of $B^0 \\rightarrow \\bar{D}^0 K^+ \\pi^-$ decays"
+      "title": "Analysis procedure of the positronium lifetime spectra for the J-PET detector"
     }
   },
   {
-    "creation_date": "2015-03-27T04:44:07",
+    "creation_date": "2017-10-17T07:15:28",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "M.",
+      "last_name": "Skurzok",
+      "full_name": "Skurzok, M."
     },
     "title": {
-      "title": "Observation of the $B^0 \\to \\rho^0 \\rho^0$ decay from an amplitude analysis of $B^0 \\to (\\pi^+\\pi^-)(\\pi^+\\pi^-)$ decays"
+      "title": "Time calibration of the J-PET detector"
     }
   },
   {
-    "creation_date": "2015-03-25T04:35:07",
+    "creation_date": "2017-06-06T06:19:54",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "L.",
+      "last_name": "Raczy\u0144ski",
+      "full_name": "Raczy\u0144ski, L."
     },
     "title": {
-      "title": "Differential branching fraction and angular analysis of $\\Lambda^{0}_{b} \\rightarrow \\Lambda \\mu^+\\mu^-$ decays"
+      "title": "Calculation of the time resolution of the J-PET tomograph using kernel density estimation"
     }
   },
   {
-    "creation_date": "2015-01-14T06:38:19",
+    "creation_date": "2016-07-29T06:24:06",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "affiliation": "Jagiellonian U.",
+      "first_name": "D.",
+      "last_name": "Kami\u0144ska",
+      "full_name": "Kami\u0144ska, D."
     },
     "title": {
-      "title": "Angular analysis of the $B^{0} \\to K^{*0} e^{+} e^{\u2212}$ decay in the low-q$^{2}$ region"
+      "title": "A feasibility study of ortho-positronium decays measurement with the J-PET scanner based on plastic scintillators"
     }
   },
   {
-    "creation_date": "2014-11-18T17:44:57",
+    "creation_date": "2016-02-25T04:45:11",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00314584",
-      "affiliation": "Yerevan Phys. Inst.",
-      "first_name": "Vardan",
-      "last_name": "Khachatryan",
-      "full_name": "Khachatryan, Vardan"
+      "affiliation": "Jagiellonian U.",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
     },
     "title": {
-      "title": "Observation of the rare $B^0_s\\to\\mu^+\\mu^-$ decay from the combined analysis of CMS and LHCb data"
+      "title": "Trilateration-based reconstruction of ortho-positronium decays into three photons with the J-PET detector"
     }
   },
   {
-    "creation_date": "2014-07-30T05:54:00",
+    "creation_date": "2016-02-18T08:18:04",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
     },
     "title": {
-      "title": "Dalitz plot analysis of $B_s^0 \\rightarrow \\bar{D}^0 K^- \\pi^+$ decays"
+      "title": "Overview of the software architecture and data flow for the J-PET tomography device"
     }
   },
   {
-    "creation_date": "2014-04-01T05:43:10",
+    "creation_date": "2016-02-18T08:17:59",
     "creator": {
-      "INSPIRE_number": "INSPIRE-00258707",
-      "affiliation": "NIKHEF, Amsterdam",
-      "first_name": "Roel",
-      "last_name": "Aaij",
-      "full_name": "Aaij, Roel"
+      "first_name": "P.",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, P."
     },
     "title": {
-      "title": "Angular analysis of charged and neutral $B \\to K \\mu^+\\mu^-$  decays"
+      "title": "Scatter fraction of the J-PET tomography scanner"
     }
   },
   {
-    "creation_date": "2012-02-20T00:00:00",
+    "creation_date": "2016-02-18T08:17:56",
     "creator": {
-      "first_name": "Daniela",
-      "last_name": "Remenska",
-      "full_name": "Remenska, Daniela"
+      "first_name": "G.",
+      "last_name": "Korcyl",
+      "full_name": "Korcyl, G."
     },
     "title": {
-      "title": "Optimization of large scale HEP data analysis in LHCb"
+      "title": "Sampling FEE and Trigger-less DAQ for the J-PET Scanner"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:17:53",
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Kubicz",
+      "full_name": "Kubicz, E."
+    },
+    "title": {
+      "title": "Beam profile investigation of the new collimator system for the J-PET detector"
+    }
+  },
+  {
+    "creation_date": "2016-02-18T08:15:33",
+    "creator": {
+      "first_name": "B.",
+      "last_name": "Jasi\u0144ska",
+      "full_name": "Jasi\u0144ska, B."
+    },
+    "title": {
+      "title": "Determination of the 3\\gamma fraction from positron annihilation in mesoporous materials for symmetry violation experiment with J-PET scanner"
     }
   }
 ]

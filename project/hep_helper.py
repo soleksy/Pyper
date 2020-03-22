@@ -4,17 +4,18 @@ from urllib.request import urlopen
 from collections import defaultdict
 
 
-def hep_url_generator(command_string, format, BAI):
+def url_encode(string):
+    encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
+    for el1, el2 in encode_list:
+        string = string.replace(el1, el2)
+    return string
 
+
+def hep_url_generator(command_string, format):
     format = "recjson"
 
-    if BAI:
-        url = "http://inspirehep.net/search?ln=en&cc=HepNames&p=" + \
-            command_string + "&of=" + format
-    else:
-        url = "https://inspirehep.net/search?p=" + command_string + \
-            "&of=" + format + "&ot=creator,creation_date,title"
-
+    url = "https://inspirehep.net/search?p=" + command_string + \
+        "&of=" + format + "&ot=creator,creation_date,title"
     return url
 
 
