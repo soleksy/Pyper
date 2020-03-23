@@ -65,7 +65,7 @@ def main():
         help="Specify date range for the query. Examples : -d 2018+ ,-d 2000- ,-d 1980->1982",
         type=str)
 
-    # Wrtie result to the JSON file
+    # Write result to the JSON file
     parser_HEP.add_argument(
         "-show",
         required=False,
@@ -77,7 +77,7 @@ def main():
     # need to add: TEXKEY , EPRINT, DOI, REPORT_NUMBER , RECORD_ID, DOC_TYPE
     # DATE , JOURNAL ,CITATION NUMBER , CITATION OF A RECORD
 
-    #args = parser.parse_args() for future use#
+    args = parser.parse_args()
 
     hep_args = parser_HEP.parse_args(args=sys.argv[2:])
 
