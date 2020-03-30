@@ -65,6 +65,22 @@ def main():
         help="Specify date range for the query. Examples : -d 2018+ ,-d 2000- ,-d 1980->1982",
         type=str)
 
+    parser_HEP.add_argument(
+        "-tc",
+        required=False,
+        help="Search for papers of specyfic type ex: b: book ,c: conference paper ,core: work covering high-energy-physics,i: introductory" +/
+             "l: lectures, note: experimental note, p: published, proceedings: collected volume of a conference proceedings, r: review ,t: thesis",
+        type = str,
+        choices = ['b','c','i','l','p','r','t','core','note','proceedings'])
+    )
+
+    parser_HEP.add_argument(
+        "-topcite",
+        required=False,
+        help="If you want to find works that are often cited in other publications, you can use this option to search, ex of use: topcite 100->150",
+        type = str,
+
+    )
     # Write result to the JSON file
     parser_HEP.add_argument(
         "-show",
@@ -74,6 +90,7 @@ def main():
         choices=['json', 'out'],
     )
 
+   
     # need to add: TEXKEY , EPRINT, DOI, REPORT_NUMBER , RECORD_ID, DOC_TYPE
     # DATE , JOURNAL ,CITATION NUMBER , CITATION OF A RECORD
 
@@ -97,7 +114,8 @@ def main():
         ("recid",
          hep_args.recid),
         ("date",
-         hep_args.d)]
+         hep_args.d),
+         ("type-code")]
 
     def isNotNone(x): return x[1] is not None
 
