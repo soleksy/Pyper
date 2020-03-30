@@ -1,4 +1,4 @@
-#!/home/linuxuser/anaconda3/bin/python3
+#!/home/solesky/anaconda3/bin/python
 import sys
 import argparse
 import hep_helper
@@ -10,6 +10,7 @@ def replace_spaces(string):
 
 def main():
     commands = ""
+    
 
     parser = argparse.ArgumentParser()
 
@@ -64,14 +65,26 @@ def main():
         required=False,
         help="Specify date range for the query. Examples : -d 2018+ ,-d 2000- ,-d 1980->1982",
         type=str)
-
+    #Add DOI to the query
+    parser_HEP.add_argument(
+        "-doi",
+        required=False,
+        help="Add Digital Object Identifier to the query",
+        type=str)
+    #Add journal reference to the query
+    parser_HEP.add_argument(
+        "-j",
+        required=False,
+        help="If you’d like to stay up to date with publications of a specific journal, then a search by journal will be helpful ex: -j Physics.Rev.D",
+        type=str)
+    #Add Type-Code to the query
     parser_HEP.add_argument(
         "-tc",
         required=False,
-        help="Search for papers of specyfic type ex: b: book ,c: conference paper ,core: work covering high-energy-physics,i: introductory" +/
-             "l: lectures, note: experimental note, p: published, proceedings: collected volume of a conference proceedings, r: review ,t: thesis",
+        help="Search for papers of specyfic type ex: b: book ,c: conference paper ,core: work covering high-energy-physics,i: introductory" +\
+             " l: lectures, note: experimental note, p: published,proceedings:collected volume of a conference proceedings, r: review ,t: thesis",
         type = str,
-        choices = ['b','c','i','l','p','r','t','core','note','proceedings'])
+        choices = ['b','c','i','l','p','r','t','core','note','proceedings']
     )
 
     parser_HEP.add_argument(
@@ -89,10 +102,6 @@ def main():
         type=str,
         choices=['json', 'out'],
     )
-
-   
-    # need to add: TEXKEY , EPRINT, DOI, REPORT_NUMBER , RECORD_ID, DOC_TYPE
-    # DATE , JOURNAL ,CITATION NUMBER , CITATION OF A RECORD
 
     args = parser.parse_args()
 
@@ -115,7 +124,14 @@ def main():
          hep_args.recid),
         ("date",
          hep_args.d),
-         ("type-code")]
+        ("type-code",
+         hep_args.tc),
+        ("topcite",
+         hep_args.topcite),
+        ("doi",
+         hep_args.doi),
+        ("journal",
+         hep_args.j)]
 
     def isNotNone(x): return x[1] is not None
 
@@ -131,8 +147,8 @@ def main():
             else:
                 commands += el1 + "%3A+" + el2 + "%20+"
 
-        commands = hep_helper.url_encode(commands)
-
+        commands = hep_helper.hep_url_encode(commands)
+    
     if hep_args.show is not None:
         if hep_args.show == "json":
 

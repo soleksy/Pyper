@@ -14,8 +14,10 @@ def url_encode(string):
 def hep_url_generator(command_string, format):
     format = "recjson"
 
-    url = "https://inspirehep.net/search?p=" + command_string + \
-        "&of=" + format + "&ot=creator,creation_date,title"
+    url = "https://old.inspirehep.net/search?p=" + command_string + \
+        "&of=" + format + "&ot=creator,creation_date,title,doi,primary_report_number,number_of_citations,reference,recid"
+        
+    print(url)
     return url
 
 
