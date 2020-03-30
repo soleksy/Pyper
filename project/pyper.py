@@ -1,16 +1,20 @@
-#!/home/solesky/anaconda3/bin/python
+#!/home/linuxuser/anaconda3/bin/python
+
 import sys
 import argparse
-import hep_helper
+from hep_classes import Hep_Helper,Hep_Parser
 
 
 def replace_spaces(string):
     return string.replace(" ", "%20")
-
+def show_parsed(date,names,titles,citations):
+        for i in range(len(names)):
+            print( "Date: "+ date[i] +"\n" + "Creator: " + names[i] + "\n" + "Title: " + titles[i]+ "\n" + "Citations: "+ str(citations[i])+"\n")
 
 def main():
     commands = ""
-    
+    json_as_string = ""
+    hep_helper = Hep_Helper()
 
     parser = argparse.ArgumentParser()
 
@@ -148,22 +152,30 @@ def main():
                 commands += el1 + "%3A+" + el2 + "%20+"
 
         commands = hep_helper.hep_url_encode(commands)
-    
+        url = hep_helper.hep_url_generator(
+                commands, hep_args.show)
+        source = hep_helper.get_source(url)
+        
+
     if hep_args.show is not None:
         if hep_args.show == "json":
 
-            url = hep_helper.hep_url_generator(
-                commands, hep_args.show)
+            
 
-            hep_helper.save_to_json(url, "sample_api.json")
+            hep_helper.write_to_json(source, "API_OUTPUT_JSON.json")
 
         else:
+            hep_parser = Hep_Parser(source)
 
-            url = hep_helper.hep_url_generator(
-                commands, hep_args.show)
+            creator_names = hep_parser.get_creator_names()
+            titles = hep_parser.get_title()
+            dates = hep_parser.get_creation_date()
+            citations = hep_parser.get_citation_count()
 
-            hep_helper.display_in_cmd(url)
+            show_parsed(dates,creator_names,titles,citations)
 
+
+        
 
 if __name__ == "__main__":
     main()
