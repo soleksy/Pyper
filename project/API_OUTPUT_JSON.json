@@ -63,6 +63,73 @@
     "primary_report_number": "arXiv:1901.06204"
   },
   {
+    "doi": [
+      "10.1140/epjc/s10052-018-6461-1",
+      "10.1140/epjc/s10052-018-6461-1"
+    ],
+    "number_of_citations": 5,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Feasibility studies of the polarization of photons beyond the optical wavelength regime with the J-PET detector"
+    },
+    "creation_date": "2018-09-28T04:32:59",
+    "primary_report_number": "arXiv:1809.10397"
+  },
+  {
+    "doi": [
+      "10.1007/s10751-018-1517-z",
+      "10.1007/s10751-018-1517-z"
+    ],
+    "number_of_citations": 5,
+    "creator": {
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
+    },
+    "title": {
+      "title": "Commissioning of the J-PET detector in view of the positron annihilation lifetime spectroscopy"
+    },
+    "creation_date": "2018-09-18T11:36:39",
+    "primary_report_number": "arXiv:1809.05175"
+  },
+  {
+    "doi": [
+      "10.1007/s10751-018-1527-x",
+      "10.1007/s10751-018-1527-x"
+    ],
+    "number_of_citations": 1,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "J.",
+      "last_name": "Raj",
+      "full_name": "Raj, J."
+    },
+    "title": {
+      "title": "A feasibility study of the time reversal violation test based on polarization of annihilation photons from the decay of ortho-Positronium with the J-PET detector"
+    },
+    "creation_date": "2018-09-05T04:11:18",
+    "primary_report_number": "arXiv:1809.00847"
+  },
+  {
+    "doi": "10.1088/1361-6560/aad29b",
+    "number_of_citations": 13,
+    "creator": {
+      "first_name": "Pawe\u0142",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, Pawe\u0142"
+    },
+    "title": {
+      "title": "Estimating the NEMA characteristics of the J-PET tomograph using the GATE package"
+    },
+    "creation_date": "2018-08-02T05:13:07",
+    "primary_report_number": "arXiv:1808.00241"
+  },
+  {
     "doi": "10.1088/1361-6560/aafe20",
     "number_of_citations": 12,
     "creator": {
@@ -75,5 +142,543 @@
     },
     "creation_date": "2018-05-31T04:28:16",
     "primary_report_number": "arXiv:1805.11696"
+  },
+  {
+    "doi": "10.1155/2018/8271280",
+    "number_of_citations": 5,
+    "creator": {
+      "affiliation": "AGH-UST, Cracow",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
+    },
+    "title": {
+      "title": "Feasibility Study of the Time Reversal Symmetry Tests in Decay of Metastable Positronium Atoms with the J-PET Detector"
+    },
+    "creation_date": "2018-04-20T03:40:43",
+    "primary_report_number": "arXiv:1804.07148"
+  },
+  {
+    "doi": null,
+    "number_of_citations": 0,
+    "creator": {
+      "first_name": "R.",
+      "last_name": "Mase\u0142ek",
+      "full_name": "Mase\u0142ek, R."
+    },
+    "title": {
+      "title": "Towards 2+1 photon tomography: Energy-based selection of two 511 keV photons and a prompt photon with the J-PET scanner"
+    },
+    "creation_date": "2018-03-05T04:00:01",
+    "primary_report_number": "arXiv:1803.00996"
+  },
+  {
+    "doi": "10.12693/APhysPolA.132.1486",
+    "number_of_citations": 3,
+    "creator": {
+      "first_name": "Muhsin",
+      "last_name": "Mohammed",
+      "full_name": "Mohammed, Muhsin"
+    },
+    "title": {
+      "title": "A Method to Produce Linearly Polarized Positrons and Positronium Atoms with the J-PET Detector"
+    },
+    "creation_date": "2017-12-15T10:59:35",
+    "primary_report_number": null
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.48.1567",
+      "10.5506/APhysPolB.48.1567"
+    ],
+    "number_of_citations": 25,
+    "creator": {
+      "first_name": "S.",
+      "last_name": "Nied\u017awiecki",
+      "full_name": "Nied\u017awiecki, S."
+    },
+    "title": {
+      "title": "J-PET: a new technology for the whole-body PET imaging"
+    },
+    "creation_date": "2017-11-01T06:33:12",
+    "primary_report_number": "arXiv:1710.11369"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.48.1961",
+      "10.5506/APhysPolB.48.1961"
+    ],
+    "number_of_citations": 8,
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Czerwi\u0144ski",
+      "full_name": "Czerwi\u0144ski, E."
+    },
+    "title": {
+      "title": "Commissioning of the J-PET detector for studies of decays of positronium atoms"
+    },
+    "creation_date": "2017-10-31T06:33:59",
+    "primary_report_number": "arXiv:1710.11067"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.48.1757",
+      "10.5506/APhysPolB.48.1757"
+    ],
+    "number_of_citations": 3,
+    "creator": {
+      "first_name": "R.Y.",
+      "last_name": "Shopa",
+      "full_name": "Shopa, R.Y."
+    },
+    "title": {
+      "title": "Three-dimensional image reconstruction in J-PET using Filtered Back Projection method"
+    },
+    "creation_date": "2017-10-31T06:33:56",
+    "primary_report_number": "arXiv:1710.11058"
+  },
+  {
+    "doi": "10.12693/APhysPolA.132.1637",
+    "number_of_citations": 1,
+    "creator": {
+      "first_name": "K.",
+      "last_name": "Dulski",
+      "full_name": "Dulski, K."
+    },
+    "title": {
+      "title": "Analysis procedure of the positronium lifetime spectra for the J-PET detector"
+    },
+    "creation_date": "2017-10-17T07:15:30",
+    "primary_report_number": "arXiv:1710.05611"
+  },
+  {
+    "doi": "10.12693/APhysPolA.132.1641",
+    "number_of_citations": 6,
+    "creator": {
+      "first_name": "M.",
+      "last_name": "Skurzok",
+      "full_name": "Skurzok, M."
+    },
+    "title": {
+      "title": "Time calibration of the J-PET detector"
+    },
+    "creation_date": "2017-10-17T07:15:28",
+    "primary_report_number": "arXiv:1710.05598"
+  },
+  {
+    "doi": "10.1088/1361-6560/aa7005",
+    "number_of_citations": 16,
+    "creator": {
+      "first_name": "L.",
+      "last_name": "Raczy\u0144ski",
+      "full_name": "Raczy\u0144ski, L."
+    },
+    "title": {
+      "title": "Calculation of the time resolution of the J-PET tomograph using kernel density estimation"
+    },
+    "creation_date": "2017-06-06T06:19:54",
+    "primary_report_number": "arXiv:1706.00924"
+  },
+  {
+    "doi": "10.1140/epjc/s10052-016-4294-3",
+    "number_of_citations": 34,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "D.",
+      "last_name": "Kami\u0144ska",
+      "full_name": "Kami\u0144ska, D."
+    },
+    "title": {
+      "title": "A feasibility study of ortho-positronium decays measurement with the J-PET scanner based on plastic scintillators"
+    },
+    "creation_date": "2016-07-29T06:24:06",
+    "primary_report_number": "arXiv:1607.08588"
+  },
+  {
+    "doi": "10.1016/j.nima.2016.02.069",
+    "number_of_citations": 28,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "A.",
+      "last_name": "Gajos",
+      "full_name": "Gajos, A."
+    },
+    "title": {
+      "title": "Trilateration-based reconstruction of ortho-positronium decays into three photons with the J-PET detector"
+    },
+    "creation_date": "2016-02-25T04:45:11",
+    "primary_report_number": "arXiv:1602.07528"
+  },
+  {
+    "doi": null,
+    "number_of_citations": 0,
+    "creator": {
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
+    },
+    "title": {
+      "title": "Overview of the software architecture and data flow for the J-PET tomography device"
+    },
+    "creation_date": "2016-02-18T08:18:04",
+    "primary_report_number": "arXiv:1602.05516"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.47.549",
+      "10.5506/APhysPolB.47.549"
+    ],
+    "number_of_citations": 11,
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, P."
+    },
+    "title": {
+      "title": "Scatter fraction of the J-PET tomography scanner"
+    },
+    "creation_date": "2016-02-18T08:17:59",
+    "primary_report_number": "arXiv:1602.05402"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.47.491",
+      "10.5506/APhysPolB.47.491"
+    ],
+    "number_of_citations": 34,
+    "creator": {
+      "first_name": "G.",
+      "last_name": "Korcyl",
+      "full_name": "Korcyl, G."
+    },
+    "title": {
+      "title": "Sampling FEE and Trigger-less DAQ for the J-PET Scanner"
+    },
+    "creation_date": "2016-02-18T08:17:56",
+    "primary_report_number": "arXiv:1602.05251"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.47.537",
+      "10.5506/APhysPolB.47.537"
+    ],
+    "number_of_citations": 2,
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Kubicz",
+      "full_name": "Kubicz, E."
+    },
+    "title": {
+      "title": "Beam profile investigation of the new collimator system for the J-PET detector"
+    },
+    "creation_date": "2016-02-18T08:17:53",
+    "primary_report_number": "arXiv:1602.05243"
+  },
+  {
+    "doi": [
+      "10.5506/APhysPolB.47.453",
+      "10.5506/APhysPolB.47.453"
+    ],
+    "number_of_citations": 21,
+    "creator": {
+      "first_name": "B.",
+      "last_name": "Jasi\u0144ska",
+      "full_name": "Jasi\u0144ska, B."
+    },
+    "title": {
+      "title": "Determination of the 3\\gamma fraction from positron annihilation in mesoporous materials for symmetry violation experiment with J-PET scanner"
+    },
+    "creation_date": "2016-02-18T08:15:33",
+    "primary_report_number": "arXiv:1602.05376"
+  },
+  {
+    "doi": "10.5506/APhysPolB.47.509",
+    "number_of_citations": 39,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Potential of the J-PET detector for studies of discrete symmetries in decays of positronium atom - a purely leptonic system"
+    },
+    "creation_date": "2016-02-18T08:15:28",
+    "primary_report_number": "arXiv:1602.05226"
+  },
+  {
+    "doi": "10.1088/0031-9155/61/5/2025",
+    "number_of_citations": 38,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Time resolution of the plastic scintillator strips with matrix photomultiplier readout for J-PET tomograph"
+    },
+    "creation_date": "2016-02-08T04:49:42",
+    "primary_report_number": "arXiv:1602.02058"
+  },
+  {
+    "doi": "10.1515/nuka-2015-0131",
+    "number_of_citations": 8,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "D.",
+      "last_name": "Kami\u0144ska",
+      "full_name": "Kami\u0144ska, D."
+    },
+    "title": {
+      "title": "Searches for discrete symmetries violation in ortho-positronium decay using the J-PET detector"
+    },
+    "creation_date": "2015-09-04T04:30:30",
+    "primary_report_number": "arXiv:1509.01114"
+  },
+  {
+    "doi": "10.1515/nuka-2015-0138",
+    "number_of_citations": 9,
+    "creator": {
+      "first_name": "N.G.",
+      "last_name": "Sharma",
+      "full_name": "Sharma, N.G."
+    },
+    "title": {
+      "title": "Reconstruction of hit-time and hit-position of annihilation quanta in the J-PET detector using the Mahalanobis distance"
+    },
+    "creation_date": "2015-09-01T05:09:19",
+    "primary_report_number": "arXiv:1508.07463"
+  },
+  {
+    "doi": "10.1515/nuka-2015-0140",
+    "number_of_citations": 8,
+    "creator": {
+      "first_name": "A.",
+      "last_name": "Wieczorek",
+      "full_name": "Wieczorek, A."
+    },
+    "title": {
+      "title": "PALS investigations of free volumes thermal expansion of J-PET plastic scintillator synthesized in polystyrene matrix"
+    },
+    "creation_date": "2015-08-28T04:43:51",
+    "primary_report_number": "arXiv:1508.06820"
+  },
+  {
+    "doi": "10.1515/nuka-2015-0134",
+    "number_of_citations": 10,
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "W.",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, W."
+    },
+    "title": {
+      "title": "Processing optimization with parallel computing for the J-PET tomography scanner"
+    },
+    "creation_date": "2015-08-13T04:42:35",
+    "primary_report_number": "arXiv:1508.02751"
+  },
+  {
+    "doi": "10.5506/APhysPolB.47.561",
+    "number_of_citations": 9,
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
+    },
+    "title": {
+      "title": "Overview of the software architecture and data flow for the J-PET tomography device"
+    },
+    "creation_date": "2015-08-12T04:42:53",
+    "primary_report_number": "arXiv:1508.02451"
+  },
+  {
+    "doi": "10.1515/nuka-2016-0012",
+    "number_of_citations": 2,
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "L.",
+      "last_name": "Raczynski",
+      "full_name": "Raczynski, L."
+    },
+    "title": {
+      "title": "Application of the Compress Sensing Theory for Improvement of the TOF Resolution in a Novel J-PET Instrument"
+    },
+    "creation_date": "2015-07-15T04:55:09",
+    "primary_report_number": "arXiv:1507.03799"
+  },
+  {
+    "doi": "10.1016/j.nima.2015.03.032",
+    "number_of_citations": 40,
+    "creator": {
+      "INSPIRE_number": "INSPIRE-00472502",
+      "first_name": "L.",
+      "last_name": "Raczy\u0144ski",
+      "full_name": "Raczy\u0144ski, L."
+    },
+    "title": {
+      "title": "Compressive Sensing of Signals Generated in Plastic Scintillators in a Novel J-PET Instrument"
+    },
+    "creation_date": "2015-03-19T05:22:32",
+    "primary_report_number": "arXiv:1503.05188"
+  },
+  {
+    "doi": "10.12693/APhysPolA.127.1491",
+    "number_of_citations": 26,
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
+    },
+    "title": {
+      "title": "Analysis framework for the J-PET scanner"
+    },
+    "creation_date": "2015-03-03T04:56:28",
+    "primary_report_number": "arXiv:1503.00465"
+  },
+  {
+    "doi": "10.12693/APhysPolA.127.1495",
+    "number_of_citations": 12,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Hit Time and Hit Position Reconstruction in the J-PET Detector Based on a Library of Averaged Model Signals"
+    },
+    "creation_date": "2015-03-02T04:43:14",
+    "primary_report_number": "arXiv:1502.07886"
+  },
+  {
+    "doi": "10.12693/APhysPolA.127.1500",
+    "number_of_citations": 7,
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Bia\u0142as",
+      "full_name": "Bia\u0142as, P."
+    },
+    "title": {
+      "title": "GPU accelerated image reconstruction in a two-strip J-PET tomograph"
+    },
+    "creation_date": "2015-02-27T04:39:52",
+    "primary_report_number": "arXiv:1502.07478"
+  },
+  {
+    "doi": "10.12693/APhysPolA.127.1505",
+    "number_of_citations": 15,
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, P."
+    },
+    "title": {
+      "title": "Multiple scattering and accidental coincidences in the J-PET detector simulated using GATE package"
+    },
+    "creation_date": "2015-02-17T05:06:18",
+    "primary_report_number": "arXiv:1502.04532"
+  },
+  {
+    "doi": "10.12693/APhysPolA.127.1487",
+    "number_of_citations": 15,
+    "creator": {
+      "first_name": "A.",
+      "last_name": "Wieczorek",
+      "full_name": "Wieczorek, A."
+    },
+    "title": {
+      "title": "A pilot study of the novel J-PET plastic scintillator with 2-(4-styrylphenyl)benzoxazole as a wavelength shifter"
+    },
+    "creation_date": "2015-02-11T04:53:28",
+    "primary_report_number": "arXiv:1502.02901"
+  },
+  {
+    "doi": "10.1016/j.nima.2014.07.052",
+    "number_of_citations": 68,
+    "creator": {
+      "affiliation": "Jagiellonian U.",
+      "first_name": "P.",
+      "last_name": "Moskal",
+      "full_name": "Moskal, P."
+    },
+    "title": {
+      "title": "Test of a single module of the J-PET scanner based on plastic scintillators"
+    },
+    "creation_date": "2014-07-29T05:44:53",
+    "primary_report_number": "arXiv:1407.7395"
+  },
+  {
+    "doi": "10.1515/bams-2014-0002",
+    "number_of_citations": 1,
+    "creator": {
+      "first_name": "P.",
+      "last_name": "Kowalski",
+      "full_name": "Kowalski, P."
+    },
+    "title": {
+      "title": "Determination of the map of efficiency of the J-PET detector with the GATE package"
+    },
+    "creation_date": "2014-02-28T05:32:39",
+    "primary_report_number": "arXiv:1402.6840"
+  },
+  {
+    "doi": "10.1515/bams-2014-0003",
+    "number_of_citations": 2,
+    "creator": {
+      "first_name": "E.",
+      "last_name": "Czerwi\u0144ski",
+      "full_name": "Czerwi\u0144ski, E."
+    },
+    "title": {
+      "title": "Database and data structure for the novel TOF-PET detector developed for J-PET project"
+    },
+    "creation_date": "2014-02-18T05:52:26",
+    "primary_report_number": "arXiv:1402.4116"
+  },
+  {
+    "doi": "10.1515/bams-2013-0110",
+    "number_of_citations": 3,
+    "creator": {
+      "first_name": "T.",
+      "last_name": "Bednarski",
+      "full_name": "Bednarski, T."
+    },
+    "title": {
+      "title": "Calibration of photomultipliers gain used in the J-PET detector"
+    },
+    "creation_date": "2013-12-11T05:53:22",
+    "primary_report_number": "arXiv:1312.2744"
+  },
+  {
+    "doi": "10.1515/bams-2013-0107",
+    "number_of_citations": 3,
+    "creator": {
+      "first_name": "K.",
+      "last_name": "Szyma\u0144ski",
+      "full_name": "Szyma\u0144ski, K."
+    },
+    "title": {
+      "title": "Simulations of gamma quanta scattering in a single module of the J-PET detector"
+    },
+    "creation_date": "2013-12-03T07:18:14",
+    "primary_report_number": "arXiv:1312.0250"
+  },
+  {
+    "doi": "10.1515/bams-2013-0109",
+    "number_of_citations": 4,
+    "creator": {
+      "first_name": "W.",
+      "last_name": "Krzemie\u0144",
+      "full_name": "Krzemie\u0144, W."
+    },
+    "title": {
+      "title": "J-PET analysis framework for the prototype TOF-PET detector"
+    },
+    "creation_date": "2013-11-26T07:43:32",
+    "primary_report_number": "arXiv:1311.6153"
   }
 ]

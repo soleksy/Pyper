@@ -1,4 +1,5 @@
 import json
+import xml
 import sys
 from urllib.request import urlopen
 from collections import defaultdict
@@ -16,7 +17,7 @@ class Hep_Helper:
         format = "recjson"
 
         url = "https://old.inspirehep.net/search?p=" + command_string + "&of=" + format + \
-            "&ot=creator,title,creation_date,number_of_citations,primary_report_number,doi"
+            "&ot=creator,title,creation_date,number_of_citations,primary_report_number,doi&rg=250"
 
         # "&ot=creator,creation_date,title,doi,primary_report_number,number_of_citations,reference,recid"
 

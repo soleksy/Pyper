@@ -1,14 +1,17 @@
-#!/home/linuxuser/anaconda3/bin/python
+#!/home/solesky/anaconda3/bin/python
 
 import sys
 import argparse
-from hep_classes import Hep_Helper, Hep_Parser
+from ARXIV.arxiv_classes import Arxiv_Helper
+from HEP.hep_classes import Hep_Parser, Hep_Helper
 
 
 def main():
     commands = ""
     json_as_string = ""
+    Selected_Parser = ""
     hep_helper = Hep_Helper()
+    arx_helper = Arxiv_Helper()
 
     parser = argparse.ArgumentParser()
 
@@ -16,9 +19,9 @@ def main():
         help="sub parser help", dest="command", required=True)
 
     parser_HEP = subparsers.add_parser('HEP', help="Search HEP databse")
-    # parser_ARXIV = subparsers.add_parser('ARXIV', help="in
-    # consturction")#for future use
+    parser_ARXIV = subparsers.add_parser('ARXIV', help="Search Arxiv database")
 
+    #----------------------------HEP ARGUMENTS---------------------------#
     # Add author to the query
     parser_HEP.add_argument(
         "-a",
@@ -101,6 +104,46 @@ def main():
         type=str,
 
     )
+    #----------------------------ARXIV ARGUMENTS-----------------------------#
+
+    parser_ARXIV.add_argument(
+        "-ALL",
+        required=False,
+        help="Search with all possible parameters enabled by Arxiv, simply type what you are looking for and receive standarized output",
+        type=str,
+    )
+    parser_ARXIV.add_argument(
+        "-au",
+        required=False,
+        help="Add author name to the query",
+        type=str,
+    )
+    parser_ARXIV.add_argument(
+        "-ti",
+        required=False,
+        help="Add title to the query",
+        type=str,
+    )
+    parser_ARXIV.add_argument(
+        "-id",
+        required=False,
+        help="Search by a comma separated Arxiv ID's",
+        type=str,
+    )
+    parser_ARXIV.add_argument(
+        "-jr",
+        required=False,
+        help="Add journal reference to the query",
+        type=str,
+    )
+    parser_ARXIV.add_argument(
+        "-file",
+        required=False,
+        help="write contents to file(in testing)",
+        type=bool,
+    )
+
+    #----------------------------GENERAL ARGUMENTS---------------------------#
     # Write result to given output buffer
     parser_HEP.add_argument(
         "-out",
@@ -116,81 +159,113 @@ def main():
         type=str,
         choices=['name', 'citations', 'date']
     )
+    #---------------------------PARSER SELECTION------------------------------#
 
     args = parser.parse_args()
-
-    hep_args = parser_HEP.parse_args(args=sys.argv[2:])
-
-    # IF A PARAMETER WAS TYPED , ADD TO THE QUERY"
-
-    hep_params = [
-        ("author",
-         hep_args.a),
-        ("exactauthor",
-         hep_args.ea),
-        ("collaboration",
-         hep_args.cn),
-        ("title",
-         hep_args.t),
-        ("arxiv",
-         hep_args.arxiv),
-        ("recid",
-         hep_args.recid),
-        ("date",
-         hep_args.d),
-        ("type-code",
-         hep_args.tc),
-        ("topcite",
-         hep_args.topcite),
-        ("doi",
-         hep_args.doi),
-        ("journal",
-         hep_args.j)]
-
-    def isNotNone(x): return x[1] is not None
-
-    filtered_params = list(filter(isNotNone, hep_params))
-
-    if len(filtered_params) == 0:
-        print("Choose at least one query variable try:\n" +
-              "python3 pyper.py HEP -h " + "for more information")
+    if sys.argv[1] == "HEP":
+        hep_args = parser_HEP.parse_args(args=sys.argv[2:])
+        Selected_Parser = "HEP"
     else:
-        # Initial param encoding.
-        for i, (el1, el2) in enumerate(filtered_params):
-            if(i == len(filtered_params) - 1):
-                commands += el1 + "%3A+" + el2
+        arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
+        Selected_Parser = "ARXIV"
+
+    #--------------------------------HEP--------------------------------------#
+    if Selected_Parser == "HEP":
+
+        hep_params = [
+            ("author",
+             hep_args.a),
+            ("exactauthor",
+             hep_args.ea),
+            ("collaboration",
+             hep_args.cn),
+            ("title",
+             hep_args.t),
+            ("arxiv",
+             hep_args.arxiv),
+            ("recid",
+             hep_args.recid),
+            ("date",
+             hep_args.d),
+            ("type-code",
+             hep_args.tc),
+            ("topcite",
+             hep_args.topcite),
+            ("doi",
+             hep_args.doi),
+            ("journal",
+             hep_args.j)]
+
+        def isNotNone(x): return x[1] is not None
+
+        filtered_params = list(filter(isNotNone, hep_params))
+
+        if len(filtered_params) == 0:
+            print("Choose at least one query variable try:\n" +
+                  "python3 pyper.py HEP -h " + "for more information")
+        else:
+            # Initial param encoding.
+            for i, (el1, el2) in enumerate(filtered_params):
+                if(i == len(filtered_params) - 1):
+                    commands += el1 + "%3A+" + el2
+                else:
+                    commands += el1 + "%3A+" + el2 + "%20+"
+
+            # Ensure any possible mistakes by the user are properly encoded.
+            commands = hep_helper.hep_url_encode(commands)
+            # Generate URL
+            url = hep_helper.hep_url_generator(commands,
+                                               hep_args.out)
+            # Retrieve the data from url
+            source = hep_helper.get_source(url)
+
+            hep_parser = Hep_Parser(source)
+    #-------------------------------ARXIV------------------------------------#
+    elif Selected_Parser == "ARXIV":
+        query = ""
+        arx_params = [
+            ("au", arx_args.au),
+            ("ti", arx_args.ti),
+            ("jr", arx_args.jr),
+            ("", arx_args.id),
+            ("ALL", arx_args.ALL)
+        ]
+
+        def isNotNone(x): return x[1] is not None
+
+        filtered_params = list(filter(isNotNone, arx_params))
+
+        if len(filtered_params) == 0:
+            print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
+        elif arx_args.ALL is not None:
+            query = arx_helper.all_param(arx_args.ALL)
+        else:
+            query = arx_helper.parse_param_list(filtered_params)
+
+        if arx_args.file is not False:
+            arx_helper.api_to_file(query)
+
+    #----------------------GENERAL ARGUMENTS SECTION--------------------------#
+    if Selected_Parser == "HEP":
+        if hep_args.out is None:
+            print("Your output has been written into 'API_OUTPUT_JSON.json'")
+
+        elif hep_args.out == 'cmd':
+            if hep_args.sort is not None:
+                hep_parser.sort_by(hep_args.sort)
+
+                hep_parser.show()
             else:
-                commands += el1 + "%3A+" + el2 + "%20+"
-
-        # Ensure any possible mistakes by the user are properly encoded.
-        commands = hep_helper.hep_url_encode(commands)
-        # Generate URL
-        url = hep_helper.hep_url_generator(commands,
-                                           hep_args.out)
-        # Retrieve the data from url
-        source = hep_helper.get_source(url)
-
-        hep_parser = Hep_Parser(source)
-
-    if hep_args.out is None:
-        print("Your output has been written into 'API_OUTPUT_JSON.json'")
-
-    elif hep_args.out == 'cmd':
-        if hep_args.sort is not None:
-            hep_parser.sort_by(hep_args.sort)
-
-            hep_parser.show()
+                hep_parser.show()
         else:
-            hep_parser.show()
-    else:
-        if hep_args.sort is not None:
-            hep_parser.sort_by(hep_args.sort)
+            if hep_args.sort is not None:
+                hep_parser.sort_by(hep_args.sort)
 
-            hep_parser.write(hep_args.out)
-            print("Your output has been written into " + hep_args.out)
-        else:
-            hep_parser.write(hep_args.out)
-            print("Your output has been written into " + hep_args.out)
+                hep_parser.write(hep_args.out)
+                print("  Your output has been written into " + hep_args.out)
+            else:
+                hep_parser.write(hep_args.out)
+                print("Your output has been written into " + hep_args.out)
 
 
 if __name__ == "__main__":
