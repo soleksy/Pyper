@@ -1,18 +1,15 @@
-#!/home/solesky/anaconda3/bin/python
+#!/home/linuxuser/anaconda3/bin/python
+
 
 import sys
 import argparse
-from ARXIV.arxiv_classes import Arxiv_Helper
-from HEP.hep_classes import Hep_Parser, Hep_Helper
+from ARXIV.arxiv_classes import Arxiv_Helper , Arxiv_Parser
+from HEP.hep_classes import  Hep_Helper , Hep_Parser
 
 
 def main():
-    commands = ""
-    json_as_string = ""
-    Selected_Parser = ""
-    hep_helper = Hep_Helper()
-    arx_helper = Arxiv_Helper()
-
+    
+    
     parser = argparse.ArgumentParser()
 
     subparsers = parser.add_subparsers(
@@ -104,6 +101,23 @@ def main():
         type=str,
 
     )
+     #-------------------------GENERAL HEP ARGUMENTS---------------------------#
+    # Write result to given output buffer
+    parser_HEP.add_argument(
+        "-out",
+        required=False,
+        help="Show the query output: cmd->show in terminal, 'filename.txt'->write contents to the file named 'filename.txt'",
+        type=str,
+    )
+
+    parser_HEP.add_argument(
+        "-sort",
+        required=False,
+        help="Sort by: name, citations or date. Ex: -sort name",
+        type=str,
+        choices=['name', 'citations', 'date']
+    )
+
     #----------------------------ARXIV ARGUMENTS-----------------------------#
 
     parser_ARXIV.add_argument(
@@ -143,35 +157,19 @@ def main():
         type=bool,
     )
 
-    #----------------------------GENERAL ARGUMENTS---------------------------#
-    # Write result to given output buffer
-    parser_HEP.add_argument(
-        "-out",
-        required=False,
-        help="Show the query output: cmd->show in terminal, 'filename.txt'->write contents to the file named 'filename.txt'",
-        type=str,
-    )
-
-    parser_HEP.add_argument(
-        "-sort",
-        required=False,
-        help="Sort by: name, citations or date. Ex: -sort name",
-        type=str,
-        choices=['name', 'citations', 'date']
-    )
     #---------------------------PARSER SELECTION------------------------------#
 
+    Selected_Parser = ""
     args = parser.parse_args()
-    if sys.argv[1] == "HEP":
-        hep_args = parser_HEP.parse_args(args=sys.argv[2:])
-        Selected_Parser = "HEP"
-    else:
-        arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
-        Selected_Parser = "ARXIV"
+    Selected_Parser = sys.argv[1]
 
     #--------------------------------HEP--------------------------------------#
     if Selected_Parser == "HEP":
+        hep_helper = Hep_Helper()
+        commands = ""
+        json_as_string = ""
 
+        hep_args = parser_HEP.parse_args(args=sys.argv[2:])
         hep_params = [
             ("author",
              hep_args.a),
@@ -220,33 +218,7 @@ def main():
             source = hep_helper.get_source(url)
 
             hep_parser = Hep_Parser(source)
-    #-------------------------------ARXIV------------------------------------#
-    elif Selected_Parser == "ARXIV":
-        query = ""
-        arx_params = [
-            ("au", arx_args.au),
-            ("ti", arx_args.ti),
-            ("jr", arx_args.jr),
-            ("", arx_args.id),
-            ("ALL", arx_args.ALL)
-        ]
-
-        def isNotNone(x): return x[1] is not None
-
-        filtered_params = list(filter(isNotNone, arx_params))
-
-        if len(filtered_params) == 0:
-            print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
-        elif arx_args.ALL is not None:
-            query = arx_helper.all_param(arx_args.ALL)
-        else:
-            query = arx_helper.parse_param_list(filtered_params)
-
-        if arx_args.file is not False:
-            arx_helper.api_to_file(query)
-
-    #----------------------GENERAL ARGUMENTS SECTION--------------------------#
-    if Selected_Parser == "HEP":
+        #------------------GENERAL ARGUMENTS HEP--------------------------#
         if hep_args.out is None:
             print("Your output has been written into 'API_OUTPUT_JSON.json'")
 
@@ -266,7 +238,41 @@ def main():
             else:
                 hep_parser.write(hep_args.out)
                 print("Your output has been written into " + hep_args.out)
+    #-------------------------------ARXIV------------------------------------#
+    elif Selected_Parser == "ARXIV":
 
+        arx_helper = Arxiv_Helper()
+        arx_parser = Arxiv_Parser()
+        arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
+
+        query = ""
+        
+        arx_params = [
+            ("au", arx_args.au),
+            ("ti", arx_args.ti),
+            ("jr", arx_args.jr),
+            ("", arx_args.id),
+            ("ALL", arx_args.ALL)
+        ]
+
+        def isNotNone(x): return x[1] is not None
+
+        filtered_params = list(filter(isNotNone, arx_params))
+
+        if len(filtered_params) == 0:
+            print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
+
+        elif arx_args.ALL is not None:
+            query = arx_helper.all_param(arx_args.ALL)
+        else:
+            query = arx_helper.parse_param_list(filtered_params)
+
+        if arx_args.file is not False:
+            file_name = arx_helper.api_to_file(query,'data/ARXIV_OUTPUT.xml')
+
+            file_name = arx_parser.standarize_xml_file(file_name)
+
+            arx_parser.parse_xml(file_name)
 
 if __name__ == "__main__":
     main()

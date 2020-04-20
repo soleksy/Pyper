@@ -26,9 +26,9 @@ class Hep_Helper:
 
     def get_source(self, url):
         with urlopen(url) as resp:
-            source = resp.read()
+            source = resp.read().decode('utf-8')
 
-            self.write_to_json(source, "API_OUTPUT_JSON.json")
+            self.write_to_json(source, "data/API_OUTPUT_JSON.json")
 
             return source
 

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+  <link href="http://arxiv.org/api/query?search_query%3Dau%3Akrzemien%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=au:krzemien&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/veWQiGiAQJhHXEzTIep0ksWCZNU</id>
+  <updated>2020-04-20T00:00:00-04:00</updated>
+  <totalResults>403</totalResults>
+  <startIndex>0</startIndex>
+  <itemsPerPage>10</itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3103v1</id>
+    <updated>2011-01-17T01:05:15Z</updated>
+    <published>2011-01-17T01:05:15Z</published>
+    <title>Search for eta-mesic 4He with WASA-at-COSY</title>
+    <summary>  In June 2008 we performed a search for the 4He-eta bound state by measuring
+the excitation function of the dd to 3He p pi- reaction near the eta production
+threshold using the WASA-at-COSY detector. During the experimental run the
+momentum of the deuteron beam was varied continuously within each acceleration
+cycle from 2.185 GeV/c to 2.400 GeV/c, crossing the kinematic threshold for the
+eta production in the dd to 4He eta reaction at 2.336 GeV/c. The preliminary
+excitation function indicates no structure in the angular range close to the
+180 degree where the signal is expected. The preliminary estimation of the
+upper limit for the eta-mesic production via the dd to (eta 4He)b.s. to 3He p
+pi- reaction is equal to about 20 nb on a one sigma level. A two-week
+measurement with WASA-at-COSY for the dd 3He p pi- channel is scheduled for
+November 2010. After two weeks of measurement with a luminosity of 4 * 10^(30)
+cm^(-2) s^(-1), we expect a statistical sensitivity of a few nb sigma.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <comment>2 pages, 1 figure, presented at the PRIMENET workshop in Lisbon,
+  September 2010</comment>
+    <link href="http://arxiv.org/abs/1101.3103v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1101.3103v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.2550v1</id>
+    <updated>2011-12-12T14:10:27Z</updated>
+    <published>2011-12-12T14:10:27Z</published>
+    <title>Search for the 4He-eta bound state with WASA-at-COSY</title>
+    <summary>  We conduct a search for the 4He-eta bound state with WASA-at-COSY facility,
+via a measurement of the excitation functions for the dd-&gt;3Heppi- reaction,
+where the outgoing p-pi- pairs originate from the conversion of the eta meson
+on a nucleon inside the He nucleus. Determination of the profile of the
+excitation curve below the threshold of the dd-&gt;4He-eta reaction will allow to
+establish the binding energy and the width of the He-eta bound state. In June,
+2008 first measurements of the excitation functions for the dd-&gt;3Heppi-
+reaction were performed. In the experiment we used a slowly ramped COSY
+deuteron beam, scanning the range of momenta corresponding to the variation of
+the excess energy for the 4He-eta system from -51.4 MeV to 22 MeV.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <comment>Presented at 8th International Conference on Nuclear Physics at
+  Storage Rings-Stori11,October 9-14, 2011, Laboratori Nazionali di Frascati
+  dell'INFN, Italy. 8 pages, 5 figures</comment>
+    <link href="http://arxiv.org/abs/1112.2550v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.2550v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.5794v1</id>
+    <updated>2012-02-26T22:10:48Z</updated>
+    <published>2012-02-26T22:10:48Z</published>
+    <title>Search for eta-mesic 4He with the WASA-at-COSY detector</title>
+    <summary>  We performed a search for the 4He-eta bound state via exclusive measurement
+of the excitation function for the dd-&gt;3Heppi- reaction, where the outgoing
+p-pi- pair originates from the conversion of the eta meson on a neutron inside
+the 4He nucleus. The measurements were performed at the Cooler Synchrotron
+COSY-Juelich with the WASA-at-COSY detection system.The internal deuteron beam
+of COSY was scattered on a pellet-type deuteron target. The data were taken
+during a slow acceleration of the beam from 2.185 GeV/c to 2.400 GeV/c crossing
+the kinematical threshold for the eta production in the dd-&gt;4He-eta reaction at
+2.336 GeV/c. The corresponding excess energy in the 4He-eta system varied from
+-51.4 MeV to 22 MeV. Events corresponding to decays of the eta-mesic 4He were
+selected using cuts on the 3He momentum, p and pi- kinetic energies and the
+relative p-pi- angle in the center of mass system. The range of the applied
+cuts was inferred from simulations of decay of the 4He-eta bound state
+proceeding via excitation the N* resonance. The integrated luminosity in the
+experiment was determined using the dd-&gt;3He-n reaction and the relative
+normalization of the points of the dd-&gt;3Heppi- excitation function was based on
+the quasi-elastic proton-proton scattering. No signal of the 4He-eta bound
+state was observed in the excitation function. An upper limit for the
+cross-section for the bound state formation and decay in the process
+dd-&gt;(4He-eta)_bound-&gt;3Heppi- determined for the bound state width of 10, 20 and
+30 MeV equals to 28, 32 and 41 nb, respectively. The measured angular and
+momentum distributions of the reaction products are close to those simulated
+under the assumption of uniform phase-space distribution.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <comment>Ph.D. Thesis (Advisor:Prof. Jerzy Smyrski), 2011, 122 pages</comment>
+    <link href="http://arxiv.org/abs/1202.5794v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.5794v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1513v1</id>
+    <updated>2009-03-09T10:32:13Z</updated>
+    <published>2009-03-09T10:32:13Z</published>
+    <title>Search for eta-mesic helium using the WASA-AT-COSY detector</title>
+    <summary>  We conduct a search for the 4He-eta bound state with the WASA-at-COSY
+facility via the measurement of the excitation function for the reaction
+dd-&gt;3Heppi-. In first experiment performed in June 2008, we used COSY deuteron
+beam with a slowly ramped beam momentum corresponding to a variation of the
+excess energy for the 4He-eta system from -51.4 MeV to 22 MeV. Here we report
+on the status of the measurement and the data evaluation.
+</summary>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <author>
+      <name>J. Smyrski</name>
+    </author>
+    <comment>Presented at Symposium on Meson Physics: extended COSY-11
+  collaboration meeting, Cracow, Poland, 1-4 Oct 2008, 8 pages, 5 figures,</comment>
+    <journal_ref>Acta Phys.Polon.Supp.2:141-148,2009</journal_ref>
+    <link href="http://arxiv.org/abs/0903.1513v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0903.1513v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5977v2</id>
+    <updated>2012-08-30T15:37:53Z</updated>
+    <published>2012-08-29T18:08:39Z</published>
+    <title>Search for the He-η bound states with the WASA-at-COSY facility</title>
+    <summary>  The eta-mesic nuclei in which the {\eta} meson is bound with nucleus via
+strong interaction was postulated already in 1986, however till now no
+experiment confirmed empirically its existence. The discovery of this new kind
+of an exotic nuclear matter would be very important for better understanding of
+the {\eta} meson structure and its interaction with nucleons. The search for
+{\eta}-mesic helium is carried out with high statistic and high acceptance with
+the WASA-at-COSY detection setup in the Research Center Juelich. The search is
+conducted via the measurement of the excitation function for the chosen decay
+channels of the 4He-{\eta} system. Till now two reactions dd --&gt;
+(4He-{\eta})_bs --&gt; 3Hep\pi- and dd --&gt; (4He-{\eta})_bs --&gt; 3 Hen{\pi}0 were
+measured with the beam momentum ramped around the eta production threshold.
+This report includes the description of experimental method and status of the
+analysis.
+</summary>
+    <author>
+      <name>M. Skurzok</name>
+    </author>
+    <author>
+      <name>W. Krzemień</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <doi>10.1051/epjconf/20123709034</doi>
+    <link title="doi" href="http://dx.doi.org/10.1051/epjconf/20123709034" rel="related"/>
+    <comment>Procedings of the MESON 2012 conference 3 pages, 1 figure</comment>
+    <link href="http://arxiv.org/abs/1208.5977v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.5977v2" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.0893v1</id>
+    <updated>2014-08-05T09:12:17Z</updated>
+    <published>2014-08-05T09:12:17Z</published>
+    <title>Search for the 4He-eta bound state in dd-&gt;(4He-eta)_{bound}-&gt;3He n pi0
+  and dd-&gt;(4He-eta)_{bound}-&gt;3He p pi- reactions with the WASA-at-COSY facility</title>
+    <summary>  In November 2010, the search for the 4He-{\eta} bound state was per formed
+with high statistics and high acceptance with the WASA-at-COSY facility using a
+ramped beam technique. The signature of eta - mesic nuclei is searched for in
+the measured excitation functions for the two reaction channels: dd -&gt;3He n pi0
+and dd -&gt;3He p pi- near the eta production threshold. This report includes the
+description of the experimental method and the status of the data analysis.
+</summary>
+    <author>
+      <name>M. Skurzok</name>
+    </author>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <doi>10.1051/epjconf/20148102020</doi>
+    <link title="doi" href="http://dx.doi.org/10.1051/epjconf/20148102020" rel="related"/>
+    <comment>4 pages</comment>
+    <link href="http://arxiv.org/abs/1408.0893v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.0893v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.0747v1</id>
+    <updated>2014-01-03T22:39:16Z</updated>
+    <published>2014-01-03T22:39:16Z</published>
+    <title>Studies of mesic nuclei via decay reactions</title>
+    <summary>  Collisions in a system of two particles at energies close to a bound state in
+different channels are discussed. Next, the bound state decays into a third
+coupled channel. A phenomenological approach to dd-&gt;pi-p3He reaction is
+presented.
+</summary>
+    <author>
+      <name>Slawomir Wycech</name>
+    </author>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <doi>10.5506/APhysPolB.45.745</doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.45.745" rel="related"/>
+    <comment>8 pages, 1 figure Presented at International Symposium on Mesic
+  Nuclei, Krakow, Sept. 20, 2013</comment>
+    <journal_ref>Acta Phys. Polon. B 45, 745 (2014)</journal_ref>
+    <link href="http://arxiv.org/abs/1401.0747v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.0747v1" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.1152v2</id>
+    <updated>2014-02-06T09:38:17Z</updated>
+    <published>2014-02-05T20:21:29Z</published>
+    <title>Search for the eta-mesic helium by means of WASA detector at COSY</title>
+    <summary>  The eta-mesic nuclei in which the eta meson is bound with nucleus via strong
+interaction was postulated about 25 years ago, however till now no experiment
+confirmed empirically its existence. The discovery of this new kind of an
+exotic nuclear matter would be very important for better understanding of the
+eta meson structure and its interaction with nucleons. The search for eta-mesic
+helium is carried out with high statistic and high acceptance with the
+WASA-at-COSY detection setup and the Cooler Synchrotron COSY. The search is
+conducted via the measurement of the excitation function for the chosen decay
+channels of the 4He-eta system. Until now two reactions dd -&gt; (4He-eta)bound
+-&gt;3Heppi- and dd -&gt; (4He-eta)bound -&gt;3Henpi0 have been measured with the beam
+momentum varied continuously around the eta meson production threshold. This
+contribution includes description of recently published results of the
+WASA-at-COSY experiment as well as brief presentation of preliminary results
+from the analysis of new data sample with 20 times larger statistics.
+</summary>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>M. Skurzok</name>
+    </author>
+    <comment>Presented at HADRON-2013: the XV International Conference on Hadron
+  Spectroscopy, Nara, Japan, November 2013</comment>
+    <journal_ref>PoS Hadron2013 (2013) 163</journal_ref>
+    <link href="http://arxiv.org/abs/1402.1152v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.1152v2" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04454v1</id>
+    <updated>2015-01-19T11:19:32Z</updated>
+    <published>2015-01-19T11:19:32Z</published>
+    <title>A new event display for the KLOE-2 experiment</title>
+    <summary>  In this contribution we describe KNEDLE - the new event display for the
+KLOE-2 experiment. The basic objectives and software requirements are
+presented. The current status of the development is given along with a short
+discussion of the future plans.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+      <affiliation>for the KLOE-2 Collaboration</affiliation>
+    </author>
+    <doi>10.5506/APhysPolB.46.95</doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.95" rel="related"/>
+    <comment>5 pages, 2 figures</comment>
+    <link href="http://arxiv.org/abs/1501.04454v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.04454v1" rel="related" type="application/pdf"/>
+    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00438v2</id>
+    <updated>2015-02-03T08:13:05Z</updated>
+    <published>2015-02-02T11:13:45Z</published>
+    <title>Luminosity determination for the deutron-deutron reactions using free
+  and quasi-free reactions with WASA-at-COSY detector</title>
+    <summary>  Two methods of the luminosity determination for the experiment performed by
+WASA collaboration to search for $^{4} {-0.03cm}{He}$-$\eta$ bound state are
+presented. During the measurement the technique of continous change of the beam
+momentum in one accelerator cycle (called ramped beam) was applied. This
+imposes the requirement to determine not only the total integrated luminosity,
+but also its variation as a function of the beam momentum.
+</summary>
+    <author>
+      <name>M. Skurzok</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <doi>10.5506/APhysPolB.46.1001</doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.1001" rel="related"/>
+    <comment>Symposium on Applied Nuclear Physics and Innovative Technologies,
+  Krakow (Poland), 24-27.09.2014</comment>
+    <link href="http://arxiv.org/abs/1502.00438v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.00438v2" rel="related" type="application/pdf"/>
+    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
