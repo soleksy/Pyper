@@ -1,316 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed>
-  <link href="http://arxiv.org/api/query?search_query%3Dau%3Akrzemien%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
-  <title type="html">ArXiv Query: search_query=au:krzemien&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <id>http://arxiv.org/api/veWQiGiAQJhHXEzTIep0ksWCZNU</id>
-  <updated>2020-04-20T00:00:00-04:00</updated>
-  <totalResults>403</totalResults>
+  <link href="http://arxiv.org/api/query?search_query%3Dau%3AS.%20Dong%20AND%20ti%3ADetector%26id_list%3D%26start%3D0%26max_results%3D3" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=au:S. Dong AND ti:Detector&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <id>http://arxiv.org/api/CiDh2NaxEjd1CoShvh/rXf1HUso</id>
+  <updated>2020-04-21T00:00:00-04:00</updated>
+  <totalResults>50</totalResults>
   <startIndex>0</startIndex>
-  <itemsPerPage>10</itemsPerPage>
+  <itemsPerPage>3</itemsPerPage>
   <entry>
-    <id>http://arxiv.org/abs/1101.3103v1</id>
-    <updated>2011-01-17T01:05:15Z</updated>
-    <published>2011-01-17T01:05:15Z</published>
-    <title>Search for eta-mesic 4He with WASA-at-COSY</title>
-    <summary>  In June 2008 we performed a search for the 4He-eta bound state by measuring
-the excitation function of the dd to 3He p pi- reaction near the eta production
-threshold using the WASA-at-COSY detector. During the experimental run the
-momentum of the deuteron beam was varied continuously within each acceleration
-cycle from 2.185 GeV/c to 2.400 GeV/c, crossing the kinematic threshold for the
-eta production in the dd to 4He eta reaction at 2.336 GeV/c. The preliminary
-excitation function indicates no structure in the angular range close to the
-180 degree where the signal is expected. The preliminary estimation of the
-upper limit for the eta-mesic production via the dd to (eta 4He)b.s. to 3He p
-pi- reaction is equal to about 20 nb on a one sigma level. A two-week
-measurement with WASA-at-COSY for the dd 3He p pi- channel is scheduled for
-November 2010. After two weeks of measurement with a luminosity of 4 * 10^(30)
-cm^(-2) s^(-1), we expect a statistical sensitivity of a few nb sigma.
+    <id>http://arxiv.org/abs/2004.08969v1</id>
+    <updated>2020-04-19T21:46:10Z</updated>
+    <published>2020-04-19T21:46:10Z</published>
+    <title>Detector control system for CBM-TOF</title>
+    <summary>  For charged hadron identification, a high-performance Time-Of-Flight (TOF)
+RPC wall is being built for the CBM experiment at FAIR. The detector control
+system (DCS) for CBM-TOF is designed based on EPICS. Instruments, including
+power supplies, power supply distributors, and gas control systems, are
+controlled and monitored in a CBM full system test-setup called mCBM
+(mini-CBM). For monitoring the environment of the detector in a radiant
+environment and the status of front-end electronics (FEE), a slow control
+application is implemented based on IPbus, which is an FPGA-based slow control
+bus also used in TOF fast data acquisition (DAQ) system. Besides the functions
+of controlling and monitoring, exception handling and data archiving functions
+are also implemented. This control system was fully verified in beam tests in
+2019 at GSI.
 </summary>
     <author>
-      <name>Wojciech Krzemien</name>
-    </author>
-    <comment>2 pages, 1 figure, presented at the PRIMENET workshop in Lisbon,
-  September 2010</comment>
-    <link href="http://arxiv.org/abs/1101.3103v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1101.3103v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1112.2550v1</id>
-    <updated>2011-12-12T14:10:27Z</updated>
-    <published>2011-12-12T14:10:27Z</published>
-    <title>Search for the 4He-eta bound state with WASA-at-COSY</title>
-    <summary>  We conduct a search for the 4He-eta bound state with WASA-at-COSY facility,
-via a measurement of the excitation functions for the dd-&gt;3Heppi- reaction,
-where the outgoing p-pi- pairs originate from the conversion of the eta meson
-on a nucleon inside the He nucleus. Determination of the profile of the
-excitation curve below the threshold of the dd-&gt;4He-eta reaction will allow to
-establish the binding energy and the width of the He-eta bound state. In June,
-2008 first measurements of the excitation functions for the dd-&gt;3Heppi-
-reaction were performed. In the experiment we used a slowly ramped COSY
-deuteron beam, scanning the range of momenta corresponding to the variation of
-the excess energy for the 4He-eta system from -51.4 MeV to 22 MeV.
-</summary>
-    <author>
-      <name>Wojciech Krzemien</name>
-    </author>
-    <comment>Presented at 8th International Conference on Nuclear Physics at
-  Storage Rings-Stori11,October 9-14, 2011, Laboratori Nazionali di Frascati
-  dell'INFN, Italy. 8 pages, 5 figures</comment>
-    <link href="http://arxiv.org/abs/1112.2550v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1112.2550v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1202.5794v1</id>
-    <updated>2012-02-26T22:10:48Z</updated>
-    <published>2012-02-26T22:10:48Z</published>
-    <title>Search for eta-mesic 4He with the WASA-at-COSY detector</title>
-    <summary>  We performed a search for the 4He-eta bound state via exclusive measurement
-of the excitation function for the dd-&gt;3Heppi- reaction, where the outgoing
-p-pi- pair originates from the conversion of the eta meson on a neutron inside
-the 4He nucleus. The measurements were performed at the Cooler Synchrotron
-COSY-Juelich with the WASA-at-COSY detection system.The internal deuteron beam
-of COSY was scattered on a pellet-type deuteron target. The data were taken
-during a slow acceleration of the beam from 2.185 GeV/c to 2.400 GeV/c crossing
-the kinematical threshold for the eta production in the dd-&gt;4He-eta reaction at
-2.336 GeV/c. The corresponding excess energy in the 4He-eta system varied from
--51.4 MeV to 22 MeV. Events corresponding to decays of the eta-mesic 4He were
-selected using cuts on the 3He momentum, p and pi- kinetic energies and the
-relative p-pi- angle in the center of mass system. The range of the applied
-cuts was inferred from simulations of decay of the 4He-eta bound state
-proceeding via excitation the N* resonance. The integrated luminosity in the
-experiment was determined using the dd-&gt;3He-n reaction and the relative
-normalization of the points of the dd-&gt;3Heppi- excitation function was based on
-the quasi-elastic proton-proton scattering. No signal of the 4He-eta bound
-state was observed in the excitation function. An upper limit for the
-cross-section for the bound state formation and decay in the process
-dd-&gt;(4He-eta)_bound-&gt;3Heppi- determined for the bound state width of 10, 20 and
-30 MeV equals to 28, 32 and 41 nb, respectively. The measured angular and
-momentum distributions of the reaction products are close to those simulated
-under the assumption of uniform phase-space distribution.
-</summary>
-    <author>
-      <name>Wojciech Krzemien</name>
-    </author>
-    <comment>Ph.D. Thesis (Advisor:Prof. Jerzy Smyrski), 2011, 122 pages</comment>
-    <link href="http://arxiv.org/abs/1202.5794v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1202.5794v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/0903.1513v1</id>
-    <updated>2009-03-09T10:32:13Z</updated>
-    <published>2009-03-09T10:32:13Z</published>
-    <title>Search for eta-mesic helium using the WASA-AT-COSY detector</title>
-    <summary>  We conduct a search for the 4He-eta bound state with the WASA-at-COSY
-facility via the measurement of the excitation function for the reaction
-dd-&gt;3Heppi-. In first experiment performed in June 2008, we used COSY deuteron
-beam with a slowly ramped beam momentum corresponding to a variation of the
-excess energy for the 4He-eta system from -51.4 MeV to 22 MeV. Here we report
-on the status of the measurement and the data evaluation.
-</summary>
-    <author>
-      <name>W. Krzemien</name>
+      <name>S. Dong</name>
     </author>
     <author>
-      <name>P. Moskal</name>
+      <name>G. M. Huang</name>
     </author>
     <author>
-      <name>J. Smyrski</name>
-    </author>
-    <comment>Presented at Symposium on Meson Physics: extended COSY-11
-  collaboration meeting, Cracow, Poland, 1-4 Oct 2008, 8 pages, 5 figures,</comment>
-    <journal_ref>Acta Phys.Polon.Supp.2:141-148,2009</journal_ref>
-    <link href="http://arxiv.org/abs/0903.1513v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/0903.1513v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1208.5977v2</id>
-    <updated>2012-08-30T15:37:53Z</updated>
-    <published>2012-08-29T18:08:39Z</published>
-    <title>Search for the He-η bound states with the WASA-at-COSY facility</title>
-    <summary>  The eta-mesic nuclei in which the {\eta} meson is bound with nucleus via
-strong interaction was postulated already in 1986, however till now no
-experiment confirmed empirically its existence. The discovery of this new kind
-of an exotic nuclear matter would be very important for better understanding of
-the {\eta} meson structure and its interaction with nucleons. The search for
-{\eta}-mesic helium is carried out with high statistic and high acceptance with
-the WASA-at-COSY detection setup in the Research Center Juelich. The search is
-conducted via the measurement of the excitation function for the chosen decay
-channels of the 4He-{\eta} system. Till now two reactions dd --&gt;
-(4He-{\eta})_bs --&gt; 3Hep\pi- and dd --&gt; (4He-{\eta})_bs --&gt; 3 Hen{\pi}0 were
-measured with the beam momentum ramped around the eta production threshold.
-This report includes the description of experimental method and status of the
-analysis.
-</summary>
-    <author>
-      <name>M. Skurzok</name>
+      <name>J. Frühauf</name>
     </author>
     <author>
-      <name>W. Krzemień</name>
+      <name>P. -A. Loizeau</name>
     </author>
     <author>
-      <name>P. Moskal</name>
-    </author>
-    <doi>10.1051/epjconf/20123709034</doi>
-    <link title="doi" href="http://dx.doi.org/10.1051/epjconf/20123709034" rel="related"/>
-    <comment>Procedings of the MESON 2012 conference 3 pages, 1 figure</comment>
-    <link href="http://arxiv.org/abs/1208.5977v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1208.5977v2" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1408.0893v1</id>
-    <updated>2014-08-05T09:12:17Z</updated>
-    <published>2014-08-05T09:12:17Z</published>
-    <title>Search for the 4He-eta bound state in dd-&gt;(4He-eta)_{bound}-&gt;3He n pi0
-  and dd-&gt;(4He-eta)_{bound}-&gt;3He p pi- reactions with the WASA-at-COSY facility</title>
-    <summary>  In November 2010, the search for the 4He-{\eta} bound state was per formed
-with high statistics and high acceptance with the WASA-at-COSY facility using a
-ramped beam technique. The signature of eta - mesic nuclei is searched for in
-the measured excitation functions for the two reaction channels: dd -&gt;3He n pi0
-and dd -&gt;3He p pi- near the eta production threshold. This report includes the
-description of the experimental method and the status of the data analysis.
-</summary>
-    <author>
-      <name>M. Skurzok</name>
+      <name>I. Deppner</name>
     </author>
     <author>
-      <name>W. Krzemien</name>
+      <name>N. Herrmann</name>
     </author>
     <author>
-      <name>P. Moskal</name>
+      <name>D. Wang</name>
     </author>
-    <doi>10.1051/epjconf/20148102020</doi>
-    <link title="doi" href="http://dx.doi.org/10.1051/epjconf/20148102020" rel="related"/>
-    <comment>4 pages</comment>
-    <link href="http://arxiv.org/abs/1408.0893v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1408.0893v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1401.0747v1</id>
-    <updated>2014-01-03T22:39:16Z</updated>
-    <published>2014-01-03T22:39:16Z</published>
-    <title>Studies of mesic nuclei via decay reactions</title>
-    <summary>  Collisions in a system of two particles at energies close to a bound state in
-different channels are discussed. Next, the bound state decays into a third
-coupled channel. A phenomenological approach to dd-&gt;pi-p3He reaction is
-presented.
-</summary>
-    <author>
-      <name>Slawomir Wycech</name>
-    </author>
-    <author>
-      <name>Wojciech Krzemien</name>
-    </author>
-    <doi>10.5506/APhysPolB.45.745</doi>
-    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.45.745" rel="related"/>
-    <comment>8 pages, 1 figure Presented at International Symposium on Mesic
-  Nuclei, Krakow, Sept. 20, 2013</comment>
-    <journal_ref>Acta Phys. Polon. B 45, 745 (2014)</journal_ref>
-    <link href="http://arxiv.org/abs/1401.0747v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1401.0747v1" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1402.1152v2</id>
-    <updated>2014-02-06T09:38:17Z</updated>
-    <published>2014-02-05T20:21:29Z</published>
-    <title>Search for the eta-mesic helium by means of WASA detector at COSY</title>
-    <summary>  The eta-mesic nuclei in which the eta meson is bound with nucleus via strong
-interaction was postulated about 25 years ago, however till now no experiment
-confirmed empirically its existence. The discovery of this new kind of an
-exotic nuclear matter would be very important for better understanding of the
-eta meson structure and its interaction with nucleons. The search for eta-mesic
-helium is carried out with high statistic and high acceptance with the
-WASA-at-COSY detection setup and the Cooler Synchrotron COSY. The search is
-conducted via the measurement of the excitation function for the chosen decay
-channels of the 4He-eta system. Until now two reactions dd -&gt; (4He-eta)bound
--&gt;3Heppi- and dd -&gt; (4He-eta)bound -&gt;3Henpi0 have been measured with the beam
-momentum varied continuously around the eta meson production threshold. This
-contribution includes description of recently published results of the
-WASA-at-COSY experiment as well as brief presentation of preliminary results
-from the analysis of new data sample with 20 times larger statistics.
-</summary>
-    <author>
-      <name>P. Moskal</name>
-    </author>
-    <author>
-      <name>W. Krzemien</name>
-    </author>
-    <author>
-      <name>M. Skurzok</name>
-    </author>
-    <comment>Presented at HADRON-2013: the XV International Conference on Hadron
-  Spectroscopy, Nara, Japan, November 2013</comment>
-    <journal_ref>PoS Hadron2013 (2013) 163</journal_ref>
-    <link href="http://arxiv.org/abs/1402.1152v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1402.1152v2" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/1501.04454v1</id>
-    <updated>2015-01-19T11:19:32Z</updated>
-    <published>2015-01-19T11:19:32Z</published>
-    <title>A new event display for the KLOE-2 experiment</title>
-    <summary>  In this contribution we describe KNEDLE - the new event display for the
-KLOE-2 experiment. The basic objectives and software requirements are
-presented. The current status of the development is given along with a short
-discussion of the future plans.
-</summary>
-    <author>
-      <name>Wojciech Krzemien</name>
-      <affiliation>for the KLOE-2 Collaboration</affiliation>
-    </author>
-    <doi>10.5506/APhysPolB.46.95</doi>
-    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.95" rel="related"/>
-    <comment>5 pages, 2 figures</comment>
-    <link href="http://arxiv.org/abs/1501.04454v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1501.04454v1" rel="related" type="application/pdf"/>
+    <comment>This article is based on my RPC2020 meeting report, see
+  https://agenda.infn.it/event/19942/contributions/108458/</comment>
+    <link href="http://arxiv.org/abs/2004.08969v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.08969v1" rel="related" type="application/pdf"/>
     <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
     <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
     <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1502.00438v2</id>
-    <updated>2015-02-03T08:13:05Z</updated>
-    <published>2015-02-02T11:13:45Z</published>
-    <title>Luminosity determination for the deutron-deutron reactions using free
-  and quasi-free reactions with WASA-at-COSY detector</title>
-    <summary>  Two methods of the luminosity determination for the experiment performed by
-WASA collaboration to search for $^{4} {-0.03cm}{He}$-$\eta$ bound state are
-presented. During the measurement the technique of continous change of the beam
-momentum in one accelerator cycle (called ramped beam) was applied. This
-imposes the requirement to determine not only the total integrated luminosity,
-but also its variation as a function of the beam momentum.
+    <id>http://arxiv.org/abs/1709.07191v2</id>
+    <updated>2017-09-28T09:45:19Z</updated>
+    <published>2017-09-21T07:53:41Z</published>
+    <title>Design and construction of the POLAR detector</title>
+    <summary>  The POLAR detector is a space based Gamma Ray Burst (GRB) polarimeter with a
+wide field of view, which covers almost half the sky. The instrument uses
+Compton scattering of gamma rays on a plastic scintillator hodoscope to measure
+the polarization of the incoming photons. The instrument has been successfully
+launched on board of the Chinese space laboratory Tiangong~2 on September 15,
+2016. The construction of the instrument components is described in this
+article. Details are provided on problems encountered during the construction
+phase and their solutions. Initial performance of the instrument in orbit is as
+expected from ground tests and Monte Carlo simulation.
 </summary>
     <author>
-      <name>M. Skurzok</name>
+      <name>N. Produit</name>
     </author>
     <author>
-      <name>P. Moskal</name>
+      <name>T. W. Bao</name>
     </author>
     <author>
-      <name>W. Krzemien</name>
+      <name>T. Batsch</name>
     </author>
-    <doi>10.5506/APhysPolB.46.1001</doi>
-    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.1001" rel="related"/>
-    <comment>Symposium on Applied Nuclear Physics and Innovative Technologies,
-  Krakow (Poland), 24-27.09.2014</comment>
-    <link href="http://arxiv.org/abs/1502.00438v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1502.00438v2" rel="related" type="application/pdf"/>
-    <primary_category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <author>
+      <name>T. Bernasconi</name>
+    </author>
+    <author>
+      <name>I. Britvich</name>
+    </author>
+    <author>
+      <name>F. Cadoux</name>
+    </author>
+    <author>
+      <name>I. Cernuda</name>
+    </author>
+    <author>
+      <name>J. Y. Chai</name>
+    </author>
+    <author>
+      <name>Y. W. Dong</name>
+    </author>
+    <author>
+      <name>N. Gauvin</name>
+    </author>
+    <author>
+      <name>W. Hajdas</name>
+    </author>
+    <author>
+      <name>M. Kole</name>
+    </author>
+    <author>
+      <name>M. N. Kong</name>
+    </author>
+    <author>
+      <name>R. Kramert</name>
+    </author>
+    <author>
+      <name>L. Li</name>
+    </author>
+    <author>
+      <name>J. T. Liu</name>
+    </author>
+    <author>
+      <name>X. Liu</name>
+    </author>
+    <author>
+      <name>R. Marcinkowski</name>
+    </author>
+    <author>
+      <name>S. Orsi</name>
+    </author>
+    <author>
+      <name>M. Pohl</name>
+    </author>
+    <author>
+      <name>D. Rapin</name>
+    </author>
+    <author>
+      <name>D. Rybka</name>
+    </author>
+    <author>
+      <name>A. Rutczynska</name>
+    </author>
+    <author>
+      <name>H. L. Shi</name>
+    </author>
+    <author>
+      <name>P. Socha</name>
+    </author>
+    <author>
+      <name>J. C. Sun</name>
+    </author>
+    <author>
+      <name>L. M. Song</name>
+    </author>
+    <author>
+      <name>J. Szabelski</name>
+    </author>
+    <author>
+      <name>I. Traseira</name>
+    </author>
+    <author>
+      <name>H. L. Xiao</name>
+    </author>
+    <author>
+      <name>R. J. Wang</name>
+    </author>
+    <author>
+      <name>X. Wen</name>
+    </author>
+    <author>
+      <name>B. B. Wu</name>
+    </author>
+    <author>
+      <name>L. Zhang</name>
+    </author>
+    <author>
+      <name>L. Y. Zhang</name>
+    </author>
+    <author>
+      <name>S. N. Zhang</name>
+    </author>
+    <author>
+      <name>Y. J. Zhang</name>
+    </author>
+    <author>
+      <name>A. Zwolinska</name>
+    </author>
+    <doi>10.1016/j.nima.2017.09.053</doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.nima.2017.09.053" rel="related"/>
+    <link href="http://arxiv.org/abs/1709.07191v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.07191v2" rel="related" type="application/pdf"/>
+    <primary_category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.04944v1</id>
+    <updated>2020-04-10T08:26:24Z</updated>
+    <published>2020-04-10T08:26:24Z</published>
+    <title>Time performance of a triple-GEM detector at high rate</title>
+    <summary>  Gaseous detectors are used in high energy physics as trackers or, more
+generally, as devices for the measurement of the particle position. For this
+reason, they must provide high spatial resolution and they have to be able to
+operate in regions of intense radiation, i.e. around the interaction point of
+collider machines. Among these, Micro Pattern Gaseous Detectors (MPGD) are the
+latest frontier and allow to overcome many limitations of the pre-existing
+detectors, such as the radiation tolerance and the rate capability. The gas
+Electron Multiplier (GEM) is a MPGD that exploits an intense electric field in
+a reduced amplification region in order to prevent discharges. Several
+amplification stages, like in a triple-GEM, allow to increase the detector gain
+and to reduce the discharge probability. Reconstruction techniques such as
+charge centroid (CC) and micro-Time Projection Chamber ($\upmu$TPC) are used to
+perform the position measurement. From literature triple-GEMs show a stable
+behaviour up to $10^8\,$Hz/cm$^2$. A testbeam with four planar triple-GEMs has
+been performed at the Mainz Microtron (MAMI) facility and their performance was
+evaluated in different beam conditions. In this article a focus on the time
+performance for the $\upmu$TPC clusterization is given and a new measurement of
+the triple-GEM limits at high rate will be presented.
+</summary>
+    <author>
+      <name>A. Amoroso</name>
+    </author>
+    <author>
+      <name>R. Baldini Ferroli</name>
+    </author>
+    <author>
+      <name>I. Balossino</name>
+    </author>
+    <author>
+      <name>M. Bertani</name>
+    </author>
+    <author>
+      <name>D. Bettoni</name>
+    </author>
+    <author>
+      <name>A. Bortone</name>
+    </author>
+    <author>
+      <name>A. Calcaterra</name>
+    </author>
+    <author>
+      <name>S. Cerioni</name>
+    </author>
+    <author>
+      <name>W. Cheng</name>
+    </author>
+    <author>
+      <name>G. Cibinetto</name>
+    </author>
+    <author>
+      <name>A. Cotta Ramusino</name>
+    </author>
+    <author>
+      <name>F. Cossio</name>
+    </author>
+    <author>
+      <name>M. Da Rocha Rolo</name>
+    </author>
+    <author>
+      <name>F. De Mori</name>
+    </author>
+    <author>
+      <name>A. Denig</name>
+    </author>
+    <author>
+      <name>M. Destefanis</name>
+    </author>
+    <author>
+      <name>J. Dong</name>
+    </author>
+    <author>
+      <name>F. Evangelisti</name>
+    </author>
+    <author>
+      <name>R. Farinelli</name>
+    </author>
+    <author>
+      <name>L. Fava</name>
+    </author>
+    <author>
+      <name>G. Felici</name>
+    </author>
+    <author>
+      <name>B. Garillon</name>
+    </author>
+    <author>
+      <name>I. Garzia</name>
+    </author>
+    <author>
+      <name>M. Gatta</name>
+    </author>
+    <author>
+      <name>G. Giraudo</name>
+    </author>
+    <author>
+      <name>S. Gramigna</name>
+    </author>
+    <author>
+      <name>M. Greco</name>
+    </author>
+    <author>
+      <name>P. Gülker</name>
+    </author>
+    <author>
+      <name>Y. P. Guo</name>
+    </author>
+    <author>
+      <name>W. Lauth</name>
+    </author>
+    <author>
+      <name>L. Lavezzi</name>
+    </author>
+    <author>
+      <name>M. Maggiora</name>
+    </author>
+    <author>
+      <name>R. Malaguti</name>
+    </author>
+    <author>
+      <name>A. Mangoni</name>
+    </author>
+    <author>
+      <name>S. Marcello</name>
+    </author>
+    <author>
+      <name>M. Melchiorri</name>
+    </author>
+    <author>
+      <name>G. Mezzadri</name>
+    </author>
+    <author>
+      <name>E. Pace</name>
+    </author>
+    <author>
+      <name>S. Pacetti</name>
+    </author>
+    <author>
+      <name>P. Patteri</name>
+    </author>
+    <author>
+      <name>J. Pellegrino</name>
+    </author>
+    <author>
+      <name>C. F. Redmer</name>
+    </author>
+    <author>
+      <name>M. Ripka</name>
+    </author>
+    <author>
+      <name>A. Rivetti</name>
+    </author>
+    <author>
+      <name>C. Rosner</name>
+    </author>
+    <author>
+      <name>M. Scodeggio</name>
+    </author>
+    <author>
+      <name>S. Sosio</name>
+    </author>
+    <author>
+      <name>S. Spataro</name>
+    </author>
+    <link href="http://arxiv.org/abs/2004.04944v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.04944v1" rel="related" type="application/pdf"/>
+    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
 </feed>
