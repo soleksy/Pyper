@@ -1,49 +1,64 @@
-# pprg
-The project is being developed under python 3.7.4
+# Pyper
 
-How to use
+## How to use
 
 python3 pyper.py -h for help
 
-sample use >> python3 pyper.py HEP -a "author_name" -t "title_name"
+python3 pyper.py {ARXIV,HEP} -h for detailed query parameters
 
-Example query
 
-python3 pyper.py HEP -a krzemien -t J-PET -d "2019->2020" -out file.txt -sort citations
+## EXAMPLE FOR ARXIV QUERY:
 
-OUTPUT:
+./pyper.py ARXIV -a "S. Dong" -t Detector -file "Arxiv_output.txt"
 
-2018-05-31T04:28:16
-Moskal, P.
-Feasibility study of the positronium imaging with the J-PET tomograph
-arXiv:1805.11696
-10.1088/1361-6560/aafe20
-12
+## AND 3 OUTPUTS:
 
-2019-11-28T04:50:15
-Sharma, S.
-Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner
-arXiv:1911.12059
-DOI not specified
-1
+- S. Dong is one of 7 authors
+- Title: Detector control system for CBM-TOF
+- ID: http://arxiv.org/abs/2004.08969v1
+- Date Published: 2020-04-19T21:46:10Z
+- Last Update: 2020-04-19T21:46:10Z
+-----------------------------------------------------------------------
+- S. Dong is one of 38 authors
+- Title: Design and construction of the POLAR detector
+- ID: http://arxiv.org/abs/1709.07191v2
+- Date Published: 2017-09-21T07:53:41Z
+- Last Update: 2017-09-28T09:45:19Z
+- DOI: 10.1016/j.nima.2017.09.053
+-----------------------------------------------------------------------
+- S. Dong is one of 48 authors
+- Title: Time performance of a triple-GEM detector at high rate
+- ID: http://arxiv.org/abs/2004.04944v1
+- Date Published: 2020-04-10T08:26:24Z
+- Last Update: 2020-04-10T08:26:24Z
 
-2019-11-26T04:04:20
-Krzemien, Wojciech
-Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models
-arXiv:1911.10589
-10.5506/APhysPolB.51.165
-1
 
-2020-02-25T04:44:06
-Krzemien, Wojciech
-J-PET Framework: Software platform for PET tomography data reconstruction and analysis
-arXiv:2002.10183
-DOI not specified
-0
 
-2019-01-21T03:55:22
-Krawczyk, N.
-Simulation studies of annihilation-photon’s polarisation via Compton scattering with the J-PET tomograph
-arXiv:1901.06204
-10.1007/s10751-019-1629-0
-0
+
+## EXAMPLE FOR HEP QUERY:
+
+./pyper.py HEP -a witten -t "black hole" -out "Hep_output.txt"
+
+## AND 3 OUTPUTS:
+
+- Creation_date: 2020-02-19T04:16:45
+- Creator_name: Herrera, L.
+- Title: Geodesics of the hyperbolically symmetric black hole
+- Arxiv_ID: arXiv:2002.07586
+- DOI: 10.1103/PhysRevD.101.064071
+- Citations: 1
+-----------------------------------------------------------------------
+- Creation_date: 2016-09-07T12:06:22
+- Creator_name: Gass, Richard
+- Title: Do Black Holes Form?
+- Arxiv_ID: ['hep-th/9212034', 'UCTP-10-92']
+- DOI: DOI not specified
+- Citations: 0
+-----------------------------------------------------------------------
+- Creation_date: 2012-10-17T00:00:00
+- Creator_name: Witten, Edward
+- Title: Quantum mechanics of black holes
+- Arxiv_ID: None
+- DOI: 10.1126/science.1221693
+- Citations: 2
+

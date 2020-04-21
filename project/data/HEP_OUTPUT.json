@@ -1,0 +1,52 @@
+[
+  {
+    "doi": [
+      "10.1103/PhysRevD.101.064071",
+      "10.1103/PhysRevD.101.064071"
+    ],
+    "number_of_citations": 1,
+    "creator": {
+      "first_name": "L.",
+      "last_name": "Herrera",
+      "full_name": "Herrera, L."
+    },
+    "title": {
+      "title": "Geodesics of the hyperbolically symmetric black hole"
+    },
+    "creation_date": "2020-02-19T04:16:45",
+    "primary_report_number": "arXiv:2002.07586"
+  },
+  {
+    "doi": null,
+    "number_of_citations": 0,
+    "creator": {
+      "affiliation": "Cincinnati U.",
+      "first_name": "Richard",
+      "last_name": "Gass",
+      "full_name": "Gass, Richard"
+    },
+    "title": {
+      "title": "Do Black Holes Form?"
+    },
+    "creation_date": "2016-09-07T12:06:22",
+    "primary_report_number": [
+      "hep-th/9212034",
+      "UCTP-10-92"
+    ]
+  },
+  {
+    "doi": "10.1126/science.1221693",
+    "number_of_citations": 2,
+    "creator": {
+      "affiliation": "Princeton, Inst. Advanced Study",
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
+    },
+    "title": {
+      "title": "Quantum mechanics of black holes"
+    },
+    "creation_date": "2012-10-17T00:00:00",
+    "primary_report_number": null
+  }
+]
