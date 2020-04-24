@@ -1,52 +1,295 @@
 [
   {
-    "doi": [
-      "10.1103/PhysRevD.101.064071",
-      "10.1103/PhysRevD.101.064071"
-    ],
-    "number_of_citations": 1,
-    "creator": {
-      "first_name": "L.",
-      "last_name": "Herrera",
-      "full_name": "Herrera, L."
-    },
-    "title": {
-      "title": "Geodesics of the hyperbolically symmetric black hole"
-    },
-    "creation_date": "2020-02-19T04:16:45",
-    "primary_report_number": "arXiv:2002.07586"
-  },
-  {
+    "": null,
     "doi": null,
     "number_of_citations": 0,
     "creator": {
-      "affiliation": "Cincinnati U.",
-      "first_name": "Richard",
-      "last_name": "Gass",
-      "full_name": "Gass, Richard"
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
     },
     "title": {
-      "title": "Do Black Holes Form?"
+      "title": "J-PET Framework: Software platform for PET tomography data reconstruction and analysis"
     },
-    "creation_date": "2016-09-07T12:06:22",
-    "primary_report_number": [
-      "hep-th/9212034",
-      "UCTP-10-92"
+    "creation_date": "2020-02-25T04:44:06",
+    "primary_report_number": "arXiv:2002.10183",
+    "authors": [
+      {
+        "first_name": "Wojciech",
+        "last_name": "Krzemien",
+        "full_name": "Krzemien, Wojciech"
+      },
+      {
+        "first_name": "Aleksander",
+        "last_name": "Gajos",
+        "full_name": "Gajos, Aleksander"
+      },
+      {
+        "first_name": "Krzysztof",
+        "last_name": "Kacprzak",
+        "full_name": "Kacprzak, Krzysztof"
+      },
+      {
+        "first_name": "Kamil",
+        "last_name": "Rakoczy",
+        "full_name": "Rakoczy, Kamil"
+      },
+      {
+        "first_name": "Grzegorz",
+        "last_name": "Korcyl",
+        "full_name": "Korcyl, Grzegorz"
+      }
     ]
   },
   {
-    "doi": "10.1126/science.1221693",
-    "number_of_citations": 2,
+    "": null,
+    "doi": null,
+    "number_of_citations": 1,
     "creator": {
-      "affiliation": "Princeton, Inst. Advanced Study",
-      "first_name": "Edward",
-      "last_name": "Witten",
-      "full_name": "Witten, Edward"
+      "first_name": "S.",
+      "last_name": "Sharma",
+      "full_name": "Sharma, S."
     },
     "title": {
-      "title": "Quantum mechanics of black holes"
+      "title": "Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner"
     },
-    "creation_date": "2012-10-17T00:00:00",
-    "primary_report_number": null
+    "creation_date": "2019-11-28T04:50:15",
+    "primary_report_number": "arXiv:1911.12059",
+    "authors": [
+      {
+        "first_name": "S.",
+        "last_name": "Sharma",
+        "full_name": "Sharma, S."
+      },
+      {
+        "first_name": "J.",
+        "last_name": "Chhokar",
+        "full_name": "Chhokar, J."
+      },
+      {
+        "first_name": "C.",
+        "last_name": "Curceanu",
+        "full_name": "Curceanu, C."
+      },
+      {
+        "first_name": "E.",
+        "last_name": "Czerwinski",
+        "full_name": "Czerwinski, E."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Dadgar",
+        "full_name": "Dadgar, M."
+      },
+      {
+        "first_name": "K.",
+        "last_name": "Dulski",
+        "full_name": "Dulski, K."
+      },
+      {
+        "first_name": "J.",
+        "last_name": "Gajewski",
+        "full_name": "Gajewski, J."
+      },
+      {
+        "first_name": "A.",
+        "last_name": "Gajos",
+        "full_name": "Gajos, A."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Gorgol",
+        "full_name": "Gorgol, M."
+      },
+      {
+        "first_name": "N.",
+        "last_name": "Gupta-Sharma",
+        "full_name": "Gupta-Sharma, N."
+      },
+      {
+        "first_name": "R.",
+        "last_name": "Del Grande",
+        "full_name": "Del Grande, R."
+      },
+      {
+        "first_name": "B.C.",
+        "last_name": "Hiesmayr",
+        "full_name": "Hiesmayr, B.C."
+      },
+      {
+        "first_name": "B.",
+        "last_name": "Jasinska",
+        "full_name": "Jasinska, B."
+      },
+      {
+        "first_name": "K.",
+        "last_name": "Kacprzak",
+        "full_name": "Kacprzak, K."
+      },
+      {
+        "first_name": "L.",
+        "last_name": "Kaplon",
+        "full_name": "Kaplon, L."
+      },
+      {
+        "first_name": "H.",
+        "last_name": "Karimi",
+        "full_name": "Karimi, H."
+      },
+      {
+        "first_name": "D.",
+        "last_name": "Kisielewska",
+        "full_name": "Kisielewska, D."
+      },
+      {
+        "first_name": "K.",
+        "last_name": "Klimaszewski",
+        "full_name": "Klimaszewski, K."
+      },
+      {
+        "first_name": "G.",
+        "last_name": "Korcyl",
+        "full_name": "Korcyl, G."
+      },
+      {
+        "first_name": "P.",
+        "last_name": "Kowalski",
+        "full_name": "Kowalski, P."
+      },
+      {
+        "first_name": "T.",
+        "last_name": "Kozik",
+        "full_name": "Kozik, T."
+      },
+      {
+        "first_name": "N.",
+        "last_name": "Krawczyk",
+        "full_name": "Krawczyk, N."
+      },
+      {
+        "first_name": "W.",
+        "last_name": "Krzemien",
+        "full_name": "Krzemien, W."
+      },
+      {
+        "first_name": "E.",
+        "last_name": "Kubicz",
+        "full_name": "Kubicz, E."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Mohammed",
+        "full_name": "Mohammed, M."
+      },
+      {
+        "first_name": "Sz.",
+        "last_name": "Niedzwiecki",
+        "full_name": "Niedzwiecki, Sz."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Palka",
+        "full_name": "Palka, M."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Pawlik-Niedzwiecka",
+        "full_name": "Pawlik-Niedzwiecka, M."
+      },
+      {
+        "first_name": "L.",
+        "last_name": "Raczynski",
+        "full_name": "Raczynski, L."
+      },
+      {
+        "first_name": "J.",
+        "last_name": "Raj",
+        "full_name": "Raj, J."
+      },
+      {
+        "first_name": "A.",
+        "last_name": "Rucinski",
+        "full_name": "Rucinski, A."
+      },
+      {
+        "first_name": "",
+        "last_name": "Shivani",
+        "full_name": "Shivani"
+      },
+      {
+        "first_name": "R.Y.",
+        "last_name": "Shopa",
+        "full_name": "Shopa, R.Y."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Silarski",
+        "full_name": "Silarski, M."
+      },
+      {
+        "first_name": "M.",
+        "last_name": "Skurzok",
+        "full_name": "Skurzok, M."
+      },
+      {
+        "first_name": "E.L.",
+        "last_name": "Stepien",
+        "full_name": "Stepien, E.L."
+      },
+      {
+        "first_name": "W.",
+        "last_name": "Wislicki",
+        "full_name": "Wislicki, W."
+      },
+      {
+        "first_name": "B.",
+        "last_name": "Zgardzinska",
+        "full_name": "Zgardzinska, B."
+      },
+      {
+        "first_name": "P.",
+        "last_name": "Moskal",
+        "full_name": "Moskal, P."
+      }
+    ]
+  },
+  {
+    "": null,
+    "doi": [
+      "10.5506/APhysPolB.51.165",
+      "10.5506/APhysPolB.51.165"
+    ],
+    "number_of_citations": 1,
+    "creator": {
+      "affiliation": "NCBJ, Swierk",
+      "first_name": "Wojciech",
+      "last_name": "Krzemien",
+      "full_name": "Krzemien, Wojciech"
+    },
+    "title": {
+      "title": "Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models"
+    },
+    "creation_date": "2019-11-26T04:04:20",
+    "primary_report_number": "arXiv:1911.10589",
+    "authors": [
+      {
+        "affiliation": "NCBJ, Swierk",
+        "first_name": "Wojciech",
+        "last_name": "Krzemien",
+        "full_name": "Krzemien, Wojciech"
+      },
+      {
+        "affiliation": "Frascati",
+        "first_name": "Elena",
+        "last_name": "Perez del Rio",
+        "full_name": "Perez del Rio, Elena"
+      },
+      {
+        "affiliation": "Jagiellonian U.",
+        "first_name": "Krzysztof",
+        "last_name": "Kacprzak",
+        "full_name": "Kacprzak, Krzysztof"
+      }
+    ]
   }
 ]

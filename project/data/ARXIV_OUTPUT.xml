@@ -1,366 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed>
-  <link href="http://arxiv.org/api/query?search_query%3Dau%3AS.%20Dong%20AND%20ti%3ADetector%26id_list%3D%26start%3D0%26max_results%3D3" rel="self" type="application/atom+xml"/>
-  <title type="html">ArXiv Query: search_query=au:S. Dong AND ti:Detector&amp;id_list=&amp;start=0&amp;max_results=3</title>
-  <id>http://arxiv.org/api/CiDh2NaxEjd1CoShvh/rXf1HUso</id>
-  <updated>2020-04-21T00:00:00-04:00</updated>
-  <totalResults>50</totalResults>
+  <link href="http://arxiv.org/api/query?search_query%3Dau%3Akrzemien%20AND%20ti%3AJ-PET%26id_list%3D%26start%3D0%26max_results%3D3" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=au:krzemien AND ti:J-PET&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <id>http://arxiv.org/api/GqJBwH73OeRk0XtWmY/RJyuqyqc</id>
+  <updated>2020-04-24T00:00:00-04:00</updated>
+  <totalResults>43</totalResults>
   <startIndex>0</startIndex>
   <itemsPerPage>3</itemsPerPage>
   <entry>
-    <id>http://arxiv.org/abs/2004.08969v1</id>
-    <updated>2020-04-19T21:46:10Z</updated>
-    <published>2020-04-19T21:46:10Z</published>
-    <title>Detector control system for CBM-TOF</title>
-    <summary>  For charged hadron identification, a high-performance Time-Of-Flight (TOF)
-RPC wall is being built for the CBM experiment at FAIR. The detector control
-system (DCS) for CBM-TOF is designed based on EPICS. Instruments, including
-power supplies, power supply distributors, and gas control systems, are
-controlled and monitored in a CBM full system test-setup called mCBM
-(mini-CBM). For monitoring the environment of the detector in a radiant
-environment and the status of front-end electronics (FEE), a slow control
-application is implemented based on IPbus, which is an FPGA-based slow control
-bus also used in TOF fast data acquisition (DAQ) system. Besides the functions
-of controlling and monitoring, exception handling and data archiving functions
-are also implemented. This control system was fully verified in beam tests in
-2019 at GSI.
+    <id>http://arxiv.org/abs/1602.05402v1</id>
+    <updated>2016-02-17T13:22:32Z</updated>
+    <published>2016-02-17T13:22:32Z</published>
+    <title>Scatter fraction of the J-PET tomography scanner</title>
+    <summary>  A novel Positron Emission Tomography system, based on plastic scintillators,
+is being developed by the J-PET collaboration. In this article we present the
+simulation results of the scatter fraction, representing one of the parameters
+crucial for background studies defined in the NEMA-NU-2-2012 norm. We elaborate
+an event selection methods allowing to suppress events in which gamma quanta
+were scattered in the phantom or underwent the multiple scattering in the
+detector. The estimated scatter fraction for the single-layer J-PET scanner
+varies from 37% to 53% depending on the applied energy threshold.
 </summary>
     <author>
-      <name>S. Dong</name>
+      <name>P. Kowalski</name>
     </author>
     <author>
-      <name>G. M. Huang</name>
+      <name>W. Wiślicki</name>
     </author>
     <author>
-      <name>J. Frühauf</name>
+      <name>L. Raczyński</name>
     </author>
     <author>
-      <name>P. -A. Loizeau</name>
+      <name>D. Alfs</name>
     </author>
     <author>
-      <name>I. Deppner</name>
+      <name>T. Bednarski</name>
     </author>
     <author>
-      <name>N. Herrmann</name>
+      <name>P. Białas</name>
     </author>
     <author>
-      <name>D. Wang</name>
+      <name>E. Czerwiński</name>
     </author>
-    <comment>This article is based on my RPC2020 meeting report, see
-  https://agenda.infn.it/event/19942/contributions/108458/</comment>
-    <link href="http://arxiv.org/abs/2004.08969v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/2004.08969v1" rel="related" type="application/pdf"/>
-    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <author>
+      <name>A. Gajos</name>
+    </author>
+    <author>
+      <name>B. Głowacz</name>
+    </author>
+    <author>
+      <name>J. Jasińska</name>
+    </author>
+    <author>
+      <name>D. Kamińska</name>
+    </author>
+    <author>
+      <name>G. Korcyl</name>
+    </author>
+    <author>
+      <name>T. Kozik</name>
+    </author>
+    <author>
+      <name>W. Krzemień</name>
+    </author>
+    <author>
+      <name>E. Kubicz</name>
+    </author>
+    <author>
+      <name>M. Mohammad</name>
+    </author>
+    <author>
+      <name>Sz. Niedźwiecki</name>
+    </author>
+    <author>
+      <name>M. Pałka</name>
+    </author>
+    <author>
+      <name>M. Pawlik-Niedźwiecka</name>
+    </author>
+    <author>
+      <name>Z. Rudy</name>
+    </author>
+    <author>
+      <name>M. Silarski</name>
+    </author>
+    <author>
+      <name>J. Smyrski</name>
+    </author>
+    <author>
+      <name>A. Strzelecki</name>
+    </author>
+    <author>
+      <name>A. Wieczorek</name>
+    </author>
+    <author>
+      <name>B. Zgardzińska</name>
+    </author>
+    <author>
+      <name>M. Zieliński</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <doi>10.5506/APhysPolB.47.549</doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.47.549" rel="related"/>
+    <comment>14 pages, 5 figures</comment>
+    <link href="http://arxiv.org/abs/1602.05402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.05402v1" rel="related" type="application/pdf"/>
+    <primary_category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
     <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1709.07191v2</id>
-    <updated>2017-09-28T09:45:19Z</updated>
-    <published>2017-09-21T07:53:41Z</published>
-    <title>Design and construction of the POLAR detector</title>
-    <summary>  The POLAR detector is a space based Gamma Ray Burst (GRB) polarimeter with a
-wide field of view, which covers almost half the sky. The instrument uses
-Compton scattering of gamma rays on a plastic scintillator hodoscope to measure
-the polarization of the incoming photons. The instrument has been successfully
-launched on board of the Chinese space laboratory Tiangong~2 on September 15,
-2016. The construction of the instrument components is described in this
-article. Details are provided on problems encountered during the construction
-phase and their solutions. Initial performance of the instrument in orbit is as
-expected from ground tests and Monte Carlo simulation.
+    <id>http://arxiv.org/abs/1503.00465v2</id>
+    <updated>2015-07-05T11:46:39Z</updated>
+    <published>2015-03-02T10:12:28Z</published>
+    <title>Analysis framework for the J-PET scanner</title>
+    <summary>  J-PET analysis framework is a flexible, lightweight, ROOT-based software
+package which provides the tools to develop reconstruction and calibration
+procedures for PET tomography. In this article we present the implementation of
+the full data-processing chain in the J-PET framework which is used for the
+data analysis of the J-PET tomography scanner. The Framework incorporates
+automated handling of PET setup parameters' database as well as high level
+tools for building data reconstruction procedures. Each of these components is
+briefly discussed.
 </summary>
     <author>
-      <name>N. Produit</name>
+      <name>W. Krzemień</name>
     </author>
     <author>
-      <name>T. W. Bao</name>
+      <name>A. Gajos</name>
     </author>
     <author>
-      <name>T. Batsch</name>
+      <name>A. Gruntowski</name>
     </author>
     <author>
-      <name>T. Bernasconi</name>
+      <name>K. Stola</name>
     </author>
     <author>
-      <name>I. Britvich</name>
+      <name>D. Trybek</name>
     </author>
     <author>
-      <name>F. Cadoux</name>
+      <name>T. Bednarski</name>
     </author>
     <author>
-      <name>I. Cernuda</name>
+      <name>P. Białas</name>
     </author>
     <author>
-      <name>J. Y. Chai</name>
+      <name>E. Czerwiński</name>
     </author>
     <author>
-      <name>Y. W. Dong</name>
+      <name>D. Kamińska</name>
     </author>
     <author>
-      <name>N. Gauvin</name>
+      <name>L. Kapłon</name>
     </author>
     <author>
-      <name>W. Hajdas</name>
+      <name>A. Kochanowski</name>
     </author>
     <author>
-      <name>M. Kole</name>
+      <name>G. Korcyl</name>
     </author>
     <author>
-      <name>M. N. Kong</name>
+      <name>J. Kowal</name>
     </author>
     <author>
-      <name>R. Kramert</name>
+      <name>P. Kowalski</name>
     </author>
     <author>
-      <name>L. Li</name>
+      <name>T. Kozik</name>
     </author>
     <author>
-      <name>J. T. Liu</name>
+      <name>E. Kubicz</name>
     </author>
     <author>
-      <name>X. Liu</name>
+      <name>P. Moskal</name>
     </author>
     <author>
-      <name>R. Marcinkowski</name>
+      <name>Sz. Niedźwiecki</name>
     </author>
     <author>
-      <name>S. Orsi</name>
+      <name>M. Pałka</name>
     </author>
     <author>
-      <name>M. Pohl</name>
+      <name>L. Raczyński</name>
     </author>
     <author>
-      <name>D. Rapin</name>
+      <name>Z. Rudy</name>
     </author>
     <author>
-      <name>D. Rybka</name>
+      <name>P. Salabura</name>
     </author>
     <author>
-      <name>A. Rutczynska</name>
+      <name>N. G. Sharma</name>
     </author>
     <author>
-      <name>H. L. Shi</name>
+      <name>M. Silarski</name>
     </author>
     <author>
-      <name>P. Socha</name>
+      <name>A. Słomski</name>
     </author>
     <author>
-      <name>J. C. Sun</name>
+      <name>J. Smyrski</name>
     </author>
     <author>
-      <name>L. M. Song</name>
+      <name>A. Strzelecki</name>
     </author>
     <author>
-      <name>J. Szabelski</name>
+      <name>A. Wieczorek</name>
     </author>
     <author>
-      <name>I. Traseira</name>
+      <name>W. Wiślicki</name>
     </author>
     <author>
-      <name>H. L. Xiao</name>
+      <name>M. Zieliński</name>
     </author>
     <author>
-      <name>R. J. Wang</name>
+      <name>N. Zoń</name>
     </author>
-    <author>
-      <name>X. Wen</name>
-    </author>
-    <author>
-      <name>B. B. Wu</name>
-    </author>
-    <author>
-      <name>L. Zhang</name>
-    </author>
-    <author>
-      <name>L. Y. Zhang</name>
-    </author>
-    <author>
-      <name>S. N. Zhang</name>
-    </author>
-    <author>
-      <name>Y. J. Zhang</name>
-    </author>
-    <author>
-      <name>A. Zwolinska</name>
-    </author>
-    <doi>10.1016/j.nima.2017.09.053</doi>
-    <link title="doi" href="http://dx.doi.org/10.1016/j.nima.2017.09.053" rel="related"/>
-    <link href="http://arxiv.org/abs/1709.07191v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1709.07191v2" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2004.04944v1</id>
-    <updated>2020-04-10T08:26:24Z</updated>
-    <published>2020-04-10T08:26:24Z</published>
-    <title>Time performance of a triple-GEM detector at high rate</title>
-    <summary>  Gaseous detectors are used in high energy physics as trackers or, more
-generally, as devices for the measurement of the particle position. For this
-reason, they must provide high spatial resolution and they have to be able to
-operate in regions of intense radiation, i.e. around the interaction point of
-collider machines. Among these, Micro Pattern Gaseous Detectors (MPGD) are the
-latest frontier and allow to overcome many limitations of the pre-existing
-detectors, such as the radiation tolerance and the rate capability. The gas
-Electron Multiplier (GEM) is a MPGD that exploits an intense electric field in
-a reduced amplification region in order to prevent discharges. Several
-amplification stages, like in a triple-GEM, allow to increase the detector gain
-and to reduce the discharge probability. Reconstruction techniques such as
-charge centroid (CC) and micro-Time Projection Chamber ($\upmu$TPC) are used to
-perform the position measurement. From literature triple-GEMs show a stable
-behaviour up to $10^8\,$Hz/cm$^2$. A testbeam with four planar triple-GEMs has
-been performed at the Mainz Microtron (MAMI) facility and their performance was
-evaluated in different beam conditions. In this article a focus on the time
-performance for the $\upmu$TPC clusterization is given and a new measurement of
-the triple-GEM limits at high rate will be presented.
-</summary>
-    <author>
-      <name>A. Amoroso</name>
-    </author>
-    <author>
-      <name>R. Baldini Ferroli</name>
-    </author>
-    <author>
-      <name>I. Balossino</name>
-    </author>
-    <author>
-      <name>M. Bertani</name>
-    </author>
-    <author>
-      <name>D. Bettoni</name>
-    </author>
-    <author>
-      <name>A. Bortone</name>
-    </author>
-    <author>
-      <name>A. Calcaterra</name>
-    </author>
-    <author>
-      <name>S. Cerioni</name>
-    </author>
-    <author>
-      <name>W. Cheng</name>
-    </author>
-    <author>
-      <name>G. Cibinetto</name>
-    </author>
-    <author>
-      <name>A. Cotta Ramusino</name>
-    </author>
-    <author>
-      <name>F. Cossio</name>
-    </author>
-    <author>
-      <name>M. Da Rocha Rolo</name>
-    </author>
-    <author>
-      <name>F. De Mori</name>
-    </author>
-    <author>
-      <name>A. Denig</name>
-    </author>
-    <author>
-      <name>M. Destefanis</name>
-    </author>
-    <author>
-      <name>J. Dong</name>
-    </author>
-    <author>
-      <name>F. Evangelisti</name>
-    </author>
-    <author>
-      <name>R. Farinelli</name>
-    </author>
-    <author>
-      <name>L. Fava</name>
-    </author>
-    <author>
-      <name>G. Felici</name>
-    </author>
-    <author>
-      <name>B. Garillon</name>
-    </author>
-    <author>
-      <name>I. Garzia</name>
-    </author>
-    <author>
-      <name>M. Gatta</name>
-    </author>
-    <author>
-      <name>G. Giraudo</name>
-    </author>
-    <author>
-      <name>S. Gramigna</name>
-    </author>
-    <author>
-      <name>M. Greco</name>
-    </author>
-    <author>
-      <name>P. Gülker</name>
-    </author>
-    <author>
-      <name>Y. P. Guo</name>
-    </author>
-    <author>
-      <name>W. Lauth</name>
-    </author>
-    <author>
-      <name>L. Lavezzi</name>
-    </author>
-    <author>
-      <name>M. Maggiora</name>
-    </author>
-    <author>
-      <name>R. Malaguti</name>
-    </author>
-    <author>
-      <name>A. Mangoni</name>
-    </author>
-    <author>
-      <name>S. Marcello</name>
-    </author>
-    <author>
-      <name>M. Melchiorri</name>
-    </author>
-    <author>
-      <name>G. Mezzadri</name>
-    </author>
-    <author>
-      <name>E. Pace</name>
-    </author>
-    <author>
-      <name>S. Pacetti</name>
-    </author>
-    <author>
-      <name>P. Patteri</name>
-    </author>
-    <author>
-      <name>J. Pellegrino</name>
-    </author>
-    <author>
-      <name>C. F. Redmer</name>
-    </author>
-    <author>
-      <name>M. Ripka</name>
-    </author>
-    <author>
-      <name>A. Rivetti</name>
-    </author>
-    <author>
-      <name>C. Rosner</name>
-    </author>
-    <author>
-      <name>M. Scodeggio</name>
-    </author>
-    <author>
-      <name>S. Sosio</name>
-    </author>
-    <author>
-      <name>S. Spataro</name>
-    </author>
-    <link href="http://arxiv.org/abs/2004.04944v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/2004.04944v1" rel="related" type="application/pdf"/>
+    <doi>10.12693/APhysPolA.127.1491</doi>
+    <link title="doi" href="http://dx.doi.org/10.12693/APhysPolA.127.1491" rel="related"/>
+    <comment>6 pages, 1 figure</comment>
+    <journal_ref>Acta Phys. Pol. A 127 (2015) 1491-1494</journal_ref>
+    <link href="http://arxiv.org/abs/1503.00465v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1503.00465v2" rel="related" type="application/pdf"/>
     <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
     <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05598v1</id>
+    <updated>2017-10-16T09:57:29Z</updated>
+    <published>2017-10-16T09:57:29Z</published>
+    <title>Time calibration of the J-PET detector</title>
+    <summary>  The Jagiellonian Positron Emission Tomograph (J-PET) project carried out in
+the Institute of Physics of the Jagiellonian University is focused on
+construction and tests of the first prototype of PET scanner for medical
+diagnostic which allows for the simultaneous 3D imaging of the whole human body
+using organic scintillators. The J-PET prototype consists of 192 scintillator
+strips forming three cylindrical layers which are optimized for the detection
+of photons from the electron-positron annihilation with high time- and high
+angular-resolutions. In this article we present time calibration and
+synchronization of the whole J-PET detection system by irradiating each single
+detection module with a 22Na source and a small detector providing common
+reference time for synchronization of all the modules.
+</summary>
+    <author>
+      <name>M. Skurzok</name>
+    </author>
+    <author>
+      <name>M. Silarski</name>
+    </author>
+    <author>
+      <name>D. Alfs</name>
+    </author>
+    <author>
+      <name>P. Bialas</name>
+    </author>
+    <author>
+      <name> Shivani</name>
+    </author>
+    <author>
+      <name>C. Curceanu</name>
+    </author>
+    <author>
+      <name>E. Czerwinski</name>
+    </author>
+    <author>
+      <name>K. Dulski</name>
+    </author>
+    <author>
+      <name>A. Gajos</name>
+    </author>
+    <author>
+      <name>B. Glowacz</name>
+    </author>
+    <author>
+      <name>M. Gorgol</name>
+    </author>
+    <author>
+      <name>B. C. Hiesmayr</name>
+    </author>
+    <author>
+      <name>B. Jasinska</name>
+    </author>
+    <author>
+      <name>D. Kisielewska-Kaminska</name>
+    </author>
+    <author>
+      <name>G. Korcyl</name>
+    </author>
+    <author>
+      <name>P. Kowalski</name>
+    </author>
+    <author>
+      <name>T. Kozik</name>
+    </author>
+    <author>
+      <name>N. Krawczyk</name>
+    </author>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>E. Kubicz</name>
+    </author>
+    <author>
+      <name>M. Mohammed</name>
+    </author>
+    <author>
+      <name>M. Pawlik-Niedzwiecka</name>
+    </author>
+    <author>
+      <name>S. Niedzwiecki</name>
+    </author>
+    <author>
+      <name>M. Palka</name>
+    </author>
+    <author>
+      <name>L. Raczynski</name>
+    </author>
+    <author>
+      <name>J. Raj</name>
+    </author>
+    <author>
+      <name>Z. Rudy</name>
+    </author>
+    <author>
+      <name>N. G. Sharma</name>
+    </author>
+    <author>
+      <name>S. Sharma</name>
+    </author>
+    <author>
+      <name>R. Y. Shopa</name>
+    </author>
+    <author>
+      <name>A. Wieczorek</name>
+    </author>
+    <author>
+      <name>W. Wislicki</name>
+    </author>
+    <author>
+      <name>B. Zgardzinska</name>
+    </author>
+    <author>
+      <name>M. Zielinski</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <comment>Accepted to publish in Acta Phys. Pol. A</comment>
+    <link href="http://arxiv.org/abs/1710.05598v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.05598v1" rel="related" type="application/pdf"/>
+    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
 </feed>

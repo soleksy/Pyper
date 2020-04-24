@@ -37,59 +37,59 @@ class Arxiv_Helper:
 
 class Arxiv_Parser:
 
-    def __init__(self, param_dict):
-        self.parameters = param_dict
+    def __init__(self, filename):
+        self.list_of_dicts = list()
+        self.filename = filename
 
-    def parse_xml(self, file_name):
-        data = ''
-        with open(file_name, 'r') as file:
+    def parse_xml(self):
+        single_result_dict = {}
+        journal = ""
+        doi = ""
+
+        with open(self.filename, 'r') as file:
             root = ET.fromstring(file.read())
 
-        full_name = os.path.abspath(os.path.join('', file_name))
+        full_name = os.path.abspath(os.path.join('', self.filename))
 
         tree = ET.parse(full_name)
         root = tree.getroot()
 
-        titles = root.findall('entry/title')
-        ids = root.findall('entry/id')
-        published = root.findall('entry/published')
-        updated = root.findall('entry/updated')
-
         entries = root.findall('entry')
 
         for entry in entries:
+            if entry.find('journal_ref') is not None:
+                journal = entry.find('journal_ref').text
+            else:
+                journal = "Not Specified"
+            if entry.find('doi') is not None:
+                doi = entry.find('doi').text
+            else:
+                doi = "Not Specified"
 
             authors = entry.findall('author')
             number_of_authors = len(authors)
 
-            if self.parameters['ALL'] is not None:
-                data += "One of " + str(number_of_authors) + "authors\n"
+            single_result_dict = {
+                "Title": entry.find('title').text,
+                "ID": entry.find('id').text,
+                "Date_Published": entry.find('published').text,
+                "Last_Update": entry.find('updated').text,
+                "DOI": doi,
+                "Journal": journal,
+                "Num_Of_Authors": number_of_authors}
 
-            elif number_of_authors == 1:
-                data += authors[0].text + " is the only author.\n"
-            else:
-                data += self.parameters['au'] + " is one of " + \
-                    str(number_of_authors) + " authors\n"
+            self.list_of_dicts.append(single_result_dict)
 
-            data += "Title: " + entry.find('title').text + '\n'
-            data += "ID: " + entry.find('id').text + '\n'
-            data += "Date Published: " + entry.find('published').text + '\n'
-            data += "Last Update: " + entry.find('updated').text + '\n'
+    def show(self):
+        for dic in self.list_of_dicts:
+            print("\n")
+            for el in dic:
+                print(el + ": " + str(dic[el]))
 
-            if entry.find('journal_ref') is not None:
-                data += "Journal: " + entry.find('journal_ref').text + '\n'
-
-            if entry.find('doi') is not None:
-                data += "DOI: " + entry.find('doi').text + '\n'
-
-            data += '\n'
-
-        return data
-
-    def standarize_xml_file(self, file_name):
-        with open(file_name, 'r') as file_r:
+    def standarize_xml_file(self):
+        with open(self.filename, 'r') as file_r:
             data = file_r.readlines()
-            with open(file_name, 'w') as file_w:
+            with open(self.filename, 'w') as file_w:
                 for d in data:
 
                     d = d.replace(' xmlns="http://www.w3.org/2005/Atom"', '')
@@ -101,3 +101,61 @@ class Arxiv_Parser:
                         ' xmlns:arxiv="http://arxiv.org/schemas/atom"', '')
 
                     file_w.write(d)
+
+    def filter_range(self, range):
+        temp_list = list()
+        year = 0
+        status = ''
+        try:
+            if range[0] == '-':
+                status = 'till'
+                year = int(range[1:])
+            elif range[0] == '+':
+                status = 'after'
+                year = int(range[1:])
+            else:
+                status = 'between'
+                year1 = int(range[0:4])
+                year2 = int(range[5:9])
+
+            for dic in self.list_of_dicts:
+                full_date = dic['Date_Published']
+                date = int(full_date[:4])
+                if status == 'till':
+                    if date <= year:
+                        temp_list.append(dic)
+                elif status == 'after':
+                    if date >= year:
+                        temp_list.append(dic)
+                else:
+                    if date >= year1 and date <= year2:
+                        temp_list.append(dic)
+            self.list_of_dicts = temp_list
+        except BaseException:
+            print("Error while parsing range expression try ./pyper.py ARXIV -h for more information on available range formats")
+            return -1
+
+    def sort_by(self, value):
+        if value == 'authors':
+            self.list_of_dicts = sorted(
+                self.list_of_dicts,
+                key=lambda x: x['Num_Of_Authors'],
+                reverse=True)
+        elif value == 'published':
+            self.list_of_dicts = sorted(
+                self.list_of_dicts,
+                key=lambda x: x['Date_Published'])
+        elif value == 'updated':
+            self.list_of_dicts = sorted(
+                self.list_of_dicts,
+                key=lambda x: x['Last_Update'],
+                reverse=True)
+
+    def write(self, filename):
+        items = []
+        with open(filename, 'w') as f:
+            for dic in self.list_of_dicts:
+                items = dic.items()
+                for el in items:
+                    f.write(str(el[0]) + ": " + str(el[1]) + '\n')
+                f.write('\n')

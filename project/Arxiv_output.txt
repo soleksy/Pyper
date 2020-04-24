@@ -1,19 +1,24 @@
-S. Dong is one of 7 authors
-Title: Detector control system for CBM-TOF
-ID: http://arxiv.org/abs/2004.08969v1
-Date Published: 2020-04-19T21:46:10Z
-Last Update: 2020-04-19T21:46:10Z
+Title: Scatter fraction of the J-PET tomography scanner
+ID: http://arxiv.org/abs/1602.05402v1
+Date_Published: 2016-02-17T13:22:32Z
+Last_Update: 2016-02-17T13:22:32Z
+DOI: 10.5506/APhysPolB.47.549
+Journal: Not Specified
+Num_Of_Authors: 27
 
-S. Dong is one of 38 authors
-Title: Design and construction of the POLAR detector
-ID: http://arxiv.org/abs/1709.07191v2
-Date Published: 2017-09-21T07:53:41Z
-Last Update: 2017-09-28T09:45:19Z
-DOI: 10.1016/j.nima.2017.09.053
+Title: Analysis framework for the J-PET scanner
+ID: http://arxiv.org/abs/1503.00465v2
+Date_Published: 2015-03-02T10:12:28Z
+Last_Update: 2015-07-05T11:46:39Z
+DOI: 10.12693/APhysPolA.127.1491
+Journal: Acta Phys. Pol. A 127 (2015) 1491-1494
+Num_Of_Authors: 31
 
-S. Dong is one of 48 authors
-Title: Time performance of a triple-GEM detector at high rate
-ID: http://arxiv.org/abs/2004.04944v1
-Date Published: 2020-04-10T08:26:24Z
-Last Update: 2020-04-10T08:26:24Z
+Title: Time calibration of the J-PET detector
+ID: http://arxiv.org/abs/1710.05598v1
+Date_Published: 2017-10-16T09:57:29Z
+Last_Update: 2017-10-16T09:57:29Z
+DOI: Not Specified
+Journal: Not Specified
+Num_Of_Authors: 35
 

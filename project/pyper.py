@@ -1,6 +1,5 @@
 #!/home/solesky/anaconda3/bin/python
 
-
 import sys
 import argparse
 from ARXIV.arxiv_classes import Arxiv_Helper, Arxiv_Parser
@@ -114,7 +113,7 @@ def main():
         required=False,
         help="Sort by: name, citations or date. Ex: -sort name",
         type=str,
-        choices=['name', 'citations', 'date']
+        choices=['authors', 'citations', 'date']
     )
 
     #----------------------------ARXIV ARGUMENTS-----------------------------#
@@ -149,14 +148,28 @@ def main():
         help="Add journal reference to the query",
         type=str,
     )
-    #-------------------------ARXIV GENERAL ARGUMENTS--------------------------#
+    #-------------------------GENERAL ARXIV ARGUMENTS--------------------------#
     parser_ARXIV.add_argument(
         "-file",
         required=False,
         help="write contents to file(in testing)",
         type=str,
     )
+    parser_ARXIV.add_argument(
+        "-sort",
+        required=False,
+        help="Sort the output of your query by either number of authors, date published or date of last update on the paper",
+        choices=[
+            'authors',
+            'published',
+            'updated'])
 
+    parser_ARXIV.add_argument(
+        "-range",
+        required=False,
+        help="Add year range to show results published within given range, Examples: '-X' till year X , '+X' after year X, 'X-Y' between X and Y",
+        type=str,
+    )
     #---------------------------PARSER SELECTION------------------------------#
 
     Selected_Parser = ""
@@ -218,7 +231,7 @@ def main():
             source = hep_helper.get_source(url)
 
             hep_parser = Hep_Parser(source)
-        #------------------GENERAL ARGUMENTS HEP--------------------------#
+        #-----------------------GENERAL ARGUMENTS HEP--------------------------#
         if hep_args.out is None:
             print("Your output has been written into 'HEP_OUTPUT.json'")
 
@@ -245,15 +258,8 @@ def main():
 
         arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
 
-        query = ""
+        query_url = ""
         data = ""
-        arx_params_dict = {
-            "au": arx_args.a,
-            "ti": arx_args.t,
-            "jr": arx_args.j,
-            "id_list": arx_args.id,
-            "ALL": arx_args.ALL
-        }
 
         arx_params_list = [
             ("au", arx_args.a),
@@ -269,31 +275,40 @@ def main():
 
         if len(filtered_params) == 0:
             print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
+            return -1
 
         elif arx_args.ALL is not None:
             # Run Query for all parameters
-            query = arx_helper.all_param(arx_args.ALL)
+            query_url = arx_helper.all_param(arx_args.ALL)
 
         else:
             # Run Query for specific parameters
-            query = arx_helper.params_to_url(filtered_params)
+            query_url = arx_helper.params_to_url(filtered_params)
+
+        file_to_parse_arxiv = 'data/ARXIV_OUTPUT.xml'
+
+        # Load api result to file
+        arx_helper.api_to_file(query_url, file_to_parse_arxiv)
 
         # Initialize Arxiv Parser
-        arx_parser = Arxiv_Parser(arx_params_dict)
-
-        file_name = 'data/ARXIV_OUTPUT.xml'
+        arx_parser = Arxiv_Parser(file_to_parse_arxiv)
 
         # Load , standarize and save data
-        arx_helper.api_to_file(query, file_name)
 
-        arx_parser.standarize_xml_file(file_name)
+        arx_parser.standarize_xml_file()
 
-        data = arx_parser.parse_xml(file_name)
+        arx_parser.parse_xml()
+
+        if arx_args.range is not None:
+            if arx_parser.filter_range(arx_args.range) == -1:
+                return
+
+        if arx_args.sort is not None:
+            arx_parser.sort_by(arx_args.sort)
 
         if arx_args.file is not None:
-            with open(str(arx_args.file), 'w') as f_out:
-                f_out.write(data)
-                print("Your output has been written into Arxiv_output.txt")
+            arx_parser.write(arx_args.file)
+        arx_parser.show()
 
 
 if __name__ == "__main__":

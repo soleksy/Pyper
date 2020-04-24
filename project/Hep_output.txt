@@ -1,21 +1,24 @@
-Creation_date: 2020-02-19T04:16:45
-Creator_name: Herrera, L.
-Title: Geodesics of the hyperbolically symmetric black hole
-Arxiv_ID: arXiv:2002.07586
-DOI: 10.1103/PhysRevD.101.064071
-Citations: 1
-
-Creation_date: 2016-09-07T12:06:22
-Creator_name: Gass, Richard
-Title: Do Black Holes Form?
-Arxiv_ID: ['hep-th/9212034', 'UCTP-10-92']
+Creation_date: 2020-02-25T04:44:06
+Creator_name: Krzemien, Wojciech
+Title: J-PET Framework: Software platform for PET tomography data reconstruction and analysis
+Arxiv_ID: arXiv:2002.10183
 DOI: DOI not specified
 Citations: 0
+Num_Of_Authors: 5
 
-Creation_date: 2012-10-17T00:00:00
-Creator_name: Witten, Edward
-Title: Quantum mechanics of black holes
-Arxiv_ID: None
-DOI: 10.1126/science.1221693
-Citations: 2
+Creation_date: 2019-11-28T04:50:15
+Creator_name: Sharma, S.
+Title: Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner
+Arxiv_ID: arXiv:1911.12059
+DOI: DOI not specified
+Citations: 1
+Num_Of_Authors: 39
+
+Creation_date: 2019-11-26T04:04:20
+Creator_name: Krzemien, Wojciech
+Title: Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models
+Arxiv_ID: arXiv:1911.10589
+DOI: 10.5506/APhysPolB.51.165
+Citations: 1
+Num_Of_Authors: 3
 
