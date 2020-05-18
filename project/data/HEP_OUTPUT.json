@@ -39,7 +39,8 @@
         "last_name": "Korcyl",
         "full_name": "Korcyl, Grzegorz"
       }
-    ]
+    ],
+    "publication_info": null
   },
   {
     "": null,
@@ -251,7 +252,8 @@
         "last_name": "Moskal",
         "full_name": "Moskal, P."
       }
-    ]
+    ],
+    "publication_info": null
   },
   {
     "": null,
@@ -290,6 +292,14 @@
         "last_name": "Kacprzak",
         "full_name": "Kacprzak, Krzysztof"
       }
-    ]
+    ],
+    "publication_info": {
+      "pagination": "165",
+      "reference": "Acta Phys. Pol. B 51 (2020) 165",
+      "title": "Acta Phys.Polon.",
+      "cnum": "C19-06-24",
+      "volume": "B51",
+      "year": "2020"
+    }
   }
 ]

@@ -3,7 +3,7 @@
   <link href="http://arxiv.org/api/query?search_query%3Dau%3Akrzemien%20AND%20ti%3AJ-PET%26id_list%3D%26start%3D0%26max_results%3D3" rel="self" type="application/atom+xml"/>
   <title type="html">ArXiv Query: search_query=au:krzemien AND ti:J-PET&amp;id_list=&amp;start=0&amp;max_results=3</title>
   <id>http://arxiv.org/api/GqJBwH73OeRk0XtWmY/RJyuqyqc</id>
-  <updated>2020-04-24T00:00:00-04:00</updated>
+  <updated>2020-05-18T00:00:00-04:00</updated>
   <totalResults>43</totalResults>
   <startIndex>0</startIndex>
   <itemsPerPage>3</itemsPerPage>

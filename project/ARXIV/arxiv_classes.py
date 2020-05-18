@@ -60,20 +60,24 @@ class Arxiv_Parser:
             if entry.find('journal_ref') is not None:
                 journal = entry.find('journal_ref').text
             else:
-                journal = "Not Specified"
+                journal = "NONE"
             if entry.find('doi') is not None:
                 doi = entry.find('doi').text
             else:
-                doi = "Not Specified"
+                doi = "NONE"
+            list_of_authors = list()
 
             authors = entry.findall('author')
+            for el in authors:
+                list_of_authors.append(el.find('name').text)
             number_of_authors = len(authors)
 
             single_result_dict = {
-                "Title": entry.find('title').text,
-                "ID": entry.find('id').text,
+                "Authors": list_of_authors,
                 "Date_Published": entry.find('published').text,
                 "Last_Update": entry.find('updated').text,
+                "Title": entry.find('title').text,
+                "ID": entry.find('id').text.replace("http://arxiv.org/abs/",''),
                 "DOI": doi,
                 "Journal": journal,
                 "Num_Of_Authors": number_of_authors}
@@ -157,5 +161,11 @@ class Arxiv_Parser:
             for dic in self.list_of_dicts:
                 items = dic.items()
                 for el in items:
-                    f.write(str(el[0]) + ": " + str(el[1]) + '\n')
+                    if el[0] == 'Authors':
+                        f.write(str(el[0] + ": \n "))
+                        for x in el[1]:
+                            f.write(str(x))
+                        f.write('\n\n')
+                    else:
+                        f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')
                 f.write('\n')

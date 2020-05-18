@@ -4,6 +4,7 @@ import sys
 from urllib.request import urlopen
 from collections import defaultdict
 
+
 class Hep_Helper:
     def __init__(self):
         # change for more outputs
@@ -19,7 +20,8 @@ class Hep_Helper:
         format = "recjson"
 
         url = "https://old.inspirehep.net/search?p=" + command_string + "&of=" + format + \
-            "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,&rg=" + self.CONST_QUERY_RESULTS
+            "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,publication_info,&rg=" + \
+            self.CONST_QUERY_RESULTS
 
         # "&ot=creator,creation_date,title,doi,primary_report_number,number_of_citations,reference,recid"
 
@@ -50,22 +52,37 @@ class Hep_Parser:
         self.data = json.loads(source)
 
         for dic in self.data:
+
+            list_of_authors = list()
+
             dict_single_result = dict()
+            journal = ""
             number_of_authors = len(dic['authors'])
             # Handle api error outputing DOI twice
 
             if dic['doi'] is None:
-                dic['doi'] = 'DOI not specified'
+                dic['doi'] = 'NONE'
             elif isinstance(dic['doi'], list):
                 dic['doi'] = dic['doi'][0]
 
+            if dic['publication_info'] is None:
+                journal = "NONE"
+            elif dic['publication_info']['reference'] is None:
+                journal = "NONE"
+            else:
+                journal = dic['publication_info']['reference']
+                
+            for a in dic['authors']:
+                list_of_authors.append(a['full_name'])
+
             dict_single_result = {
                 'Creation_date': dic['creation_date'],
-                'Creator_name': dic['creator']['full_name'],
+                'Authors': list_of_authors,
                 'Title': dic['title']['title'],
                 'Arxiv_ID': dic['primary_report_number'],
                 'DOI': dic['doi'],
                 'Citations': dic['number_of_citations'],
+                'Journal': journal,
                 'Num_Of_Authors': number_of_authors}
 
             self.list_of_dicts.append(dict_single_result)
@@ -98,5 +115,11 @@ class Hep_Parser:
             for dic in self.list_of_dicts:
                 items = dic.items()
                 for el in items:
-                    f.write(str(el[0]) + ": " + str(el[1]) + '\n')
+                    if el[0] == 'Authors':
+                        f.write(str(el[0] + ": \n "))
+                        for x in el[1]:
+                            f.write(str(x))
+                        f.write('\n\n')
+                    else:
+                        f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')
                 f.write('\n')

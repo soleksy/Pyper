@@ -4,6 +4,7 @@ import sys
 import argparse
 from ARXIV.arxiv_classes import Arxiv_Helper, Arxiv_Parser
 from HEP.hep_classes import Hep_Helper, Hep_Parser
+from MULTI.multi_classes import MultiSearch
 
 
 def main():
@@ -15,6 +16,61 @@ def main():
 
     parser_HEP = subparsers.add_parser('HEP', help="Search HEP databse")
     parser_ARXIV = subparsers.add_parser('ARXIV', help="Search Arxiv database")
+    parser_MULTI = subparsers.add_parser(
+        'MULTI', help="Search multiple databases")
+
+    #-----------------------MULTI SEARCH ARGUMENTS-----------------------#
+    parser_MULTI.add_argument(
+        "-a",
+        required=False,
+        help="Adds the name/s of the author/s to the query.",
+        type=str
+    )
+    parser_MULTI.add_argument(
+        "-t",
+        required=False,
+        help="Addds the title or its part to the search query",
+        type=str
+    )
+
+    parser_MULTI.add_argument(
+        "-d",
+        required=False,
+        help="Adds date ranges to the multi search query",
+        type=str
+    )
+
+    parser_MULTI.add_argument(
+        "-arxiv",
+        required=False,
+        help="Addds the arxiv id to the query",
+        type=str
+    )
+    parser_MULTI.add_argument(
+        "-doi",
+        required=False,
+        help="Adds the document id to the query",
+        type=str
+    )
+    parser_MULTI.add_argument(
+        "-j",
+        required=False,
+        help="Adds journal reference to the query",
+        type=str
+    )
+    parser_MULTI.add_argument(
+        "-out",
+        required=True,
+        help="Add file name for the output to be written into",
+        type=str
+    )
+    parser_MULTI.add_argument(
+        "-sort",
+        required=False,
+        help="Sort by: date or title",
+        type=str,
+        choices=['date', 'title']
+    )
 
     #----------------------------HEP ARGUMENTS---------------------------#
     # Add author to the query
@@ -30,6 +86,7 @@ def main():
         required=False,
         help="Query will include only the exact name of the author",
         type=str)
+
     # Add Collaboration to the query
     parser_HEP.add_argument(
         "-cn",
@@ -43,36 +100,42 @@ def main():
         required=False,
         help="Adds title of the paper to the query",
         type=str)
+
     # Add Eprint to the query
     parser_HEP.add_argument(
         "-arxiv",
         required=False,
         help="Adds eprint to the query",
         type=str)
+
     # Add Record ID to the query
     parser_HEP.add_argument(
         "-recid",
         required=False,
         help="Adds record id to the query",
         type=str)
+
     # Specify Date ranges for the query
     parser_HEP.add_argument(
         "-d",
         required=False,
         help="Specify date range for the query. Examples : -d 2018+ ,-d 2000- ,-d 1980->1982",
         type=str)
+
     # Add DOI to the query
     parser_HEP.add_argument(
         "-doi",
         required=False,
         help="Add Digital Object Identifier to the query",
         type=str)
+
     # Add journal reference to the query
     parser_HEP.add_argument(
         "-j",
         required=False,
         help="If you’d like to stay up to date with publications of a specific journal, then a search by journal will be helpful ex: -j Physics.Rev.D",
         type=str)
+
     # Add Type-Code to the query
     parser_HEP.add_argument(
         "-tc",
@@ -103,7 +166,7 @@ def main():
     # Write result to given output buffer
     parser_HEP.add_argument(
         "-out",
-        required=False,
+        required=True,
         help="Show the query output: cmd->show in terminal, 'filename.txt'->write contents to the file named 'filename.txt'",
         type=str,
     )
@@ -150,8 +213,8 @@ def main():
     )
     #-------------------------GENERAL ARXIV ARGUMENTS--------------------------#
     parser_ARXIV.add_argument(
-        "-file",
-        required=False,
+        "-out",
+        required=True,
         help="write contents to file(in testing)",
         type=str,
     )
@@ -171,41 +234,74 @@ def main():
         type=str,
     )
     #---------------------------PARSER SELECTION------------------------------#
+    HEP = False
+    ARXIV = False
+    WOS = False
+    MULTISEARCH = False
 
     Selected_Parser = ""
     args = parser.parse_args()
     Selected_Parser = sys.argv[1]
 
-    #--------------------------------HEP--------------------------------------#
     if Selected_Parser == "HEP":
+        HEP = True
+    elif Selected_Parser == "ARXIV":
+        ARXIV = True
+    elif Selected_Parser == "WOS":
+        WOS = True
+    elif Selected_Parser == "MULTI":
+        HEP = True
+        ARXIV = True
+        WOS = True
+
+    #--------------------------------HEP--------------------------------------#
+    if HEP:
         hep_helper = Hep_Helper()
         commands = ""
         json_as_string = ""
 
-        hep_args = parser_HEP.parse_args(args=sys.argv[2:])
-        hep_params = [
-            ("author",
-             hep_args.a),
-            ("exactauthor",
-             hep_args.ea),
-            ("collaboration",
-             hep_args.cn),
-            ("title",
-             hep_args.t),
-            ("arxiv",
-             hep_args.arxiv),
-            ("recid",
-             hep_args.recid),
-            ("date",
-             hep_args.d),
-            ("type-code",
-             hep_args.tc),
-            ("topcite",
-             hep_args.topcite),
-            ("doi",
-             hep_args.doi),
-            ("journal",
-             hep_args.j)]
+        if Selected_Parser == "MULTI":
+            hep_args = parser_MULTI.parse_args(args=sys.argv[2:])
+            hep_params = [
+                ("author",
+                 hep_args.a),
+                ("title",
+                 hep_args.t),
+                ("date",
+                 hep_args.d),
+                ("arxiv",
+                 hep_args.arxiv),
+                ("doi",
+                 hep_args.doi),
+                ("journal",
+                 hep_args.j)
+            ]
+        else:
+
+            hep_args = parser_HEP.parse_args(args=sys.argv[2:])
+            hep_params = [
+                ("author",
+                 hep_args.a),
+                ("exactauthor",
+                 hep_args.ea),
+                ("collaboration",
+                 hep_args.cn),
+                ("title",
+                 hep_args.t),
+                ("arxiv",
+                 hep_args.arxiv),
+                ("recid",
+                 hep_args.recid),
+                ("date",
+                 hep_args.d),
+                ("type-code",
+                 hep_args.tc),
+                ("topcite",
+                 hep_args.topcite),
+                ("doi",
+                 hep_args.doi),
+                ("journal",
+                 hep_args.j)]
 
         def isNotNone(x): return x[1] is not None
 
@@ -231,43 +327,30 @@ def main():
             source = hep_helper.get_source(url)
 
             hep_parser = Hep_Parser(source)
-        #-----------------------GENERAL ARGUMENTS HEP--------------------------#
-        if hep_args.out is None:
-            print("Your output has been written into 'HEP_OUTPUT.json'")
-
-        elif hep_args.out == 'cmd':
-            if hep_args.sort is not None:
-                hep_parser.sort_by(hep_args.sort)
-                hep_parser.show()
-
-            else:
-                hep_parser.show()
-        else:
-            if hep_args.sort is not None:
-                hep_parser.sort_by(hep_args.sort)
-
-                hep_parser.write(hep_args.out)
-                print("Your output has been written into " + hep_args.out)
-            else:
-                hep_parser.write(hep_args.out)
-                print("Your output has been written into " + hep_args.out)
     #-------------------------------ARXIV------------------------------------#
-    elif Selected_Parser == "ARXIV":
+    if ARXIV:
 
         arx_helper = Arxiv_Helper()
-
-        arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
-
         query_url = ""
         data = ""
 
-        arx_params_list = [
-            ("au", arx_args.a),
-            ("ti", arx_args.t),
-            ("jr", arx_args.j),
-            ("id_list", arx_args.id),
-            ("ALL", arx_args.ALL)
-        ]
+        if Selected_Parser == "MULTI":
+            arx_args = parser_MULTI.parse_args(args=sys.argv[2:])
+            arx_params_list = [
+                ("au", arx_args.a),
+                ("ti", arx_args.t),
+                ("jr", arx_args.j),
+                ("id_list", arx_args.arxiv),
+            ]
+        else:
+            arx_args = parser_ARXIV.parse_args(args=sys.argv[2:])
+            arx_params_list = [
+                ("au", arx_args.a),
+                ("ti", arx_args.t),
+                ("jr", arx_args.j),
+                ("id_list", arx_args.id),
+                ("ALL", arx_args.ALL)
+            ]
 
         def isNotNone(x): return x[1] is not None
 
@@ -276,11 +359,12 @@ def main():
         if len(filtered_params) == 0:
             print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
             return -1
+        if Selected_Parser == "MULTI":
+            query_url = arx_helper.params_to_url(filtered_params)
 
         elif arx_args.ALL is not None:
             # Run Query for all parameters
             query_url = arx_helper.all_param(arx_args.ALL)
-
         else:
             # Run Query for specific parameters
             query_url = arx_helper.params_to_url(filtered_params)
@@ -299,16 +383,40 @@ def main():
 
         arx_parser.parse_xml()
 
-        if arx_args.range is not None:
-            if arx_parser.filter_range(arx_args.range) == -1:
-                return
+        #----------------SECTION FOR MULTISEARCH COMPARISONS-------------------#
+        MS = MultiSearch(hep_parser, arx_parser)
+        MS.compare()  # compare results of every passed database object
 
-        if arx_args.sort is not None:
-            arx_parser.sort_by(arx_args.sort)
+        #------------------SECTION FOR FILE OUTPUT HANDLING--------------------#
+        if Selected_Parser == "MULTI":
 
-        if arx_args.file is not None:
-            arx_parser.write(arx_args.file)
-        arx_parser.show()
+            if arx_args.sort is not None:
+                arx_parser.sort_by(arx_args.sort)
+
+            if arx_args.out is not None:
+                arx_parser.write("arx" + arx_args.out)
+            
+
+        else:
+            if arx_args.range is not None:
+                if arx_parser.filter_range(arx_args.range) == -1:
+                    return
+            if arx_args.sort is not None:
+                arx_parser.sort_by(arx_args.sort)
+
+            if arx_args.out is not None:
+                arx_parser.write("arx" + arx_args.out)
+            
+        #-----------------------HEP OUTPUT HANDLING----------------------------#
+
+        if hep_args.sort is not None:
+            hep_parser.sort_by(hep_args.sort)
+
+            hep_parser.write(hep_args.out)
+            print("Your output has been written into " + hep_args.out)
+        else:
+            hep_parser.write(hep_args.out)
+            print("Your output has been written into " + hep_args.out)
 
 
 if __name__ == "__main__":
