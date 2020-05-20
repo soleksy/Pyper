@@ -6,7 +6,7 @@ from xml.etree import ElementTree as ET
 
 class Arxiv_Helper:
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "3"
+        self.CONST_QUERY_RESULTS = "500"
 
     def url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -45,7 +45,7 @@ class Arxiv_Parser:
         single_result_dict = {}
         journal = ""
         doi = ""
-
+        ID = ''
         with open(self.filename, 'r') as file:
             root = ET.fromstring(file.read())
 
@@ -60,11 +60,11 @@ class Arxiv_Parser:
             if entry.find('journal_ref') is not None:
                 journal = entry.find('journal_ref').text
             else:
-                journal = "NONE"
+                journal = None
             if entry.find('doi') is not None:
                 doi = entry.find('doi').text
             else:
-                doi = "NONE"
+                doi = None
             list_of_authors = list()
 
             authors = entry.findall('author')
@@ -72,12 +72,16 @@ class Arxiv_Parser:
                 list_of_authors.append(el.find('name').text)
             number_of_authors = len(authors)
 
+            if entry.find('id').text is not None:
+                ID = entry.find('id').text
+                ID = ID[:-2]
+
             single_result_dict = {
                 "Authors": list_of_authors,
                 "Date_Published": entry.find('published').text,
                 "Last_Update": entry.find('updated').text,
                 "Title": entry.find('title').text,
-                "ID": entry.find('id').text.replace("http://arxiv.org/abs/",''),
+                "ID": ID.replace("http://arxiv.org/abs/",''),
                 "DOI": doi,
                 "Journal": journal,
                 "Num_Of_Authors": number_of_authors}

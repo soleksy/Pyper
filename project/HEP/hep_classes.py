@@ -8,7 +8,7 @@ from collections import defaultdict
 class Hep_Helper:
     def __init__(self):
         # change for more outputs
-        self.CONST_QUERY_RESULTS = "3"
+        self.CONST_QUERY_RESULTS = "500"
 
     def hep_url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -54,32 +54,36 @@ class Hep_Parser:
         for dic in self.data:
 
             list_of_authors = list()
-
+            ID = ''
             dict_single_result = dict()
             journal = ""
             number_of_authors = len(dic['authors'])
             # Handle api error outputing DOI twice
 
             if dic['doi'] is None:
-                dic['doi'] = 'NONE'
+                dic['doi'] =  None
             elif isinstance(dic['doi'], list):
                 dic['doi'] = dic['doi'][0]
 
             if dic['publication_info'] is None:
-                journal = "NONE"
-            elif dic['publication_info']['reference'] is None:
-                journal = "NONE"
+                journal = None
             else:
-                journal = dic['publication_info']['reference']
+                journal = dic['publication_info'].get('reference',None)
                 
             for a in dic['authors']:
                 list_of_authors.append(a['full_name'])
+            
+            if dic['primary_report_number'] is None:
+                ID = None
+            else:
+                ID = dic['primary_report_number'].replace('arXiv:','')
 
             dict_single_result = {
-                'Creation_date': dic['creation_date'],
+                
                 'Authors': list_of_authors,
+                'Date_Published': dic['creation_date'],
                 'Title': dic['title']['title'],
-                'Arxiv_ID': dic['primary_report_number'],
+                'ID': ID,
                 'DOI': dic['doi'],
                 'Citations': dic['number_of_citations'],
                 'Journal': journal,
@@ -118,7 +122,7 @@ class Hep_Parser:
                     if el[0] == 'Authors':
                         f.write(str(el[0] + ": \n "))
                         for x in el[1]:
-                            f.write(str(x))
+                            f.write(str(x)+" ,")
                         f.write('\n\n')
                     else:
                         f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')

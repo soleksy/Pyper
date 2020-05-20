@@ -1,4 +1,5 @@
-#!/home/solesky/anaconda3/bin/python
+#!/home/linuxuser/anaconda3/bin/python
+
 
 import sys
 import argparse
@@ -20,6 +21,18 @@ def main():
         'MULTI', help="Search multiple databases")
 
     #-----------------------MULTI SEARCH ARGUMENTS-----------------------#
+    parser_MULTI.add_argument(
+        "-ARXIV",
+        required=False,
+        help="Search in ARXIV database",
+        action='store_true'
+    )
+    parser_MULTI.add_argument(
+        "-HEP",
+        required=False,
+        help="Search in HEP database",
+        action='store_true'
+    )
     parser_MULTI.add_argument(
         "-a",
         required=False,
@@ -211,6 +224,12 @@ def main():
         help="Add journal reference to the query",
         type=str,
     )
+    parser_ARXIV.add_argument(
+        "-doi",
+        required=False,
+        help="Add doi to the query",
+        type=str,
+    )
     #-------------------------GENERAL ARXIV ARGUMENTS--------------------------#
     parser_ARXIV.add_argument(
         "-out",
@@ -234,6 +253,7 @@ def main():
         type=str,
     )
     #---------------------------PARSER SELECTION------------------------------#
+    MS_dict = dict()
     HEP = False
     ARXIV = False
     WOS = False
@@ -250,9 +270,13 @@ def main():
     elif Selected_Parser == "WOS":
         WOS = True
     elif Selected_Parser == "MULTI":
-        HEP = True
+        multi_args = parser_MULTI.parse_args(args=sys.argv[2:])
+        #For now by default both databases are set to true since there are only 2 and it makes no sense to use Mult-search to look in one database.
+        #if multi_args.ARXIV == True:
         ARXIV = True
-        WOS = True
+        #if multi_args.HEP == True:
+        HEP = True
+
 
     #--------------------------------HEP--------------------------------------#
     if HEP:
@@ -327,6 +351,8 @@ def main():
             source = hep_helper.get_source(url)
 
             hep_parser = Hep_Parser(source)
+
+            
     #-------------------------------ARXIV------------------------------------#
     if ARXIV:
 
@@ -340,6 +366,7 @@ def main():
                 ("au", arx_args.a),
                 ("ti", arx_args.t),
                 ("jr", arx_args.j),
+                ("doi", arx_args.doi),
                 ("id_list", arx_args.arxiv),
             ]
         else:
@@ -348,6 +375,7 @@ def main():
                 ("au", arx_args.a),
                 ("ti", arx_args.t),
                 ("jr", arx_args.j),
+                ("doi", arx_args.doi),
                 ("id_list", arx_args.id),
                 ("ALL", arx_args.ALL)
             ]
@@ -357,8 +385,9 @@ def main():
         filtered_params = list(filter(isNotNone, arx_params_list))
 
         if len(filtered_params) == 0:
-            print("Please add at least one parameter to the query type ARXIV -h for more information on possible query parameters")
+            print("Please choose at least one parameter for the query type -h for more information on query options")
             return -1
+
         if Selected_Parser == "MULTI":
             query_url = arx_helper.params_to_url(filtered_params)
 
@@ -368,7 +397,6 @@ def main():
         else:
             # Run Query for specific parameters
             query_url = arx_helper.params_to_url(filtered_params)
-
         file_to_parse_arxiv = 'data/ARXIV_OUTPUT.xml'
 
         # Load api result to file
@@ -376,47 +404,54 @@ def main():
 
         # Initialize Arxiv Parser
         arx_parser = Arxiv_Parser(file_to_parse_arxiv)
-
+        
         # Load , standarize and save data
 
         arx_parser.standarize_xml_file()
 
         arx_parser.parse_xml()
 
-        #----------------SECTION FOR MULTISEARCH COMPARISONS-------------------#
-        MS = MultiSearch(hep_parser, arx_parser)
-        MS.compare()  # compare results of every passed database object
+    #------------------SECTION FOR FILE OUTPUT HANDLING--------------------#
+    
+    #--------------------------------ARXIV---------------------------------#
+    if ARXIV == True and Selected_Parser != "MULTI":
+        if arx_args.range is not None:
+            if arx_parser.filter_range(arx_args.range) == -1:
+                return
+        if arx_args.sort is not None:
+            arx_parser.sort_by(arx_args.sort)
+        if arx_args.out is not None:
+            arx_parser.write("arx" + arx_args.out)
+            print("Your query result has been written to the " + arx_args.out)
 
-        #------------------SECTION FOR FILE OUTPUT HANDLING--------------------#
-        if Selected_Parser == "MULTI":
-
-            if arx_args.sort is not None:
-                arx_parser.sort_by(arx_args.sort)
-
-            if arx_args.out is not None:
-                arx_parser.write("arx" + arx_args.out)
-            
-
-        else:
-            if arx_args.range is not None:
-                if arx_parser.filter_range(arx_args.range) == -1:
-                    return
-            if arx_args.sort is not None:
-                arx_parser.sort_by(arx_args.sort)
-
-            if arx_args.out is not None:
-                arx_parser.write("arx" + arx_args.out)
-            
-        #-----------------------HEP OUTPUT HANDLING----------------------------#
-
+    #-------------------------------HEP------------------------------------#
+    if HEP == True and Selected_Parser != "MULTI":
         if hep_args.sort is not None:
             hep_parser.sort_by(hep_args.sort)
-
             hep_parser.write(hep_args.out)
-            print("Your output has been written into " + hep_args.out)
+            print("Your query result has been written to the " + hep_args.out)
         else:
             hep_parser.write(hep_args.out)
-            print("Your output has been written into " + hep_args.out)
+            print("Your query result has been written to the " + hep_args.out)
+
+    #----------------SECTION FOR MULTISEARCH COMPARISONS-------------------#
+    if Selected_Parser =="MULTI":
+        if HEP == True:
+            MS_dict["HEP"] = hep_parser
+        else:
+            MS_dict["HEP"] = None
+    
+        if ARXIV == True:
+            MS_dict["ARXIV"] = arx_parser
+        else:
+            MS_dict["ARXIV"] = None
+
+        MS = MultiSearch(MS_dict)
+        multi_args = parser_MULTI.parse_args(args=sys.argv[2:])
+        # compare results of every passed database object
+        MS.write(multi_args.out)
+        print("Your query has been written to the " + multi_args.out)
+    
 
 
 if __name__ == "__main__":
