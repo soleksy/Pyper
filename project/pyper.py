@@ -1,14 +1,31 @@
-#!/home/linuxuser/anaconda3/bin/python
-
+#!/usr/local/bin/python
 
 import sys
+from datetime import datetime
+import json
 import argparse
+import subprocess
 from ARXIV.arxiv_classes import Arxiv_Helper, Arxiv_Parser
 from HEP.hep_classes import Hep_Helper, Hep_Parser
 from MULTI.multi_classes import MultiSearch
 
 
 def main():
+
+    #LOAD CONFIGURATION FILE OPTIONS
+
+    ARX_OUTPUTS = ""
+    HEP_OUTPUTS = ""
+    MULTI_OUTPUTS = ""
+    NAME_FILES_CURRENT_DATES = 0
+
+    with open("config.json") as f:
+        conf_data = json.load(f)
+        ARX_OUTPUTS = conf_data["ARXIV_OUTPUT_FOLDER"]
+        HEP_OUTPUTS =  conf_data["HEP_OUTPUT_FOLDER"]
+        MULTI_OUTPUTS = conf_data["MULTI_OUTPUT_FOLDER"]
+        NAME_FILES_CURRENT_DATES = conf_data["NAME_FILES_CURRENT_DATES"]
+    
 
     parser = argparse.ArgumentParser()
 
@@ -19,7 +36,16 @@ def main():
     parser_ARXIV = subparsers.add_parser('ARXIV', help="Search Arxiv database")
     parser_MULTI = subparsers.add_parser(
         'MULTI', help="Search multiple databases")
+    parser_CONFIG = subparsers.add_parser('CONFIG' , help = "Modify the current state of configuration file")
 
+    #-----------------------CONFIG ARGUMENTS-----------------------------#
+    parser_CONFIG.add_argument(
+        "-edit",
+        required=False,
+        help="Edit the current state of the configuration file",
+        action="store_true"
+    )
+    
     #-----------------------MULTI SEARCH ARGUMENTS-----------------------#
     parser_MULTI.add_argument(
         "-ARXIV",
@@ -52,7 +78,6 @@ def main():
         help="Adds date ranges to the multi search query",
         type=str
     )
-
     parser_MULTI.add_argument(
         "-arxiv",
         required=False,
@@ -71,12 +96,14 @@ def main():
         help="Adds journal reference to the query",
         type=str
     )
-    parser_MULTI.add_argument(
-        "-out",
-        required=True,
-        help="Add file name for the output to be written into",
-        type=str
-    )
+    if NAME_FILES_CURRENT_DATES == 0:
+        parser_MULTI.add_argument(
+            "-file",
+            required=True,
+            help="Add file name for the output to be written into",
+            type=str
+        )
+    
     parser_MULTI.add_argument(
         "-sort",
         required=False,
@@ -177,12 +204,13 @@ def main():
     )
     #-------------------------GENERAL HEP ARGUMENTS---------------------------#
     # Write result to given output buffer
-    parser_HEP.add_argument(
-        "-out",
-        required=True,
-        help="Show the query output: cmd->show in terminal, 'filename.txt'->write contents to the file named 'filename.txt'",
-        type=str,
-    )
+    if NAME_FILES_CURRENT_DATES == 0:
+        parser_HEP.add_argument(
+            "-file",
+            required=True,
+            help="Show the query output: cmd->show in terminal, 'filename.txt'->write contents to the file named 'filename.txt'",
+            type=str,
+        )
 
     parser_HEP.add_argument(
         "-sort",
@@ -231,12 +259,13 @@ def main():
         type=str,
     )
     #-------------------------GENERAL ARXIV ARGUMENTS--------------------------#
-    parser_ARXIV.add_argument(
-        "-out",
-        required=True,
-        help="write contents to file(in testing)",
-        type=str,
-    )
+    if NAME_FILES_CURRENT_DATES == 0:
+        parser_ARXIV.add_argument(
+            "-file",
+            required=True,
+            help="Write contents to file",
+            type=str,
+        )
     parser_ARXIV.add_argument(
         "-sort",
         required=False,
@@ -256,7 +285,7 @@ def main():
     MS_dict = dict()
     HEP = False
     ARXIV = False
-    WOS = False
+    CONFIG = False
     MULTISEARCH = False
 
     Selected_Parser = ""
@@ -267,8 +296,8 @@ def main():
         HEP = True
     elif Selected_Parser == "ARXIV":
         ARXIV = True
-    elif Selected_Parser == "WOS":
-        WOS = True
+    elif Selected_Parser == "CONFIG":
+        CONFIG = True
     elif Selected_Parser == "MULTI":
         multi_args = parser_MULTI.parse_args(args=sys.argv[2:])
         #For now by default both databases are set to true since there are only 2 and it makes no sense to use Mult-search to look in one database.
@@ -279,6 +308,11 @@ def main():
 
 
     #--------------------------------HEP--------------------------------------#
+    if CONFIG:
+        conf_args = parser_CONFIG.parse_args(args=sys.argv[2:])
+        
+        if conf_args.edit is not None:
+            subprocess.run(args=["vim" , "config.json"])
     if HEP:
         hep_helper = Hep_Helper()
         commands = ""
@@ -345,8 +379,7 @@ def main():
             # Ensure any possible mistakes by the user are properly encoded.
             commands = hep_helper.hep_url_encode(commands)
             # Generate URL
-            url = hep_helper.hep_url_generator(commands,
-                                               hep_args.out)
+            url = hep_helper.hep_url_generator(commands,"recjson")
             # Retrieve the data from url
             source = hep_helper.get_source(url)
 
@@ -420,19 +453,29 @@ def main():
                 return
         if arx_args.sort is not None:
             arx_parser.sort_by(arx_args.sort)
-        if arx_args.out is not None:
-            arx_parser.write("arx" + arx_args.out)
-            print("Your query result has been written to the " + arx_args.out)
+
+
+
+        if NAME_FILES_CURRENT_DATES == 1:
+            arx_parser.write(ARX_OUTPUTS + str(datetime.now()) + ".txt")
+            print("Your query result has been written to the " + ARX_OUTPUTS + str(datetime.now()) + ".txt")
+        else:
+            arx_parser.write(ARX_OUTPUTS + arx_args.file)
+            print("Your query result has been written to the " + ARX_OUTPUTS + arx_args.file)
+
 
     #-------------------------------HEP------------------------------------#
     if HEP == True and Selected_Parser != "MULTI":
         if hep_args.sort is not None:
             hep_parser.sort_by(hep_args.sort)
-            hep_parser.write(hep_args.out)
-            print("Your query result has been written to the " + hep_args.out)
+
+        if NAME_FILES_CURRENT_DATES == 1:
+            hep_parser.write(HEP_OUTPUTS + str(datetime.now())  + ".txt")
+            print("Your query result has been written to the " + HEP_OUTPUTS + str(datetime.now()) + ".txt")
         else:
-            hep_parser.write(hep_args.out)
-            print("Your query result has been written to the " + hep_args.out)
+            hep_parser.write(HEP_OUTPUTS + hep_args.file)
+            print("Your query result has been written to the " + HEP_OUTPUTS + hep_args.file)
+        
 
     #----------------SECTION FOR MULTISEARCH COMPARISONS-------------------#
     if Selected_Parser =="MULTI":
@@ -449,8 +492,12 @@ def main():
         MS = MultiSearch(MS_dict)
         multi_args = parser_MULTI.parse_args(args=sys.argv[2:])
         # compare results of every passed database object
-        MS.write(multi_args.out)
-        print("Your query has been written to the " + multi_args.out)
+        if NAME_FILES_CURRENT_DATES == 1:
+            MS.write(MULTI_OUTPUTS + str(datetime.now())  + ".txt")
+            print("Your query result has been written to the " + MULTI_OUTPUTS + str(datetime.now()) + ".txt")
+        else:
+            MS.write(MULTI_OUTPUTS + multi_args.file)
+            print("Your query has been written to the " + MULTI_OUTPUTS  + multi_args.file)
     
 
 

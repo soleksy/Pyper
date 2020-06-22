@@ -2,255 +2,22 @@
   {
     "": null,
     "doi": null,
-    "number_of_citations": 0,
+    "number_of_citations": 5,
     "creator": {
-      "first_name": "Wojciech",
-      "last_name": "Krzemien",
-      "full_name": "Krzemien, Wojciech"
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
     },
     "title": {
-      "title": "J-PET Framework: Software platform for PET tomography data reconstruction and analysis"
+      "title": "Searching for a Black Hole in the Outer Solar System"
     },
-    "creation_date": "2020-02-25T04:44:06",
-    "primary_report_number": "arXiv:2002.10183",
+    "creation_date": "2020-04-30T14:28:37",
+    "primary_report_number": "arXiv:2004.14192",
     "authors": [
       {
-        "first_name": "Wojciech",
-        "last_name": "Krzemien",
-        "full_name": "Krzemien, Wojciech"
-      },
-      {
-        "first_name": "Aleksander",
-        "last_name": "Gajos",
-        "full_name": "Gajos, Aleksander"
-      },
-      {
-        "first_name": "Krzysztof",
-        "last_name": "Kacprzak",
-        "full_name": "Kacprzak, Krzysztof"
-      },
-      {
-        "first_name": "Kamil",
-        "last_name": "Rakoczy",
-        "full_name": "Rakoczy, Kamil"
-      },
-      {
-        "first_name": "Grzegorz",
-        "last_name": "Korcyl",
-        "full_name": "Korcyl, Grzegorz"
-      }
-    ],
-    "publication_info": null
-  },
-  {
-    "": null,
-    "doi": null,
-    "number_of_citations": 1,
-    "creator": {
-      "first_name": "S.",
-      "last_name": "Sharma",
-      "full_name": "Sharma, S."
-    },
-    "title": {
-      "title": "Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner"
-    },
-    "creation_date": "2019-11-28T04:50:15",
-    "primary_report_number": "arXiv:1911.12059",
-    "authors": [
-      {
-        "first_name": "S.",
-        "last_name": "Sharma",
-        "full_name": "Sharma, S."
-      },
-      {
-        "first_name": "J.",
-        "last_name": "Chhokar",
-        "full_name": "Chhokar, J."
-      },
-      {
-        "first_name": "C.",
-        "last_name": "Curceanu",
-        "full_name": "Curceanu, C."
-      },
-      {
-        "first_name": "E.",
-        "last_name": "Czerwinski",
-        "full_name": "Czerwinski, E."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Dadgar",
-        "full_name": "Dadgar, M."
-      },
-      {
-        "first_name": "K.",
-        "last_name": "Dulski",
-        "full_name": "Dulski, K."
-      },
-      {
-        "first_name": "J.",
-        "last_name": "Gajewski",
-        "full_name": "Gajewski, J."
-      },
-      {
-        "first_name": "A.",
-        "last_name": "Gajos",
-        "full_name": "Gajos, A."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Gorgol",
-        "full_name": "Gorgol, M."
-      },
-      {
-        "first_name": "N.",
-        "last_name": "Gupta-Sharma",
-        "full_name": "Gupta-Sharma, N."
-      },
-      {
-        "first_name": "R.",
-        "last_name": "Del Grande",
-        "full_name": "Del Grande, R."
-      },
-      {
-        "first_name": "B.C.",
-        "last_name": "Hiesmayr",
-        "full_name": "Hiesmayr, B.C."
-      },
-      {
-        "first_name": "B.",
-        "last_name": "Jasinska",
-        "full_name": "Jasinska, B."
-      },
-      {
-        "first_name": "K.",
-        "last_name": "Kacprzak",
-        "full_name": "Kacprzak, K."
-      },
-      {
-        "first_name": "L.",
-        "last_name": "Kaplon",
-        "full_name": "Kaplon, L."
-      },
-      {
-        "first_name": "H.",
-        "last_name": "Karimi",
-        "full_name": "Karimi, H."
-      },
-      {
-        "first_name": "D.",
-        "last_name": "Kisielewska",
-        "full_name": "Kisielewska, D."
-      },
-      {
-        "first_name": "K.",
-        "last_name": "Klimaszewski",
-        "full_name": "Klimaszewski, K."
-      },
-      {
-        "first_name": "G.",
-        "last_name": "Korcyl",
-        "full_name": "Korcyl, G."
-      },
-      {
-        "first_name": "P.",
-        "last_name": "Kowalski",
-        "full_name": "Kowalski, P."
-      },
-      {
-        "first_name": "T.",
-        "last_name": "Kozik",
-        "full_name": "Kozik, T."
-      },
-      {
-        "first_name": "N.",
-        "last_name": "Krawczyk",
-        "full_name": "Krawczyk, N."
-      },
-      {
-        "first_name": "W.",
-        "last_name": "Krzemien",
-        "full_name": "Krzemien, W."
-      },
-      {
-        "first_name": "E.",
-        "last_name": "Kubicz",
-        "full_name": "Kubicz, E."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Mohammed",
-        "full_name": "Mohammed, M."
-      },
-      {
-        "first_name": "Sz.",
-        "last_name": "Niedzwiecki",
-        "full_name": "Niedzwiecki, Sz."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Palka",
-        "full_name": "Palka, M."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Pawlik-Niedzwiecka",
-        "full_name": "Pawlik-Niedzwiecka, M."
-      },
-      {
-        "first_name": "L.",
-        "last_name": "Raczynski",
-        "full_name": "Raczynski, L."
-      },
-      {
-        "first_name": "J.",
-        "last_name": "Raj",
-        "full_name": "Raj, J."
-      },
-      {
-        "first_name": "A.",
-        "last_name": "Rucinski",
-        "full_name": "Rucinski, A."
-      },
-      {
-        "first_name": "",
-        "last_name": "Shivani",
-        "full_name": "Shivani"
-      },
-      {
-        "first_name": "R.Y.",
-        "last_name": "Shopa",
-        "full_name": "Shopa, R.Y."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Silarski",
-        "full_name": "Silarski, M."
-      },
-      {
-        "first_name": "M.",
-        "last_name": "Skurzok",
-        "full_name": "Skurzok, M."
-      },
-      {
-        "first_name": "E.L.",
-        "last_name": "Stepien",
-        "full_name": "Stepien, E.L."
-      },
-      {
-        "first_name": "W.",
-        "last_name": "Wislicki",
-        "full_name": "Wislicki, W."
-      },
-      {
-        "first_name": "B.",
-        "last_name": "Zgardzinska",
-        "full_name": "Zgardzinska, B."
-      },
-      {
-        "first_name": "P.",
-        "last_name": "Moskal",
-        "full_name": "Moskal, P."
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
       }
     ],
     "publication_info": null
@@ -258,48 +25,418 @@
   {
     "": null,
     "doi": [
-      "10.5506/APhysPolB.51.165",
-      "10.5506/APhysPolB.51.165"
+      "10.1103/PhysRevD.101.064071",
+      "10.1103/PhysRevD.101.064071"
     ],
     "number_of_citations": 1,
     "creator": {
-      "affiliation": "NCBJ, Swierk",
-      "first_name": "Wojciech",
-      "last_name": "Krzemien",
-      "full_name": "Krzemien, Wojciech"
+      "first_name": "L.",
+      "last_name": "Herrera",
+      "full_name": "Herrera, L."
     },
     "title": {
-      "title": "Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models"
+      "title": "Geodesics of the hyperbolically symmetric black hole"
     },
-    "creation_date": "2019-11-26T04:04:20",
-    "primary_report_number": "arXiv:1911.10589",
+    "creation_date": "2020-02-19T04:16:45",
+    "primary_report_number": "arXiv:2002.07586",
     "authors": [
       {
-        "affiliation": "NCBJ, Swierk",
-        "first_name": "Wojciech",
-        "last_name": "Krzemien",
-        "full_name": "Krzemien, Wojciech"
+        "first_name": "L.",
+        "last_name": "Herrera",
+        "full_name": "Herrera, L."
       },
       {
-        "affiliation": "Frascati",
-        "first_name": "Elena",
-        "last_name": "Perez del Rio",
-        "full_name": "Perez del Rio, Elena"
+        "INSPIRE_number": "INSPIRE-00470323",
+        "first_name": "A.",
+        "last_name": "Di Prisco",
+        "full_name": "Di Prisco, A."
       },
       {
-        "affiliation": "Jagiellonian U.",
-        "first_name": "Krzysztof",
-        "last_name": "Kacprzak",
-        "full_name": "Kacprzak, Krzysztof"
+        "first_name": "J.",
+        "last_name": "Ospino",
+        "full_name": "Ospino, J."
+      },
+      {
+        "INSPIRE_number": "INSPIRE-00327793",
+        "first_name": "L.",
+        "last_name": "Witten",
+        "full_name": "Witten, L."
       }
     ],
     "publication_info": {
-      "pagination": "165",
-      "reference": "Acta Phys. Pol. B 51 (2020) 165",
-      "title": "Acta Phys.Polon.",
-      "cnum": "C19-06-24",
-      "volume": "B51",
+      "volume": "D101",
+      "pagination": "064071",
+      "title": "Phys.Rev.",
+      "reference": "Phys. Rev. D 101, 064071 (2020)",
       "year": "2020"
+    }
+  },
+  {
+    "": null,
+    "doi": null,
+    "number_of_citations": 0,
+    "creator": {
+      "affiliation": "Cincinnati U.",
+      "first_name": "Richard",
+      "last_name": "Gass",
+      "full_name": "Gass, Richard"
+    },
+    "title": {
+      "title": "Do Black Holes Form?"
+    },
+    "creation_date": "2016-09-07T12:06:22",
+    "primary_report_number": [
+      "hep-th/9212034",
+      "UCTP-10-92"
+    ],
+    "authors": [
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Richard",
+        "last_name": "Gass",
+        "full_name": "Gass, Richard"
+      },
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Louis",
+        "last_name": "Witten",
+        "full_name": "Witten, Louis"
+      }
+    ],
+    "publication_info": null
+  },
+  {
+    "": null,
+    "doi": "10.1126/science.1221693",
+    "number_of_citations": 2,
+    "creator": {
+      "affiliation": "Princeton, Inst. Advanced Study",
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
+    },
+    "title": {
+      "title": "Quantum mechanics of black holes"
+    },
+    "creation_date": "2012-10-17T00:00:00",
+    "primary_report_number": null,
+    "authors": [
+      {
+        "affiliation": "Princeton, Inst. Advanced Study",
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
+      }
+    ],
+    "publication_info": {
+      "volume": "337",
+      "pagination": "538-540",
+      "title": "Science",
+      "year": "2012"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1103/PhysRevD.64.084005",
+    "number_of_citations": 32,
+    "creator": {
+      "affiliation": "Algarve U.",
+      "first_name": "Cenalo",
+      "last_name": "Vaz",
+      "full_name": "Vaz, Cenalo"
+    },
+    "title": {
+      "title": "Quantum black holes from quantum collapse"
+    },
+    "creation_date": "2001-04-05T00:00:00",
+    "primary_report_number": "gr-qc/0104017",
+    "authors": [
+      {
+        "affiliation": "Algarve U.",
+        "first_name": "Cenalo",
+        "last_name": "Vaz",
+        "full_name": "Vaz, Cenalo"
+      },
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Louis",
+        "last_name": "Witten",
+        "full_name": "Witten, Louis"
+      }
+    ],
+    "publication_info": {
+      "volume": "D64",
+      "pagination": "084005",
+      "title": "Phys.Rev.",
+      "year": "2001"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1103/PhysRevD.63.024008",
+    "number_of_citations": 34,
+    "creator": {
+      "affiliation": "Algarve U.",
+      "first_name": "Cenalo",
+      "last_name": "Vaz",
+      "full_name": "Vaz, Cenalo"
+    },
+    "title": {
+      "title": "The Quantum states and the statistical entropy of the charged black hole"
+    },
+    "creation_date": "2000-06-13T00:00:00",
+    "primary_report_number": [
+      "gr-qc/0006039",
+      "UATP-00-03"
+    ],
+    "authors": [
+      {
+        "affiliation": "Algarve U.",
+        "first_name": "Cenalo",
+        "last_name": "Vaz",
+        "full_name": "Vaz, Cenalo"
+      },
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Louis",
+        "last_name": "Witten",
+        "full_name": "Witten, Louis"
+      }
+    ],
+    "publication_info": {
+      "volume": "D63",
+      "pagination": "024008",
+      "title": "Phys.Rev.",
+      "year": "2001"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1103/PhysRevD.60.024009",
+    "number_of_citations": 48,
+    "creator": {
+      "affiliation": "Johns Hopkins U.",
+      "first_name": "Cenalo",
+      "last_name": "Vaz",
+      "full_name": "Vaz, Cenalo"
+    },
+    "title": {
+      "title": "Mass quantization of the Schwarzschild black hole"
+    },
+    "creation_date": "1998-11-19T00:00:00",
+    "primary_report_number": [
+      "gr-qc/9811062",
+      "UATP-9807"
+    ],
+    "authors": [
+      {
+        "affiliation": "Johns Hopkins U.",
+        "first_name": "Cenalo",
+        "last_name": "Vaz",
+        "full_name": "Vaz, Cenalo"
+      },
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Louis",
+        "last_name": "Witten",
+        "full_name": "Witten, Louis"
+      }
+    ],
+    "publication_info": {
+      "volume": "D60",
+      "pagination": "024009",
+      "title": "Phys.Rev.",
+      "year": "1999"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1088/1126-6708/1997/12/002",
+    "number_of_citations": 513,
+    "creator": {
+      "INSPIRE_number": "INSPIRE-00304313",
+      "affiliation": "Harvard U.",
+      "first_name": "Juan Martin",
+      "last_name": "Maldacena",
+      "full_name": "Maldacena, Juan Martin"
+    },
+    "title": {
+      "title": "Black hole entropy in M theory"
+    },
+    "creation_date": "1997-11-10T00:00:00",
+    "primary_report_number": "hep-th/9711053",
+    "authors": [
+      {
+        "INSPIRE_number": "INSPIRE-00304313",
+        "affiliation": "Harvard U.",
+        "first_name": "Juan Martin",
+        "last_name": "Maldacena",
+        "full_name": "Maldacena, Juan Martin"
+      },
+      {
+        "INSPIRE_number": "INSPIRE-00146794",
+        "affiliation": "Harvard U.",
+        "first_name": "Andrew",
+        "last_name": "Strominger",
+        "full_name": "Strominger, Andrew"
+      },
+      {
+        "INSPIRE_number": "INSPIRE-00136372",
+        "affiliation": "Princeton, Inst. Advanced Study",
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
+      }
+    ],
+    "publication_info": {
+      "volume": "9712",
+      "pagination": "002",
+      "title": "JHEP",
+      "year": "1997"
+    }
+  },
+  {
+    "": null,
+    "doi": null,
+    "number_of_citations": 18,
+    "creator": {
+      "INSPIRE_number": "INSPIRE-00136372",
+      "affiliation": "Princeton, Inst. Advanced Study",
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
+    },
+    "title": {
+      "title": "Two-dimensional string theory and black holes"
+    },
+    "creation_date": "1992-06-26T00:00:00",
+    "primary_report_number": [
+      "hep-th/9206069",
+      "IASSNS-HEP-92-24"
+    ],
+    "authors": [
+      {
+        "INSPIRE_number": "INSPIRE-00136372",
+        "affiliation": "Princeton, Inst. Advanced Study",
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
+      }
+    ],
+    "publication_info": [
+      {
+        "cnum": "C92-04-03",
+        "pagination": "126-142",
+        "talk": "Lecture given at"
+      },
+      {
+        "pagination": "126-142",
+        "reference": "#DONE:In *Mansouri, F. (ed.), Scanio, J.J. (ed.): Quantum gravity and beyond* 126-142"
+      }
+    ]
+  },
+  {
+    "": null,
+    "doi": null,
+    "number_of_citations": 6,
+    "creator": {
+      "INSPIRE_number": "INSPIRE-00136372",
+      "affiliation": "Princeton, Inst. Advanced Study",
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
+    },
+    "title": {
+      "title": "On black holes in string theory"
+    },
+    "creation_date": "1991-12-04T00:00:00",
+    "primary_report_number": [
+      "IASSNS-HEP-91-53",
+      "hep-th/9111052"
+    ],
+    "authors": [
+      {
+        "INSPIRE_number": "INSPIRE-00136372",
+        "affiliation": "Princeton, Inst. Advanced Study",
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
+      }
+    ],
+    "publication_info": {
+      "pagination": "0184-192",
+      "reference": "Strings: Stony Brook 1991:0184-192"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1103/PhysRevD.44.314",
+    "number_of_citations": 1160,
+    "creator": {
+      "INSPIRE_number": "INSPIRE-00136372",
+      "affiliation": "Princeton, Inst. Advanced Study",
+      "first_name": "Edward",
+      "last_name": "Witten",
+      "full_name": "Witten, Edward"
+    },
+    "title": {
+      "title": "On string theory and black holes"
+    },
+    "creation_date": "1991-04-02T00:00:00",
+    "primary_report_number": "IASSNS-HEP-91-12",
+    "authors": [
+      {
+        "INSPIRE_number": "INSPIRE-00136372",
+        "affiliation": "Princeton, Inst. Advanced Study",
+        "first_name": "Edward",
+        "last_name": "Witten",
+        "full_name": "Witten, Edward"
+      }
+    ],
+    "publication_info": {
+      "volume": "D44",
+      "pagination": "314-324",
+      "title": "Phys.Rev.",
+      "year": "1991"
+    }
+  },
+  {
+    "": null,
+    "doi": "10.1016/0370-2693(94)91523-7",
+    "number_of_citations": 14,
+    "creator": {
+      "affiliation": "Algarve U.",
+      "first_name": "Cenalo",
+      "last_name": "Vaz",
+      "full_name": "Vaz, Cenalo"
+    },
+    "title": {
+      "title": "Wilson loops and black holes in (2+1)-dimensions"
+    },
+    "creation_date": "1994-01-19T00:00:00",
+    "primary_report_number": [
+      "gr-qc/9401017",
+      "UATP-93-06"
+    ],
+    "authors": [
+      {
+        "affiliation": "Algarve U.",
+        "first_name": "Cenalo",
+        "last_name": "Vaz",
+        "full_name": "Vaz, Cenalo"
+      },
+      {
+        "affiliation": "Cincinnati U.",
+        "first_name": "Louis",
+        "last_name": "Witten",
+        "full_name": "Witten, Louis"
+      }
+    ],
+    "publication_info": {
+      "volume": "B327",
+      "pagination": "29-34",
+      "title": "Phys.Lett.",
+      "year": "1994"
     }
   }
 ]

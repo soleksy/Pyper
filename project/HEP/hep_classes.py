@@ -17,7 +17,7 @@ class Hep_Helper:
         return string
 
     def hep_url_generator(self, command_string, format):
-        format = "recjson"
+        
 
         url = "https://old.inspirehep.net/search?p=" + command_string + "&of=" + format + \
             "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,publication_info,&rg=" + \
@@ -67,6 +67,12 @@ class Hep_Parser:
 
             if dic['publication_info'] is None:
                 journal = None
+
+            elif isinstance(dic['publication_info'], list):
+                for i  in range(0,len(dic['publication_info'])):
+                    journal = dic['publication_info'][i].get('reference',None)
+                    if journal != None:
+                        break
             else:
                 journal = dic['publication_info'].get('reference',None)
                 
@@ -75,9 +81,13 @@ class Hep_Parser:
             
             if dic['primary_report_number'] is None:
                 ID = None
+            elif isinstance((dic['primary_report_number']), list):
+                for i in range(0, len(dic['primary_report_number'] )):
+                    if dic['primary_report_number'][i].find("/") != -1:
+                        ID = str(dic['primary_report_number'][i]).replace('arXiv:','')
             else:
-                ID = dic['primary_report_number'].replace('arXiv:','')
-
+                ID = str(dic['primary_report_number']).replace('arXiv:','')
+                
             dict_single_result = {
                 
                 'Authors': list_of_authors,

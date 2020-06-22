@@ -1,0 +1,1388 @@
+Authors: 
+ S. Dong, G. M. Huang, J. Frühauf, P. -A. Loizeau, I. Deppner, N. Herrmann, D. Wang, 
+
+Date_Published: 
+2020-04-19T21:46:10Z
+
+Last_Update: 
+2020-04-21T09:54:52Z
+
+Title: 
+Detector control system for CBM-TOF
+
+ID: 
+2004.08969
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+7
+
+
+Authors: 
+ N. Produit, T. W. Bao, T. Batsch, T. Bernasconi, I. Britvich, F. Cadoux, I. Cernuda, J. Y. Chai, Y. W. Dong, N. Gauvin, W. Hajdas, M. Kole, M. N. Kong, R. Kramert, L. Li, J. T. Liu, X. Liu, R. Marcinkowski, S. Orsi, M. Pohl, D. Rapin, D. Rybka, A. Rutczynska, H. L. Shi, P. Socha, J. C. Sun, L. M. Song, J. Szabelski, I. Traseira, H. L. Xiao, R. J. Wang, X. Wen, B. B. Wu, L. Zhang, L. Y. Zhang, S. N. Zhang, Y. J. Zhang, A. Zwolinska, 
+
+Date_Published: 
+2017-09-21T07:53:41Z
+
+Last_Update: 
+2017-09-28T09:45:19Z
+
+Title: 
+Design and construction of the POLAR detector
+
+ID: 
+1709.07191
+
+DOI: 
+10.1016/j.nima.2017.09.053
+
+Journal: 
+None
+
+Num_Of_Authors: 
+38
+
+
+Authors: 
+ A. Amoroso, R. Baldini Ferroli, I. Balossino, M. Bertani, D. Bettoni, A. Bortone, A. Calcaterra, S. Cerioni, W. Cheng, G. Cibinetto, A. Cotta Ramusino, F. Cossio, M. Da Rocha Rolo, F. De Mori, A. Denig, M. Destefanis, J. Dong, F. Evangelisti, R. Farinelli, L. Fava, G. Felici, B. Garillon, I. Garzia, M. Gatta, G. Giraudo, S. Gramigna, M. Greco, P. Gülker, Y. P. Guo, W. Lauth, L. Lavezzi, M. Maggiora, R. Malaguti, A. Mangoni, S. Marcello, M. Melchiorri, G. Mezzadri, E. Pace, S. Pacetti, P. Patteri, J. Pellegrino, C. F. Redmer, M. Ripka, A. Rivetti, C. Rosner, M. Scodeggio, S. Sosio, S. Spataro, 
+
+Date_Published: 
+2020-04-10T08:26:24Z
+
+Last_Update: 
+2020-04-10T08:26:24Z
+
+Title: 
+Time performance of a triple-GEM detector at high rate
+
+ID: 
+2004.04944
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+48
+
+
+Authors: 
+ M. Da Rocha Rolo, M. Alexeev, A. Amoroso, R. Baldini Ferroli, M. Bertani, D. Bettoni, F. Bianchi, R. Bugalho, A. Calcaterra, N. Canale, M. Capodiferro, V. Carassiti, S. Cerioni, JY. Chai, S. Chiozzi, G. Cibinetto, F. Cossio, A. Cotta Ramusino, F. De Mori, M. Destefanis, A. Di Francesco, J. Dong, F. Evangelisti, R. Farinelli, L. Fava, G. Felici, E. Fioravanti, I. Garzia, M. Gatta, M. Greco, L. Lavezzi, CY. Leng, H. Li, M. Maggiora, R. Malaguti, S. Marcello, P. Marciniewski, M. Melchiorri, G. Mezzadri, M. Mignone, G. Morello, S. Pacetti, P. Patteri, J. Pellegrino, A. Pelosi, A. Rivetti, M. Savrié, M. Scodeggio, E. Soldani, S. Sosio, S. Spataro, E. Tskhadadze, J. Varela, S. Verma, R. Wheadon, L. Yan, 
+
+Date_Published: 
+2017-06-07T17:16:42Z
+
+Last_Update: 
+2017-06-28T12:42:25Z
+
+Title: 
+A custom readout electronics for the BESIII CGEM detector
+
+ID: 
+1706.02267
+
+DOI: 
+10.1088/1748-0221/12/07/C07017
+
+Journal: 
+None
+
+Num_Of_Authors: 
+56
+
+
+Authors: 
+ F. P. An, J. Z. Bai, A. B. Balantekin, H. R. Band, D. Beavis, W. Beriguete, M. Bishai, S. Blyth, R. L. Brown, I. Butorov, D. Cao, G. F. Cao, J. Cao, R. Carr, W. R. Cen, W. T. Chan, Y. L. Chan, J. F. Chang, L. C. Chang, Y. Chang, C. Chasman, H. Y. Chen, H. S. Chen, M. J. Chen, Q. Y. Chen, S. J. Chen, S. M. Chen, X. C. Chen, X. H. Chen, X. S. Chen, Y. X. Chen, Y. Chen, J. H. Cheng, J. Cheng, Y. P. Cheng, J. J. Cherwinka, S. Chidzik, K. Chow, M. C. Chu, J. P. Cummings, J. de Arcos, Z. Y. Deng, X. F. Ding, Y. Y. Ding, M. V. Diwan, L. Dong, J. Dove, E. Draeger, X. F. Du, D. A. Dwyer, W. R. Edwards, S. R. Ely, S. D. Fang, J. Y. Fu, Z. W. Fu, L. Q. Ge, V. Ghazikhanian, R. Gill, J. Goett, M. Gonchar, G. H. Gong, H. Gong, Y. A. Gornushkin, M. Grassi, L. S. Greenler, W. Q. Gu, M. Y. Guan, R. P. Guo, X. H. Guo, R. W. Hackenburg, R. L. Hahn, R. Han, S. Hans, M. He, Q. He, W. S. He, K. M. Heeger, Y. K. Heng, A. Higuera, P. Hinrichs, T. H. Ho, M. Hoff, Y. K. Hor, Y. B. Hsiung, B. Z. Hu, L. M. Hu, L. J. Hu, T. Hu, W. Hu, E. C. Huang, H. Z. Huang, H. X. Huang, P. W. Huang, X. Huang, X. T. Huang, P. Huber, G. Hussain, Z. Isvan, D. E. Jaffe, P. Jaffke, K. L. Jen, S. Jetter, X. P. Ji, X. L. Ji, H. J. Jiang, W. Q. Jiang, J. B. Jiao, R. A. Johnson, J. Joseph, L. Kang, S. H. Kettell, S. Kohn, M. Kramer, K. K. Kwan, M. W. Kwok, T. Kwok, C. Y. Lai, W. C. Lai, W. H. Lai, T. J. Langford, K. Lau, L. Lebanowski, J. Lee, M. K. P. Lee, R. T. Lei, R. Leitner, J. K. C. Leung, K. Y. Leung, C. A. Lewis, B. Li, C. Li, D. J. Li, F. Li, G. S. Li, J. Li, N. Y. Li, Q. J. Li, S. F. Li, S. C. Li, W. D. Li, X. B. Li, X. N. Li, X. Q. Li, Y. Li, Y. F. Li, Z. B. Li, H. Liang, J. Liang, C. J. Lin, G. L. Lin, P. Y. Lin, S. X. Lin, S. K. Lin, Y. C. Lin, J. J. Ling, J. M. Link, L. Littenberg, B. R. Littlejohn, B. J. Liu, C. Liu, D. W. Liu, H. Liu, J. L. Liu, J. C. Liu, S. Liu, S. S. Liu, X. Liu, Y. B. Liu, C. Lu, H. Q. Lu, J. S. Lu, A. Luk, K. B. Luk, T. Luo, X. L. Luo, L. H. Ma, Q. M. Ma, X. Y. Ma, X. B. Ma, Y. Q. Ma, B. Mayes, K. T. McDonald, M. C. McFarlane, R. D. McKeown, Y. Meng, I. Mitchell, D. Mohapatra, J. Monari Kebwaro, J. E. Morgan, Y. Nakajima, J. Napolitano, D. Naumov, E. Naumova, C. Newsom, H. Y. Ngai, W. K. Ngai, Y. B. Nie, Z. Ning, J. P. Ochoa-Ricoux, A. Olshevskiy, A. Pagac, H. -R. Pan, S. Patton, C. Pearson, V. Pec, J. C. Peng, L. E. Piilonen, L. Pinsky, C. S. J. Pun, F. Z. Qi, M. Qi, X. Qian, N. Raper, B. Ren, J. Ren, R. Rosero, B. Roskovec, X. C. Ruan, W. R. Sands III, B. Seilhan, B. B. Shao, K. Shih, W. Y. Song, H. Steiner, P. Stoler, M. Stuart, G. X. Sun, J. L. Sun, N. Tagg, Y. H. Tam, H. K. Tanaka, W. Tang, X. Tang, D. Taychenachev, H. Themann, Y. Torun, S. Trentalange, O. Tsai, K. V. Tsang, R. H. M. Tsang, C. E. Tull, Y. C. Tung, N. Viaux, B. Viren, S. Virostek, V. Vorobel, C. H. Wang, L. S. Wang, L. Y. Wang, L. Z. Wang, M. Wang, N. Y. Wang, R. G. Wang, T. Wang, W. Wang, W. W. Wang, X. T. Wang, X. Wang, Y. F. Wang, Z. Wang, Z. Wang, Z. M. Wang, D. M. Webber, H. Y. Wei, Y. D. Wei, L. J. Wen, D. L. Wenman, K. Whisnant, C. G. White, L. Whitehead, C. A. Whitten Jr., J. Wilhelmi, T. Wise, H. C. Wong, H. L. H. Wong, J. Wong, S. C. F. Wong, E. Worcester, F. F. Wu, Q. Wu, D. M. Xia, J. K. Xia, S. T. Xiang, Q. Xiao, Z. Z. Xing, G. Xu, J. Y. Xu, J. L. Xu, J. Xu, W. Xu, Y. Xu, T. Xue, J. Yan, C. G. Yang, L. Yang, M. S. Yang, M. T. Yang, M. Ye, M. Yeh, Y. S. Yeh, K. Yip, B. L. Young, G. Y. Yu, Z. Y. Yu, S. Zeng, L. Zhan, C. Zhang, F. H. Zhang, H. H. Zhang, J. W. Zhang, K. Zhang, Q. X. Zhang, Q. M. Zhang, S. H. Zhang, X. T. Zhang, Y. C. Zhang, Y. H. Zhang, Y. M. Zhang, Y. X. Zhang, Y. M. Zhang, Z. J. Zhang, Z. Y. Zhang, Z. P. Zhang, J. Zhao, Q. W. Zhao, Y. F. Zhao, Y. B. Zhao, L. Zheng, W. L. Zhong, L. Zhou, N. Zhou, Z. Y. Zhou, H. L. Zhuang, S. Zimmerman, J. H. Zou, 
+
+Date_Published: 
+2015-08-17T08:07:08Z
+
+Last_Update: 
+2016-01-08T03:07:26Z
+
+Title: 
+The Detector System of The Daya Bay Reactor Neutrino Experiment
+
+ID: 
+1508.03943
+
+DOI: 
+10.1016/j.nima.2015.11.144
+
+Journal: 
+Nuclear Instruments and Methods A 811(2016) 133-161
+
+Num_Of_Authors: 
+335
+
+
+Authors: 
+ F. Barbosa, H. Dong, B. Kross, S. J. Lee, Y. Mack, J. McKisson, J. McKisson, A Weisenberger, W. Xi, C. Zorn, S. Majewsk, A. Stolin, C. R. Howell, A. S. Crowell, C. D. Reis, M. F. Smith, 
+
+Date_Published: 
+2011-01-13T21:11:57Z
+
+Last_Update: 
+2011-01-13T21:11:57Z
+
+Title: 
+Development of a mini-PET Detector based on Silicon Photomultiplier
+  Arrays for Plant Imaging Applications
+
+ID: 
+1101.2676
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+16
+
+
+Authors: 
+  The Pierre Auger Collaboration, J. Abraham, P. Abreu, M. Aglietta, C. Aguirre, E. J. Ahn, D. Allard, I. Allekotte, J. Allen, P. Allison, J. Alvarez-Muñiz, M. Ambrosio, L. Anchordoqui, S. Andringa, A. Anzalone, C. Aramo, E. Arganda, S. Argirò, K. Arisaka, F. Arneodo, F. Arqueros, T. Asch, H. Asorey, P. Assis, J. Aublin, M. Ave, G. Avila, A. Bacher, T. Bäcker, D. Badagnani, K. B. Barber, A. F. Barbosa, H. J. M. Barbosa, N. Barenthien, S. L. C. Barroso, B. Baughman, P. Bauleo, J. J. Beatty, T. Beau, B. R. Becker, K. H. Becker, A. Bellétoile, J. A. Bellido, S. BenZvi, C. Berat, P. Bernardini, X. Bertou, P. L. Biermann, P. Billoir, O. Blanch-Bigas, F. Blanco, C. Bleve, H. Blümer, M. Boháčová, E. Bollmann, H. Bolz, C. Bonifazi, R. Bonino, N. Borodai, F. Bracci, J. Brack, P. Brogueira, W. C. Brown, R. Bruijn, P. Buchholz, A. Bueno, R. E. Burton, N. G. Busca, K. S. Caballero-Mora, D. CaminL. Caramete, R. Caruso, W. Carvalho, A. Castellina, J. Castro, O. Catalano, L. Cazon, R. Cester, J. Chauvin, A. Chiavassa, J. A. Chinellato, A. Chou, J. Chudoba, J. Chye, P. D. J. Clark, R. W. Clay, E. Colombo, R. Conceição, B. Connolly, F. Contreras, J. Coppens, A. Cordero, A. Cordier, U. Cotti, S. Coutu, C. E. Covault, A. Creusot, A. Criss, J. W. Cronin, J. Cuautle, A. Curutiu, S. Dagoret-Campagne, R. Dallier, F. Daudo, K. Daumiller, B. R. Dawson, R. M. de Almeida, M. De Domenico, C. De Donato, S. J. de Jong, G. De La Vega, W. J. M. de Mello Junior, J. R. T. de Mello Neto, I. De Mitri, V. de Souza, K. D. de Vries, G. Decerprit, L. del Peral, O. Deligny, A. Della Selva, C. Delle Fratte, H. Dembinski, C. Di Giulio, J. C. Diaz, P. N. Diep, C. Dobrigkeit, J. C. D'Olivo, P. N. Dong, D. Dornic, A. Dorofeev, J. C. dos Anjos, M. T. Dova, D. D'Urso, I. Dutan, M. A. DuVernois, R. Engel, M. Erdmann, C. O. Escobar, A. Etchegoyen, P. Facal San Luis, H. Falcke, G. Farrar, A. C. Fauth, N. Fazzini, F. Ferrer, A. Ferrero, B. Fick, A. Filevich, A. Filipčič, I. Fleck, S. Fliescher, R. Fonte, C. E. Fracchiolla, E. D. Fraenkel, W. Fulgione, R. F. Gamarra, S. Gambetta, B. García, D. García Gámez, D. Garcia-Pinto, X. Garrido, H. Geenen, G. Gelmini, H. Gemmeke, P. L. Ghia, U. Giaccari, K. Gibbs, M. Giller, J. Gitto, H. Glass, L. M. Goggin, M. S. Gold, G. Golup, F. Gomez Albarracin, M. Gómez Berisso, P. F. Gomez Vitale, P. Gonçalves, M. Gonçalves do Amaral, D. Gonzalez, J. G. Gonzalez, D. Góra, A. Gorgi, P. Gouffon, E. Grashorn, V. Grassi, S. Grebe, M. Grigat, A. F. Grillo, J. Grygar, Y. Guardincerri, N. Guardone, C. Guerard, F. Guarino, R. Gumbsheimer, G. P. Guedes, J. Gutiérrez, J. D. Hague, V. Halenka, P. Hansen, D. Harari, S. Harmsma, S. Hartmann, J. L. Harton, A. Haungs, M. D. Healy, T. Hebbeker, G. Hebrero, D. Heck, C. Hojvat, V. C. Holmes, P. Homola, G. Hofman, J. R. Hörandel, A. Horneffer, M. Horvat, M. Hrabovský, H. Hucker, T. Huege, M. Hussain, M. Iarlori, A. Insolia, F. Ionita, A. Italiano, S. Jiraskova, M. Kaducak, K. H. Kampert, T. Karova, P. Kasper, B. Kégl, B. Keilhauer, E. Kemp, H. Kern, R. M. Kieckhafer, H. O. Klages, M. Kleifges, J. Kleinfeller, R. Knapik, J. Knapp, D. -H. Koang, A. Kopmann, A. Krieger, O. Krömer, D. Kruppke-Hansen, D. Kuempel, N. Kunka, A. Kusenko, G. La Rosa, C. Lachaud, B. L. Lago, P. Lautridou, M. S. A. B. Leão, D. Lebrun, P. Lebrun, J. Lee, M. A. Leigui de Oliveira, A. Lemiere, A. Letessier-Selvon, M. Leuthold, I. Lhenry-Yvon, R. López, A. Lopez Agüera, K. Louedec, J. Lozano Bahilo, A. Lucero, H. Lyberis, M. C. Maccarone, C. Macolino, S. Maldera, M. Malek, D. Mandat, P. Mantsch, F. Marchetto, A. G. Mariazzi, I. C. Maris, H. R. Marquez Falcon, D. Martello, O. Martineau, O. Martínez Bravo, H. J. Mathes, J. Matthews, J. A. J. Matthews, G. Matthiae, D. Maurizio, P. O. Mazur, M. McEwen, R. R. McNeil, G. Medina-Tanco, M. Melissas, D. Melo, E. Menichetti, A. Menshikov, R. Meyhandan, M. I. Micheletti, G. Miele, W. Miller, L. Miramonti, S. Mollerach, M. Monasor, D. Monnier Ragaigne, F. Montanet, B. Morales, C. Morello, J. C. Moreno, C. Morris, M. Mostafá, C. A. Moura, M. Mucchi, S. Mueller, M. A. Muller, R. Mussa, G. Navarra, J. L. Navarro, S. Navas, P. Necesal, L. Nellen, F. Nerling, C. Newman-Holmes, D. Newton, P. T. Nhung, D. Nicotra, N. Nierstenhoefer, D. Nitz, D. Nosek, L. Nožka, M. Nyklicek, J. Oehlschläger, A. Olinto, P. Oliva, V. M. Olmos-Gilbaja, M. Ortiz, F. Ortolani, B. Oßwald, N. Pacheco, D. Pakk Selmi-Dei, M. Palatka, J. Pallotta, G. Parente, E. Parizot, S. Parlati, S. Pastor, M. Patel, T. Paul, V. Pavlidou, K. Payet, M. Pech, J. Pȩkala, I. M. Pepe, L. Perrone, R. Pesce, E. Petermann, S. Petrera, P. Petrinca, A. Petrolini, Y. Petrov, J. Petrovic, C. Pfendner, A. Pichel, R. Piegaia, T. Pierog, M. Pimenta, T. Pinto, V. Pirronello, O. Pisanti, M. Platino, J. Pochon, V. H. Ponce, M. Pontz, J. Pouryamout, L. Prado Jr., P. Privitera, M. Prouza, E. J. Quel, G. Raia J. Rautenberg, O. Ravel, D. Ravignani, A. Redondo, H. C. Reis, S. Reucroft, B. Revenu, F. A. S. Rezende, J. Ridky, S. Riggi, M. Risse, C. Rivière, V. Rizi, C. Robledo, M. D. Roberts, G. Rodriguez, J. Rodriguez Martino, J. Rodriguez Rojo, I. Rodriguez-Cabo, M. D. Rodríguez-Frías, G. Ros, J. Rosado, T. Rossler, M. Roth, B. Rouillé-d'Orfeuil, E. Roulet, A. C. Rovero, F. Salamida, H. Salazar b, G. Salina, F. Sánchez, M. Santander, C. E. Santo, E. M. Santos, F. Sarazin, S. Sarkar, R. Sato, N. Scharf, V. Scherini, H. Schieler, P. Schiffer, G. Schleif A. Schmidt, F. Schmidt, T. Schmidt, O. Scholten, H. Schoorlemmer, J. Schovancova, P. Schovánek, F. Schroeder, S. Schulte, F. Schüssler, D. Schuster, S. J. Sciutto, M. Scuderi, A. Segreto, D. Semikoz, G. Sequieros, M. Settimo, R. C. Shellard, I. Sidelnik, B. B. Siffert, A. Smiałkowski, R. Šmída, A. G. K. Smith, B. E. Smith, G. R. Snow, P. Sommers, J. Sorokin, H. Spinka, R. Squartini, E. Strazzeri, A. Stutz, F. Suarez, T. Suomijärvi, A. D. Supanitsky, M. S. Sutherland, J. Swain, Z. Szadkowski, A. Tamashiro, A. Tamburro, T. Tarutina, O. Taşcău, R. Tcaciuc, D. Tcherniakhovski, N. T. Thao, D. Thomas, R. Ticona, J. Tiffenberg, C. Timmermans, W. Tkaczyk, C. J. Todero Peixoto, B. Tomé, A. Tonachini, I. Torres, P. Trapani, P. Travnicek, D. B. Tridapalli, G. Tristram, E. Trovato, V. Tuci, M. Tueros, E. Tusi, R. Ulrich, M. Unger, M. Urban, J. F. Valdés Galicia, I. Valiño, L. Valore, A. M. van den Berg, J. R. Vázquez, R. A. Vázquez, D. Veberič, A. Velarde, T. Venters, V. Verzi, M. Videla, L. Villaseñor, G. Vitali, S. Vorobiov, L. Voyvodic, H. Wahlberg, P. Wahrlich, O. Wainberg, D. Warner, S. Westerhoff, B. J. Whelan, N. Wild, C. Wiebusch, G. Wieczorek, L. Wiencke, B. Wilczyńska, H. Wilczyński, C. Wileman, M. G. Winnick, G. Wörner, H. Wu, B. Wundheiler, T. Yamamoto, P. Younk, G. Yuan, A. Yushkov, E. Zas, D. Zavrtanik, M. Zavrtanik, I. Zaw, A. Zepeda b, M. Ziolkowski, 
+
+Date_Published: 
+2009-07-24T14:13:47Z
+
+Last_Update: 
+2009-07-24T14:13:47Z
+
+Title: 
+The Fluorescence Detector of the Pierre Auger Observatory
+
+ID: 
+0907.4282
+
+DOI: 
+10.1016/j.nima.2010.04.023
+
+Journal: 
+Nucl.Instrum.Meth.A620:227-251,2010
+
+Num_Of_Authors: 
+518
+
+
+Authors: 
+ A. La Rosa, M. Boscardin, G. -F. Dalla Betta, G. Darbo, C. Gemme, H. Pernegger, C. Piemonte, M. Povoli, S. Ronchin, A. Zoboli, N. Zorzi, E. Bolle, M. Borri, C. Da Via, S. Dong, S. Fazio, P. Grenier, S. Grinstein, H. Gjersdal, P. Hansson, F. Huegging, P. Jackson, M. Kocian, F. Rivero, O. Rohne, H. Sandaker, K. Sjobak, T. Slavicek, W. Tsung, D. Tsybychev, N. Wermes, C. Young, 
+
+Date_Published: 
+2009-10-20T09:43:11Z
+
+Last_Update: 
+2009-10-20T09:43:11Z
+
+Title: 
+Preliminary results of 3D-DDTC pixel detectors for the ATLAS upgrade
+
+ID: 
+0910.3788
+
+DOI: 
+None
+
+Journal: 
+Proceeding of Science PoS(RD09)032 (2009)
+
+Num_Of_Authors: 
+32
+
+
+Authors: 
+ Yongwei Dong, Yanguo Li, Bobing Wu, Yongjie Zhang, Shuangnan Zhang, 
+
+Date_Published: 
+2009-07-16T08:04:52Z
+
+Last_Update: 
+2009-07-16T08:04:52Z
+
+Title: 
+Light collection of POLAR detector
+
+ID: 
+0907.2771
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+5
+
+
+Authors: 
+ D. -M. Mei, R. B Mukund, W. -Z. Wei, R. Panth, J. Liu, H. Mei, Y. -Y. Li, P. Acharya, S. Bhattarai, K. Kooi, M-S. Raut, X. -S. Sun, A. Kirkvold, K. -M. Dong, X. -H. Meng, G. -J. Wang, G. Yang, 
+
+Date_Published: 
+2019-09-12T17:07:28Z
+
+Last_Update: 
+2020-04-28T13:43:19Z
+
+Title: 
+Impact of Charge Trapping on the Energy Resolution of Ge Detectors for
+  Rare-Event Physics Searches
+
+ID: 
+1909.05806
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+17
+
+
+Authors: 
+ W. J. Llope, J. Zhou, T. Nussbaum, G. W. Hoffmann, K. Asselta, J. D. Brandenburg, J. Butterworth, T. Camarda, W. Christie, H. J. Crawford, X. Dong, J. Engelage, G. Eppley, F. Geurts, J. Hammond, E. Judd, D. L. McDonald, C. Perkins, L. Ruan, J. Scheblein, J. J. Schambach, R. Soja, K. Xin, C. Yang, 
+
+Date_Published: 
+2014-03-26T20:46:49Z
+
+Last_Update: 
+2014-03-26T20:46:49Z
+
+Title: 
+The STAR Vertex Position Detector
+
+ID: 
+1403.6855
+
+DOI: 
+10.1016/j.nima.2014.04.080
+
+Journal: 
+None
+
+Num_Of_Authors: 
+24
+
+
+Authors: 
+ L. Lavezzi, M. Alexeev, A. Amoroso, R. Baldini Ferroli, M. Bertani, D. Bettoni, F. Bianchi, A. Calcaterra, N. Canale, M. Capodiferro, V. Carassiti, S. Cerioni, JY. Chai, S. Chiozzi, G. Cibinetto, F. Cossio, A. Cotta Ramusino, F. De Mori, M. Destefanis, J. Dong, F. Evangelisti, R. Farinelli, L. Fava, G. Felici, E. Fioravanti, I. Garzia, M. Gatta, M. Greco, CY. Leng, H. Li, M. Maggiora, R. Malaguti, S. Marcello, M. Melchiorri, G. Mezzadri, M. Mignone, G. Morello, S. Pacetti, P. Patteri, J. Pellegrino, A. Pelosi, A. Rivetti, M. D. Rolo, M. Savrie', M. Scodeggio, E. Soldani, S. Sosio, S. Spataro, E. Tskhadadze, S. Verma, R. Wheadon, L. Yan, 
+
+Date_Published: 
+2018-03-20T06:14:13Z
+
+Last_Update: 
+2018-03-20T06:14:13Z
+
+Title: 
+Performance of the micro-TPC Reconstruction for GEM Detectors at High
+  Rate
+
+ID: 
+1803.07266
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+52
+
+
+Authors: 
+ G. Mezzadri, M. Alexeev, A. Amoroso, R. Baldini Ferroli, M. Bertani, D. Bettoni, F. Bianchi, A. Calcaterra, N. Canale, M. Capodiferro, V. Carassiti, S. Cerioni, JY. Chai, S. Chiozzi, G. Cibinetto, F. Cossio, A. Cotta Ramusino, F. De Mori, M. Destefanis, J. Dong, F. Evangelisti, R. Farinelli, L. Fava, G. Felici, E. Fioravanti, I. Garzia, M. Gatta, M. Greco, L. Lavezzi, CY. Leng, H. Li, M. Maggiora, R. Malaguti, A. Mangoni, S. Marcello, M. Melchiorri, M. Mignone, G. Morello, S. Pacetti, P. Patteri, J. Pellegrino, A. Pelosi, A. Rivetti, M. D. Rolo, M. Savrié, M. Scodeggio, E. Soldani, S. Sosio, S. Spataro, E. Tskhadadze, S. Verma, R. Wheadon, L. Yan, 
+
+Date_Published: 
+2018-03-20T15:40:07Z
+
+Last_Update: 
+2018-03-20T15:40:07Z
+
+Title: 
+Test beam results of a Cylindrical GEM detector for the BESIII
+  experiment
+
+ID: 
+1803.07489
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+53
+
+
+Authors: 
+ A. Amoroso, M. Alexeev, R. Baldini Ferroli, M. Bertani, D. Bettoni, F. Bianchi, A. Calcaterra, N. Canale, M. Capodiferro, V. Carassiti, S. Cerioni, JY. Chai, S. Chiozzi, G. Cibinetto, F. Cossio, A. Cotta Ramusino, F. De Mori, M. Destefanis, J. Dong, F. Evangelisti, R. Farinelli, L. Fava, G. Felici, E. Fioravanti, I. Garzia, M. Gatta, M. Greco, CY. Leng, L. Lavezzi, H. Li, M. Maggiora, R. Malaguti, S. Marcello, M. Melchiorri, G. Mezzadri, M. Mignone, G. Morello, S. Pacetti, P. Patteri, J. Pellegrino, A. Pelosi, A. Rivetti, M. D. Rolo, M. Savriè, M. Scodeggio, E. Soldani, S. Sosio, S. Spataro, E. Tskhadadze, S. Verma, R. Wheadon, L. Yan, 
+
+Date_Published: 
+2018-03-21T08:36:24Z
+
+Last_Update: 
+2018-03-21T08:36:24Z
+
+Title: 
+Innovative design and construction technique for the Cylindrical GEM
+  detector for the BESIII experiment
+
+ID: 
+1803.07797
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+52
+
+
+Authors: 
+ T. Aaltonen, B. Alvarez Gonzalez, S. Amerio, D. Amidei, A. Anastassov, A. Annovi, J. Antos, G. Apollinari, J. A. Appel, A. Apresyan, T. Arisawa, A. Artikov, J. Asaadi, W. Ashmanskas, B. Auerbach, A. Aurisano, F. Azfar, W. Badgett, A. Barbaro-Galtieri, V. E. Barnes, B. A. Barnett, P. Barria, P. Bartos, M. Bauce, G. Bauer, F. Bedeschi, D. Beecher, S. Behari, G. Bellettini, J. Bellinger, D. Benjamin, A. Beretvas, A. Bhatti, M. Binkley, D. Bisello, I. Bizjak, K. R. Bland, B. Blumenfeld, A. Bocci, A. Bodek, D. Bortoletto, J. Boudreau, A. Boveia, B. Braua, L. Brigliadori, A. Brisuda, C. Bromberg, E. Brucken, M. Bucciantonio, J. Budagov, H. S. Budd, S. Budd, K. Burkett, G. Busetto, P. Bussey, A. Buzatu, C. Calancha, S. Camarda, M. Campanelli, M. Campbell, F. Canelli, A. Canepa, B. Carls, D. Carlsmith, R. Carosi, S. Carrillok, S. Carron, B. Casal, M. Casarsa, A. Castro, P. Catastini, D. Cauz, V. Cavaliere, M. Cavalli-Sforza, A. Cerrif, L. Cerrito, Y. C. Chen, M. Chertok, G. Chiarelli, G. Chlachidze, F. Chlebana, K. Cho, D. Chokheli, J. P. Chou, W. H. Chung, Y. S. Chung, C. I. Ciobanu, M. A. Ciocci, A. Clark, G. Compostella, M. E. Convery, J. Conway, M. Corbo, M. Cordelli, C. A. Cox, D. J. Cox, F. Crescioli, C. Cuenca Almenar, J. Cuevas, R. Culbertson, D. Dagenhart, N. d'Ascenzo, M. Datta, P. de Barbaro, S. De Cecco, G. De Lorenzo, M. Dell'Orso, C. Deluca, L. Demortier, J. Deng, M. Deninno, F. Devoto, M. d'Errico, A. Di Canto, B. Di Ruzza, J. R. Dittmann, M. D'Onofrio, S. Donati, P. Dong, M. Dorigo, T. Dorigo, K. Ebina, A. Elagin, A. Eppig, R. Erbacher, D. Errede, S. Errede, N. Ershaidat, R. Eusebi, H. C. Fang, S. Farrington, M. Feindt, J. P. Fernandez, C. Ferrazza, R. Field, G. Flanagan, R. Forrest, M. J. Frank, M. Franklin, J. C. Freeman, Y. Funakoshi, I. Furic, M. Gallinaro, J. Galyardt, J. E. Garcia, A. F. Garfinkel, P. Garosi, H. Gerberich, E. Gerchtein, S. Giagu, V. Giakoumopoulou, P. Giannetti, K. Gibson, C. M. Ginsburg, N. Giokaris, P. Giromini, M. Giunta, G. Giurgiu, V. Glagolev, D. Glenzinski, M. Gold, D. Goldin, N. Goldschmidt, A. Golossanov, G. Gomez, G. Gomez-Ceballos, M. Goncharov, O. Gonzalez, I. Gorelov, A. T. Goshaw, K. Goulianos, A. Gresele, S. Grinstein, C. Grosso-Pilcher, R. C. Group, J. Guimaraes da Costa, Z. Gunay-Unalan, C. Haber, S. R. Hahn, E. Halkiadakis, A. Hamaguchi, J. Y. Han, F. Happacher, K. Hara, D. Hare, M. Hare, R. F. Harr, K. Hatakeyama, C. Hays, M. Heck, J. Heinrich, M. Herndon, S. Hewamanage, D. Hidas, A. Hocker, W. Hopkins, D. Horn, S. Hou, R. E. Hughes, M. Hurwitz, U. Husemann, N. Hussain, M. Hussein, J. Huston, G. Introzzi, M. Iori, A. Ivanovo, E. James, D. Jang, B. Jayatilaka, E. J. Jeon, M. K. Jha, S. Jindariani, W. Johnson, M. Jones, K. K. Joo, S. Y. Jun, T. R. Junk, T. Kamon, P. E. Karchin, Y. Katon, W. Ketchum, J. Keung, V. Khotilovich, B. Kilminster, D. H. Kim, H. S. Kim, H. W. Kim, J. E. Kim, M. J. Kim, S. B. Kim, S. H. Kim, Y. K. Kim, N. Kimura, M. Kirby, S. Klimenko, K. Kondo, D. J. Kong, J. Konigsberg, A. V. Kotwal, M. Kreps, J. Kroll, D. Krop, N. Krumnack, M. Kruse, V. Krutelyov, T. Kuhr, M. Kurata, S. Kwang, A. T. Laasanen, S. Lami, S. Lammel, M. Lancaster, R. L. Lander, K. Lannon, A. Lath, G. Latino, I. Lazzizzera, T. LeCompte, E. Lee, H. S. Lee, J. S. Lee, S. W. Lee, S. Leo, S. Leone, J. D. Lewis, C. -J. Lin, J. Linacre, M. Lindgren, E. Lipeles, A. Lister, D. O. Litvintsev, C. Liu, Q. Liu, T. Liu, S. Lockwitz, N. S. Lockyer, A. Loginov, D. Lucchesi, J. Lueck, P. Lujan, P. Lukens, G. Lungu, J. Lys, R. Lysak, R. Madrak, K. Maeshima, K. Makhoul, P. Maksimovic, S. Malik, G. Manca, A. Manousakis-Katsikakis, F. Margaroli, C. Marino, M. Martınez, R. Martınez-Balların, P. Mastrandrea, M. Mathis, M. E. Mattson, P. Mazzanti, K. S. McFarland, P. McIntyre, R. McNultyi, A. Mehta, P. Mehtala, A. Menzione, C. Mesropian, T. Miao, D. Mietlicki, A. Mitra, H. Miyake, S. Moed, N. Moggi, M. N. Mondragon, C. S. Moon, R. Moore, M. J. Morello, J. Morlock, P. Movilla Fernandez, A. Mukherjee, Th. Muller, P. Murat, M. Mussini, J. Nachtman, Y. Nagai, J. Naganoma, I. Nakano, A. Napier, J. Nett, C. Neu, M. S. Neubauer, J. Nielsene, L. Nodulman, O. Norniella, E. Nurse, L. Oakes, S. H. Oh, Y. D. Oh, I. Oksuzian, T. Okusawa, R. Orava, L. Ortolan, S. Pagan Griso, C. Pagliarone, E. Palenciaf, V. Papadimitriou, A. A. Paramonov, J. Patrick, G. Pauletta, M. Paulini, C. Paus, D. E. Pellett, A. Penzo, T. J. Phillips, G. Piacentino, E. Pianori, J. Pilot, K. Pitts, C. Plager, L. Pondrom, K. Potamianos, O. Poukhov, F. Prokoshin, A. Pronko, F. Ptohos, E. Pueschel, G. Punzi, J. Pursley, A. Rahaman, V. Ramakrishnan, N. Ranjan, I. Redondo, P. Renton, M. Rescigno, F. Rimondi, L. Ristori, A. Robson, T. Rodrigo, T. Rodriguez, E. Rogers, S. Rolli, R. Roser, M. Rossi, F. Rubbo, F. Ruffini, A. Ruiz, J. Russ, V. Rusu, A. Safonov, W. K. Sakumoto, Y. Sakurai, L. Santi, L. Sartori, K. Sato, V. Saveliev, A. Savoy-Navarro, P. Schlabach, A. Schmidt, E. E. Schmidt, M. P. Schmidt, M. Schmitt, T. Schwarz, L. Scodellaro, A. Scribano, F. Scuri, A. Sedov, S. Seidel, Y. Seiya, A. Semenov, F. Sforza, A. Sfyrla, S. Z. Shalhout, T. Shears, P. F. Shepard, M. Shimojimas, S. Shiraishi, M. Shochet, I. Shreyber, A. Simonenko, P. Sinervo, A. Sissakian, K. Sliwa, J. R. Smith, F. D. Snider, A. Soha, S. Somalwar, V. Sorin, P. Squillacioti, M. Stancari, M. Stanitzki, R. St. Denis, B. Stelzer, O. Stelzer-Chilton, D. Stentz, J. Strologas, G. L. Strycker, Y. Sudo, A. Sukhanov, I. Suslov, K. Takemasa, Y. Takeuchi, J. Tang, M. Tecchio, P. K. Teng, J. Thomg, J. Thome, G. A. Thompson, E. Thomson, P. Ttito-Guzman, S. Tkaczyk, D. Toback, S. Tokar, K. Tollefson, T. Tomura, D. Tonelli, S. Torre, D. Torretta, P. Totaro, M. Trovato, Y. Tu, F. Ukegawa, S. Uozumi, A. Varganov, F. Vazquez, G. Velev, C. Vellidis, M. Vidal, I. Vila, R. Vilar, M. Vogel, G. Volpi, P. Wagner, R. L. Wagner, T. Wakisaka, R. Wallny, S. M. Wang, A. Warburton, D. Waters, M. Weinberger, W. C. Wester III, B. Whitehouse, D. Whiteson, A. B. Wicklund, E. Wicklund, S. Wilbur, F. Wick, H. H. Williams, J. S. Wilson, P. Wilson, B. L. Winer, P. Wittichg, S. Wolbers, H. Wolfe, T. Wright, X. Wu, Z. Wu, K. Yamamoto, J. Yamaoka, T. Yang, U. K. Yang, Y. C. Yang, W. -M. Yao, G. P. Yeh, K. Yim, J. Yoh, K. Yorita, T. Yoshidaj, G. B. Yu, I. Yu, S. S. Yu, J. C. Yun, A. Zanetti, Y. Zeng, S. Zucchelli, 
+
+Date_Published: 
+2011-03-23T23:25:05Z
+
+Last_Update: 
+2011-06-07T01:26:04Z
+
+Title: 
+Search for New Dielectron Resonances and Randall-Sundrum Gravitons at
+  the Collider Detector at Fermilab
+
+ID: 
+1103.4650
+
+DOI: 
+10.1103/PhysRevLett.107.051801
+
+Journal: 
+Phys.Rev.Lett.107:051801,2011
+
+Num_Of_Authors: 
+514
+
+
+Authors: 
+  DUNE Collaboration, B. Abi, R. Acciarri, M. A. Acero, M. Adamowski, C. Adams, D. Adams, P. Adamson, M. Adinolfi, Z. Ahmad, C. H. Albright, L. Aliaga Soplin, T. Alion, S. Alonso Monsalve, M. Alrashed, C. Alt, J. Anderson, K. Anderson, C. Andreopoulos, M. P. Andrews, R. A. Andrews, A. Ankowski, J. Anthony, M. Antonello, M. Antonova, S. Antusch, A. Aranda Fernandez, A. Ariga, T. Ariga, D. Aristizabal Sierra, E. Arrieta Diaz, J. Asaadi, M. Ascencio, D. Asner, M. S. Athar, M. Auger, A. Aurisano, V. Aushev, D. Autiero, F. Azfar, A. Back, H. Back, J. Back, C. Backhouse, P. Baesso, L. Bagby, X. Bai, M. Baird, B. Balantekin, S. Balasubramanian, B. Baller, P. Ballett, L. Balleyguier, B. Bambah, H. Band, M. Bansal, S. Bansal, G. Barenboim, G. J. Barker, C. Barnes, G. Barr, J. Barranco Monarca, N. Barros, J. Barrow, A. Bashyal, V. Basque, M. Bass, F. Bay, K. Bays, J. L. Bazo, J. F. Beacom, E. Bechetoille, B. R. Behera, L. Bellantoni, G. Bellettini, V. Bellini, O. Beltramello, D. Belver, N. Benekos, P. A. Benetti, A. Bercellie, E. Berman, P. Bernardini, R. Berner, H. G. Berns, R. H. Bernstein, S. Bertolucci, M. Betancourt, V. Bhatnagar, M. Bhattacharjee, B. Bhuyan, S. Biagi, J. Bian, K. Biery, B. Bilki, M. Bishai, A. Bitadze, T. Blackburn, A. Blake, B. Blanco Siffert, F. Blaszczyk, E. Blaufuss, G. C. Blazey, M. Blennow, E. Blucher, V. Bocean, F. Boffelli, J. Boissevain, S. Bolognesi, T. Bolton, M. Bonesini, T. Boone, A. Booth, C. Booth, S. Bordoni, A. Borkum, T. Boschi, P. Bour, B. Bourguille, S. B. Boyd, D. Boyden, J. Bracinik, D. Brailsford, A. Brandt, J. Bremer, S. J. Brice, C. Bromberg, G. Brooijmans, J. Brooke, G. Brown, N. Buchanan, H. Budd, P. C. de Holanda, T. Cai, D. Caiulo, P. Calafiura, A. Calatayud, J. Calcutt, C. Callahan, E. Calligarich, E. Calvo, L. Camilleri, A. Caminata, M. Campanelli, G. Cancelo, K. Cankocak, C. Cantini, D. Caratelli, B. Carlus, M. Carneiro, I. Caro Terrazas, T. J. Carroll, M. P. Carvallo, M. Cascella, C. Castromonte, E. Catano-Mur, M. Cavalli-Sforza, F. Cavanna, E. Cazzato, S. Centro, G. Cerati, A. Cervelli, A. Cervera Villanueva, T. Cervi, M. Chalifour, A. Chappuis, A. Chatterjee, S. Chattopadhyay, S. Chattopadhyay, J. Chaves, H. Chen, M. -C. Chen, S. Chen, D. Cherdack, C. -Y. Chi, S. Childress, K. Cho, S. Choubey, B. C. Choudhary, A. Christensen, D. Christian, G. Christodoulou, C. -A. Christofferson, E. Church, P. Clarke, T. E. Coan, A. Cocco, G. H. Collin, E. Conley, J. M. Conrad, M. Convery, R. Corey, L. Corwin, P. Cotte, L. Cremonesi, J. I. Crespo-Anadón, J. Creus Prats, E. Cristaldo, P. Crivelli, D. Cronin-Hennessy, C. Crowley, C. Cuesta, A. Curioni, D. Cussans, M. Dabrowski, D. Dale, H. Da Motta, T. Davenne, E. Davenport, G. S. Davies, J. Davies, S. Davini, J. Dawson, K. De, M. P. Decowski, P. Dedin Neto, I. de Icaza Astiz, A. Delbart, D. Delepine, M. Delgado, A. Dell, J. de Mello Neto, D. DeMuth, Z. Deng, S. Dennis, C. Densham, I. De Bonis, A. De Gouvêa, P. De Jong, P. De Lurgio, S. De Rijck, A. De Roeck, J. J. de Vries, R. Dharmapalan, N. Dhingra, M. Diamantopoulou, F. Diaz, J. S. Díaz, G. Diaz Bautista, P. Ding, C. Distefano, M. Diwan, S. Di Domizio, L. Di Giulio, S. Di Luise, Z. Djurcic, F. Doizon, N. Dokania, M. J. Dolinski, R. Dong, J. dos Anjos, D. Douglas, G. Drake, D. Duchesneau, K. Duffy, B. Dung, D. Dutta, M. Duvernois, H. Duyang, O. Dvornikov, D. A. Dwyer, S. Dye, A. S. Dyshkant, S. Dytman, M. Eads, B. Eberly, D. Edmunds, J. Eisch, A. Elagin, S. Elliott, W. Ellsworth, M. Elnimr, S. Emery, S. Eno, A. Ereditato, C. O. Escobar, L. Escudero Sanchez, J. J. Evans, A. Ezeribe, K. Fahey, A. Falcone, L. Falk, A. Farbin, C. Farnese, Y. Farzan, M. Fasoli, A. Fava, J. Felix, E. Fernandez-Martinez, P. Fernandez Menendez, F. Ferraro, F. Feyzi, L. Fields, A. Filkins, F. Filthaut, A. Finch, O. Fischer, M. Fitton, R. Fitzpatrick, W. Flanagan, B. T. Fleming, R. Flight, T. Forest, J. Fowler, W. Fox, J. Franc, K. Francis, P. Franchini, D. Franco, J. Freeman, J. Freestone, J. Fried, A. Friedland, S. Fuess, I. Furic, A. Furmanski, A. M. Gago, H. Gallagher, A. Gallego-Ros, V. Galymov, E. Gamberini, S. Gambetta, T. Gamble, R. Gandhi, R. Gandrajula, S. Gao, D. Garcia-Gamez, S. Gardiner, D. Gastler, J. Gehrlein, B. Gelli, A. Gendotti, Z. Ghorbani-Moghaddam, A. Ghosh, D. Gibin, I. Gil-Botella, C. Girerd, A. K. Giri, S. Glavin, D. Goeldi, O. Gogota, M. Gold, S. Gollapinni, K. Gollwitzer, R. A. Gomes, L. Gomez, L. V. Gomez Bermeo, J. J. Gomez Cadenas, H. Gong, F. Gonnella, J. A. Gonzalez-Cuevas, M. Goodman, O. Goodwin, D. Gorbunov, S. Goswami, E. Goudzovski, C. Grace, N. Graf, N. Graf, M. Graham, E. Gramellini, R. Gran, A. Grant, C. Grant, N. Grant, V. Greco, S. Green, H. Greenlee, L. Greenler, M. Greenwood, J. Greer, W. C. Griffith, M. Groh, J. Grudzinski, K. Grzelak, G. Guanghua, E. Guardincerri, V. Guarino, G. P. Guedes, R. Guenette, A. Guglielmi, B. Guo, S. Gupta, V. Gupta, K. K. Guthikonda, R. Gutierrez, P. Guzowski, M. M. Guzzo, A. Habig, R. W. Hackenburg, A. Hackenburg, B. Hackett, H. Hadavand, R. Haenni, A. Hahn, J. Haigh, T. Haines, J. Haiston, T. Hamernik, P. Hamilton, J. Han, T. Handler, S. Hans, D. A. Harris, J. Hartnell, T. Hasegawa, R. Hatcher, A. Hatzikoutelis, S. Hays, E. Hazen, M. Headley, A. Heavey, K. Heegerv, J. Heise, K. Hennessy, S. Henry, A. Hernandez, J. Hernandez-Garcia, K. Herner, J. Hewes, J. Hignight, A. Higuera, T. Hill, S. Hillier, A. Himmel, C. Hohl, A. Holin, E. Hoppe, S. Horikawa, G. Horton-Smith, M. Hostert, A. Hourlier, B. Howard, R. Howell, J. Huang, J. Hugon, P. Hurh, J. Hylen, R. Illingworth, J. Insler, G. Introzzi, A. Ioannisian, A. Izmaylov, D. E. Jaffe, C. James, E. James, C. -H. Jang, F. Jediny, Y. S. Jeong, A. Jhingan, W. Ji, A. Jipa, S. Jiménez, C. Johnson, M. Johnson, R. Johnson, J. Johnstone, B. Jones, S. Jones, J. Joshi, H. Jostlein, C. K. Jung, T. Junk, A. Kaboth, I. Kadenko, F. Kamiya, Y. Kamyshkov, G. Karagiorgi, D. Karasavvas, Y. Karyotakis, S. Kasai, S. Kasetti, K. Kaur, B. Kayser, N. Kazaryan, E. Kearns, P. Keener, E. Kemp, C. Kendziora, W. Ketchum, S. H. Kettell, M. Khabibullin, A. Khotjantsev, D. Kim, B. Kirby, M. Kirby, J. Klein, Y. -J. Ko, T. Kobilarcik, B. Kocaman, L. W. Koerner, S. Kohn, G. Koizumi, P. Koller, A. Kopylov, M. Kordosky, L. Kormos, T. Kosc, U. Kose, V. A. Kostelecký, K. Kothekar, M. Kramer, F. Krennrich, I. Kreslo, K. Kriesel, W. Kropp, Y. Kudenko, V. A. Kudryavtsev, S. Kulagin, J. Kumar, L. Kumar, A. Kumar, S. Kumbhare, C. Kuruppu, V. Kus, T. Kutter, R. LaZur, K. Lande, C. Lane, K. Lang, T. Langford, F. Lanni, P. Lasorak, D. Last, C. Lastoria, A. Laundrie, I. Lazanu, T. Le, J. Learned, P. Lebrun, D. Lee, G. Lehmann Miotto, M. A. Leigui de Oliveira, Q. Li, S. Li, S. W. Li, X. Li, Y. Li, Z. Li, H. -Y. Liao, S. -K. Lin, C-J. S. Lin, R. Linehan, V. Linhart, J. Link, Z. Liptak, D. Lissauer, L. Littenberg, B. Littlejohn, J. Liu, T. Liu, L. LoMonaco, J. M. LoSecco, S. Lockwitz, N. Lockyer, T. Loew, M. Lokajicek, K. Long, K. Loo, J. P. Lopez, D. Lorca, T. Lord, M. Losada, W. C. Louis, M. Luethi, K. -B. Luk, T. Lundin, X. Luo, N. Lurkin, T. Lux, V. P. Luzio, J. Lykken, J. Maalampi, R. MacLellan, A. A. Machado, P. Machado, C. T. Macias, J. Macier, P. Madigan, S. Magill, G. Mahler, K. Mahn, M. Malek, J. A. Maloney, F. Mammoliti, S. K. Mandal, G. Mandrioli, L. Manenti, S. Manly, A. Mann, A. Marchionni, W. Marciano, S. Marcocci, D. Marfatia, C. Mariani, J. Maricic, F. Marinho, A. D. Marino, M. Marshak, C. Marshall, J. Marshall, J. Marteau, J. Martin-Albo, D. Martinez, N. Martinez, H. Martinez, K. Mason, A. Mastbaum, M. Masud, H. Mathez, S. Matsuno, J. Matthews, C. Mauger, N. Mauri, K. Mavrokoridis, R. Mazza, A. Mazzacane, E. Mazzucato, N. McCauley, E. McCluskey, N. McConkey, K. McDonald, K. S. McFarland, C. McGivern, A. McGowan, C. McGrew, R. McKeown, A. McNab, D. McNulty, R. McTaggart, V. Meddage, A. Mefodiev, P. Mehta, D. Mei, O. Mena, S. Menary, H. Mendez, D. P. Mendez, A. Menegolli, G. Meng, M. Messier, W. Metcalf, M. Mewes, H. Meyer, T. Miao, J. Migenda, R. Milincic, J. Miller, W. Miller, J. Mills, C. Milne, O. Mineev, O. Miranda, C. S. Mishra, S. R. Mishra, A. Mislivec, B. Mitrica, D. Mladenov, I. Mocioiu, K. Moffat, N. Moggi, R. Mohanta, N. Mokhov, J. Molina, L. Molina Bueno, A. Montanari, C. Montanari, D. Montanari, L. Montano Zetina, J. Moon, M. Mooney, C. Moore, D. Moreno, B. Morgan, G. F. Moroni, C. Morris, W. Morse, C. Mossey, C. A. Moura, J. Mousseau, L. Mualem, M. Muether, S. Mufson, F. Muheim, H. Muramatsu, S. Murphy, J. Musser, J. Nachtman, M. Nalbandyan, R. Nandakumar, D. Naples, S. Narita, G. Navarro, J. Navarro, D. Navas-Nicolás, N. Nayak, M. Nebot-Guinot, M. Needham, K. Negishi, J. Nelson, M. Nessi, D. Newbold, M. Newcomer, R. Nichol, T. C. Nicholls, E. Niner, A. Norman, B. Norris, J. Norris, P. Novella, E. Nowak, J. Nowak, M. S. Nunes, H. O'Keeffe, M. Oberling, A. Olivares Del Campo, A. Olivier, Y. Onel, Y. Onishchuk, T. Ovsjannikova, S. Ozturk, L. Pagani, S. Pakvasa, O. Palamara, J. Paley, M. Pallavicini, C. Palomares, J. Palomino, E. Pantic, A. Paolo, V. Paolone, V. Papadimitriou, R. Papaleo, S. Paramesvaran, J. Park, S. Parke, Z. Parsa, S. Pascoli, J. Pasternak, J. Pater, L. Patrizii, R. B. Patterson, S. J. Patton, T. Patzak, A. Paudel, B. Paulos, L. Paulucci, Z. Pavlovic, G. Pawloski, P. Payam, D. Payne, V. Pec, S. J. M. Peeters, E. Pennacchio, A. Penzo, G. N. Perdue, O. l. G. Peres, L. Periale, K. Petridis, G. Petrillo, R. Petti, P. Picchi, L. Pickering, F. Pietropaolo, J. Pillow, P. Plonski, R. Plunkett, R. Poling, X. Pons, N. Poonthottathil, M. Popovic, R. Pordes, S. Pordes, M. Potekhin, R. Potenza, B. Potukuchi, S. Poudel, J. Pozimski, M. Pozzato, T. Prakasj, R. Preece, O. Prokofiev, N. Pruthi, P. Przewlocki, F. Psihas, D. PugnËre, D. Pushka, K. Qi, X. Qian, J. L. Raaf, R. Raboanary, V. Radeka, J. Rademacker, V. Radescu, B. Radics, A. Radovic, A. Rafique, M. Rajaoalisoa, I. Rakhno, H. T. Rakotondramanana, L. Rakotondravohitra, Y. A. Ramachers, R. A. Rameika, M. A. Ramirez Delgado, J. Ramsey, B. J. Ramson, A. Rappoldi, G. L. Raselli, P. Ratoff, S. Ravat, O. Ravinez, H. Razafinime, B. Rebel, D. Redondo, C. Regenfus, M. Reggiani-Guzzo, T. Rehak, J. Reichenbacher, D. Reitzner, M. H. Reno, A. Renshaw, S. Rescia, F. Resnati, A. Reynolds, G. Riccobene, L. C. J. Rice, K. Rielage, K. Riesselmann, Y. -A. Rigaut, D. Rivera, L. Rochester, M. Roda, P. Rodrigues, M. J. Rodriguez Alonso, B. Roe, A. J. Roeth, R. M. Roser, M. Ross-Lonergan, M. Rossella, J. Rout, S. Roy, A. Rubbia, C. Rubbia, R. Rucinski, B. Russell, J. Russell, D. Ruterbories, M. R. Vagins, R. Saakyan, N. Sahu, P. Sala, G. Salukvadze, N. Samios, F. Sanchez, M. C. Sanchez, C. Sandoval, B. Sands, S. U. Sankar, S. Santana, L. M. Santos, G. Santucci, N. Saoulidou, P. Sapienza, C. Sarasty, I. Sarcevic, G. Savage, A. Scaramelli, A. Scarpelli, T. Schaffer, H. Schellman, P. Schlabach, C. M. Schloesser, D. W. Schmitz, J. Schneps, K. Scholberg, A. Schukraft, E. Segreto, S. Sehrawat, J. Sensenig, I. Seong, J. A. Sepulveda-Quiroz, A. Sergi, F. Sergiampietri, D. Sessumes, K. Sexton, L. Sexton-Kennedy, D. Sgalaberna, M. H. Shaevitz, S. Shafaq, J. S. Shahi, S. Shahsavarani, P. Shanahan, H. R. Sharma, R. Sharma, R. K. Sharma, T. Shaw, S. Shin, I. Shoemaker, D. Shooltz, R. Shrock, N. Simos, J. Sinclair, G. Sinev, V. Singh, J. Singh, J. Singh, I. Singh, J. Singh, R. Sipos, F. W. Sippach, G. Sirri, K. Siyeon, D. Smargianaki, A. Smith, A. Smith, E. Smith, P. Smith, J. Smolik, M. Smy, E. L. Snider, P. Snopok, J. Sobczyk, H. Sobel, M. Soderberg, C. J. Solano Salinas, S. Söldner-Rembold, N. Solomey, W. Sondheim, M. Sorel, J. A. Soto-Oton, A. Sousa, K. Soustruznik, F. Spagliardi, M. Spanu, J. Spitz, N. J. C. Spooner, R. Staley, M. Stancari, L. Stanco, A. Stefanik, H. M. Steiner, J. Stewart, J. Stock, F. Stocker, S. Stoica, J. Stone, J. Strait, M. Strait, T. Strauss, S. Striganov, A. Stuart, G. Sullivan, M. Sultana, Y. Sun, A. Surdo, V. Susic, L. Suter, C. M. Sutera, R. Svoboda, B. Szczerbinska, A. M. Szelc, N. Tagg, R. Talaga, H. Tanaka, B. Tapia Oregui, S. Tariq, E. Tatar, R. Tayloe, M. Tenti, K. Terao, C. A. Ternes, F. Terranova, G. Testera, A. Thea, L. F. Thompson, J. Thompson, C. Thorn, A. Timilsina, S. C. Timm, J. Todd, A. Tonazzo, T. Tope, D. Torbunov, M. Torti, M. Tórtola, F. Tortorici, M. Toups, C. Touramanis, J. Trevor, M. Tripathi, W. Tromeur, I. Tropin, W. H. Trzaska, Y. -T. Tsai, K. V. Tsang, A. Tsaris, S. Tufanli, C. Tull, J. Turner, M. Tzanov, E. Tziaferi, Y. Uchida, J. Urheim, T. Usher, G. A. Valdiviesso, E. Valencia, L. Valerio, Z. Vallari, J. W. F. Valle, R. Van Berg, R. Van de Water, F. Varanini, G. Varner, J. Vasel, G. Vasseur, K. Vaziri, G. Velev, S. Ventura, A. Verdugo, M. Vermeulen, E. Vernon, M. Verzocchi, T. Viant, C. Vignoli, S. Vihonen, C. Vilela, B. Viren, P. Vokac, T. Vrba, T. Wachala, D. Wahl, M. Wallbank, H. Wang, J. Wang, T. -C. Wang, B. Wang, Y. Wang, Z. Wang, K. Warburton, D. Warner, M. O. Wascko, D. Waters, A. Watson, A. Weber, M. Weber, H. Wei, W. Wei, A. Weinstein, D. Wenman, M. Wetstein, M. While, A. White, L. H. Whitehead, D. Whittington, K. Wierman, M. Wilking, C. Wilkinson, J. Willhite, Z. Williams, R. J. Wilson, P. Wilson, P. Wittich, J. Wolcott, T. Wongjirad, K. Wood, L. Wood, E. Worcester, M. Worcester, S. Wu, W. Wu, W. Xu, C. Yanagisawa, S. Yang, T. Yang, G. Yang, J. Ye, M. Yeh, N. Yershov, K. Yonehara, L. Yoshimura, B. Yu, J. Yu, J. Zalesak, L. Zambelli, B. Zamorano, A. Zani, K. Zaremba, L. Zazueta, G. P. Zeller, J. Zennamo, C. Zhang, C. Zhang, M. Zhao, Y. -L. Zhou, G. Zhu, E. D. Zimmerman, M. Zito, S. Zucchelli, J. Zuklin, V. Zutshi, R. Zwaska, 
+
+Date_Published: 
+2018-07-26T19:20:21Z
+
+Last_Update: 
+2018-07-26T19:20:21Z
+
+Title: 
+The DUNE Far Detector Interim Design Report, Volume 2: Single-Phase
+  Module
+
+ID: 
+1807.10327
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+1101
+
+
+Authors: 
+  DUNE Collaboration, B. Abi, R. Acciarri, M. A. Acero, M. Adamowski, C. Adams, D. Adams, P. Adamson, M. Adinolfi, Z. Ahmad, C. H. Albright, L. Aliaga Soplin, T. Alion, S. Alonso Monsalve, M. Alrashed, C. Alt, J. Anderson, K. Anderson, C. Andreopoulos, M. P. Andrews, R. A. Andrews, A. Ankowski, J. Anthony, M. Antonello, M. Antonova, S. Antusch, A. Aranda Fernandez, A. Ariga, T. Ariga, D. Aristizabal Sierra, E. Arrieta Diaz, J. Asaadi, M. Ascencio, D. Asner, M. S. Athar, M. Auger, A. Aurisano, V. Aushev, D. Autiero, F. Azfar, A. Back, H. Back, J. Back, C. Backhouse, P. Baesso, L. Bagby, X. Bai, M. Baird, B. Balantekin, S. Balasubramanian, B. Baller, P. Ballett, L. Balleyguier, B. Bambah, H. Band, M. Bansal, S. Bansal, G. Barenboim, G. J. Barker, C. Barnes, G. Barr, J. Barranco Monarca, N. Barros, J. Barrow, A. Bashyal, V. Basque, M. Bass, F. Bay, K. Bays, J. L. Bazo, J. F. Beacom, E. Bechetoille, B. R. Behera, L. Bellantoni, G. Bellettini, V. Bellini, O. Beltramello, D. Belver, N. Benekos, P. A. Benetti, A. Bercellie, E. Berman, P. Bernardini, R. Berner, H. G. Berns, R. H. Bernstein, S. Bertolucci, M. Betancourt, V. Bhatnagar, M. Bhattacharjee, B. Bhuyan, S. Biagi, J. Bian, K. Biery, B. Bilki, M. Bishai, A. Bitadze, T. Blackburn, A. Blake, B. Blanco Siffert, F. Blaszczyk, E. Blaufuss, G. C. Blazey, M. Blennow, E. Blucher, V. Bocean, F. Boffelli, J. Boissevain, S. Bolognesi, T. Bolton, M. Bonesini, T. Boone, A. Booth, C. Booth, S. Bordoni, A. Borkum, T. Boschi, P. Bour, B. Bourguille, S. B. Boyd, D. Boyden, J. Bracinik, D. Brailsford, A. Brandt, J. Bremer, S. J. Brice, C. Bromberg, G. Brooijmans, J. Brooke, G. Brown, N. Buchanan, H. Budd, P. C. de Holanda, T. Cai, D. Caiulo, P. Calafiura, A. Calatayud, J. Calcutt, C. Callahan, E. Calligarich, E. Calvo, L. Camilleri, A. Caminata, M. Campanelli, G. Cancelo, K. Cankocak, C. Cantini, D. Caratelli, B. Carlus, M. Carneiro, I. Caro Terrazas, T. J. Carroll, M. P. Carvallo, M. Cascella, C. Castromonte, E. Catano-Mur, M. Cavalli-Sforza, F. Cavanna, E. Cazzato, S. Centro, G. Cerati, A. Cervelli, A. Cervera Villanueva, T. Cervi, M. Chalifour, A. Chappuis, A. Chatterjee, S. Chattopadhyay, S. Chattopadhyay, J. Chaves, H. Chen, M. -C. Chen, S. Chen, D. Cherdack, C. -Y. Chi, S. Childress, K. Cho, S. Choubey, B. C. Choudhary, A. Christensen, D. Christian, G. Christodoulou, C. -A. Christofferson, E. Church, P. Clarke, T. E. Coan, A. Cocco, G. H. Collin, E. Conley, J. M. Conrad, M. Convery, R. Corey, L. Corwin, P. Cotte, L. Cremonesi, J. I. Crespo-Anadón, J. Creus Prats, E. Cristaldo, P. Crivelli, D. Cronin-Hennessy, C. Crowley, C. Cuesta, A. Curioni, D. Cussans, M. Dabrowski, D. Dale, H. Da Motta, T. Davenne, E. Davenport, G. S. Davies, J. Davies, S. Davini, J. Dawson, K. De, M. P. Decowski, P. Dedin Neto, I. de Icaza Astiz, A. Delbart, D. Delepine, M. Delgado, A. Dell, J. de Mello Neto, D. DeMuth, Z. Deng, S. Dennis, C. Densham, I. De Bonis, A. De Gouvêa, P. De Jong, P. De Lurgio, S. De Rijck, A. De Roeck, J. J. de Vries, R. Dharmapalan, N. Dhingra, M. Diamantopoulou, F. Diaz, J. S. Díaz, G. Diaz Bautista, P. Ding, C. Distefano, M. Diwan, S. Di Domizio, L. Di Giulio, S. Di Luise, Z. Djurcic, F. Doizon, N. Dokania, M. J. Dolinski, R. Dong, J. dos Anjos, D. Douglas, G. Drake, D. Duchesneau, K. Duffy, B. Dung, D. Dutta, M. Duvernois, H. Duyang, O. Dvornikov, D. A. Dwyer, S. Dye, A. S. Dyshkant, S. Dytman, M. Eads, B. Eberly, D. Edmunds, J. Eisch, A. Elagin, S. Elliott, W. Ellsworth, M. Elnimr, S. Emery, S. Eno, A. Ereditato, C. O. Escobar, L. Escudero Sanchez, J. J. Evans, A. Ezeribe, K. Fahey, A. Falcone, L. Falk, A. Farbin, C. Farnese, Y. Farzan, M. Fasoli, A. Fava, J. Felix, E. Fernandez-Martinez, P. Fernandez Menendez, F. Ferraro, F. Feyzi, L. Fields, A. Filkins, F. Filthaut, A. Finch, O. Fischer, M. Fitton, R. Fitzpatrick, W. Flanagan, B. T. Fleming, R. Flight, T. Forest, J. Fowler, W. Fox, J. Franc, K. Francis, P. Franchini, D. Franco, J. Freeman, J. Freestone, J. Fried, A. Friedland, S. Fuess, I. Furic, A. Furmanski, A. M. Gago, H. Gallagher, A. Gallego-Ros, V. Galymov, E. Gamberini, S. Gambetta, T. Gamble, R. Gandhi, R. Gandrajula, S. Gao, D. Garcia-Gamez, S. Gardiner, D. Gastler, J. Gehrlein, B. Gelli, A. Gendotti, Z. Ghorbani-Moghaddam, A. Ghosh, D. Gibin, I. Gil-Botella, C. Girerd, A. K. Giri, S. Glavin, D. Goeldi, O. Gogota, M. Gold, S. Gollapinni, K. Gollwitzer, R. A. Gomes, L. Gomez, L. V. Gomez Bermeo, J. J. Gomez Cadenas, H. Gong, F. Gonnella, J. A. Gonzalez-Cuevas, M. Goodman, O. Goodwin, D. Gorbunov, S. Goswami, E. Goudzovski, C. Grace, N. Graf, N. Graf, M. Graham, E. Gramellini, R. Gran, A. Grant, C. Grant, N. Grant, V. Greco, S. Green, H. Greenlee, L. Greenler, M. Greenwood, J. Greer, W. C. Griffith, M. Groh, J. Grudzinski, K. Grzelak, G. Guanghua, E. Guardincerri, V. Guarino, G. P. Guedes, R. Guenette, A. Guglielmi, B. Guo, S. Gupta, V. Gupta, K. K. Guthikonda, R. Gutierrez, P. Guzowski, M. M. Guzzo, A. Habig, R. W. Hackenburg, A. Hackenburg, B. Hackett, H. Hadavand, R. Haenni, A. Hahn, J. Haigh, T. Haines, J. Haiston, T. Hamernik, P. Hamilton, J. Han, T. Handler, S. Hans, D. A. Harris, J. Hartnell, T. Hasegawa, R. Hatcher, A. Hatzikoutelis, S. Hays, E. Hazen, M. Headley, A. Heavey, K. Heegerv, J. Heise, K. Hennessy, S. Henry, A. Hernandez, J. Hernandez-Garcia, K. Herner, J. Hewes, J. Hignight, A. Higuera, T. Hill, S. Hillier, A. Himmel, C. Hohl, A. Holin, E. Hoppe, S. Horikawa, G. Horton-Smith, M. Hostert, A. Hourlier, B. Howard, R. Howell, J. Huang, J. Hugon, P. Hurh, J. Hylen, R. Illingworth, J. Insler, G. Introzzi, A. Ioannisian, A. Izmaylov, D. E. Jaffe, C. James, E. James, C. -H. Jang, F. Jediny, Y. S. Jeong, A. Jhingan, W. Ji, A. Jipa, S. Jiménez, C. Johnson, M. Johnson, R. Johnson, J. Johnstone, B. Jones, S. Jones, J. Joshi, H. Jostlein, C. K. Jung, T. Junk, A. Kaboth, I. Kadenko, F. Kamiya, Y. Kamyshkov, G. Karagiorgi, D. Karasavvas, Y. Karyotakis, S. Kasai, S. Kasetti, K. Kaur, B. Kayser, N. Kazaryan, E. Kearns, P. Keener, E. Kemp, C. Kendziora, W. Ketchum, S. H. Kettell, M. Khabibullin, A. Khotjantsev, D. Kim, B. Kirby, M. Kirby, J. Klein, Y. -J. Ko, T. Kobilarcik, B. Kocaman, L. W. Koerner, S. Kohn, G. Koizumi, P. Koller, A. Kopylov, M. Kordosky, L. Kormos, T. Kosc, U. Kose, V. A. Kostelecký, K. Kothekar, M. Kramer, F. Krennrich, I. Kreslo, K. Kriesel, W. Kropp, Y. Kudenko, V. A. Kudryavtsev, S. Kulagin, J. Kumar, L. Kumar, A. Kumar, S. Kumbhare, C. Kuruppu, V. Kus, T. Kutter, R. LaZur, K. Lande, C. Lane, K. Lang, T. Langford, F. Lanni, P. Lasorak, D. Last, C. Lastoria, A. Laundrie, I. Lazanu, T. Le, J. Learned, P. Lebrun, D. Lee, G. Lehmann Miotto, M. A. Leigui de Oliveira, Q. Li, S. Li, S. W. Li, X. Li, Y. Li, Z. Li, H. -Y. Liao, S. -K. Lin, C-J. S. Lin, R. Linehan, V. Linhart, J. Link, Z. Liptak, D. Lissauer, L. Littenberg, B. Littlejohn, J. Liu, T. Liu, L. LoMonaco, J. M. LoSecco, S. Lockwitz, N. Lockyer, T. Loew, M. Lokajicek, K. Long, K. Loo, J. P. Lopez, D. Lorca, T. Lord, M. Losada, W. C. Louis, M. Luethi, K. -B. Luk, T. Lundin, X. Luo, N. Lurkin, T. Lux, V. P. Luzio, J. Lykken, J. Maalampi, R. MacLellan, A. A. Machado, P. Machado, C. T. Macias, J. Macier, P. Madigan, S. Magill, G. Mahler, K. Mahn, M. Malek, J. A. Maloney, F. Mammoliti, S. K. Mandal, G. Mandrioli, L. Manenti, S. Manly, A. Mann, A. Marchionni, W. Marciano, S. Marcocci, D. Marfatia, C. Mariani, J. Maricic, F. Marinho, A. D. Marino, M. Marshak, C. Marshall, J. Marshall, J. Marteau, J. Martin-Albo, D. Martinez, N. Martinez, H. Martinez, K. Mason, A. Mastbaum, M. Masud, H. Mathez, S. Matsuno, J. Matthews, C. Mauger, N. Mauri, K. Mavrokoridis, R. Mazza, A. Mazzacane, E. Mazzucato, N. McCauley, E. McCluskey, N. McConkey, K. McDonald, K. S. McFarland, C. McGivern, A. McGowan, C. McGrew, R. McKeown, A. McNab, D. McNulty, R. McTaggart, V. Meddage, A. Mefodiev, P. Mehta, D. Mei, O. Mena, S. Menary, H. Mendez, D. P. Mendez, A. Menegolli, G. Meng, M. Messier, W. Metcalf, M. Mewes, H. Meyer, T. Miao, J. Migenda, R. Milincic, J. Miller, W. Miller, J. Mills, C. Milne, O. Mineev, O. Miranda, C. S. Mishra, S. R. Mishra, A. Mislivec, B. Mitrica, D. Mladenov, I. Mocioiu, K. Moffat, N. Moggi, R. Mohanta, N. Mokhov, J. Molina, L. Molina Bueno, A. Montanari, C. Montanari, D. Montanari, L. Montano Zetina, J. Moon, M. Mooney, C. Moore, D. Moreno, B. Morgan, G. F. Moroni, C. Morris, W. Morse, C. Mossey, C. A. Moura, J. Mousseau, L. Mualem, M. Muether, S. Mufson, F. Muheim, H. Muramatsu, S. Murphy, J. Musser, J. Nachtman, M. Nalbandyan, R. Nandakumar, D. Naples, S. Narita, G. Navarro, J. Navarro, D. Navas-Nicolás, N. Nayak, M. Nebot-Guinot, M. Needham, K. Negishi, J. Nelson, M. Nessi, D. Newbold, M. Newcomer, R. Nichol, T. C. Nicholls, E. Niner, A. Norman, B. Norris, J. Norris, P. Novella, E. Nowak, J. Nowak, M. S. Nunes, H. O'Keeffe, M. Oberling, A. Olivares Del Campo, A. Olivier, Y. Onel, Y. Onishchuk, T. Ovsjannikova, S. Ozturk, L. Pagani, S. Pakvasa, O. Palamara, J. Paley, M. Pallavicini, C. Palomares, J. Palomino, E. Pantic, A. Paolo, V. Paolone, V. Papadimitriou, R. Papaleo, S. Paramesvaran, J. Park, S. Parke, Z. Parsa, S. Pascoli, J. Pasternak, J. Pater, L. Patrizii, R. B. Patterson, S. J. Patton, T. Patzak, A. Paudel, B. Paulos, L. Paulucci, Z. Pavlovic, G. Pawloski, P. Payam, D. Payne, V. Pec, S. J. M. Peeters, E. Pennacchio, A. Penzo, G. N. Perdue, O. l. G. Peres, L. Periale, K. Petridis, G. Petrillo, R. Petti, P. Picchi, L. Pickering, F. Pietropaolo, J. Pillow, P. Plonski, R. Plunkett, R. Poling, X. Pons, N. Poonthottathil, M. Popovic, R. Pordes, S. Pordes, M. Potekhin, R. Potenza, B. Potukuchi, S. Poudel, J. Pozimski, M. Pozzato, T. Prakasj, R. Preece, O. Prokofiev, N. Pruthi, P. Przewlocki, F. Psihas, D. PugnËre, D. Pushka, K. Qi, X. Qian, J. L. Raaf, R. Raboanary, V. Radeka, J. Rademacker, V. Radescu, B. Radics, A. Radovic, A. Rafique, M. Rajaoalisoa, I. Rakhno, H. T. Rakotondramanana, L. Rakotondravohitra, Y. A. Ramachers, R. A. Rameika, M. A. Ramirez Delgado, J. Ramsey, B. J. Ramson, A. Rappoldi, G. L. Raselli, P. Ratoff, S. Ravat, O. Ravinez, H. Razafinime, B. Rebel, D. Redondo, C. Regenfus, M. Reggiani-Guzzo, T. Rehak, J. Reichenbacher, D. Reitzner, M. H. Reno, A. Renshaw, S. Rescia, F. Resnati, A. Reynolds, G. Riccobene, L. C. J. Rice, K. Rielage, K. Riesselmann, Y. -A. Rigaut, D. Rivera, L. Rochester, M. Roda, P. Rodrigues, M. J. Rodriguez Alonso, B. Roe, A. J. Roeth, R. M. Roser, M. Ross-Lonergan, M. Rossella, J. Rout, S. Roy, A. Rubbia, C. Rubbia, R. Rucinski, B. Russell, J. Russell, D. Ruterbories, M. R. Vagins, R. Saakyan, N. Sahu, P. Sala, G. Salukvadze, N. Samios, F. Sanchez, M. C. Sanchez, C. Sandoval, B. Sands, S. U. Sankar, S. Santana, L. M. Santos, G. Santucci, N. Saoulidou, P. Sapienza, C. Sarasty, I. Sarcevic, G. Savage, A. Scaramelli, A. Scarpelli, T. Schaffer, H. Schellman, P. Schlabach, C. M. Schloesser, D. W. Schmitz, J. Schneps, K. Scholberg, A. Schukraft, E. Segreto, S. Sehrawat, J. Sensenig, I. Seong, J. A. Sepulveda-Quiroz, A. Sergi, F. Sergiampietri, D. Sessumes, K. Sexton, L. Sexton-Kennedy, D. Sgalaberna, M. H. Shaevitz, S. Shafaq, J. S. Shahi, S. Shahsavarani, P. Shanahan, H. R. Sharma, R. Sharma, R. K. Sharma, T. Shaw, S. Shin, I. Shoemaker, D. Shooltz, R. Shrock, N. Simos, J. Sinclair, G. Sinev, V. Singh, J. Singh, J. Singh, I. Singh, J. Singh, R. Sipos, F. W. Sippach, G. Sirri, K. Siyeon, D. Smargianaki, A. Smith, A. Smith, E. Smith, P. Smith, J. Smolik, M. Smy, E. L. Snider, P. Snopok, J. Sobczyk, H. Sobel, M. Soderberg, C. J. Solano Salinas, S. Söldner-Rembold, N. Solomey, W. Sondheim, M. Sorel, J. A. Soto-Oton, A. Sousa, K. Soustruznik, F. Spagliardi, M. Spanu, J. Spitz, N. J. C. Spooner, R. Staley, M. Stancari, L. Stanco, A. Stefanik, H. M. Steiner, J. Stewart, J. Stock, F. Stocker, S. Stoica, J. Stone, J. Strait, M. Strait, T. Strauss, S. Striganov, A. Stuart, G. Sullivan, M. Sultana, Y. Sun, A. Surdo, V. Susic, L. Suter, C. M. Sutera, R. Svoboda, B. Szczerbinska, A. M. Szelc, N. Tagg, R. Talaga, H. Tanaka, B. Tapia Oregui, S. Tariq, E. Tatar, R. Tayloe, M. Tenti, K. Terao, C. A. Ternes, F. Terranova, G. Testera, A. Thea, L. F. Thompson, J. Thompson, C. Thorn, A. Timilsina, S. C. Timm, J. Todd, A. Tonazzo, T. Tope, D. Torbunov, M. Torti, M. Tórtola, F. Tortorici, M. Toups, C. Touramanis, J. Trevor, M. Tripathi, W. Tromeur, I. Tropin, W. H. Trzaska, Y. -T. Tsai, K. V. Tsang, A. Tsaris, S. Tufanli, C. Tull, J. Turner, M. Tzanov, E. Tziaferi, Y. Uchida, J. Urheim, T. Usher, G. A. Valdiviesso, E. Valencia, L. Valerio, Z. Vallari, J. W. F. Valle, R. Van Berg, R. Van de Water, F. Varanini, G. Varner, J. Vasel, G. Vasseur, K. Vaziri, G. Velev, S. Ventura, A. Verdugo, M. Vermeulen, E. Vernon, M. Verzocchi, T. Viant, C. Vignoli, S. Vihonen, C. Vilela, B. Viren, P. Vokac, T. Vrba, T. Wachala, D. Wahl, M. Wallbank, H. Wang, J. Wang, T. -C. Wang, B. Wang, Y. Wang, Z. Wang, K. Warburton, D. Warner, M. O. Wascko, D. Waters, A. Watson, A. Weber, M. Weber, H. Wei, W. Wei, A. Weinstein, D. Wenman, M. Wetstein, M. While, A. White, L. H. Whitehead, D. Whittington, K. Wierman, M. Wilking, C. Wilkinson, J. Willhite, Z. Williams, R. J. Wilson, P. Wilson, P. Wittich, J. Wolcott, T. Wongjirad, K. Wood, L. Wood, E. Worcester, M. Worcester, S. Wu, W. Wu, W. Xu, C. Yanagisawa, S. Yang, T. Yang, G. Yang, J. Ye, M. Yeh, N. Yershov, K. Yonehara, L. Yoshimura, B. Yu, J. Yu, J. Zalesak, L. Zambelli, B. Zamorano, A. Zani, K. Zaremba, L. Zazueta, G. P. Zeller, J. Zennamo, C. Zhang, C. Zhang, M. Zhao, Y. -L. Zhou, G. Zhu, E. D. Zimmerman, M. Zito, S. Zucchelli, J. Zuklin, V. Zutshi, R. Zwaska, 
+
+Date_Published: 
+2018-07-26T19:29:09Z
+
+Last_Update: 
+2018-07-26T19:29:09Z
+
+Title: 
+The DUNE Far Detector Interim Design Report Volume 1: Physics,
+  Technology and Strategies
+
+ID: 
+1807.10334
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+1101
+
+
+Authors: 
+  DUNE Collaboration, B. Abi, R. Acciarri, M. A. Acero, M. Adamowski, C. Adams, D. Adams, P. Adamson, M. Adinolfi, Z. Ahmad, C. H. Albright, L. Aliaga Soplin, T. Alion, S. Alonso Monsalve, M. Alrashed, C. Alt, J. Anderson, K. Anderson, C. Andreopoulos, M. P. Andrews, R. A. Andrews, A. Ankowski, J. Anthony, M. Antonello, M. Antonova, S. Antusch, A. Aranda Fernandez, A. Ariga, T. Ariga, D. Aristizabal Sierra, E. Arrieta Diaz, J. Asaadi, M. Ascencio, D. Asner, M. S. Athar, M. Auger, A. Aurisano, V. Aushev, D. Autiero, F. Azfar, A. Back, H. Back, J. Back, C. Backhouse, P. Baesso, L. Bagby, X. Bai, M. Baird, B. Balantekin, S. Balasubramanian, B. Baller, P. Ballett, L. Balleyguier, B. Bambah, H. Band, M. Bansal, S. Bansal, G. Barenboim, G. J. Barker, C. Barnes, G. Barr, J. Barranco Monarca, N. Barros, J. Barrow, A. Bashyal, V. Basque, M. Bass, F. Bay, K. Bays, J. L. Bazo, J. F. Beacom, E. Bechetoille, B. R. Behera, L. Bellantoni, G. Bellettini, V. Bellini, O. Beltramello, D. Belver, N. Benekos, P. A. Benetti, A. Bercellie, E. Berman, P. Bernardini, R. Berner, H. G. Berns, R. H. Bernstein, S. Bertolucci, M. Betancourt, V. Bhatnagar, M. Bhattacharjee, B. Bhuyan, S. Biagi, J. Bian, K. Biery, B. Bilki, M. Bishai, A. Bitadze, T. Blackburn, A. Blake, B. Blanco Siffert, F. Blaszczyk, E. Blaufuss, G. C. Blazey, M. Blennow, E. Blucher, V. Bocean, F. Boffelli, J. Boissevain, S. Bolognesi, T. Bolton, M. Bonesini, T. Boone, A. Booth, C. Booth, S. Bordoni, A. Borkum, T. Boschi, P. Bour, B. Bourguille, S. B. Boyd, D. Boyden, J. Bracinik, D. Brailsford, A. Brandt, J. Bremer, S. J. Brice, C. Bromberg, G. Brooijmans, J. Brooke, G. Brown, N. Buchanan, H. Budd, P. C. de Holanda, T. Cai, D. Caiulo, P. Calafiura, A. Calatayud, J. Calcutt, C. Callahan, E. Calligarich, E. Calvo, L. Camilleri, A. Caminata, M. Campanelli, G. Cancelo, K. Cankocak, C. Cantini, D. Caratelli, B. Carlus, M. Carneiro, I. Caro Terrazas, T. J. Carroll, M. P. Carvallo, M. Cascella, C. Castromonte, E. Catano-Mur, M. Cavalli-Sforza, F. Cavanna, E. Cazzato, S. Centro, G. Cerati, A. Cervelli, A. Cervera Villanueva, T. Cervi, M. Chalifour, A. Chappuis, A. Chatterjee, S. Chattopadhyay, S. Chattopadhyay, J. Chaves, H. Chen, M. -C. Chen, S. Chen, D. Cherdack, C. -Y. Chi, S. Childress, K. Cho, S. Choubey, B. C. Choudhary, A. Christensen, D. Christian, G. Christodoulou, C. -A. Christofferson, E. Church, P. Clarke, T. E. Coan, A. Cocco, G. H. Collin, E. Conley, J. M. Conrad, M. Convery, R. Corey, L. Corwin, P. Cotte, L. Cremonesi, J. I. Crespo-Anadón, J. Creus Prats, E. Cristaldo, P. Crivelli, D. Cronin-Hennessy, C. Crowley, C. Cuesta, A. Curioni, D. Cussans, M. Dabrowski, D. Dale, H. Da Motta, T. Davenne, E. Davenport, G. S. Davies, J. Davies, S. Davini, J. Dawson, K. De, M. P. Decowski, P. Dedin Neto, I. de Icaza Astiz, A. Delbart, D. Delepine, M. Delgado, A. Dell, J. de Mello Neto, D. DeMuth, Z. Deng, S. Dennis, C. Densham, I. De Bonis, A. De Gouvêa, P. De Jong, P. De Lurgio, S. De Rijck, A. De Roeck, J. J. de Vries, R. Dharmapalan, N. Dhingra, M. Diamantopoulou, F. Diaz, J. S. Díaz, G. Diaz Bautista, P. Ding, C. Distefano, M. Diwan, S. Di Domizio, L. Di Giulio, S. Di Luise, Z. Djurcic, F. Doizon, N. Dokania, M. J. Dolinski, R. Dong, J. dos Anjos, D. Douglas, G. Drake, D. Duchesneau, K. Duffy, B. Dung, D. Dutta, M. Duvernois, H. Duyang, O. Dvornikov, D. A. Dwyer, S. Dye, A. S. Dyshkant, S. Dytman, M. Eads, B. Eberly, D. Edmunds, J. Eisch, A. Elagin, S. Elliott, W. Ellsworth, M. Elnimr, S. Emery, S. Eno, A. Ereditato, C. O. Escobar, L. Escudero Sanchez, J. J. Evans, A. Ezeribe, K. Fahey, A. Falcone, L. Falk, A. Farbin, C. Farnese, Y. Farzan, M. Fasoli, A. Fava, J. Felix, E. Fernandez-Martinez, P. Fernandez Menendez, F. Ferraro, F. Feyzi, L. Fields, A. Filkins, F. Filthaut, A. Finch, O. Fischer, M. Fitton, R. Fitzpatrick, W. Flanagan, B. T. Fleming, R. Flight, T. Forest, J. Fowler, W. Fox, J. Franc, K. Francis, P. Franchini, D. Franco, J. Freeman, J. Freestone, J. Fried, A. Friedland, S. Fuess, I. Furic, A. Furmanski, A. M. Gago, H. Gallagher, A. Gallego-Ros, V. Galymov, E. Gamberini, S. Gambetta, T. Gamble, R. Gandhi, R. Gandrajula, S. Gao, D. Garcia-Gamez, S. Gardiner, D. Gastler, J. Gehrlein, B. Gelli, A. Gendotti, Z. Ghorbani-Moghaddam, A. Ghosh, D. Gibin, I. Gil-Botella, C. Girerd, A. K. Giri, S. Glavin, D. Goeldi, O. Gogota, M. Gold, S. Gollapinni, K. Gollwitzer, R. A. Gomes, L. Gomez, L. V. Gomez Bermeo, J. J. Gomez Cadenas, H. Gong, F. Gonnella, J. A. Gonzalez-Cuevas, M. Goodman, O. Goodwin, D. Gorbunov, S. Goswami, E. Goudzovski, C. Grace, N. Graf, N. Graf, M. Graham, E. Gramellini, R. Gran, A. Grant, C. Grant, N. Grant, V. Greco, S. Green, H. Greenlee, L. Greenler, M. Greenwood, J. Greer, W. C. Griffith, M. Groh, J. Grudzinski, K. Grzelak, G. Guanghua, E. Guardincerri, V. Guarino, G. P. Guedes, R. Guenette, A. Guglielmi, B. Guo, S. Gupta, V. Gupta, K. K. Guthikonda, R. Gutierrez, P. Guzowski, M. M. Guzzo, A. Habig, R. W. Hackenburg, A. Hackenburg, B. Hackett, H. Hadavand, R. Haenni, A. Hahn, J. Haigh, T. Haines, J. Haiston, T. Hamernik, P. Hamilton, J. Han, T. Handler, S. Hans, D. A. Harris, J. Hartnell, T. Hasegawa, R. Hatcher, A. Hatzikoutelis, S. Hays, E. Hazen, M. Headley, A. Heavey, K. Heegerv, J. Heise, K. Hennessy, S. Henry, A. Hernandez, J. Hernandez-Garcia, K. Herner, J. Hewes, J. Hignight, A. Higuera, T. Hill, S. Hillier, A. Himmel, C. Hohl, A. Holin, E. Hoppe, S. Horikawa, G. Horton-Smith, M. Hostert, A. Hourlier, B. Howard, R. Howell, J. Huang, J. Hugon, P. Hurh, J. Hylen, R. Illingworth, J. Insler, G. Introzzi, A. Ioannisian, A. Izmaylov, D. E. Jaffe, C. James, E. James, C. -H. Jang, F. Jediny, Y. S. Jeong, A. Jhingan, W. Ji, A. Jipa, S. Jiménez, C. Johnson, M. Johnson, R. Johnson, J. Johnstone, B. Jones, S. Jones, J. Joshi, H. Jostlein, C. K. Jung, T. Junk, A. Kaboth, I. Kadenko, F. Kamiya, Y. Kamyshkov, G. Karagiorgi, D. Karasavvas, Y. Karyotakis, S. Kasai, S. Kasetti, K. Kaur, B. Kayser, N. Kazaryan, E. Kearns, P. Keener, E. Kemp, C. Kendziora, W. Ketchum, S. H. Kettell, M. Khabibullin, A. Khotjantsev, D. Kim, B. Kirby, M. Kirby, J. Klein, Y. -J. Ko, T. Kobilarcik, B. Kocaman, L. W. Koerner, S. Kohn, G. Koizumi, P. Koller, A. Kopylov, M. Kordosky, L. Kormos, T. Kosc, U. Kose, V. A. Kostelecký, K. Kothekar, M. Kramer, F. Krennrich, I. Kreslo, K. Kriesel, W. Kropp, Y. Kudenko, V. A. Kudryavtsev, S. Kulagin, J. Kumar, L. Kumar, A. Kumar, S. Kumbhare, C. Kuruppu, V. Kus, T. Kutter, R. LaZur, K. Lande, C. Lane, K. Lang, T. Langford, F. Lanni, P. Lasorak, D. Last, C. Lastoria, A. Laundrie, I. Lazanu, T. Le, J. Learned, P. Lebrun, D. Lee, G. Lehmann Miotto, M. A. Leigui de Oliveira, Q. Li, S. Li, S. W. Li, X. Li, Y. Li, Z. Li, H. -Y. Liao, S. -K. Lin, C-J. S. Lin, R. Linehan, V. Linhart, J. Link, Z. Liptak, D. Lissauer, L. Littenberg, B. Littlejohn, J. Liu, T. Liu, L. LoMonaco, J. M. LoSecco, S. Lockwitz, N. Lockyer, T. Loew, M. Lokajicek, K. Long, K. Loo, J. P. Lopez, D. Lorca, T. Lord, M. Losada, W. C. Louis, M. Luethi, K. -B. Luk, T. Lundin, X. Luo, N. Lurkin, T. Lux, V. P. Luzio, J. Lykken, J. Maalampi, R. MacLellan, A. A. Machado, P. Machado, C. T. Macias, J. Macier, P. Madigan, S. Magill, G. Mahler, K. Mahn, M. Malek, J. A. Maloney, F. Mammoliti, S. K. Mandal, G. Mandrioli, L. Manenti, S. Manly, A. Mann, A. Marchionni, W. Marciano, S. Marcocci, D. Marfatia, C. Mariani, J. Maricic, F. Marinho, A. D. Marino, M. Marshak, C. Marshall, J. Marshall, J. Marteau, J. Martin-Albo, D. Martinez, N. Martinez, H. Martinez, K. Mason, A. Mastbaum, M. Masud, H. Mathez, S. Matsuno, J. Matthews, C. Mauger, N. Mauri, K. Mavrokoridis, R. Mazza, A. Mazzacane, E. Mazzucato, N. McCauley, E. McCluskey, N. McConkey, K. McDonald, K. S. McFarland, C. McGivern, A. McGowan, C. McGrew, R. McKeown, A. McNab, D. McNulty, R. McTaggart, V. Meddage, A. Mefodiev, P. Mehta, D. Mei, O. Mena, S. Menary, H. Mendez, D. P. Mendez, A. Menegolli, G. Meng, M. Messier, W. Metcalf, M. Mewes, H. Meyer, T. Miao, J. Migenda, R. Milincic, J. Miller, W. Miller, J. Mills, C. Milne, O. Mineev, O. Miranda, C. S. Mishra, S. R. Mishra, A. Mislivec, B. Mitrica, D. Mladenov, I. Mocioiu, K. Moffat, N. Moggi, R. Mohanta, N. Mokhov, J. Molina, L. Molina Bueno, A. Montanari, C. Montanari, D. Montanari, L. Montano Zetina, J. Moon, M. Mooney, C. Moore, D. Moreno, B. Morgan, G. F. Moroni, C. Morris, W. Morse, C. Mossey, C. A. Moura, J. Mousseau, L. Mualem, M. Muether, S. Mufson, F. Muheim, H. Muramatsu, S. Murphy, J. Musser, J. Nachtman, M. Nalbandyan, R. Nandakumar, D. Naples, S. Narita, G. Navarro, J. Navarro, D. Navas-Nicolás, N. Nayak, M. Nebot-Guinot, M. Needham, K. Negishi, J. Nelson, M. Nessi, D. Newbold, M. Newcomer, R. Nichol, T. C. Nicholls, E. Niner, A. Norman, B. Norris, J. Norris, P. Novella, E. Nowak, J. Nowak, M. S. Nunes, H. O'Keeffe, M. Oberling, A. Olivares Del Campo, A. Olivier, Y. Onel, Y. Onishchuk, T. Ovsjannikova, S. Ozturk, L. Pagani, S. Pakvasa, O. Palamara, J. Paley, M. Pallavicini, C. Palomares, J. Palomino, E. Pantic, A. Paolo, V. Paolone, V. Papadimitriou, R. Papaleo, S. Paramesvaran, J. Park, S. Parke, Z. Parsa, S. Pascoli, J. Pasternak, J. Pater, L. Patrizii, R. B. Patterson, S. J. Patton, T. Patzak, A. Paudel, B. Paulos, L. Paulucci, Z. Pavlovic, G. Pawloski, P. Payam, D. Payne, V. Pec, S. J. M. Peeters, E. Pennacchio, A. Penzo, G. N. Perdue, O. l. G. Peres, L. Periale, K. Petridis, G. Petrillo, R. Petti, P. Picchi, L. Pickering, F. Pietropaolo, J. Pillow, P. Plonski, R. Plunkett, R. Poling, X. Pons, N. Poonthottathil, M. Popovic, R. Pordes, S. Pordes, M. Potekhin, R. Potenza, B. Potukuchi, S. Poudel, J. Pozimski, M. Pozzato, T. Prakasj, R. Preece, O. Prokofiev, N. Pruthi, P. Przewlocki, F. Psihas, D. PugnËre, D. Pushka, K. Qi, X. Qian, J. L. Raaf, R. Raboanary, V. Radeka, J. Rademacker, V. Radescu, B. Radics, A. Radovic, A. Rafique, M. Rajaoalisoa, I. Rakhno, H. T. Rakotondramanana, L. Rakotondravohitra, Y. A. Ramachers, R. A. Rameika, M. A. Ramirez Delgado, J. Ramsey, B. J. Ramson, A. Rappoldi, G. L. Raselli, P. Ratoff, S. Ravat, O. Ravinez, H. Razafinime, B. Rebel, D. Redondo, C. Regenfus, M. Reggiani-Guzzo, T. Rehak, J. Reichenbacher, D. Reitzner, M. H. Reno, A. Renshaw, S. Rescia, F. Resnati, A. Reynolds, G. Riccobene, L. C. J. Rice, K. Rielage, K. Riesselmann, Y. -A. Rigaut, D. Rivera, L. Rochester, M. Roda, P. Rodrigues, M. J. Rodriguez Alonso, B. Roe, A. J. Roeth, R. M. Roser, M. Ross-Lonergan, M. Rossella, J. Rout, S. Roy, A. Rubbia, C. Rubbia, R. Rucinski, B. Russell, J. Russell, D. Ruterbories, M. R. Vagins, R. Saakyan, N. Sahu, P. Sala, G. Salukvadze, N. Samios, F. Sanchez, M. C. Sanchez, C. Sandoval, B. Sands, S. U. Sankar, S. Santana, L. M. Santos, G. Santucci, N. Saoulidou, P. Sapienza, C. Sarasty, I. Sarcevic, G. Savage, A. Scaramelli, A. Scarpelli, T. Schaffer, H. Schellman, P. Schlabach, C. M. Schloesser, D. W. Schmitz, J. Schneps, K. Scholberg, A. Schukraft, E. Segreto, S. Sehrawat, J. Sensenig, I. Seong, J. A. Sepulveda-Quiroz, A. Sergi, F. Sergiampietri, D. Sessumes, K. Sexton, L. Sexton-Kennedy, D. Sgalaberna, M. H. Shaevitz, S. Shafaq, J. S. Shahi, S. Shahsavarani, P. Shanahan, H. R. Sharma, R. Sharma, R. K. Sharma, T. Shaw, S. Shin, I. Shoemaker, D. Shooltz, R. Shrock, N. Simos, J. Sinclair, G. Sinev, V. Singh, J. Singh, J. Singh, I. Singh, J. Singh, R. Sipos, F. W. Sippach, G. Sirri, K. Siyeon, D. Smargianaki, A. Smith, A. Smith, E. Smith, P. Smith, J. Smolik, M. Smy, E. L. Snider, P. Snopok, J. Sobczyk, H. Sobel, M. Soderberg, C. J. Solano Salinas, S. Söldner-Rembold, N. Solomey, W. Sondheim, M. Sorel, J. A. Soto-Oton, A. Sousa, K. Soustruznik, F. Spagliardi, M. Spanu, J. Spitz, N. J. C. Spooner, R. Staley, M. Stancari, L. Stanco, A. Stefanik, H. M. Steiner, J. Stewart, J. Stock, F. Stocker, S. Stoica, J. Stone, J. Strait, M. Strait, T. Strauss, S. Striganov, A. Stuart, G. Sullivan, M. Sultana, Y. Sun, A. Surdo, V. Susic, L. Suter, C. M. Sutera, R. Svoboda, B. Szczerbinska, A. M. Szelc, N. Tagg, R. Talaga, H. Tanaka, B. Tapia Oregui, S. Tariq, E. Tatar, R. Tayloe, M. Tenti, K. Terao, C. A. Ternes, F. Terranova, G. Testera, A. Thea, L. F. Thompson, J. Thompson, C. Thorn, A. Timilsina, S. C. Timm, J. Todd, A. Tonazzo, T. Tope, D. Torbunov, M. Torti, M. Tórtola, F. Tortorici, M. Toups, C. Touramanis, J. Trevor, M. Tripathi, W. Tromeur, I. Tropin, W. H. Trzaska, Y. -T. Tsai, K. V. Tsang, A. Tsaris, S. Tufanli, C. Tull, J. Turner, M. Tzanov, E. Tziaferi, Y. Uchida, J. Urheim, T. Usher, G. A. Valdiviesso, E. Valencia, L. Valerio, Z. Vallari, J. W. F. Valle, R. Van Berg, R. Van de Water, F. Varanini, G. Varner, J. Vasel, G. Vasseur, K. Vaziri, G. Velev, S. Ventura, A. Verdugo, M. Vermeulen, E. Vernon, M. Verzocchi, T. Viant, C. Vignoli, S. Vihonen, C. Vilela, B. Viren, P. Vokac, T. Vrba, T. Wachala, D. Wahl, M. Wallbank, H. Wang, J. Wang, T. -C. Wang, B. Wang, Y. Wang, Z. Wang, K. Warburton, D. Warner, M. O. Wascko, D. Waters, A. Watson, A. Weber, M. Weber, H. Wei, W. Wei, A. Weinstein, D. Wenman, M. Wetstein, M. While, A. White, L. H. Whitehead, D. Whittington, K. Wierman, M. Wilking, C. Wilkinson, J. Willhite, Z. Williams, R. J. Wilson, P. Wilson, P. Wittich, J. Wolcott, T. Wongjirad, K. Wood, L. Wood, E. Worcester, M. Worcester, S. Wu, W. Wu, W. Xu, C. Yanagisawa, S. Yang, T. Yang, G. Yang, J. Ye, M. Yeh, N. Yershov, K. Yonehara, L. Yoshimura, B. Yu, J. Yu, J. Zalesak, L. Zambelli, B. Zamorano, A. Zani, K. Zaremba, L. Zazueta, G. P. Zeller, J. Zennamo, C. Zhang, C. Zhang, M. Zhao, Y. -L. Zhou, G. Zhu, E. D. Zimmerman, M. Zito, S. Zucchelli, J. Zuklin, V. Zutshi, R. Zwaska, 
+
+Date_Published: 
+2018-07-26T19:55:22Z
+
+Last_Update: 
+2018-07-26T19:55:22Z
+
+Title: 
+The DUNE Far Detector Interim Design Report, Volume 3: Dual-Phase Module
+
+ID: 
+1807.10340
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+1101
+
+
+Authors: 
+ J. Abraham, P. Abreu, M. Aglietta, C. Aguirre, E. J. Ahn, D. Allard, I. Allekotte, J. Allen, J. Alvarez-Muñiz, M. Ambrosio, L. Anchordoqui, S. Andringa, A. Anzalone, C. Aramo, E. Arganda, S. Argirò, K. Arisaka, F. Arneodo, F. Arqueros, T. Asch, H. Asorey, P. Assis, J. Aublin, M. Ave, G. Avila, T. Bäcker, D. Badagnani, K. B. Barber, A. F. Barbosa, S. L. C. Barroso, B. Baughman, P. Bauleo, J. J. Beatty, T. Beau, B. R. Becker, K. H. Becker, A. Bellétoile, J. A. Bellido, S. BenZvi, C. Berat, P. Bernardini, X. Bertou, P. L. Biermann, P. Billoir, O. Blanch-Bigas, F. Blanco, C. Bleve, H. Blümer, M. Boháčová, D. Boncioli, C. Bonifazi, R. Bonino, N. Borodai, J. Brack, P. Brogueira, W. C. Brown, R. Bruijn, P. Buchholz, A. Bueno, R. E. Burton, N. G. Busca, K. S. Caballero-Mora, L. Caramete, R. Caruso, W. Carvalho, A. Castellina, O. Catalano, L. Cazon, R. Cester, J. Chauvin, A. Chiavassa, J. A. Chinellato, A. Chou, J. Chudoba, J. Chye, R. W. Clay, E. Colombo, R. Conceição, B. Connolly, F. Contreras, J. Coppens, A. Cordier, U. Cotti, S. Coutu, C. E. Covault, A. Creusot, A. Criss, J. Cronin, A. Curutiu, S. Dagoret-Campagne, R. Dallier, K. Daumiller, B. R. Dawson, R. M. de Almeida, M. De Domenico, C. De Donato, S. J. de Jong, G. De La Vega, W. J. M. de Mello Junior, J. R. T. de Mello Neto, I. De Mitri, V. de Souza, K. D. de Vries, G. Decerprit, L. del Peral, O. Deligny, A. Della Selva, C. Delle Fratte, H. Dembinski, C. Di Giulio, J. C. Diaz, P. N. Diep, C. Dobrigkeit, J. C. D'Olivo, P. N. Dong, A. Dorofeev, J. C. dos Anjos, M. T. Dova, D. D'Urso, I. Dutan, M. A. DuVernois, R. Engel, M. Erdmann, C. O. Escobar, A. Etchegoyen, P. Facal San Luis, H. Falcke, G. Farrar, A. C. Fauth, N. Fazzini, F. Ferrer, A. Ferrero, B. Fick, A. Filevich, A. Filipčič, I. Fleck, S. Fliescher, C. E. Fracchiolla, E. D. Fraenkel, W. Fulgione, R. F. Gamarra, S. Gambetta, B. García, D. García Gámez, D. Garcia-Pinto, X. Garrido, G. Gelmini, H. Gemmeke, P. L. Ghia, U. Giaccari, M. Giller, H. Glass, L. M. Goggin, M. S. Gold, G. Golup, F. Gomez Albarracin, M. Gómez Berisso, P. Gonçalves, M. Gonçalves do Amaral, D. Gonzalez, J. G. Gonzalez, D. Góra, A. Gorgi, P. Gouffon, S. R. Gozzini, E. Grashorn, S. Grebe, M. Grigat, A. F. Grillo, Y. Guardincerri, F. Guarino, G. P. Guedes, J. Gutiérrez, J. D. Hague, V. Halenka, P. Hansen, D. Harari, S. Harmsma, J. L. Harton, A. Haungs, M. D. Healy, T. Hebbeker, G. Hebrero, D. Heck, C. Hojvat, V. C. Holmes, P. Homola, J. R. Hörandel, A. Horneffer, M. Hrabovský, T. Huege, M. Hussain, M. Iarlori, A. Insolia, F. Ionita, A. Italiano, S. Jiraskova, M. Kaducak, K. H. Kampert, T. Karova, P. Kasper, B. Kégl, B. Keilhauer, E. Kemp, R. M. Kieckhafer, H. O. Klages, M. Kleifges, J. Kleinfeller, R. Knapik, J. Knapp, D. -H. Koang, A. Krieger, O. Krömer, D. Kruppke-Hansen, F. Kuehn, D. Kuempel, K. Kulbartz, N. Kunka, A. Kusenko, G. La Rosa, C. Lachaud, B. L. Lago, P. Lautridou, M. S. A. B. Leão, D. Lebrun, P. Lebrun, J. Lee, M. A. Leigui de Oliveira, A. Lemiere, A. Letessier-Selvon, M. Leuthold, I. Lhenry-Yvon, R. López, A. Lopez Agüera, K. Louedec, J. Lozano Bahilo, A. Lucero, H. Lyberis, M. C. Maccarone, C. Macolino, S. Maldera, D. Mandat, P. Mantsch, A. G. Mariazzi, I. C. Maris, H. R. Marquez Falcon, D. Martello, O. Martínez Bravo, H. J. Mathes, J. Matthews, J. A. J. Matthews, G. Matthiae, D. Maurizio, P. O. Mazur, M. McEwen, R. R. McNeil, G. Medina-Tanco, M. Melissas, D. Melo, E. Menichetti, A. Menshikov, R. Meyhandan, M. I. Micheletti, G. Miele, W. Miller, L. Miramonti, S. Mollerach, M. Monasor, D. Monnier Ragaigne, F. Montanet, B. Morales, C. Morello, J. C. Moreno, C. Morris, M. Mostafá, C. A. Moura, S. Mueller, M. A. Muller, R. Mussa, G. Navarra, J. L. Navarro, S. Navas, P. Necesal, L. Nellen, C. Newman-Holmes, D. Newton, P. T. Nhung, N. Nierstenhoefer, D. Nitz, D. Nosek, L. Nožka, M. Nyklicek, J. Oehlschläger, A. Olinto, P. Oliva, V. M. Olmos-Gilbaja, M. Ortiz, N. Pacheco, D. Pakk Selmi-Dei, M. Palatka, J. Pallotta, G. Parente, E. Parizot, S. Parlati, S. Pastor, M. Patel, T. Paul, V. Pavlidou, K. Payet, M. Pech, J. Pȩkala, I. M. Pepe, L. Perrone, R. Pesce, E. Petermann, S. Petrera, P. Petrinca, A. Petrolini, Y. Petrov, J. Petrovic, C. Pfendner, R. Piegaia, T. Pierog, M. Pimenta, T. Pinto, V. Pirronello, O. Pisanti, M. Platino, J. Pochon, V. H. Ponce, M. Pontz, P. Privitera, M. Prouza, E. J. Quel, J. Rautenberg, O. Ravel, D. Ravignani, A. Redondo, B. Revenu, F. A. S. Rezende, J. Ridky, S. Riggi, M. Risse, C. Rivière, V. Rizi, C. Robledo, G. Rodriguez, J. Rodriguez Martino, J. Rodriguez Rojo, I. Rodriguez-Cabo, M. D. Rodríguez-Frías, G. Ros, J. Rosado, T. Rossler, M. Roth, B. Rouillé-d'Orfeuil, E. Roulet, A. C. Rovero, F. Salamida, H. Salazar, G. Salina, F. Sánchez, M. Santander, C. E. Santo, E. M. Santos, F. Sarazin, S. Sarkar, R. Sato, N. Scharf, V. Scherini, H. Schieler, P. Schiffer, A. Schmidt, F. Schmidt, T. Schmidt, O. Scholten, H. Schoorlemmer, J. Schovancova, P. Schovánek, F. Schroeder, S. Schulte, F. Schüssler, D. Schuster, S. J. Sciutto, M. Scuderi, A. Segreto, D. Semikoz, M. Settimo, R. C. Shellard, I. Sidelnik, B. B. Siffert, G. Sigl, A. Śmiałkowski, R. Šmída, B. E. Smith, G. R. Snow, P. Sommers, J. Sorokin, H. Spinka, R. Squartini, E. Strazzeri, A. Stutz, F. Suarez, T. Suomijärvi, A. D. Supanitsky, M. S. Sutherland, J. Swain, Z. Szadkowski, A. Tamashiro, A. Tamburro, T. Tarutina, O. Taşcău, R. Tcaciuc, D. Tcherniakhovski, D. Tegolo, N. T. Thao, D. Thomas, R. Ticona, J. Tiffenberg, C. Timmermans, W. Tkaczyk, C. J. Todero Peixoto, B. Tomé, A. Tonachini, I. Torres, P. Travnicek, D. B. Tridapalli, G. Tristram, E. Trovato, M. Tueros, R. Ulrich, M. Unger, M. Urban, J. F. Valdés Galicia, I. Valiño, L. Valore, A. M. van den Berg, J. R. Vázquez, R. A. Vázquez, D. Veberič, A. Velarde, T. Venters, V. Verzi, M. Videla, L. Villaseñor, S. Vorobiov, L. Voyvodic, H. Wahlberg, P. Wahrlich, O. Wainberg, D. Warner, A. A. Watson, S. Westerhoff, B. J. Whelan, G. Wieczorek, L. Wiencke, B. Wilczyńska, H. Wilczyński, C. Wileman, M. G. Winnick, H. Wu, B. Wundheiler, T. Yamamoto, P. Younk, G. Yuan, A. Yushkov, E. Zas, D. Zavrtanik, M. Zavrtanik, I. Zaw, A. Zepeda, M. Ziolkowski, 
+
+Date_Published: 
+2011-11-29T11:17:37Z
+
+Last_Update: 
+2011-11-29T11:17:37Z
+
+Title: 
+Trigger and Aperture of the Surface Detector Array of the Pierre Auger
+  Observatory
+
+ID: 
+1111.6764
+
+DOI: 
+10.1016/j.nima.2009.11.018
+
+Journal: 
+Nucl. Instrum. Methods A 613 (2010) 29-39
+
+Num_Of_Authors: 
+472
+
+
+Authors: 
+ Qiushan Guo, Yuan Dong, Yu Guo, Hongliang Bai, 
+
+Date_Published: 
+2019-03-11T07:13:31Z
+
+Last_Update: 
+2019-03-11T07:13:31Z
+
+Title: 
+MSFD:Multi-Scale Receptive Field Face Detector
+
+ID: 
+1903.04147
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+4
+
+
+Authors: 
+  CDF Collaboration, T. Aaltonen, B. Álvarez Gonzálezv, S. Amerio, D. Amidei, A. Anastassov, A. Annovi, J. Antos, G. Apollinari, J. A. Appel, A. Apresyan, T. Arisawa, A. Artikov, J. Asaadi, W. Ashmanskas, B. Auerbach, A. Aurisano, F. Azfar, W. Badgett, A. Barbaro-Galtieri, V. E. Barnes, B. A. Barnett, P. Barriaee, P. Bartos, M. Baucecc, G. Bauer, F. Bedeschi, D. Beecher, S. Behari, G. Bellettinidd, J. Bellinger, D. Benjamin, A. Beretvas, A. Bhatti, M. Binkley, D. Bisellocc, I. Bizjakii, K. R. Bland, C. Blocker, B. Blumenfeld, A. Bocci, A. Bodek, D. Bortoletto, J. Boudreau, A. Boveia, B. Braua, L. Brigliadoribb, A. Brisuda, C. Bromberg, E. Brucken, M. Bucciantoniodd, J. Budagov, H. S. Budd, S. Budd, K. Burkett, G. Busettocc, P. Bussey, A. Buzatu, S. Cabrerax, C. Calancha, S. Camarda, M. Campanelli, M. Campbell, F. Canelli, A. Canepa, B. Carls, D. Carlsmith, R. Carosi, S. Carrillok, S. Carron, B. Casal, M. Casarsa, A. Castrobb, P. Catastini, D. Cauz, V. Cavaliereee, M. Cavalli-Sforza, A. Cerrif, L. Cerritoq, Y. C. Chen, M. Chertok, G. Chiarelli, G. Chlachidze, F. Chlebana, K. Cho, D. Chokheli, J. P. Chou, W. H. Chung, Y. S. Chung, C. I. Ciobanu, M. A. Ciocciee, A. Clark, D. Clark, G. Compostellacc, M. E. Convery, J. Conway, M. Corbo, M. Cordelli, C. A. Cox, D. J. Cox, F. Cresciolidd, C. Cuenca Almenar, J. Cuevasv, R. Culbertson, D. Dagenhart, N. d'Ascenzot, M. Datta, P. de Barbaro, S. De Cecco, G. De Lorenzo, M. Dell'Orsodd, C. Deluca, L. Demortier, J. Dengc, M. Deninno, F. Devoto, M. d'Erricocc, A. Di Cantodd, B. Di Ruzza, J. R. Dittmann, M. D'Onofrio, S. Donatidd, P. Dong, T. Dorigo, K. Ebina, A. Elagin, A. Eppig, R. Erbacher, D. Errede, S. Errede, N. Ershaidataa, R. Eusebi, H. C. Fang, S. Farrington, M. Feindt, J. P. Fernandez, C. Ferrazzaff, R. Field, G. Flanaganr, R. Forrest, M. J. Frank, M. Franklin, J. C. Freeman, I. Furic, M. Gallinaro, J. Galyardt, J. E. Garcia, A. F. Garfinkel, P. Garosiee, H. Gerberich, E. Gerchtein, S. Giagugg, V. Giakoumopoulou, P. Giannetti, K. Gibson, C. M. Ginsburg, N. Giokaris, P. Giromini, M. Giunta, G. Giurgiu, V. Glagolev, D. Glenzinski, M. Gold, D. Goldin, N. Goldschmidt, A. Golossanov, G. Gomez, G. Gomez-Ceballos, M. Goncharov, O. González, I. Gorelov, A. T. Goshaw, K. Goulianos, A. Gresele, S. Grinstein, C. Grosso-Pilcher, R. C. Group, J. Guimaraes da Costa, Z. Gunay-Unalan, C. Haber, S. R. Hahn, E. Halkiadakis, A. Hamaguchi, J. Y. Han, F. Happacher, K. Hara, D. Hare, M. Hare, R. F. Harr, K. Hatakeyama, C. Hays, M. Heck, J. Heinrich, M. Herndon, S. Hewamanage, D. Hidas, A. Hocker, W. Hopkinsg, D. Horn, S. Hou, R. E. Hughes, M. Hurwitz, U. Husemann, N. Hussain, M. Hussein, J. Huston, G. Introzzi, M. Iorigg, A. Ivanovo, E. James, D. Jang, B. Jayatilaka, E. J. Jeon, M. K. Jha, S. Jindariani, W. Johnson, M. Jones, K. K. Joo, S. Y. Jun, T. R. Junk, T. Kamon, P. E. Karchin, Y. Katon, W. Ketchum, J. Keung, V. Khotilovich, B. Kilminster, D. H. Kim, H. S. Kim, H. W. Kim, J. E. Kim, M. J. Kim, S. B. Kim, S. H. Kim, Y. K. Kim, N. Kimura, S. Klimenko, K. Kondo, D. J. Kong, J. Konigsberg, A. Korytov, A. V. Kotwal, M. Kreps, J. Kroll, D. Krop, N. Krumnackl, M. Kruse, V. Krutelyovd, T. Kuhr, M. Kurata, S. Kwang, A. T. Laasanen, S. Lami, S. Lammel, M. Lancaster, R. L. Lander, K. Lannonu, A. Lath, G. Latinoee, I. Lazzizzera, T. LeCompte, E. Lee, H. S. Lee, J. S. Lee, S. W. Leew, S. Leodd, S. Leone, J. D. Lewis, C. -J. Lin, J. Linacre, M. Lindgren, E. Lipeles, A. Lister, D. O. Litvintsev, C. Liu, Q. Liu, T. Liu, S. Lockwitz, N. S. Lockyer, A. Loginov, D. Lucchesicc, J. Lueck, P. Lujan, P. Lukens, G. Lungu, J. Lys, R. Lysak, R. Madrak, K. Maeshima, K. Makhoul, P. Maksimovic, S. Malik, G. Mancab, A. Manousakis-Katsikakis, F. Margaroli, C. Marino, M. Martínez, R. Martínez-Ballarín, P. Mastrandrea, M. Mathis, M. E. Mattson, P. Mazzanti, K. S. McFarland, P. McIntyre, R. McNultyi, A. Mehta, P. Mehtala, A. Menzione, C. Mesropian, T. Miao, D. Mietlicki, A. Mitra, H. Miyake, S. Moed, N. Moggi, M. N. Mondragonk, C. S. Moon, R. Moore, M. J. Morello, J. Morlock, P. Movilla Fernandez, A. Mukherjee, Th. Muller, P. Murat, M. Mussinibb, J. Nachtmanm, Y. Nagai, J. Naganoma, I. Nakano, A. Napier, J. Nett, C. Neuz, M. S. Neubauer, J. Nielsene, L. Nodulman, O. Norniella, E. Nurse, L. Oakes, S. H. Oh, Y. D. Oh, I. Oksuzian, T. Okusawa, R. Orava, L. Ortolan, S. Pagan Grisocc, C. Pagliarone, E. Palenciaf, V. Papadimitriou, A. A. Paramonov, J. Patrick, G. Paulettahh, M. Paulini, C. Paus, D. E. Pellett, A. Penzo, T. J. Phillips, G. Piacentino, E. Pianori, J. Pilot, K. Pitts, C. Plager, L. Pondrom, K. Potamianos, O. Poukhov, F. Prokoshiny, A. Pronko, F. Ptohosh, E. Pueschel, G. Punzidd, J. Pursley, A. Rahaman, V. Ramakrishnan, N. Ranjan, I. Redondo, P. Renton, M. Rescigno, F. Rimondibb, L. Ristori, A. Robson, T. Rodrigo, T. Rodriguez, E. Rogers, S. Rolli, R. Roser, M. Rossi, F. Ruffiniee, A. Ruiz, J. Russ, V. Rusu, A. Safonov, W. K. Sakumoto, L. Santihh, L. Sartori, K. Sato, V. Savelievt, A. Savoy-Navarro, P. Schlabach, A. Schmidt, E. E. Schmidt, M. P. Schmidt, M. Schmitt, T. Schwarz, L. Scodellaro, A. Scribanoee, F. Scuri, A. Sedov, S. Seidel, Y. Seiya, A. Semenov, F. Sforzadd, A. Sfyrla, S. Z. Shalhout, T. Shears, P. F. Shepard, M. Shimojimas, S. Shiraishi, M. Shochet, I. Shreyber, A. Simonenko, P. Sinervo, A. Sissakian, K. Sliwa, J. R. Smith, F. D. Snider, A. Soha, S. Somalwar, V. Sorin, P. Squillacioti, M. Stanitzki, R. St. Denis, B. Stelzer, O. Stelzer-Chilton, D. Stentz, J. Strologas, G. L. Strycker, Y. Sudo, A. Sukhanov, I. Suslov, K. Takemasa, Y. Takeuchi, J. Tang, M. Tecchio, P. K. Teng, J. Thomg, J. Thome, G. A. Thompson, E. Thomson, P. Ttito-Guzmán, S. Tkaczyk, D. Toback, S. Tokar, K. Tollefson, T. Tomura, D. Tonelli, S. Torre, D. Torretta, P. Totarohh, M. Trovatoff, Y. Tu, N. Turiniee, F. Ukegawa, S. Uozumi, A. Varganov, E. Vatagaff, F. Vázquez, G. Velev, C. Vellidis, M. Vidal, I. Vila, R. Vilar, M. Vogel, G. Volpidd, P. Wagner, R. L. Wagner, T. Wakisaka, R. Wallny, S. M. Wang, A. Warburton, D. Waters, M. Weinberger, W. C. Wester III, B. Whitehouse, D. Whitesonc, A. B. Wicklund, E. Wicklund, S. Wilbur, F. Wick, H. H. Williams, J. S. Wilson, P. Wilson, B. L. Winer, P. Wittichg, S. Wolbers, H. Wolfe, T. Wright, X. Wu, Z. Wu, K. Yamamoto, J. Yamaoka, T. Yang, U. K. Yangp, Y. C. Yang, W. -M. Yao, G. P. Yeh, K. Yim, J. Yoh, K. Yorita, T. Yoshidaj, G. B. Yu, I. Yu, S. S. Yu, J. C. Yun, A. Zanetti, Y. Zeng, S. Zucchelli, 
+
+Date_Published: 
+2011-08-08T04:30:42Z
+
+Last_Update: 
+2011-09-21T12:54:36Z
+
+Title: 
+Measurement of the top-quark mass in the lepton+jets channel using a
+  matrix element technique with the CDF II detector
+
+ID: 
+1108.1601
+
+DOI: 
+10.1103/PhysRevD.84.071105
+
+Journal: 
+Phys. Rev. D 84, 071105(R) (2011)
+
+Num_Of_Authors: 
+515
+
+
+Authors: 
+ David Blair, Li Ju, Chunnong Zhao, Linqing Wen, Haixing Miao, Ronggen Cai, Jiangrui Gao, Xuechun Lin, Dong Liu, Ling-An Wu, Zonghong Zhu, Giles Hammond, Ho Jung Paik, Viviana Fafone, Alessio Rocchi, Chunnong Zhao, Yiqiu Ma, Jiayi Qin, Michael Page, 
+
+Date_Published: 
+2016-02-16T16:44:01Z
+
+Last_Update: 
+2016-02-16T16:44:01Z
+
+Title: 
+The next detectors for gravitational wave astronomy
+
+ID: 
+1602.05087
+
+DOI: 
+10.1007/s11433-015-5747-7
+
+Journal: 
+Sci China-Phys Mech Astron, 58: 120405 (2015)
+
+Num_Of_Authors: 
+19
+
+
+Authors: 
+ She Rui, Ji Jian-Feng, Feng Hua, Li Hong, Han Dong, 
+
+Date_Published: 
+2013-09-02T02:01:07Z
+
+Last_Update: 
+2013-09-02T02:01:07Z
+
+Title: 
+Waveform Digitizing for LaBr$_3$/NaI Phoswich Detector
+
+ID: 
+1309.0287
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+5
+
+
+Authors: 
+  STAR Collaboration, J. Adam, L. Adamczyk, J. R. Adams, J. K. Adkins, G. Agakishiev, M. M. Aggarwal, Z. Ahammed, I. Alekseev, D. M. Anderson, A. Aparin, E. C. Aschenauer, M. U. Ashraf, F. G. Atetalla, A. Attri, G. S. Averichev, V. Bairathi, K. Barish, A. Behera, R. Bellwied, A. Bhasin, J. Bielcik, J. Bielcikova, L. C. Bland, I. G. Bordyuzhin, J. D. Brandenburg, A. V. Brandin, J. Butterworth, H. Caines, M. Calderón de la Barca Sánchez, D. Cebra, I. Chakaberia, P. Chaloupka, B. K. Chan, F-H. Chang, Z. Chang, N. Chankova-Bunzarova, A. Chatterjee, D. Chen, J. H. Chen, X. Chen, Z. Chen, J. Cheng, M. Cherney, M. Chevalier, S. Choudhury, W. Christie, H. J. Crawford, M. Csanád, M. Daugherity, T. G. Dedovich, I. M. Deppner, A. A. Derevschikov, L. Didenko, X. Dong, J. L. Drachenberg, J. C. Dunlop, T. Edmonds, N. Elsey, J. Engelage, G. Eppley, R. Esha, S. Esumi, O. Evdokimov, A. Ewigleben, O. Eyser, R. Fatemi, S. Fazio, P. Federic, J. Fedorisin, C. J. Feng, Y. Feng, P. Filip, E. Finch, Y. Fisyak, A. Francisco, L. Fulek, C. A. Gagliardi, T. Galatyuk, F. Geurts, A. Gibson, K. Gopal, D. Grosnick, W. Guryn, A. I. Hamad, A. Hamed, S. Harabasz, J. W. Harris, S. He, W. He, X. He, S. Heppelmann, S. Heppelmann, N. Herrmann, E. Hoffman, L. Holub, Y. Hong, S. Horvat, Y. Hu, H. Z. Huang, S. L. Huang, T. Huang, X. Huang, T. J. Humanic, P. Huo, G. Igo, D. Isenhower, W. W. Jacobs, C. Jena, A. Jentsch, Y. JI, J. Jia, K. Jiang, S. Jowzaee, X. Ju, E. G. Judd, S. Kabana, M. L. Kabir, S. Kagamaster, D. Kalinkin, K. Kang, D. Kapukchyan, K. Kauder, H. W. Ke, D. Keane, A. Kechechyan, M. Kelsey, Y. V. Khyzhniak, D. P. Kikoła, C. Kim, B. Kimelman, D. Kincses, T. A. Kinghorn, I. Kisel, A. Kiselev, A. Kisiel, M. Kocan, L. Kochenda, L. K. Kosarzewski, L. Kramarik, P. Kravtsov, K. Krueger, N. Kulathunga Mudiyanselage, L. Kumar, R. Kunnawalkam Elayavalli, J. H. Kwasizur, R. Lacey, S. Lan, J. M. Landgraf, J. Lauret, A. Lebedev, R. Lednicky, J. H. Lee, Y. H. Leung, C. Li, W. Li, W. Li, X. Li, Y. Li, Y. Liang, R. Licenik, T. Lin, Y. Lin, M. A. Lisa, F. Liu, H. Liu, P. Liu, P. Liu, T. Liu, X. Liu, Y. Liu, Z. Liu, T. Ljubicic, W. J. Llope, R. S. Longacre, N. S. Lukow, S. Luo, X. Luo, G. L. Ma, L. Ma, R. Ma, Y. G. Ma, N. Magdy, R. Majka, D. Mallick, S. Margetis, C. Markert, H. S. Matis, J. A. Mazer, N. G. Minaev, S. Mioduszewski, B. Mohanty, M. M. Mondal, I. Mooney, Z. Moravcova, D. A. Morozov, M. Nagy, J. D. Nam, Md. Nasim, K. Nayak, D. Neff, J. M. Nelson, D. B. Nemes, M. Nie, G. Nigmatkulov, T. Niida, L. V. Nogach, T. Nonaka, G. Odyniec, A. Ogawa, S. Oh, V. A. Okorokov, B. S. Page, R. Pak, A. Pandav, Y. Panebratsev, B. Pawlik, D. Pawlowska, H. Pei, C. Perkins, L. Pinsky, R. L. Pintér, J. Pluta, J. Porter, M. Posik, N. K. Pruthi, M. Przybycien, J. Putschke, H. Qiu, A. Quintero, S. K. Radhakrishnan, S. Ramachandran, R. L. Ray, R. Reed, H. G. Ritter, J. B. Roberts, O. V. Rogachevskiy, J. L. Romero, L. Ruan, J. Rusnak, N. R. Sahoo, H. Sako, S. Salur, J. Sandweiss, S. Sato, W. B. Schmidke, N. Schmitz, B. R. Schweid, F. Seck, J. Seger, M. Sergeeva, R. Seto, P. Seyboth, N. Shah, E. Shahaliev, P. V. Shanmuganathan, M. Shao, F. Shen, W. Q. Shen, S. S. Shi, Q. Y. Shou, E. P. Sichtermann, R. Sikora, M. Simko, J. Singh, S. Singha, N. Smirnov, W. Solyst, P. Sorensen, H. M. Spinka, B. Srivastava, T. D. S. Stanislaus, M. Stefaniak, D. J. Stewart, M. Strikhanov, B. Stringfellow, A. A. P. Suaide, M. Sumbera, B. Summa, X. M. Sun, Y. Sun, Y. Sun, B. Surrow, D. N. Svirida, P. Szymanski, A. H. Tang, Z. Tang, A. Taranenko, T. Tarnowsky, J. H. Thomas, A. R. Timmins, D. Tlusty, M. Tokarev, C. A. Tomkiel, S. Trentalange, R. E. Tribble, P. Tribedy, S. K. Tripathy, O. D. Tsai, Z. Tu, T. Ullrich, D. G. Underwood, I. Upsal, G. Van Buren, J. Vanek, A. N. Vasiliev, I. Vassiliev, F. Videbæk, S. Vokal, S. A. Voloshin, F. Wang, G. Wang, J. S. Wang, P. Wang, Y. Wang, Y. Wang, Z. Wang, J. C. Webb, P. C. Weidenkaff, L. Wen, G. D. Westfall, H. Wieman, S. W. Wissink, R. Witt, Y. Wu, Z. G. Xiao, G. Xie, W. Xie, H. Xu, N. Xu, Q. H. Xu, Y. F. Xu, Y. Xu, Z. Xu, Z. Xu, C. Yang, Q. Yang, S. Yang, Y. Yang, Z. Yang, Z. Ye, Z. Ye, L. Yi, K. Yip, H. Zbroszczyk, W. Zha, D. Zhang, S. Zhang, S. Zhang, X. P. Zhang, Y. Zhang, Y. Zhang, Z. J. Zhang, Z. Zhang, Z. Zhang, J. Zhao, C. Zhong, C. Zhou, X. Zhu, Z. Zhu, M. Zurek, M. Zyzak, 
+
+Date_Published: 
+2020-04-23T11:17:12Z
+
+Last_Update: 
+2020-04-23T11:17:12Z
+
+Title: 
+Measurement of the central exclusive production of charged particle
+  pairs in proton-proton collisions at $\sqrt{s} = 200$ GeV with the STAR
+  detector at RHIC
+
+ID: 
+2004.11078
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+362
+
+
+Authors: 
+  STAR Collaboration, J. Adam, L. Adamczyk, J. R. Adams, J. K. Adkins, G. Agakishiev, M. M. Aggarwal, Z. Ahammed, I. Alekseev, D. M. Anderson, R. Aoyama, A. Aparin, D. Arkhipkin, E. C. Aschenauer, M. U. Ashraf, F. Atetalla, A. Attri, G. S. Averichev, V. Bairathi, K. Barish, A. J. Bassill, A. Behera, R. Bellwied, A. Bhasin, A. K. Bhati, J. Bielcik, J. Bielcikova, L. C. Bland, I. G. Bordyuzhin, J. D. Brandenburg, A. V. Brandin, J. Bryslawskyj, I. Bunzarov, J. Butterworth, H. Caines, M. Calderón de la Barca Sánchez, D. Cebra, I. Chakaberia, P. Chaloupka, B. K. Chan, F-H. Chang, Z. Chang, N. Chankova-Bunzarova, A. Chatterjee, S. Chattopadhyay, J. H. Chen, X. Chen, J. Cheng, M. Cherney, W. Christie, H. J. Crawford, M. Csanád, S. Das, T. G. Dedovich, I. M. Deppner, A. A. Derevschikov, L. Didenko, C. Dilks, X. Dong, J. L. Drachenberg, J. C. Dunlop, T. Edmonds, N. Elsey, J. Engelage, G. Eppley, R. Esha, S. Esumi, O. Evdokimov, J. Ewigleben, O. Eyser, R. Fatemi, S. Fazio, P. Federic, J. Fedorisin, Y. Feng, P. Filip, E. Finch, Y. Fisyak, L. Fulek, C. A. Gagliardi, T. Galatyuk, F. Geurts, A. Gibson, K. Gopal, D. Grosnick, A. Gupta, W. Guryn, A. I. Hamad, A. Hamed, J. W. Harris, L. He, S. Heppelmann, S. Heppelmann, N. Herrmann, L. Holub, Y. Hong, S. Horvat, B. Huang, H. Z. Huang, S. L. Huang, T. Huang, X. Huang, T. J. Humanic, P. Huo, G. Igo, W. W. Jacobs, C. Jena, A. Jentsch, Y. JI, J. Jia, K. Jiang, S. Jowzaee, X. Ju, E. G. Judd, S. Kabana, S. Kagamaster, D. Kalinkin, K. Kang, D. Kapukchyan, K. Kauder, H. W. Ke, D. Keane, A. Kechechyan, M. Kelsey, Y. V. Khyzhniak, D. P. Kikoła, C. Kim, T. A. Kinghorn, I. Kisel, A. Kisiel, M. Kocan, L. Kochenda, L. K. Kosarzewski, L. Kramarik, P. Kravtsov, K. Krueger, N. Kulathunga Mudiyanselage, L. Kumar, R. Kunnawalkam Elayavalli, J. H. Kwasizur, R. Lacey, J. M. Landgraf, J. Lauret, A. Lebedev, R. Lednicky, J. H. Lee, C. Li, W. Li, W. Li, X. Li, Y. Li, Y. Liang, R. Licenik, T. Lin, A. Lipiec, M. A. Lisa, F. Liu, H. Liu, P. Liu, P. Liu, T. Liu, X. Liu, Y. Liu, Z. Liu, T. Ljubicic, W. J. Llope, M. Lomnitz, R. S. Longacre, S. Luo, X. Luo, G. L. Ma, L. Ma, R. Ma, Y. G. Ma, N. Magdy, R. Majka, D. Mallick, S. Margetis, C. Markert, H. S. Matis, O. Matonoha, J. A. Mazer, K. Meehan, J. C. Mei, N. G. Minaev, S. Mioduszewski, D. Mishra, B. Mohanty, M. M. Mondal, I. Mooney, Z. Moravcova, D. A. Morozov, Md. Nasim, K. Nayak, J. M. Nelson, D. B. Nemes, M. Nie, G. Nigmatkulov, T. Niida, L. V. Nogach, T. Nonaka, G. Odyniec, A. Ogawa, K. Oh, S. Oh, V. A. Okorokov, B. S. Page, R. Pak, Y. Panebratsev, B. Pawlik, D. Pawlowska, H. Pei, C. Perkins, R. L. Pintér, J. Pluta, J. Porter, M. Posik, N. K. Pruthi, M. Przybycien, J. Putschke, A. Quintero, S. K. Radhakrishnan, S. Ramachandran, R. L. Ray, R. Reed, H. G. Ritter, J. B. Roberts, O. V. Rogachevskiy, J. L. Romero, L. Ruan, J. Rusnak, O. Rusnakova, N. R. Sahoo, P. K. Sahu, S. Salur, J. Sandweiss, J. Schambach, W. B. Schmidke, N. Schmitz, B. R. Schweid, F. Seck, J. Seger, M. Sergeeva, R. Seto, P. Seyboth, N. Shah, E. Shahaliev, P. V. Shanmuganathan, M. Shao, F. Shen, W. Q. Shen, S. S. Shi, Q. Y. Shou, E. P. Sichtermann, S. Siejka, R. Sikora, M. Simko, J. Singh, S. Singha, D. Smirnov, N. Smirnov, W. Solyst, P. Sorensen, H. M. Spinka, B. Srivastava, T. D. S. Stanislaus, M. Stefaniak, D. J. Stewart, M. Strikhanov, B. Stringfellow, A. A. P. Suaide, T. Sugiura, M. Sumbera, B. Summa, X. M. Sun, Y. Sun, Y. Sun, B. Surrow, D. N. Svirida, P. Szymanski, A. H. Tang, Z. Tang, A. Taranenko, T. Tarnowsky, J. H. Thomas, A. R. Timmins, D. Tlusty, T. Todoroki, M. Tokarev, C. A. Tomkiel, S. Trentalange, R. E. Tribble, P. Tribedy, S. K. Tripathy, O. D. Tsai, B. Tu, Z. Tu, T. Ullrich, D. G. Underwood, I. Upsal, G. Van Buren, J. Vanek, A. N. Vasiliev, I. Vassiliev, F. Videbæk, S. Vokal, S. A. Voloshin, F. Wang, G. Wang, P. Wang, Y. Wang, Y. Wang, J. C. Webb, L. Wen, G. D. Westfall, H. Wieman, S. W. Wissink, R. Witt, Y. Wu, Z. G. Xiao, G. Xie, W. Xie, H. Xu, N. Xu, Q. H. Xu, Y. F. Xu, Z. Xu, C. Yang, Q. Yang, S. Yang, Y. Yang, Z. Yang, Z. Ye, Z. Ye, L. Yi, K. Yip, I. -K. Yoo, H. Zbroszczyk, W. Zha, D. Zhang, L. Zhang, S. Zhang, S. Zhang, X. P. Zhang, Y. Zhang, Z. Zhang, J. Zhao, C. Zhong, C. Zhou, X. Zhu, Z. Zhu, M. Zurek, M. Zyzak, 
+
+Date_Published: 
+2019-05-15T10:31:06Z
+
+Last_Update: 
+2019-08-26T15:05:41Z
+
+Title: 
+Measurements of the transverse-momentum-dependent cross sections of
+  $J/ψ$ production at mid-rapidity in proton+proton collisions at $\sqrt{s}
+  =$ 510 and 500 GeV with the STAR detector
+
+ID: 
+1905.06075
+
+DOI: 
+10.1103/PhysRevD.100.052009
+
+Journal: 
+Phys. Rev. D 100, 052009 (2019)
+
+Num_Of_Authors: 
+353
+
+
+Authors: 
+ Yi Qian, Hong Su, Jie Kong, Cheng-Fu Dong, Xiao-Li Ma, Xiao-Gang Li, 
+
+Date_Published: 
+2011-06-10T03:05:05Z
+
+Last_Update: 
+2011-06-10T03:05:05Z
+
+Title: 
+Development of front-end readout electronics for silicon strip detectors
+
+ID: 
+1106.1946
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+6
+
+
+Authors: 
+ Yiping Tang, Chuang Niu, Minghao Dong, Shenghan Ren, Jimin Liang, 
+
+Date_Published: 
+2019-10-18T03:57:05Z
+
+Last_Update: 
+2019-10-18T03:57:05Z
+
+Title: 
+AFO-TAD: Anchor-free One-Stage Detector for Temporal Action Detection
+
+ID: 
+1910.08250
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+5
+
+
+Authors: 
+ Joya Chen, Qi Wu, Dong Liu, Tong Xu, 
+
+Date_Published: 
+2020-06-16T15:15:53Z
+
+Last_Update: 
+2020-06-16T15:15:53Z
+
+Title: 
+Foreground-Background Imbalance Problem in Deep Object Detectors: A
+  Review
+
+ID: 
+2006.09238
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+4
+
+
+Authors: 
+ Bo Huang, Hongbang Liu, Xuefeng Huang, Ming Xu, Yongwei Dong, Xiaotong Wei, Xiwen Liu, Huanbo Feng, Qinhe Yang, Jianyu Gu, Shuai Chen, Xiaochuan Xie, Jin Zhang, Yongbo Huang, Enwei Liang, 
+
+Date_Published: 
+2020-03-26T13:30:47Z
+
+Last_Update: 
+2020-04-02T18:14:48Z
+
+Title: 
+Side-On transition radiation detector: a detector prototype for TeV
+  energy scale calibration of calorimeters in space
+
+ID: 
+2003.11889
+
+DOI: 
+10.1016/j.nima.2020.163723
+
+Journal: 
+Nuclear Inst. and Methods in Physics Research, A 962 (2020) 163723
+
+Num_Of_Authors: 
+15
+
+
+Authors: 
+ Joya Chen, Dong Liu, Tong Xu, Shiwei Wu, Shilong Zhang, Bin Luo, Xuezheng Peng, Enhong Chen, 
+
+Date_Published: 
+2019-09-11T06:29:58Z
+
+Last_Update: 
+2020-05-09T15:41:23Z
+
+Title: 
+Is Sampling Heuristics Necessary in Training Deep Object Detectors?
+
+ID: 
+1909.04868
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+8
+
+
+Authors: 
+ X. Y. Shen, Bing Dong, X. L. Lei, 
+
+Date_Published: 
+2007-12-06T13:34:28Z
+
+Last_Update: 
+2007-12-06T13:34:28Z
+
+Title: 
+Phonon-assisted resonant tunneling through a triple-quantum-dot: a
+  phonon-signal detector
+
+ID: 
+0712.0935
+
+DOI: 
+10.1088/0256-307X/25/2/089
+
+Journal: 
+Chin. Phys. Lett. 25, 683 (2008).
+
+Num_Of_Authors: 
+3
+
+
+Authors: 
+ Yuanlong Wang, Shota Yokoyama, Daoyi Dong, Ian R. Petersen, Elanor H. Huntington, Hidehiro Yonezawa, 
+
+Date_Published: 
+2019-05-14T00:23:44Z
+
+Last_Update: 
+2019-05-14T00:23:44Z
+
+Title: 
+Two-stage Estimation for Quantum Detector Tomography: Error Analysis,
+  Numerical and Experimental Results
+
+ID: 
+1905.05323
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+6
+
+
+Authors: 
+ Zhang Fei, Fan Rui-Rui, Peng Wen-Xi, Dong Yi-Fan, Gong Ke, Liang Xiao-Hua, Liu Ya-Qing, Wang Huan-Yu, 
+
+Date_Published: 
+2013-07-11T10:02:56Z
+
+Last_Update: 
+2013-07-11T10:02:56Z
+
+Title: 
+Readout electronics of silicon detectors used in space cosmic-ray
+  charges measurement
+
+ID: 
+1307.3041
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+8
+
+
+Authors: 
+ Xuanyi Dong, Shoou-I Yu, Xinshuo Weng, Shih-En Wei, Yi Yang, Yaser Sheikh, 
+
+Date_Published: 
+2018-07-03T03:52:45Z
+
+Last_Update: 
+2018-07-04T04:05:52Z
+
+Title: 
+Supervision-by-Registration: An Unsupervised Approach to Improve the
+  Precision of Facial Landmark Detectors
+
+ID: 
+1807.00966
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+6
+
+
+Authors: 
+ Tiekuang Dong, Yapeng Zhang, Pengxiong Ma, Yongjie Zhang, Paolo Bernardini, Meng Ding, Dongya Guo, Shijun Lei, Xiang Li, Ivan De Mitri, Wenxi Peng, Rui Qiao, Margherita Di Santo, Zhiyu Sun, Antonio Surdo, Zhaomin Wang, Jian Wu, Zunlei Xu, Yuhong Yu, Qiang Yuan, Chuan Yue, Jingjing Zang, Yunlong Zhang, 
+
+Date_Published: 
+2018-10-25T09:01:29Z
+
+Last_Update: 
+2018-10-25T09:01:29Z
+
+Title: 
+Charge Measurement of Cosmic Ray Nuclei with the Plastic Scintillator
+  Detector of DAMPE
+
+ID: 
+1810.10784
+
+DOI: 
+10.1016/j.astropartphys.2018.10.001
+
+Journal: 
+Astroparticle Physics 105 (2019) 31-36
+
+Num_Of_Authors: 
+23
+
+
+Authors: 
+ Hongyu Da, Xiangli Cui, Gene Van Buren, J. C. Dunlop, Xin Dong, Lijuan Ruan, Anthony Timmins, Zebo Tang, Xiaolian Wang, Yichun Xu, Zhangbu Xu, 
+
+Date_Published: 
+2011-12-13T16:34:04Z
+
+Last_Update: 
+2011-12-17T00:19:49Z
+
+Title: 
+Hadronic Trigger using electromagnetic calorimeter and particle
+  identification at high-pT with STAR Detector
+
+ID: 
+1112.2946
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+11
+
+
+Authors: 
+ Yaqing Liu, Huanyu Wang, Xingzhu Cui, Wenxi Peng, Ruirui Fan, Xiaohua Liang Ming Gao, Yunlong Zhang, Chengmo Zhang, Jiayu Zhang, Jiawei Yang, Jinzhou Wang, Fei Zhang Yifan Dong, Dongya Guo, Dawei Zhou, 
+
+Date_Published: 
+2014-03-03T11:15:36Z
+
+Last_Update: 
+2014-04-18T05:49:51Z
+
+Title: 
+Physical Design and Monte Carlo Simulations of a Space Radiation
+  Detector onboard the SJ-10 satellite
+
+ID: 
+1403.0393
+
+DOI: 
+10.1088/1674-1137/39/1/016002
+
+Journal: 
+None
+
+Num_Of_Authors: 
+14
+
+
+Authors: 
+ Zhiyong Zhang, Chi Wang, Jianing Dong, Yifeng Wei, Sicheng Wen, Yunlong Zhang, Zhiying Li, Changqing Feng, Shanshan Gao, ZhongTao Shen, Deliang Zhang, Junbin Zhang, Qi Wang, SiYuan Ma, Di Yang, Di Jiang, Dengyi Chen, Yiming Hu, Guangshun Huang, Xiaolian Wang, Zizong Xu, Shubin Liu, Qi An, Yizhong Gong, 
+
+Date_Published: 
+2016-02-23T02:38:09Z
+
+Last_Update: 
+2016-02-23T02:38:09Z
+
+Title: 
+The calibration and electron energy reconstruction of the BGO ECAL of
+  the DAMPE detector
+
+ID: 
+1602.07015
+
+DOI: 
+10.1016/j.nima.2016.08.015
+
+Journal: 
+None
+
+Num_Of_Authors: 
+24
+
+
+Authors: 
+ Xu-Dong Ju, Ming-Yi Dong, Yi-Chen Zhao, Chuan-Xing Zhou, Qun Ouyang, 
+
+Date_Published: 
+2016-02-24T09:04:52Z
+
+Last_Update: 
+2016-02-24T09:04:52Z
+
+Title: 
+Design and optimization of resistive anode for a two-dimensional imaging
+  triple-GEM detector
+
+ID: 
+1602.07438
+
+DOI: 
+10.1088/1674-1137/40/8/086004
+
+Journal: 
+Chinese Physics C, 2016, 40(8): 86004-086004
+
+Num_Of_Authors: 
+5
+
+
+Authors: 
+ Shuguang Zou, Yan Fan, Xiangming Sun, Guangming Huang, Hua Pei, Zhen Wang, Jun Liu, Ping Yang, Dong Wang, 
+
+Date_Published: 
+2016-11-13T15:27:12Z
+
+Last_Update: 
+2017-01-11T09:56:47Z
+
+Title: 
+A highly pixelated CdZnTe detector based on \textit{Topmetal-${II}^-$}
+  sensor
+
+ID: 
+1611.04142
+
+DOI: 
+10.1088/1674-1137/41/4/046003
+
+Journal: 
+Chinese Physics C Vol. 41, No. 4 (2017) 046003
+
+Num_Of_Authors: 
+9
+
+
+Authors: 
+ Xin-Yu Lu, Rui-Rui Fan, Yuan-Bo Chen, Qun Ouyang, Rong-Guang Liu, Peng Liu, Hui-Rong Qi, Jian Zhang, Ping-Ping Zhao, Dong-Xu Zhao, Yu-Bin Zhao, Hong-Yu Zhang, Hua-Yi Sheng, Li-Yuan Dong, 
+
+Date_Published: 
+2011-05-25T10:09:00Z
+
+Last_Update: 
+2011-08-12T10:03:49Z
+
+Title: 
+Study of measuring methods on spatial resolution of a GEM imaging
+  detector
+
+ID: 
+1105.4985
+
+DOI: 
+10.1088/1674-1137/36/3/007
+
+Journal: 
+None
+
+Num_Of_Authors: 
+14
+
+
+Authors: 
+ Zhen-jie Li, Qiu-ju Li, Peng Liu, Shan-feng Wang, Wei-wei Dong, Yang-fan Zhou, 
+
+Date_Published: 
+2015-11-04T02:01:37Z
+
+Last_Update: 
+2015-11-04T02:01:37Z
+
+Title: 
+Sub-nanosecond time resolution detector based on APD for Synchrotron
+  Radiation ultrafast experiments
+
+ID: 
+1511.01182
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+6
+
+
+Authors: 
+ Fei Zhang, Wen-Xi Peng, Ke Gong, Di Wu, Yi-Fan Dong, Rui Qiao, Rui-Rui Fan, Jin-Zhou Wang, Huan-Yu Wang, Xin Wu, Daniel La Marra, Philipp Azzarello, Valentina Gallo, Giovanni Ambrosi, Andrea Nardinocchi, 
+
+Date_Published: 
+2016-06-16T08:03:35Z
+
+Last_Update: 
+2016-06-16T08:03:35Z
+
+Title: 
+Design of the readout electronics for the DAMPE Silicon Tracker detector
+
+ID: 
+1606.05080
+
+DOI: 
+10.1088/1674-1137/40/11/116101
+
+Journal: 
+None
+
+Num_Of_Authors: 
+15
+
+
+Authors: 
+ Yingqiu He, Dong Ding, Fengli Yan, Ting Gao, 
+
+Date_Published: 
+2017-03-03T01:42:51Z
+
+Last_Update: 
+2017-03-03T01:42:51Z
+
+Title: 
+Scalable symmetry detector and its applications by using beam splitters
+  and weak nonlinearities
+
+ID: 
+1703.01011
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+4
+
+
+Authors: 
+ Fuyue Wang, Dong Han, Yi Wang, Yancheng Yu, Qiunan Zhang, Baohong Guo, Yuanjing Li, 
+
+Date_Published: 
+2018-05-07T07:52:51Z
+
+Last_Update: 
+2018-09-21T06:53:21Z
+
+Title: 
+A standalone simulation framework of the MRPC detector read out in
+  waveforms
+
+ID: 
+1805.02387
+
+DOI: 
+10.1088/1748-0221/13/09/P09007
+
+Journal: 
+None
+
+Num_Of_Authors: 
+7
+
+
+Authors: 
+ Fuyue Wang, Dong Han, Yi Wang, Pengfei Lyu, Yuanjing Li, 
+
+Date_Published: 
+2018-12-07T05:20:21Z
+
+Last_Update: 
+2019-10-13T02:27:47Z
+
+Title: 
+A detailed study on the intrinsic time resolution of the future MRPC
+  detector
+
+ID: 
+1812.02912
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+5
+
+
+Authors: 
+ Fuyue Wang, Dong Han, Yi Wang, 
+
+Date_Published: 
+2020-05-08T08:38:21Z
+
+Last_Update: 
+2020-05-08T08:38:21Z
+
+Title: 
+Improving the time resolution of the MRPC detector using deep-learning
+  algorithms
+
+ID: 
+2005.03903
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+3
+
+
+Authors: 
+ Yong-Yi Huang, Tao Ma, Chuan Yue, Yan Zhang, Jin Chang, Tie-Kuang Dong, Yong-Qiang Zhang, 
+
+Date_Published: 
+2020-05-15T23:53:44Z
+
+Last_Update: 
+2020-05-15T23:53:44Z
+
+Title: 
+Calibration and performance of the neutron detector onboard of the DAMPE
+  mission
+
+ID: 
+2005.07828
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+7
+
+
+Authors: 
+ Xu-Dong Ju, Ming-Yi Dong, Chuan-Xing Zhou, Jing Dong, Yu-Bin Zhao, Hong-Yu Zhang, Hui-Rong Qi, Qun Ou-Yang, 
+
+Date_Published: 
+2016-08-15T03:05:24Z
+
+Last_Update: 
+2016-09-05T07:59:36Z
+
+Title: 
+Development of a two-dimensional imaging GEM detector using the
+  resistive anode readout method with $6\times6$ cells
+
+ID: 
+1608.04173
+
+DOI: 
+None
+
+Journal: 
+None
+
+Num_Of_Authors: 
+8
+
+
+Authors: 
+ Peng-Xiong Ma, Yong-Jie Zhang, Ya-Peng Zhang, Yao Li, Jing-Jing Zang, Xiang Li, Tie-Kuang Dong, Yi-Zhong Fan, Shi-Jun Lei, Jian Wu, Yu-Hong Yu, Qiang Yuan, Chuan Yue, Zhi-Yu Sun, 
+
+Date_Published: 
+2018-08-17T00:56:35Z
+
+Last_Update: 
+2018-08-20T13:14:04Z
+
+Title: 
+A Method of Alignment of the Plastic Scintillator Detector of DAMPE
+
+ID: 
+1808.05720
+
+DOI: 
+10.1088/1674-4527/19/6/82
+
+Journal: 
+Vol 19, No. 6 (2019) ,Research of Astronomy and Astrophysics
+
+Num_Of_Authors: 
+14
+
+
+Authors: 
+ Meng Ding, Yapeng Zhang, Yong-Jie Zhang, Yuan-Peng Wang, Tie-Kuang Dong, Antonio De Benedittis, Paolo Bernardini, Fang Fang, Yao Li, Jie Liu, Peng-Xiong Ma, Zhi-Yu Sun, Valentina Gallo, Stefania Vitillo, Zhao-Min Wang, Yu-Hong Yu, Chuan Yue, Qiang Yuan, Yong Zhou, Yun-Long Zhang, 
+
+Date_Published: 
+2018-10-23T15:09:55Z
+
+Last_Update: 
+2018-10-23T15:09:55Z
+
+Title: 
+Calibration of the DAMPE Plastic Scintillator Detector and its on-orbit
+  performance
+
+ID: 
+1810.09901
+
+DOI: 
+10.1088/1674-4527/19/3/47
+
+Journal: 
+Vol 19, No 3 (2019)
+
+Num_Of_Authors: 
+20
+
+
+Authors: 
+ A. Juillard, J. Billard, D. Chaize, J-B Filippini, D. Misiak, L. Vagneron, A. Cavanna, Q. Dong, Y. Jin, C. Ulysse, A. Bounab, X. de la Broise, C. Nones, A. Phipps, 
+
+Date_Published: 
+2019-09-06T13:00:27Z
+
+Last_Update: 
+2019-12-04T17:36:17Z
+
+Title: 
+Low-noise HEMTs for Coherent Elastic Neutrino Scattering and Low-Mass
+  Dark Matter Cryogenic Semiconductor Detectors
+
+ID: 
+1909.02879
+
+DOI: 
+10.1007/s10909-019-02269-5
+
+Journal: 
+Journal of Low Temperature Physics 2019
+
+Num_Of_Authors: 
+14
+
+
+Authors: 
+ Shota Yokoyama, Nicola Dalla Pozza, Takahiro Serikawa, Katanya B. Kuntz, Trevor A. Wheatley, Daoyi Dong, Elanor H. Huntington, Hidehiro Yonezawa, 
+
+Date_Published: 
+2017-05-18T07:10:58Z
+
+Last_Update: 
+2019-12-09T05:44:34Z
+
+Title: 
+Characterization of entangling properties of quantum measurement via
+  two-mode quantum detector tomography using coherent state probes
+
+ID: 
+1705.06441
+
+DOI: 
+10.1364/OE.27.034416
+
+Journal: 
+Optics Express 27, 34416 (2019)
+
+Num_Of_Authors: 
+8
+
+
+Authors: 
+ Pengcheng Ai, Dong Wang, Guangming Huang, Ni Fang, Deli Xu, Fan Zhang, 
+
+Date_Published: 
+2019-01-23T12:06:28Z
+
+Last_Update: 
+2019-03-31T02:30:09Z
+
+Title: 
+Timing and characterization of shaped pulses with MHz ADCs in a detector
+  system: a comparative study and deep learning approach
+
+ID: 
+1901.07836
+
+DOI: 
+10.1088/1748-0221/14/03/P03002
+
+Journal: 
+None
+
+Num_Of_Authors: 
+6
+
+

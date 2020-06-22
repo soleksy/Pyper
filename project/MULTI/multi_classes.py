@@ -4,6 +4,7 @@ class MultiSearch:
     def __init__(self, dic):
         self.list_of_merged_dicts = list()
 
+        flag = 0
         hep_dict = dict()
         arxiv_dict = dict()
 
@@ -48,6 +49,14 @@ class MultiSearch:
             else:
                 Journal = arxiv_dict[k]["Journal"]
 
+
+
+            if hep_dict.get(k,None) == None:
+                citations = "No data from HEP"
+                flag = 1
+            else:
+               citations =  hep_dict[k]["Citations"]
+
             general_dict = {
                 "Authors" : arxiv_dict[k]['Authors'],
                 "Date_Published" : arxiv_dict[k]['Date_Published'],
@@ -56,14 +65,18 @@ class MultiSearch:
                 "ID": arxiv_dict[k]["ID"],
                 "DOI": DOI,
                 "Journal": Journal,
-                "Citations": hep_dict[k]["Citations"],
+                "Citations": citations,
                 "Num_Of_Authors": arxiv_dict[k]["Num_Of_Authors"]
             }
 
             self.list_of_merged_dicts.append(general_dict)
 
             #pop parsed entry
-            hep_keys.remove(k)
+            if flag == 1:
+                flag == 0
+            else:
+                hep_keys.remove(k)
+                
             arxiv_dict.pop(k)
         
         for k in hep_keys:

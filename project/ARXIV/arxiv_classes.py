@@ -168,7 +168,7 @@ class Arxiv_Parser:
                     if el[0] == 'Authors':
                         f.write(str(el[0] + ": \n "))
                         for x in el[1]:
-                            f.write(str(x))
+                            f.write(str(x+", "))
                         f.write('\n\n')
                     else:
                         f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')

@@ -2,6 +2,11 @@
 
 ## How to use
 
+### Note: Using Python version 3.7 or above is necessary for the scripts to behave properly.
+
+    Note that if option NAME_FILES_CURRENT_DATES in the config file is set to 1 the file name will be
+    automatically set to current date and the -file option is not required.
+
 python3 pyper.py -h for help
 
 python3 pyper.py {ARXIV,HEP} -h for detailed query parameters
@@ -11,54 +16,98 @@ python3 pyper.py {ARXIV,HEP} -h for detailed query parameters
 
 ./pyper.py ARXIV -a "S. Dong" -t Detector -file "Arxiv_output.txt"
 
-## AND 3 OUTPUTS:
 
-- S. Dong is one of 7 authors
-- Title: Detector control system for CBM-TOF
-- ID: http://arxiv.org/abs/2004.08969v1
-- Date Published: 2020-04-19T21:46:10Z
-- Last Update: 2020-04-19T21:46:10Z
------------------------------------------------------------------------
-- S. Dong is one of 38 authors
-- Title: Design and construction of the POLAR detector
-- ID: http://arxiv.org/abs/1709.07191v2
-- Date Published: 2017-09-21T07:53:41Z
-- Last Update: 2017-09-28T09:45:19Z
-- DOI: 10.1016/j.nima.2017.09.053
------------------------------------------------------------------------
-- S. Dong is one of 48 authors
-- Title: Time performance of a triple-GEM detector at high rate
-- ID: http://arxiv.org/abs/2004.04944v1
-- Date Published: 2020-04-10T08:26:24Z
-- Last Update: 2020-04-10T08:26:24Z
 
+## Below one of many outputs:
+
+- Authors: 
+ - David Blair, Li Ju, Chunnong Zhao, Linqing Wen, Haixing Miao, Ronggen Cai, Jiangrui Gao, Xuechun Lin, Dong Liu, Ling-An Wu, Zonghong Zhu, Giles Hammond, Ho Jung Paik, Viviana Fafone, Alessio Rocchi, Chunnong Zhao, Yiqiu Ma, Jiayi Qin, Michael Page, 
+
+- Date_Published: 
+- 2016-02-16T16:44:01Z
+
+- Last_Update: 
+- 2016-02-16T16:44:01Z
+
+- Title: 
+- The next detectors for gravitational wave astronomy
+
+- ID: 
+- 1602.05087
+
+- DOI: 
+- 10.1007/s11433-015-5747-7
+
+- Journal: 
+- Sci China-Phys Mech Astron, 58: 120405 (2015)
+
+- Num_Of_Authors: 
+- 19
 
 
 
 ## EXAMPLE FOR HEP QUERY:
 
-./pyper.py HEP -a witten -t "black hole" -out "Hep_output.txt"
+./pyper.py HEP -a witten -t "black hole" -file "Hep_output.txt"
+    
+## Below one of many outputs:
 
-## AND 3 OUTPUTS:
+- Authors: 
+- Herrera, L. ,Di Prisco, A. ,Ospino, J. ,Witten, L. ,
 
-- Creation_date: 2020-02-19T04:16:45
-- Creator_name: Herrera, L.
-- Title: Geodesics of the hyperbolically symmetric black hole
-- Arxiv_ID: arXiv:2002.07586
-- DOI: 10.1103/PhysRevD.101.064071
-- Citations: 1
------------------------------------------------------------------------
-- Creation_date: 2016-09-07T12:06:22
-- Creator_name: Gass, Richard
-- Title: Do Black Holes Form?
-- Arxiv_ID: ['hep-th/9212034', 'UCTP-10-92']
-- DOI: DOI not specified
-- Citations: 0
------------------------------------------------------------------------
-- Creation_date: 2012-10-17T00:00:00
-- Creator_name: Witten, Edward
-- Title: Quantum mechanics of black holes
-- Arxiv_ID: None
-- DOI: 10.1126/science.1221693
-- Citations: 2
+- Date_Published: 
+- 2020-02-19T04:16:45
 
+- Title: 
+- Geodesics of the hyperbolically symmetric black hole
+
+- ID: 
+- 2002.07586
+
+- DOI: 
+- 10.1103/PhysRevD.101.064071
+
+- Citations: 
+- 1
+
+- Journal: 
+- Phys. Rev. D 101, 064071 (2020)
+
+- Num_Of_Authors: 
+- 4
+
+
+
+## EXAMPLE FOR MULTI QUERY:
+
+./pyper.py MULTI -a witten -t "black hole" -file "Multi_output.txt"
+
+- Authors: 
+- Cenalo Vaz ,Louis Witten ,T. P. Singh ,
+
+- Date_Published: 
+- 2003-06-11T11:52:49Z
+
+- Last_Update: 
+- 2004-02-04T19:26:45Z
+
+- Title: 
+- Exact Quantum State of Collapse and Black Hole Radiation
+
+- ID: 
+- gr-qc/0306045
+
+- DOI: 
+- 10.1103/PhysRevD.69.104029
+
+- Journal: 
+- Phys.Rev. D69 (2004) 104029
+
+- Citations: 
+- No data from HEP
+
+- Num_Of_Authors: 
+- 3
+
+- The above result might not seem to differ from the 2 previous ones but actually if one would have searched 
+- inside hep database only this result would not show up since there was no data in HEP for this article.
