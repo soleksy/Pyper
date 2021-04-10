@@ -13,8 +13,10 @@ from PARSERS.HEP.hep_classes import Hep_Helper, Hep_Parser
 from PARSERS.ARXIV.arxiv import parser_ARXIV
 from PARSERS.ARXIV.arxiv_classes import Arxiv_Helper, Arxiv_Parser
 
-from MULTI.multi_classes import MultiSearch
+from PARSERS.MULTI.multi import parser_MULTI
+from PARSERS.MULTI.multi_classes import MultiSearch
 
+from PARSERS.CONFIG.config import parser_CONFIG
 
 def main():
 
@@ -32,84 +34,6 @@ def main():
         MULTI_OUTPUTS = conf_data["MULTI_OUTPUT_FOLDER"]
         NAME_FILES_CURRENT_DATES = conf_data["NAME_FILES_CURRENT_DATES"]
 
-    
-    parser_MULTI = subparsers.add_parser(
-        'MULTI', help="Search multiple databases")
-    parser_CONFIG = subparsers.add_parser('CONFIG' , help = "Modify the current state of configuration file")
-
-    #-----------------------CONFIG ARGUMENTS-----------------------------#
-    parser_CONFIG.add_argument(
-        "-edit",
-        required=False,
-        help="Edit the current state of the configuration file",
-        action="store_true"
-    )
-    
-    #-----------------------MULTI SEARCH ARGUMENTS-----------------------#
-    parser_MULTI.add_argument(
-        "-ARXIV",
-        required=False,
-        help="Search in ARXIV database",
-        action='store_true'
-    )
-    parser_MULTI.add_argument(
-        "-HEP",
-        required=False,
-        help="Search in HEP database",
-        action='store_true'
-    )
-    parser_MULTI.add_argument(
-        "-a",
-        required=False,
-        help="Adds the name/s of the author/s to the query.",
-        type=str
-    )
-    parser_MULTI.add_argument(
-        "-t",
-        required=False,
-        help="Addds the title or its part to the search query",
-        type=str
-    )
-
-    parser_MULTI.add_argument(
-        "-d",
-        required=False,
-        help="Adds date ranges to the multi search query",
-        type=str
-    )
-    parser_MULTI.add_argument(
-        "-arxiv",
-        required=False,
-        help="Addds the arxiv id to the query",
-        type=str
-    )
-    parser_MULTI.add_argument(
-        "-doi",
-        required=False,
-        help="Adds the document id to the query",
-        type=str
-    )
-    parser_MULTI.add_argument(
-        "-j",
-        required=False,
-        help="Adds journal reference to the query",
-        type=str
-    )
-    if NAME_FILES_CURRENT_DATES == 0:
-        parser_MULTI.add_argument(
-            "-file",
-            required=True,
-            help="Add file name for the output to be written into",
-            type=str
-        )
-    
-    parser_MULTI.add_argument(
-        "-sort",
-        required=False,
-        help="Sort by: date or title",
-        type=str,
-        choices=['date', 'title']
-    )
     #---------------------------PARSER SELECTION------------------------------#
     MS_dict = dict()
     HEP = False

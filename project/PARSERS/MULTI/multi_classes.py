@@ -1,4 +1,3 @@
-
 class MultiSearch:
     
     def __init__(self, dic):
@@ -109,4 +108,3 @@ class MultiSearch:
                 f.write('\n')
     
         
-
