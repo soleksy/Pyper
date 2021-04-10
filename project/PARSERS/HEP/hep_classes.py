@@ -8,7 +8,7 @@ from collections import defaultdict
 class Hep_Helper:
     def __init__(self):
         # change for more outputs
-        self.CONST_QUERY_RESULTS = "500"
+        self.CONST_QUERY_RESULTS = "10"
 
     def hep_url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -18,13 +18,11 @@ class Hep_Helper:
 
     def hep_url_generator(self, command_string, format):
         
-
-        url = "https://old.inspirehep.net/search?p=" + command_string + "&of=" + format + \
-            "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,publication_info,&rg=" + \
+        url = "https://inspirehep.net/api/literature?q=" + command_string + "&of=" + format + \
+            "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,publication_info,&size=" + \
             self.CONST_QUERY_RESULTS
 
-        # "&ot=creator,creation_date,title,doi,primary_report_number,number_of_citations,reference,recid"
-
+        print(url)
         return url
 
     def get_source(self, url):
@@ -51,51 +49,43 @@ class Hep_Parser:
         self.list_of_dicts = list()
         self.data = json.loads(source)
 
+        self.data = self.data["hits"]["hits"]
+        
         for dic in self.data:
-
-            list_of_authors = list()
             ID = ''
+            list_of_authors = list()
             dict_single_result = dict()
             journal = ""
-            number_of_authors = len(dic['authors'])
+            number_of_authors = len(dic['metadata']['authors'])
             # Handle api error outputing DOI twice
+            if dic['metadata'].get('dois') is None:
+                dic['metadata']['dois'] =  None
+            elif isinstance(dic['metadata']['dois'], list):
+                dic['metadata']['dois'] = dic['metadata']['dois'][0]
 
-            if dic['doi'] is None:
-                dic['doi'] =  None
-            elif isinstance(dic['doi'], list):
-                dic['doi'] = dic['doi'][0]
-
-            if dic['publication_info'] is None:
+            if dic['metadata'].get('publication_info') is None:
                 journal = None
 
-            elif isinstance(dic['publication_info'], list):
-                for i  in range(0,len(dic['publication_info'])):
-                    journal = dic['publication_info'][i].get('reference',None)
+            elif isinstance(dic['metadata']['publication_info'], list):
+                for i  in range(0,len(dic['metadata']['publication_info'])):
+                    journal = dic['metadata']['publication_info'][i].get('reference',None)
                     if journal != None:
                         break
             else:
                 journal = dic['publication_info'].get('reference',None)
                 
-            for a in dic['authors']:
+            for a in dic['metadata']['authors']:
                 list_of_authors.append(a['full_name'])
             
-            if dic['primary_report_number'] is None:
-                ID = None
-            elif isinstance((dic['primary_report_number']), list):
-                for i in range(0, len(dic['primary_report_number'] )):
-                    if dic['primary_report_number'][i].find("/") != -1:
-                        ID = str(dic['primary_report_number'][i]).replace('arXiv:','')
-            else:
-                ID = str(dic['primary_report_number']).replace('arXiv:','')
                 
             dict_single_result = {
                 
                 'Authors': list_of_authors,
-                'Date_Published': dic['creation_date'],
-                'Title': dic['title']['title'],
+                'Date_Published': dic['created'],
+                'Title': dic['metadata']['titles'],
                 'ID': ID,
-                'DOI': dic['doi'],
-                'Citations': dic['number_of_citations'],
+                'DOI': dic['metadata']['dois'],
+                'Citations': dic['metadata']['citation_count'],
                 'Journal': journal,
                 'Num_Of_Authors': number_of_authors}
 

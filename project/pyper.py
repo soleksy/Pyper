@@ -117,7 +117,6 @@ def main():
         def isNotNone(x): return x[1] is not None
 
         filtered_params = list(filter(isNotNone, hep_params))
-
         if len(filtered_params) == 0:
             print("Choose at least one query variable try:\n" +
                   "python3 pyper.py HEP -h " + "for more information")
@@ -125,9 +124,9 @@ def main():
             # Initial param encoding.
             for i, (el1, el2) in enumerate(filtered_params):
                 if(i == len(filtered_params) - 1):
-                    commands += el1 + "%3A+" + el2
+                    commands += "%3A+" + el2
                 else:
-                    commands += el1 + "%3A+" + el2 + "%20+"
+                    commands += "%3A+" + el2 + "%20+"
 
             # Ensure any possible mistakes by the user are properly encoded.
             commands = hep_helper.hep_url_encode(commands)
