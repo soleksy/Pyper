@@ -112,11 +112,14 @@ def main():
                 ("doi",
                  hep_args.doi),
                 ("journal",
-                 hep_args.j)]
+                 hep_args.j),
+                ("query",
+                 hep_args.q)]
 
         def isNotNone(x): return x[1] is not None
 
         filtered_params = list(filter(isNotNone, hep_params))
+
         if len(filtered_params) == 0:
             print("Choose at least one query variable try:\n" +
                   "python3 pyper.py HEP -h " + "for more information")
@@ -131,7 +134,10 @@ def main():
             # Ensure any possible mistakes by the user are properly encoded.
             commands = hep_helper.hep_url_encode(commands)
             # Generate URL
-            url = hep_helper.hep_url_generator(commands,"recjson")
+            if(hep_args.q is not None):
+                url = hep_helper.hep_url_generator(hep_args.q)
+            else:
+                url = hep_helper.hep_url_generator(commands)
             # Retrieve the data from url
             source = hep_helper.get_source(url)
 

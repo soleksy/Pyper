@@ -16,9 +16,9 @@ class Hep_Helper:
             string = string.replace(el1, el2)
         return string
 
-    def hep_url_generator(self, command_string, format):
+    def hep_url_generator(self, command_string):
         
-        url = "https://inspirehep.net/api/literature?q=" + command_string + "&of=" + format + \
+        url = "https://inspirehep.net/api/literature?q=" + command_string + "&of=recjson" + \
             "&ot=creator,title,creation_date,number_of_citations,authors,primary_report_number,doi,publication_info,&size=" + \
             self.CONST_QUERY_RESULTS
 
@@ -48,12 +48,15 @@ class Hep_Parser:
 
         self.list_of_dicts = list()
         self.data = json.loads(source)
-
         self.data = self.data["hits"]["hits"]
         
         for dic in self.data:
             ID = ''
+
             list_of_authors = list()
+            list_of_titles = list()
+            list_of_dois = list()
+
             dict_single_result = dict()
             journal = ""
             number_of_authors = len(dic['metadata']['authors'])
@@ -72,19 +75,25 @@ class Hep_Parser:
                     if journal != None:
                         break
             else:
-                journal = dic['publication_info'].get('reference',None)
+                journal = dic['publication_info'].get('retitlesference',None)
                 
-            for a in dic['metadata']['authors']:
-                list_of_authors.append(a['full_name'])
+            for el in dic['metadata']['authors']:
+                list_of_authors.append(el['full_name'])
+
+            for el in dic['metadata']['titles']:
+                list_of_titles.append(el['title'])
             
-                
+            if dic['metadata']['dois'] is not None:
+                for el in dic['metadata']['dois']:
+                    list_of_dois.append(dic['metadata']['dois']["value"])
+
             dict_single_result = {
                 
                 'Authors': list_of_authors,
                 'Date_Published': dic['created'],
-                'Title': dic['metadata']['titles'],
+                'Title': list_of_titles,
                 'ID': ID,
-                'DOI': dic['metadata']['dois'],
+                'DOI': list_of_dois,
                 'Citations': dic['metadata']['citation_count'],
                 'Journal': journal,
                 'Num_Of_Authors': number_of_authors}
@@ -119,11 +128,12 @@ class Hep_Parser:
             for dic in self.list_of_dicts:
                 items = dic.items()
                 for el in items:
-                    if el[0] == 'Authors':
-                        f.write(str(el[0] + ": \n "))
+                    if type(el[1]) == list:
+                        f.write(str(el[0] + ":\n"))
                         for x in el[1]:
                             f.write(str(x)+" ,")
                         f.write('\n\n')
                     else:
-                        f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')
-                f.write('\n')
+                        f.write(str(el[0]) + ": \n" + str(el[1]))
+                        f.write('\n\n')
+                f.write('\n\n')

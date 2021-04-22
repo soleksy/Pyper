@@ -5,6 +5,12 @@ parser_HEP = subparsers.add_parser('HEP', help="Search HEP databse")
 #----------------------------HEP ARGUMENTS---------------------------#
 # Add author to the query
 parser_HEP.add_argument(
+    "-q",
+    required=False,
+    help="Use for keyword search, if used simply write your keywords afterwards",
+    type=str)
+
+parser_HEP.add_argument(
     "-a",
     required=False,
     help="Adds the name/s of the author/s to the query.",
@@ -93,8 +99,6 @@ parser_HEP.add_argument(
 
 )
 #-------------------------GENERAL HEP ARGUMENTS---------------------------#
-# Write result to given output buffer
-#if NAME_FILES_CURRENT_DATES == 0:
 parser_HEP.add_argument(
     "-file",
     required=True,
