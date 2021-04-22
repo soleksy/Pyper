@@ -39,6 +39,7 @@ class Arxiv_Parser:
 
     def __init__(self, filename):
         self.list_of_dicts = list()
+        self.list_of_bibtex_dicts = list()
         self.filename = filename
 
     def parse_xml(self):
@@ -60,11 +61,11 @@ class Arxiv_Parser:
             if entry.find('journal_ref') is not None:
                 journal = entry.find('journal_ref').text
             else:
-                journal = None
+                journal = "not specified"
             if entry.find('doi') is not None:
                 doi = entry.find('doi').text
             else:
-                doi = None
+                doi = "not specified"
             list_of_authors = list()
 
             authors = entry.findall('author')
@@ -75,6 +76,13 @@ class Arxiv_Parser:
             if entry.find('id').text is not None:
                 ID = entry.find('id').text
                 ID = ID[:-2]
+
+            single_bibtex_result_dict = {
+                "Authors": list_of_authors,
+                "Title": entry.find('title').text,
+                "Journal": journal,
+                "Date_Published": entry.find('published').text
+                }
 
             single_result_dict = {
                 "Authors": list_of_authors,
@@ -87,6 +95,7 @@ class Arxiv_Parser:
                 "Num_Of_Authors": number_of_authors}
 
             self.list_of_dicts.append(single_result_dict)
+            self.list_of_bibtex_dicts.append(single_bibtex_result_dict)
 
     def show(self):
         for dic in self.list_of_dicts:
@@ -159,7 +168,35 @@ class Arxiv_Parser:
                 key=lambda x: x['Last_Update'],
                 reverse=True)
 
-    def write(self, filename):
+    def convert_bibtex(self):
+
+        citation_list = list()
+        authors = ""
+        first_author = ""
+
+
+        for article in self.list_of_bibtex_dicts:
+            counter = 0
+            for entry in article['Authors']:
+                counter += 1
+                if counter == len(article['Authors']):
+                    authors += entry
+                else:
+                    authors += entry + " and "
+                    
+            citation_list.append(["@article{" + str(article['Authors'][0]) + ":" + str(article['Date_Published']).split("-", 1)[0] + ",",
+                                "author = { " + authors + "},",
+                                "title = { " + article['Title'] + " },",
+                                "journal = { " + article['Journal'] + " },",
+                                "year = { " + str(article['Date_Published']).split("-", 1)[0] + " },",
+                                "}"]
+            )
+
+
+        return citation_list
+
+
+    def write_data(self, filename):
         items = []
         with open(filename, 'w') as f:
             for dic in self.list_of_dicts:
@@ -173,3 +210,14 @@ class Arxiv_Parser:
                     else:
                         f.write(str(el[0]) + ": \n" + str(el[1]) + '\n\n')
                 f.write('\n')
+            f.write(str(self.convert_bibtex()))
+
+    def write_bibtex(self, filename):
+
+        citation_list = self.convert_bibtex()
+
+        with open(filename, 'w') as f:
+            for article in citation_list:
+                for entry in article:
+                    f.write(entry + "\n")
+                f.write("\n")

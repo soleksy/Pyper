@@ -215,10 +215,11 @@ def main():
 
 
         if NAME_FILES_CURRENT_DATES == 1:
-            arx_parser.write(ARX_OUTPUTS + str(datetime.now()) + ".txt")
+            arx_parser.write_data(ARX_OUTPUTS + str(datetime.now()) + ".txt")
             print("Your query result has been written to the " + ARX_OUTPUTS + str(datetime.now()) + ".txt")
         else:
-            arx_parser.write(ARX_OUTPUTS + arx_args.file)
+            arx_parser.write_data(ARX_OUTPUTS + arx_args.file)
+            arx_parser.write_bibtex(ARX_OUTPUTS + "/bibtex.txt")
             print("Your query result has been written to the " + ARX_OUTPUTS + arx_args.file)
 
 
@@ -233,7 +234,7 @@ def main():
         else:
             hep_parser.write_data(HEP_OUTPUTS + hep_args.file)
             hep_parser.write_bibtex(HEP_OUTPUTS + "/bibtex.txt")
-            
+
             print("Your query result has been written to the " + HEP_OUTPUTS + hep_args.file)
         
 
