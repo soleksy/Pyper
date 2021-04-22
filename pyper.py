@@ -228,10 +228,12 @@ def main():
             hep_parser.sort_by(hep_args.sort)
 
         if NAME_FILES_CURRENT_DATES == 1:
-            hep_parser.write(HEP_OUTPUTS + str(datetime.now())  + ".txt")
+            hep_parser.write_data(HEP_OUTPUTS + str(datetime.now())  + ".txt")
             print("Your query result has been written to the " + HEP_OUTPUTS + str(datetime.now()) + ".txt")
         else:
-            hep_parser.write(HEP_OUTPUTS + hep_args.file)
+            hep_parser.write_data(HEP_OUTPUTS + hep_args.file)
+            hep_parser.write_bibtex(HEP_OUTPUTS + "/bibtex.txt")
+            
             print("Your query result has been written to the " + HEP_OUTPUTS + hep_args.file)
         
 

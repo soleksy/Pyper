@@ -47,6 +47,8 @@ class Hep_Parser:
     def __init__(self, source):
 
         self.list_of_dicts = list()
+        self.list_of_bibtex_dicts = list()
+
         self.data = json.loads(source)
         self.data = self.data["hits"]["hits"]
         
@@ -86,9 +88,23 @@ class Hep_Parser:
             if dic['metadata']['dois'] is not None:
                 for el in dic['metadata']['dois']:
                     list_of_dois.append(dic['metadata']['dois']["value"])
+            
+            if dic["metadata"].get('publication_info') is not None:
+                if(type(dic["metadata"]['publication_info'])) == list:
+                    year = dic["metadata"]['publication_info'][0]["year"]
+
+                    if dic["metadata"]['publication_info'][0]['journal_title'] is not None:
+                        journal = dic["metadata"]['publication_info'][0]['journal_title']
+                else:
+                    year = dic["metadata"]['publication_info']["year"]
+                    if dic["metadata"]['publication_info'][0]['journal_title'] is not None:
+                        journal = dic["metadata"]['publication_info'][0]['journal_title']
+
+            else:
+                year = "not specified"      
+                journal = "not specifed"
 
             dict_single_result = {
-                
                 'Authors': list_of_authors,
                 'Date_Published': dic['created'],
                 'Title': list_of_titles,
@@ -97,8 +113,33 @@ class Hep_Parser:
                 'Citations': dic['metadata']['citation_count'],
                 'Journal': journal,
                 'Num_Of_Authors': number_of_authors}
+            
+            bibtex_single_result = {
+                'Author': dic['metadata']['first_author']['last_name'],
+                'Title': list_of_titles[0],
+                'Journal': journal,
+                'Year': year
+            }
 
             self.list_of_dicts.append(dict_single_result)
+            self.list_of_bibtex_dicts.append(bibtex_single_result)
+    
+    def convert_bibtex(self):
+
+        citation_list = list()
+
+        for el in self.list_of_bibtex_dicts:
+
+            citation_list.append(["@article{" + str(el['Author']) + ":" + str(el['Year']) + ",",
+                                "author = { " + el['Author'] + "},",
+                                "title = { " + el['Title'] + " },",
+                                "journal = { " + el['Journal'] + " },",
+                                "year = { " + str(el['Year']) + " },",
+                                "}"]
+            )
+
+        return citation_list
+    
 
     def show(self):
         for dic in self.list_of_dicts:
@@ -121,8 +162,18 @@ class Hep_Parser:
                 self.list_of_dicts,
                 key=lambda x: x['Citations'],
                 reverse=True)
+                
+    def write_bibtex(self, filename):
+        citation_list = self.convert_bibtex()
 
-    def write(self, filename):
+        with open(filename, 'w') as f:
+            for cite in citation_list:
+                for el in cite:
+                    f.write(el+"\n")
+                f.write('\n')
+
+
+    def write_data(self, filename):
         items = []
         with open(filename, 'w') as f:
             for dic in self.list_of_dicts:
@@ -137,3 +188,4 @@ class Hep_Parser:
                         f.write(str(el[0]) + ": \n" + str(el[1]))
                         f.write('\n\n')
                 f.write('\n\n')
+                
