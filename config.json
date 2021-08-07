@@ -1,7 +1,7 @@
 {
-  "ARXIV_OUTPUT_FOLDER": "OUTPUTS/arxiv_outputs/",
-  "HEP_OUTPUT_FOLDER": "OUTPUTS/hep_outputs/",
-  "MULTI_OUTPUT_FOLDER": "OUTPUTS/multi_outputs/",
+  "ARXIV_OUTPUT_FOLDER": "outputs/arxiv_outputs/",
+  "HEP_OUTPUT_FOLDER": "outputs/hep_outputs/",
+  "MULTI_OUTPUT_FOLDER": "outputs/multi_outputs/",
 
   "NAME_FILES_CURRENT_DATES": 0
 }

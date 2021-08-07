@@ -1,0 +1,115 @@
+Author: 
+Miyamoto, R.
+
+Date_Published: 
+2020-08-10T00:00:00+00:00
+
+Title: 
+Highlights from the first beam commissioning stage at ESS for its ion source and low energy beam transport
+
+DOI: 
+10.1088/1748-0221/15/07/P07027
+
+Citations: 
+0
+
+Journal: 
+JINST
+
+Year: 
+2020
+
+
+
+Author: 
+Maulerova, V.
+
+Date_Published: 
+2019-08-23T00:00:00+00:00
+
+Title: 
+First neutron data recorded at the V20 Test Instrument utilizing prototype chopper systems and beam monitors planned for ESS
+
+DOI: 
+10.1209/0295-5075/128/52001
+
+Citations: 
+3
+
+Journal: 
+EPL
+
+Year: 
+2019
+
+
+
+Author: 
+Steffen, Jason H.
+
+Date_Published: 
+2007-04-06T00:00:00+00:00
+
+Title: 
+Detecting and Characterizing Planetary Systems with Transit Timing
+
+DOI: 
+No DOI
+
+Citations: 
+10
+
+Journal: 
+None
+
+Year: 
+No year
+
+
+
+Author: 
+Bois, Eric
+
+Date_Published: 
+2003-04-30T00:00:00+00:00
+
+Title: 
+The impact of the chrono-geometrical structure of space-time on causality
+
+DOI: 
+No DOI
+
+Citations: 
+2
+
+Journal: 
+None
+
+Year: 
+No year
+
+
+
+Author: 
+Eric, Lecorche
+
+Date_Published: 
+1997-10-22T00:00:00+00:00
+
+Title: 
+Extending the GANIL control system for the SPIRAL project
+
+DOI: 
+No DOI
+
+Citations: 
+0
+
+Journal: 
+None
+
+Year: 
+No year
+
+
+

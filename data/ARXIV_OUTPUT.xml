@@ -1,383 +1,407 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed>
-  <link href="http://arxiv.org/api/query?search_query%3Dall%3Amisiaszek%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
-  <title type="html">ArXiv Query: search_query=all:misiaszek&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <id>http://arxiv.org/api/mUx7EcPhh0FHO2rW1mLAQCIgmY0</id>
-  <updated>2021-04-22T00:00:00-04:00</updated>
-  <totalResults>68</totalResults>
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Aeric%26id_list%3D%26start%3D0%26max_results%3D20" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:eric&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <id>http://arxiv.org/api/WmuA4LoYC9Za6tssUzeY4VAQZrI</id>
+  <updated>2021-08-07T00:00:00-04:00</updated>
+  <totalResults>16345</totalResults>
   <startIndex>0</startIndex>
-  <itemsPerPage>10</itemsPerPage>
+  <itemsPerPage>20</itemsPerPage>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0502522v1</id>
-    <updated>2005-02-24T20:45:37Z</updated>
-    <published>2005-02-24T20:45:37Z</published>
-    <title>The polarized electron target as a new solar-neutrino detector</title>
-    <summary>  In this paper, we analyze the scattering of solar neutrinos on the polarized
-electron target, and predict how the effect of parity violation in weak
-interactions may help to distinguish neutrino signal from detector background.
-We indicate that the knowledge of the Sun motion across the sky is sufficient
-to predict the day/night asymmetry in the $(\nu_ee^-)$ scattering on the
-polarized electron target. To make this detection feasible, the polarized
-electron target for solar neutrinos needs to be build from magnetic materials,
-e.g. from ferromagnetic iron foils, paramagnetic scintillator crystals or
-scintillating ferrofluids.
+    <id>http://arxiv.org/abs/2107.04027v1</id>
+    <updated>2021-07-05T07:56:27Z</updated>
+    <published>2021-07-05T07:56:27Z</published>
+    <title>goldMEDAL : une nouvelle contribution {à} la mod{é}lisation
+  g{é}n{é}rique des m{é}tadonn{é}es des lacs de donn{é}es</title>
+    <summary>  We summarize here a paper published in 2021 in the DOLAP international
+workshop DOLAP associated with the EDBT and ICDT conferences. We propose
+goldMEDAL, a generic metadata model for data lakes based on four concepts and a
+three-level modeling: conceptual, logical and physical.
 </summary>
     <author>
-      <name>M. Misiaszek</name>
+      <name>Etienne Scholly</name>
+      <affiliation>ERIC</affiliation>
     </author>
     <author>
-      <name>S. Ciechanowicz</name>
+      <name>Pegdwendé Sawadogo</name>
+      <affiliation>ERIC</affiliation>
     </author>
     <author>
-      <name>W. Sobkow</name>
+      <name>Pengfei Liu</name>
+      <affiliation>ERIC</affiliation>
     </author>
-    <doi>10.1016/j.nuclphysb.2005.11.020</doi>
-    <link title="doi" href="http://dx.doi.org/10.1016/j.nuclphysb.2005.11.020" rel="related"/>
-    <comment>3 pages, 2 eps figures, revtex</comment>
-    <journal_ref>Nucl.Phys. B734 (2006) 203-207</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0502522v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0502522v1" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <author>
+      <name>Javier Espinosa-Oviedo</name>
+      <affiliation>ERIC</affiliation>
+    </author>
+    <author>
+      <name>Cécile Favre</name>
+      <affiliation>ERIC</affiliation>
+    </author>
+    <author>
+      <name>Sabine Loudcher</name>
+      <affiliation>ERIC</affiliation>
+    </author>
+    <author>
+      <name>Jérôme Darmont</name>
+      <affiliation>ERIC</affiliation>
+    </author>
+    <author>
+      <name>Camille Noûs</name>
+    </author>
+    <comment>in French. 17e journ{\'e}es Business Intelligence et Big Data (EDA
+  2021), Jul 2021, Toulouse, France</comment>
+    <link href="http://arxiv.org/abs/2107.04027v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.04027v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0405066v1</id>
-    <updated>2004-05-04T18:54:28Z</updated>
-    <published>2004-05-04T18:54:28Z</published>
-    <title>Problem of neutrino handedness in weak interactions</title>
-    <summary>  In this paper we show that the neutrino observables, including an information
-about the transverse neutrino spin polarization, can be sensitive to the
-effects coming from the interference terms between the standard vector V, axial
-A couplings of L-handed neutrinos and exotic scalar S coupling of R-handed ones
-in the differential cross section. Our analysis is based on the electron
-neutrino-electron elastic scattering. This reaction is considered at the level
-of the four-fermion point interaction. Neutrinos are assumed to be massive and
-to be polarized Dirac fermions coming from the Sun.
+    <id>http://arxiv.org/abs/math/0109219v1</id>
+    <updated>2001-09-27T19:21:41Z</updated>
+    <published>2001-09-27T19:21:41Z</published>
+    <title>Restricted permutations related to Fibonacci numbers and k-generalized
+  Fibonacci numbers</title>
+    <summary>  We give enumerations of various families of restricted permutations involving
+the Fibonacci numbers or k-generalized Fibonacci numbers.
 </summary>
     <author>
-      <name>S. Ciechanowicz</name>
+      <name>Eric S. Egge</name>
+      <affiliation>Gettysburg College</affiliation>
     </author>
-    <author>
-      <name>W. Sobkow</name>
-    </author>
-    <author>
-      <name>M. Misiaszek</name>
-    </author>
-    <comment>10 pages, 2 figures, talk presented at the Epiphany Conference on
-  Astroparticle Physics, 8-11 January 2004, Cracow, Poland</comment>
-    <journal_ref>Acta Phys.Polon. B35 (2004) 1961-1969</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0405066v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0405066v1" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <comment>20 pages</comment>
+    <link href="http://arxiv.org/abs/math/0109219v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0109219v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A15" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1807.04273v2</id>
-    <updated>2019-02-20T13:36:14Z</updated>
-    <published>2018-07-11T15:21:33Z</published>
-    <title>A single photon detection system for visible and infrared spectrum range</title>
-    <summary>  We demonstrate niobium nitride based superconducting single-photon detectors
-sensitive in the spectral range 452 nm - 2300 nm. The system performance was
-tested in a real-life experiment with correlated photons generated by means of
-spontaneous parametric down conversion, where one of photon was in the visible
-range and the other was in the infrared range. We measured a signal to noise
-ratio as high as $4\times 10^4$ in our detection setting. A photon detection
-efficiency as high as 64% at 1550 nm and 15% at 2300 nm was observed.
+    <id>http://arxiv.org/abs/math/0311413v2</id>
+    <updated>2010-04-21T13:25:13Z</updated>
+    <published>2003-11-24T11:44:25Z</published>
+    <title>Factoriality of q-Gaussian von Neumann algebras</title>
+    <summary>  We prove that the von Neumann algebras generated by $n$ $q$-Gaussian
+elements, are factors for $n\ge 2$.
 </summary>
     <author>
-      <name>Alexander Divochiy</name>
-      <affiliation>LLC SCONTEL, Moscow, Russian Federation</affiliation>
-      <affiliation>Moscow State University of Education</affiliation>
+      <name>Eric Ricard</name>
     </author>
-    <author>
-      <name>Marta Misiaszek</name>
-      <affiliation>Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University, Torun, Poland</affiliation>
-    </author>
-    <author>
-      <name>Yury Vakhtomin</name>
-      <affiliation>LLC SCONTEL, Moscow, Russian Federation</affiliation>
-      <affiliation>Moscow State University of Education</affiliation>
-    </author>
-    <author>
-      <name>Pavel Morozov</name>
-      <affiliation>LLC SCONTEL, Moscow, Russian Federation</affiliation>
-      <affiliation>Moscow State University of Education</affiliation>
-    </author>
-    <author>
-      <name>Konstantin Smirnov</name>
-      <affiliation>LLC SCONTEL, Moscow, Russian Federation</affiliation>
-      <affiliation>Moscow State University of Education</affiliation>
-      <affiliation>National Research University Higher School of Economics, Moscow, Russian Federation</affiliation>
-    </author>
-    <author>
-      <name>Philipp Zolotov</name>
-      <affiliation>LLC SCONTEL, Moscow, Russian Federation</affiliation>
-      <affiliation>Moscow State University of Education</affiliation>
-      <affiliation>National Research University Higher School of Economics, Moscow, Russian Federation</affiliation>
-    </author>
-    <author>
-      <name>Piotr Kolenderski</name>
-      <affiliation>Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University, Torun, Poland</affiliation>
-    </author>
-    <doi>10.1364/OL.43.006085</doi>
-    <link title="doi" href="http://dx.doi.org/10.1364/OL.43.006085" rel="related"/>
-    <comment>5 pages, 5 figures</comment>
-    <journal_ref>Opt. Lett., 43, 6085 (2018)</journal_ref>
-    <link href="http://arxiv.org/abs/1807.04273v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1807.04273v2" rel="related" type="application/pdf"/>
-    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/math/0311413v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0311413v2" rel="related" type="application/pdf"/>
+    <primary_category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="46L10, 46L65, 81S05" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0310047v1</id>
-    <updated>2003-10-02T06:25:36Z</updated>
-    <published>2003-10-02T06:25:36Z</published>
-    <title>Core-Collapse Supernova Mechanism - Importance of Rotation</title>
-    <summary>  An attempt is made to assess the significance of rotation in the
-core-collapse supernova phenomenon, from both observational and theoretical
-point of view. The data on supernovae particularly indicative of the role of
-rotation in the collapse-triggered explosion is emphasized. The problem of
-including the rotation of presupernova core into the supernova theory is
-considered. A two-dimensional classification scheme of core-collapse supernovae
-is proposed which unifies 'classical' supernovae of type Ib/c and type II,
-'hypernovae' and some GRB events.
+    <id>http://arxiv.org/abs/math/0511629v1</id>
+    <updated>2005-11-25T13:13:23Z</updated>
+    <published>2005-11-25T13:13:23Z</published>
+    <title>About nonlinear geometric optics</title>
+    <summary>  We give an idea of the evolution of mathematical nonlinear geometric optics
+from its foundation by Lax in 1957, and present applications in various fields
+of mathematics and physics.
 </summary>
     <author>
-      <name>A. Odrzywolek</name>
+      <name>Eric Dumas</name>
+      <affiliation>IF</affiliation>
     </author>
-    <author>
-      <name>M. Kutschera</name>
-    </author>
-    <author>
-      <name>M. Misiaszek</name>
-    </author>
-    <author>
-      <name>K. Grotowski</name>
-    </author>
-    <comment>24 pages, 4 figures, 3 tables</comment>
-    <journal_ref>Acta Physica Polonica B Vol. 34, No. 5, May 2003, page 2791</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0310047v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0310047v1" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/math/0511629v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0511629v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="35-02, 35B25, 35C20, 35Qxx" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0405006v1</id>
-    <updated>2004-05-01T06:48:42Z</updated>
-    <published>2004-05-01T06:48:42Z</published>
-    <title>Neutrinos from pre-supernova star</title>
-    <summary>  Analysis of the massive star properties during C, Ne, O and Si burning i.e.
-the neutrino-cooled stage, leads to the simplified neutrino emission model. In
-the framework of this model we have simulated spectrum of the antineutrinos.
-Flux normalized according to the massive star model with explicitly given
-neutrino luminosity allow us to predict signal produced in water Cherenkov
-detectors. The results are discussed from the point of view of the possibility
-of the core-collapse supernova event prediction in advance of a few days.
+    <id>http://arxiv.org/abs/math/0607609v1</id>
+    <updated>2006-07-24T22:21:40Z</updated>
+    <published>2006-07-24T22:21:40Z</published>
+    <title>Complex Monge-Ampere of a Maximum</title>
+    <summary>  We give a formula for the complex Monge-Ampere operator applied to the
+maximum of a finite number of functions.
 </summary>
     <author>
-      <name>A. Odrzywolek</name>
+      <name>Eric Bedford</name>
     </author>
     <author>
-      <name>M. Misiaszek</name>
+      <name>Sione Ma`u</name>
     </author>
-    <author>
-      <name>M. Kutschera</name>
-    </author>
-    <comment>9 pages, 1 figure, talk presented at the Epiphany Conference on
-  Astroparticle Physics, 8-11 January 2004, Cracow, Poland</comment>
-    <journal_ref>Acta Phys.Polon. B35 (2004) 1981</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0405006v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0405006v1" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/math/0607609v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0607609v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0608492v1</id>
-    <updated>2006-08-23T17:24:13Z</updated>
-    <published>2006-08-23T17:24:13Z</published>
-    <title>Thermal neutrinos from pre-supernova</title>
-    <summary>  We would like to discuss prospects for neutrino observations of the
-core-collapse supernova progenitor during neutrino-cooled stage. We will
-present new theoretical results on thermal neutrino and antineutrino spectra
-produced deep inside the pre-supernova core. Three competing processes: pair-,
-photo and plasma-neutrino production, are taken into account. The results will
-be used to estimate signal in existing and future neutrino detectors. Chance
-for supernova prediction is estimated, with possible aid to core-collapse
-neutrino and gravitational wave detectors in the form of early warning.
+    <id>http://arxiv.org/abs/physics/0506153v1</id>
+    <updated>2005-06-17T21:19:04Z</updated>
+    <published>2005-06-17T21:19:04Z</published>
+    <title>Physmatics</title>
+    <summary>  Public lecture given at The Fields Institute, June 2, 2005.
 </summary>
     <author>
-      <name>A. Odrzywolek</name>
+      <name>Eric Zaslow</name>
     </author>
-    <author>
-      <name>M. Misiaszek</name>
-    </author>
-    <author>
-      <name>M. Kutschera</name>
-    </author>
-    <doi>10.1016/j.nuclphysbps.2011.10.029</doi>
-    <link title="doi" href="http://dx.doi.org/10.1016/j.nuclphysbps.2011.10.029" rel="related"/>
-    <comment>1 page, Contribution to the Proceedings of Neutrino 2006 Conference</comment>
-    <journal_ref>Nuclear Physics B Proceedings Supplements (2011), Volume 221, p.
-  380-380</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0608492v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0608492v1" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/physics/0506153v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/physics/0506153v1" rel="related" type="application/pdf"/>
+    <primary_category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1207.0591v2</id>
-    <updated>2012-07-31T11:32:06Z</updated>
-    <published>2012-07-03T07:46:15Z</published>
-    <title>GPS-based CERN-LNGS time link for Borexino</title>
-    <summary>  We describe the design, the equipment, and the calibration of a new GPS based
-time link between CERN and the Borexino experiment at the Gran Sasso Laboratory
-in Italy. This system has been installed and operated in Borexino since March
-2012, and used for a precise measurement of CNGS muon neutrinos speed in May
-2012. The result of the measurement will be reported in a different letter.
+    <id>http://arxiv.org/abs/0809.0458v1</id>
+    <updated>2008-09-02T16:06:40Z</updated>
+    <published>2008-09-02T16:06:40Z</published>
+    <title>Agent Models of Political Interactions</title>
+    <summary>  Looks at state interactions from an agent based AI perspective to see state
+interactions as an example of emergent intelligent behavior. Exposes basic
+principles of game theory.
 </summary>
     <author>
-      <name>B. Caccianiga</name>
+      <name>Eric Engle</name>
     </author>
-    <author>
-      <name>P. Cavalcante</name>
-    </author>
-    <author>
-      <name>G. Cerretto</name>
-    </author>
-    <author>
-      <name>H. Esteban</name>
-    </author>
-    <author>
-      <name>G. Korga</name>
-    </author>
-    <author>
-      <name>M. Misiaszek</name>
-    </author>
-    <author>
-      <name>M. Orsini</name>
-    </author>
-    <author>
-      <name>M. Pallavicini</name>
-    </author>
-    <author>
-      <name>V. Pettiti</name>
-    </author>
-    <author>
-      <name>C. Plantard</name>
-    </author>
-    <author>
-      <name>A. Razeto</name>
-    </author>
-    <comment>13 pages, 11 figures</comment>
-    <link href="http://arxiv.org/abs/1207.0591v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1207.0591v2" rel="related" type="application/pdf"/>
-    <primary_category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <comment>22 pages</comment>
+    <link href="http://arxiv.org/abs/0809.0458v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0809.0458v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="H.4" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1112.6114v1</id>
-    <updated>2011-12-28T13:09:57Z</updated>
-    <published>2011-12-28T13:09:57Z</published>
-    <title>Neutrinos Polarimetry in Muon Decay</title>
-    <summary>  We consider massive Dirac electron antineutrino to be observed in the muon
-decay, $\mu^{-} \rightarrow e^- +\bar{\nu}_{e} + \nu_{\mu}$, at rest in the LAB
-reference frame. A computation of $\bar{\nu}_{e}$ differential direct spectral
-shape and angular distribution was performed. This has resulted in transverse
-component of the neutrino polarization emerging from the nonstandard S, T
-sector of the Lorentz structure in the Fermi leptonic charged weak interaction.
-The calculation is based on empirical values of the coupling parameters.
+    <id>http://arxiv.org/abs/0809.0461v1</id>
+    <updated>2008-09-02T17:25:25Z</updated>
+    <published>2008-09-02T17:25:25Z</published>
+    <title>The Semiotic Machine</title>
+    <summary>  A semiotic model of the user interface in human-computer interaction.
+Algorithmic sign, semotics, algorithmic art.
 </summary>
     <author>
-      <name>S. J. Ciechanowicz</name>
+      <name>Eric Engle</name>
     </author>
+    <comment>28 pages</comment>
+    <link href="http://arxiv.org/abs/0809.0461v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0809.0461v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="H.5.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.0524v1</id>
+    <updated>2008-09-02T21:48:28Z</updated>
+    <published>2008-09-02T21:48:28Z</published>
+    <title>Computer Art in the Former Soviet Bloc</title>
+    <summary>  Documents early computer art in the Soviet bloc and describes Marxist art
+theory.
+</summary>
     <author>
-      <name>W. Sobków</name>
+      <name>Eric Engle</name>
     </author>
+    <comment>28 pages</comment>
+    <link href="http://arxiv.org/abs/0809.0524v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0809.0524v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="J.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.3158v1</id>
+    <updated>2008-09-18T13:33:05Z</updated>
+    <published>2008-09-18T13:33:05Z</published>
+    <title>Top quark in theory</title>
+    <summary>  I review how the top quark is embedded in the Standard Model and some its
+proposed extensions, and how it manifests itself in various hadron collider
+signals.
+</summary>
     <author>
-      <name>M. Misiaszek</name>
+      <name>Eric Laenen</name>
     </author>
-    <link href="http://arxiv.org/abs/1112.6114v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1112.6114v1" rel="related" type="application/pdf"/>
+    <doi>10.1007/s12043-012-0367-5</doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s12043-012-0367-5" rel="related"/>
+    <comment>12 pages</comment>
+    <link href="http://arxiv.org/abs/0809.3158v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0809.3158v1" rel="related" type="application/pdf"/>
     <primary_category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
     <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/1711.10232v1</id>
-    <updated>2017-11-28T11:28:33Z</updated>
-    <published>2017-11-28T11:28:33Z</published>
-    <title>Dispersion measurement method with down conversion process</title>
-    <summary>  Proper characterization of nonlinear crystals is essential for designing
-single photon sources. We show a technique for dispersion characterization of a
-nonlinear material by making use of phase matching in the process of parametric
-down conversion. Our method is demonstrated on an exemplary periodically poled
-potassium titanyl phosphate $KTiOPO_4$ crystal phase-matched for $396$ nm to
-$532$ nm and $1550$ nm. We show a procedure to characterize the dispersion in
-the range of $390$ to $1800$ nm by means of only one spectrometer for the
-UV-visible range.
+    <id>http://arxiv.org/abs/0811.2892v1</id>
+    <updated>2008-11-18T11:48:35Z</updated>
+    <published>2008-11-18T11:48:35Z</published>
+    <title>An Upper Bound on the critical density for Activated Random Walks on
+  Euclidean Lattices</title>
+    <summary>  We show the critical density for activated random walks on Euclidean lattices
+is at most one.
 </summary>
     <author>
-      <name>Marta Misiaszek</name>
+      <name>Eric Shellef</name>
     </author>
-    <author>
-      <name>Andrzej Gajewski</name>
-    </author>
-    <author>
-      <name>Piotr Kolenderski</name>
-    </author>
-    <doi>10.1088/2399-6528/aaccac</doi>
-    <link title="doi" href="http://dx.doi.org/10.1088/2399-6528/aaccac" rel="related"/>
-    <journal_ref>J. Phys. Commun. 2 065014 (2018)</journal_ref>
-    <link href="http://arxiv.org/abs/1711.10232v1" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/1711.10232v1" rel="related" type="application/pdf"/>
-    <primary_category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <comment>4 pages</comment>
+    <link href="http://arxiv.org/abs/0811.2892v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0811.2892v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
   <entry>
-    <id>http://arxiv.org/abs/astro-ph/0311012v2</id>
-    <updated>2004-03-02T21:29:20Z</updated>
-    <published>2003-11-01T21:55:00Z</published>
-    <title>Detection possibility of the pair-annihilation neutrinos from the
-  neutrino-cooled pre-supernova star</title>
-    <summary>  The signal produced in neutrino observatories by the pair-annihilation
-neutrinos emitted from a 20 $M_{\odot}$ pre-supernova star at the silicon
-burning phase is estimated. The spectrum of the neutrinos with an average
-energy $\sim$2 MeV is calculated with the use of the Monte Carlo method. A few
-relevant reactions for neutrinos and anti-neutrinos in modern detectors are
-considered. The most promising results are from $\bar{\nu}_e + p
-\longrightarrow n + e^{+}$ reaction. During the Si-burning phase we expect 1.27
-neutrons/day/kiloton of water to be produced by neutrinos from a star located
-at a distance of 1 kpc. Small admixture of effective neutron-absorbers as e.g.
-NaCl or GdCl$_{3}$ makes these neutrons easily visible because of Cherenkov
-light produced by electrons which were hit by $\sim$8 MeV photon cascade
-emitted by Cl or Gd nuclei. The estimated rate of neutron production for SNO
-and Super-Kamiokande is, respectively, 2.2 and 41 events per day for a star at
-1 kpc. For future detectors UNO and Hyper-Kamiokande we expect 5.6 and 6.9
-events per day even for a star 10 kpc away. This would make it possible to
-foresee a massive star death a few days before its core collapse. Importance of
-such a detection for theoretical astrophysics is discussed.
+    <id>http://arxiv.org/abs/1501.01402v1</id>
+    <updated>2015-01-07T09:11:49Z</updated>
+    <published>2015-01-07T09:11:49Z</published>
+    <title>Dynamics of Polynomial Diffeomorphisms of $C^2$: Foliations and
+  laminations</title>
+    <summary>  This essay summarizes the state of the art on some aspects of the dynamics of
+polynomial diffeomorphsms in complex dimension two, and it presents a number of
+open questions.
 </summary>
     <author>
-      <name>A. Odrzywolek</name>
+      <name>Eric Bedford</name>
     </author>
+    <link href="http://arxiv.org/abs/1501.01402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.01402v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="37F10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.0760v1</id>
+    <updated>2014-11-04T02:25:11Z</updated>
+    <published>2014-11-04T02:25:11Z</published>
+    <title>Invertible dynamics on blow-ups of P^k</title>
+    <summary>  We discuss automorphisms and pseudo-automorphisms on blowups of complex
+projective space with an eye to finding ones with interesting dynamical
+behavior.
+</summary>
     <author>
-      <name>M. Misiaszek</name>
+      <name>Eric Bedford</name>
     </author>
+    <link href="http://arxiv.org/abs/1411.0760v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.0760v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32H50, 37F99, 14E07" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.07456v1</id>
+    <updated>2016-01-27T17:28:57Z</updated>
+    <published>2016-01-27T17:28:57Z</published>
+    <title>An inequality in noncommutative $L_p$-spaces</title>
+    <summary>  We prove that for any (trace-preserving) conditional expectation $\mathcal E$
+on a noncommutative $L_p$ with $p&gt;2$, $Id-\mathcal E$ is a contraction on the
+positive cone $L_p^+$.
+</summary>
     <author>
-      <name>M. Kutschera</name>
+      <name>Éric Ricard</name>
     </author>
-    <doi>10.1016/j.astropartphys.2004.02.002</doi>
-    <link title="doi" href="http://dx.doi.org/10.1016/j.astropartphys.2004.02.002" rel="related"/>
-    <comment>18 pages, 2 figures, 5 tables, Astoparticle Physics: accepted for
-  publication</comment>
-    <journal_ref>Astropart.Phys. 21 (2004) 303-313</journal_ref>
-    <link href="http://arxiv.org/abs/astro-ph/0311012v2" rel="alternate" type="text/html"/>
-    <link title="pdf" href="http://arxiv.org/pdf/astro-ph/0311012v2" rel="related" type="application/pdf"/>
-    <primary_category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/1601.07456v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.07456v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.09235v1</id>
+    <updated>2016-10-28T17:54:21Z</updated>
+    <published>2016-10-28T17:54:21Z</published>
+    <title>A Tale of Two Turing Machines</title>
+    <summary>  Two Turing Machines may be able to answer questions about each other that
+they cannot answer about themselves.
+</summary>
+    <author>
+      <name>Eric Hehner</name>
+    </author>
+    <comment>3 pages</comment>
+    <link href="http://arxiv.org/abs/1610.09235v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.09235v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.6786v2</id>
+    <updated>2014-06-27T07:51:43Z</updated>
+    <published>2014-06-26T07:02:33Z</published>
+    <title>3D Texture Coordinates on Polygon Mesh Sequences</title>
+    <summary>  A method for creating 3D texture coordinates for a sequence of polygon meshes
+with changing topology and vertex motion vectors.
+</summary>
+    <author>
+      <name>Eric Mootz</name>
+    </author>
+    <link href="http://arxiv.org/abs/1406.6786v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.6786v2" rel="related" type="application/pdf"/>
+    <primary_category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.08699v1</id>
+    <updated>2016-06-26T19:38:10Z</updated>
+    <published>2016-06-26T19:38:10Z</published>
+    <title>How to Compute Halting</title>
+    <summary>  A consistently specified halting function may be computed.
+</summary>
+    <author>
+      <name>Eric C. R. Hehner</name>
+    </author>
+    <comment>5 pages</comment>
+    <link href="http://arxiv.org/abs/1606.08699v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.08699v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.08703v1</id>
+    <updated>2016-06-26T19:44:20Z</updated>
+    <published>2016-06-26T19:44:20Z</published>
+    <title>Observations on the Halting Problem</title>
+    <summary>  The Halting Problem is ill-conceived and ill-defined.
+</summary>
+    <author>
+      <name>Eric C. R. Hehner</name>
+    </author>
+    <comment>5 pages</comment>
+    <link href="http://arxiv.org/abs/1606.08703v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.08703v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.08722v1</id>
+    <updated>2016-06-26T19:33:39Z</updated>
+    <published>2016-06-26T19:33:39Z</published>
+    <title>Epimenides, Gödel, Turing: an Eternal Gölden Tangle</title>
+    <summary>  The Halting Problem is a version of the Liar's Paradox.
+</summary>
+    <author>
+      <name>Eric C. R. Hehner</name>
+    </author>
+    <comment>7 pages</comment>
+    <link href="http://arxiv.org/abs/1606.08722v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.08722v1" rel="related" type="application/pdf"/>
+    <primary_category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.2979v1</id>
+    <updated>2008-03-20T12:11:26Z</updated>
+    <published>2008-03-20T12:11:26Z</published>
+    <title>A Markov dilation for self-adjoint Schur multipliers</title>
+    <summary>  We give a formula for Markov dilation in the sense of Anantharaman-Delaroche
+for real positive Schur multipliers on $\B(H)$
+</summary>
+    <author>
+      <name>Éric Ricard</name>
+    </author>
+    <comment>To appear in proceedings of ams</comment>
+    <link href="http://arxiv.org/abs/0803.2979v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.2979v1" rel="related" type="application/pdf"/>
+    <primary_category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="46L53" scheme="http://arxiv.org/schemas/atom"/>
   </entry>
 </feed>
