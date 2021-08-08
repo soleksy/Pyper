@@ -221,13 +221,14 @@ class HepParser:
                 title = "title =  " + str(bibtex['Title']) + ","
                 singleBibtex.append(title)
             
-            if bibtex.get('Journal') is not None:
-                journal = "journal =  " + str(bibtex['Journal']) + ","
-                singleBibtex.append(journal)
-            
             if bibtex.get('Year') is not None:
                 year = "year =  " + str(bibtex['Year']) + ","
                 singleBibtex.append(year)
+
+            if bibtex.get('Journal') is not None:
+                journal = "journal =  " + str(bibtex['Journal']) + ","
+                singleBibtex.append(journal)
+        
             
             if bibtex.get('Volume') is not None:
                 volume = "volume =  " + str(bibtex['Volume']) + ","
@@ -249,6 +250,8 @@ class HepParser:
                 eprint = "eprint =  " + str(bibtex['Eprint']) + ","
                 singleBibtex.append(eprint)
 
+            size = len(singleBibtex)
+            singleBibtex[size-1] = singleBibtex[size-1].replace(","," }")
             bibtexList.append(singleBibtex.copy())
             singleBibtex.clear()
 

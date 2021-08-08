@@ -2,17 +2,10 @@
   "hits": {
     "hits": [
       {
-        "links": {
-          "bibtex": "https://inspirehep.net/api/literature/1292658?format=bibtex",
-          "latex-eu": "https://inspirehep.net/api/literature/1292658?format=latex-eu",
-          "latex-us": "https://inspirehep.net/api/literature/1292658?format=latex-us",
-          "json": "https://inspirehep.net/api/literature/1292658?format=json",
-          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1292658"
-        },
-        "updated": "2021-06-26T05:16:01.295101+00:00",
         "created": "2014-04-28T00:00:00+00:00",
+        "updated": "2021-06-26T05:16:01.295101+00:00",
+        "id": "1292658",
         "metadata": {
-          "citation_count": 4,
           "publication_info": [
             {
               "journal_volume": "66",
@@ -31,6 +24,7 @@
               "cnum": "C13-06-02.3"
             }
           ],
+          "citation_count": 4,
           "number_of_pages": 4,
           "collaborations": [
             {
@@ -62,20 +56,19 @@
           ],
           "author_count": 4
         },
-        "id": "1292658"
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1292658?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1292658?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1292658?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1292658?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1292658"
+        }
       },
       {
-        "links": {
-          "bibtex": "https://inspirehep.net/api/literature/1265431?format=bibtex",
-          "latex-eu": "https://inspirehep.net/api/literature/1265431?format=latex-eu",
-          "latex-us": "https://inspirehep.net/api/literature/1265431?format=latex-us",
-          "json": "https://inspirehep.net/api/literature/1265431?format=json",
-          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1265431"
-        },
-        "updated": "2021-06-25T19:31:53.653086+00:00",
         "created": "2013-11-21T00:00:00+00:00",
+        "updated": "2021-06-25T19:31:53.653086+00:00",
+        "id": "1265431",
         "metadata": {
-          "citation_count": 2,
           "publication_info": [
             {
               "journal_volume": "Bormio2013",
@@ -95,6 +88,7 @@
               "cnum": "C13-01-21.2"
             }
           ],
+          "citation_count": 2,
           "number_of_pages": 8,
           "collaborations": [
             {
@@ -126,20 +120,19 @@
           ],
           "author_count": 4
         },
-        "id": "1265431"
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1265431?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1265431?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1265431?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1265431?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1265431"
+        }
       },
       {
-        "links": {
-          "bibtex": "https://inspirehep.net/api/literature/1428853?format=bibtex",
-          "latex-eu": "https://inspirehep.net/api/literature/1428853?format=latex-eu",
-          "latex-us": "https://inspirehep.net/api/literature/1428853?format=latex-us",
-          "json": "https://inspirehep.net/api/literature/1428853?format=json",
-          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1428853"
-        },
-        "updated": "2021-06-26T05:57:27.408062+00:00",
         "created": "2016-03-17T00:00:00+00:00",
+        "updated": "2021-06-26T05:57:27.408062+00:00",
+        "id": "1428853",
         "metadata": {
-          "citation_count": 0,
           "publication_info": [
             {
               "journal_volume": "57",
@@ -159,6 +152,7 @@
               "cnum": "C12-12-03.4"
             }
           ],
+          "citation_count": 0,
           "number_of_pages": 2,
           "first_author": {
             "full_name": "Skurzok, Magdalena",
@@ -180,20 +174,19 @@
           ],
           "author_count": 3
         },
-        "id": "1428853"
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1428853?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1428853?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1428853?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1428853?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1428853"
+        }
       },
       {
-        "links": {
-          "bibtex": "https://inspirehep.net/api/literature/1340091?format=bibtex",
-          "latex-eu": "https://inspirehep.net/api/literature/1340091?format=latex-eu",
-          "latex-us": "https://inspirehep.net/api/literature/1340091?format=latex-us",
-          "json": "https://inspirehep.net/api/literature/1340091?format=json",
-          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1340091"
-        },
-        "updated": "2021-07-05T11:30:46.188469+00:00",
         "created": "2015-01-20T00:00:00+00:00",
+        "updated": "2021-07-05T11:30:46.188469+00:00",
+        "id": "1340091",
         "metadata": {
-          "citation_count": 1,
           "publication_info": [
             {
               "journal_volume": "46",
@@ -204,6 +197,7 @@
               "journal_title": "Acta Phys.Polon.B"
             }
           ],
+          "citation_count": 1,
           "number_of_pages": 5,
           "collaborations": [
             {
@@ -251,20 +245,19 @@
           ],
           "author_count": 1
         },
-        "id": "1340091"
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1340091?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1340091?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1340091?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1340091?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1340091"
+        }
       },
       {
-        "links": {
-          "bibtex": "https://inspirehep.net/api/literature/1650888?format=bibtex",
-          "latex-eu": "https://inspirehep.net/api/literature/1650888?format=latex-eu",
-          "latex-us": "https://inspirehep.net/api/literature/1650888?format=latex-us",
-          "json": "https://inspirehep.net/api/literature/1650888?format=json",
-          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1650888"
-        },
-        "updated": "2021-06-25T18:01:41.140162+00:00",
         "created": "2018-01-30T00:00:00+00:00",
+        "updated": "2021-06-25T18:01:41.140162+00:00",
+        "id": "1650888",
         "metadata": {
-          "citation_count": 0,
           "publication_info": [
             {
               "journal_volume": "46",
@@ -283,6 +276,7 @@
               "cnum": "C17-09-01"
             }
           ],
+          "citation_count": 0,
           "number_of_pages": 6,
           "collaborations": [
             {
@@ -331,7 +325,13 @@
           ],
           "author_count": 1
         },
-        "id": "1650888"
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1650888?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1650888?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1650888?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1650888?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1650888"
+        }
       }
     ],
     "total": 402

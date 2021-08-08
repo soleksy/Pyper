@@ -39,38 +39,32 @@ class ArxivHelper:
 
 
 
-class ArxivArticle:
-        def __init__(self, Authors,DatePublished,LastUpdate,Title,ID,DOI,Journal,NumOfAuthors,bibtex):
-            self.Authors = Authors
-            self.DatePublished = DatePublished
-            self.LastUpdate = LastUpdate
-            self.Title = Title
-            self.ID = ID
-            self.DOI = DOI
-            self.Journal = Journal
-            self.NumOfAuthors = NumOfAuthors
-            self.bibtex = bibtex
-
 
 class ArxivParser:
 
     def __init__(self, filename):
         self.ListOfArticles = list()
-        self.ListOfBibtex = list()
         self.filename = filename
+
+    def getComment(self,entry):
+        if entry.find('comment') is not None:
+            comment = entry.find('comment').text
+        else:
+            comment = None
+        return comment
 
     def getJournal(self, entry):
         if entry.find('journal_ref') is not None:
             journal = entry.find('journal_ref').text
         else:
-            journal = "Journal not specified"
+            journal = None
         return journal
 
     def getDoi(self, entry):
         if entry.find('doi') is not None:
             doi = entry.find('doi').text
         else:
-            doi = "DOI not specified"
+            doi = None
         return doi
     
     def getAuthors(self, entry):
@@ -80,13 +74,13 @@ class ArxivParser:
             Authors.append(el.find('name').text)
         return Authors
 
-    def getID(self, entry):
+    def getEprint(self, entry):
         if entry.find('id').text is not None:
             ID = entry.find('id').text
             ID = ID[:-2]
             ID.replace("http://arxiv.org/abs/",'')    
         else:
-            ID= "ID not specified"
+            ID= None
 
         return ID
 
@@ -94,25 +88,26 @@ class ArxivParser:
         if entry.find('title').text is not None:
             title = entry.find('title').text     
         else:
-            title= "Title not specified"
+            title= None
         return title
 
     def getDatePublished(self, entry):
         if entry.find('published').text is not None:
             published = entry.find('published').text     
         else:
-            published= "Publishing date not specified"
+            published= None
         return published 
 
     def getLastUpdate(self, entry):
         if entry.find('updated').text is not None:
             updated = entry.find('updated').text
         else:
-            updated = "Update date not specified"
+            updated = None
         
         return updated
 
     def parseXML(self):
+        singleArticle = dict()
         with open(self.filename, 'r') as file:
             root = ET.fromstring(file.read())
 
@@ -124,26 +119,99 @@ class ArxivParser:
         entries = root.findall('entry')
 
         for entry in entries:
-            Journal = self.getJournal(entry)
-            Doi = self.getDoi(entry)
-            Authors = self.getAuthors(entry)
-            ID = self.getID(entry)
-            NumberOfAuthors = len(Authors)
-            Title = self.getTitle(entry)
-            DatePublished = self.getDatePublished(entry)
-            LastUpdate= self.getLastUpdate(entry)
+            singleArticle['Journal'] = self.getJournal(entry)
+            singleArticle['Doi'] = self.getDoi(entry)
+            singleArticle['Authors'] = self.getAuthors(entry)
+            singleArticle['Eprint'] = self.getEprint(entry)
+            singleArticle['NumberOfAuthors'] = len(self.getAuthors(entry))
+            singleArticle['Title'] = self.getTitle(entry)
+            singleArticle['DatePublished'] = self.getDatePublished(entry)
+            singleArticle['LastUpdate']= self.getLastUpdate(entry)
+            singleArticle['Comment'] = self.getComment(entry)
             
-            SingleBibtexArticle = {
-                "Authors": Authors,
-                "Title": Title,
-                "Journal": Journal,
-                "Date_Published": entry.find('published').text
-                }
+            self.ListOfArticles.append(singleArticle.copy())
+            singleArticle.clear()
 
-            article = ArxivArticle(Authors,DatePublished, 
-            LastUpdate,Title,ID,Doi,Journal,NumberOfAuthors,SingleBibtexArticle)
-            self.ListOfArticles.append(article)
-            self.ListOfBibtex.append(SingleBibtexArticle)
+
+    def convertToBibtex(self):
+
+        bibtexList = list()
+        singleBibtex = list()
+    
+        for article in self.ListOfArticles:
+
+            
+            header = "@article{" + str(article['Authors'][0]) + ":" + str(article['DatePublished']).split("-", 1)[0] + ","
+            author = "author = "
+
+            if len(article['Authors']) == 1:
+                author = str("author = " + article['Authors'][0]+  ",")
+            else:
+                authorListLenght = len(article['Authors'])
+                for i in range(0, authorListLenght):
+                    if i == 3:
+                        author += "and " + str(len(str(article['Authors'])) - 3) +" others,"
+                        break
+                    else:
+                        if(i == authorListLenght-1):
+                            author += article['Authors'][i] + ","
+                        else:
+                            author += article['Authors'][i] + " and "
+
+            singleBibtex.append(header)
+            singleBibtex.append(author)
+
+            if article.get("Title") is not None:
+                title = article["Title"]
+                singleBibtex.append("title = " + title  + ",")
+            if article.get("Journal") is not None:
+                journal = article["Journal"]
+                singleBibtex.append("journal = " + journal +",")
+            if article.get("DatePublished") is not None:
+                year = str(article['DatePublished']).split("-", 1)[0]
+                singleBibtex.append("year = " + year + ",")
+            if article.get("Eprint") is not None:
+                eprint = article["Eprint"]
+                if 'http://arxiv.org/abs/physics/' in eprint:
+                    singleBibtex.append("eprint = " + eprint.strip('http://arxiv.org/abs/physics/') + ",")
+                else:
+                    singleBibtex.append("eprint = " + eprint.strip('http://arxiv.org/abs/') + ",")
+
+            if article.get("Comment") is not None:
+                comment = article["Comment"]
+                pagesOccurence = comment.find('pages')
+                numberOfPages = comment[pagesOccurence-2:pagesOccurence]
+                singleBibtex.append("pages = " + numberOfPages + ",")
+
+            size = len(singleBibtex)
+            singleBibtex[size-1] = singleBibtex[size-1].replace(",","}",1)
+            bibtexList.append(singleBibtex.copy())
+            singleBibtex.clear()
+
+        return bibtexList
+
+
+    def writeData(self, filename):
+        with open(filename, 'w') as f:
+            for article in self.ListOfArticles:
+                f.write(str(article['Authors']) + ": \n " )
+                f.write(str(article['DatePublished']) + ": \n ")
+                f.write(str(article['LastUpdate']) + ": \n ")
+                f.write(str(article['Title']) + ": \n ")
+                f.write(str(article['Eprint']) + ": \n ")
+                f.write(str(article['Doi']) + ": \n ")
+                f.write(str(article['Journal']) + ": \n ")
+                f.write(str(article['NumberOfAuthors']) + ": \n ")
+                f.write("\n")
+            f.write('\n')
+
+    def writeBibtex(self, filename):
+        citation_list = self.convertToBibtex()
+        with open(filename, 'w') as f:
+            for article in citation_list:
+                for entry in article:
+                    f.write(entry + "\n")
+                f.write("\n")
 
     def show(self):
         for dic in self.ListOfArticles:
@@ -215,50 +283,3 @@ class ArxivParser:
                 key=lambda x: x['Last_Update'],
                 reverse=True)
 
-    def convertToBibtex(self):
-
-        citation_list = list()
-        
-        
-
-
-        for article in self.ListOfBibtex:
-            if len(article['Authors'][0]) == 1:
-                authors = str(article['Authors'][0])
-            else:
-                authors = str(article['Authors'][0]) + ' and ' + str(len(article['Authors'][0])-1) + ' others'
-
-            citation_list.append(["@article{" + str(article['Authors'][0]) + ":" + str(article['Date_Published']).split("-", 1)[0] + ",",
-                                "author =  " + authors,
-                                "title =  " + article['Title'] + " },",
-                                "journal = " + article['Journal'] + " },",
-                                "year =  " + str(article['Date_Published']).split("-", 1)[0] + " ,",
-                                "}"]
-            )
-
-
-        return citation_list
-
-
-    def writeData(self, filename):
-        with open(filename, 'w') as f:
-            for article in self.ListOfArticles:
-                f.write(str(article.Authors[0]) + ": \n " )
-                f.write(str(str(article.DatePublished) + ": \n "))
-                f.write(str(str(article.LastUpdate) + ": \n "))
-                f.write(str(article.Title) + ": \n ")
-                f.write(str(str(article.ID) + ": \n "))
-                f.write(str(str(article.DOI) + ": \n "))
-                f.write(str(str(article.Journal) + ": \n "))
-                f.write(str(str(article.NumOfAuthors) + ": \n "))
-                f.write(str(str(article.bibtex) + ": \n "))
-                f.write("\n")
-            f.write('\n')
-
-    def writeBibtex(self, filename):
-        citation_list = self.convertToBibtex()
-        with open(filename, 'w') as f:
-            for article in citation_list:
-                for entry in article:
-                    f.write(entry + "\n")
-                f.write("\n")
