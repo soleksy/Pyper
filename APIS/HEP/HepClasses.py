@@ -53,14 +53,14 @@ class HepParser:
         if dic['metadata'].get('first_author') is not None:
             author = dic['metadata']['first_author'].get('full_name')
         else:
-            author = "Coauthored "
+            author = None
         return author
 
     def getAuthorCount(self,dic):
         if dic['metadata'].get('author_count') is not None:
             authorCount = dic['metadata']['author_count']
         else:
-            authorCount = 0;
+            authorCount = None;
         return authorCount
 
     def getJournal(self,dic):
@@ -83,17 +83,15 @@ class HepParser:
         if dic['metadata'].get('titles') is not None:
             title = dic['metadata']['titles'][0]['title']
         else:
-            title = "No title"
+            title = None
         return title
 
-    #getDoi
     def getDoi(self,dic):
         if dic['metadata'].get('dois') is not None:
                 Doi = dic['metadata']['dois'][0]['value']
         else:
-            Doi = "No DOI"
+            Doi = None
         return Doi
-    #getYear
     def getYear(self,dic):
         if dic['metadata'].get('publication_info') is not None:
             if(type(dic["metadata"]['publication_info'])) == list:
@@ -101,13 +99,13 @@ class HepParser:
             else:
                 year = dic["metadata"]['publication_info']["year"]
         else:
-            year = "No year"
+            year = None
         return year
         
     
     def getCollaboration(self,dic):
         if dic['metadata'].get('collaborations') is None:
-            collaboration = "not specified"
+            collaboration = None
         elif isinstance(dic['metadata']['collaborations'], list):
             collaboration = ""
             for el in dic['metadata']['collaborations']:
@@ -117,33 +115,35 @@ class HepParser:
 
         return collaboration
 
-        
+
     def getPages(self,dic):
         if dic['metadata'].get('number_of_pages') is None:
-            pages = "not specified"
+            pages = None
         else:
             pages = dic['metadata']['number_of_pages']
         return pages
 
     def getVolume(self,dic):
         if dic['metadata'].get('publication_info') is None:
-            volume = "not specified"
+            volume = None
         else:
             volume = dic['metadata']['publication_info'][0]["journal_volume"]
         return volume
 
     def getEprint(self,dic):
         if dic['metadata'].get('arxiv_eprints') is None:
-            eprint = "not specified"
+            eprint = None
         else:
             eprint = dic['metadata']['arxiv_eprints'][0]["value"]
         return eprint
 
     
     def parseJsonFile(self):
+        singleArticle = dict()
+         
         for dic in self.data:
-            
-            author = self.getAuthor( dic)
+        
+            author = self.getAuthor(dic)
             authorCount = self.getAuthorCount(dic)
             journal = self.getJournal(dic)
             title = self.getTitle(dic)
@@ -155,49 +155,103 @@ class HepParser:
             eprint = self.getEprint(dic)
             
 
-            singleArticle = {
-                'Author': author,
-                'Date_Published': dic['created'],
-                'Title': title,
-                'DOI': doi,
-                'Citations': dic['metadata']['citation_count'],
-                'Journal': journal,
-                'Year': year,}
-            
-            bibtexSigleResult = {
-                'Author': dic['metadata']['first_author']['full_name'],
-                'Title': title,
-                'Eprint': eprint,
-                'DOI': doi,
-                'Collaboration' : collaboration,
-                'Journal': journal,
-                'Volume': volume,
-                'Pages': pages,
-                'Year': year,
-                'AuthorCount': authorCount
-            }
+            if author is not None:
+                singleArticle['Author'] = author
+            if authorCount is not None:
+                singleArticle['AuthorCount'] = authorCount
+            if journal is not None:
+                singleArticle['Journal'] = journal
+            if title is not None:
+                singleArticle['Title'] = title
+            if year is not None:
+                singleArticle['Year'] = year
+            if doi is not None:
+                singleArticle['Doi'] = doi
+            if collaboration is not None:
+                singleArticle['Collaboration'] = collaboration
+            if pages is not None:
+                singleArticle['Pages'] = pages
+            if volume is not None:
+                singleArticle['Volume'] = volume
+            if eprint is not None:
+                singleArticle['Eprint'] = eprint
+  
+            self.ListOfArticles.append(singleArticle.copy())
 
-            self.ListOfArticles.append(singleArticle)
-            self.ListOfBibtex.append(bibtexSigleResult)
+            singleArticle.clear()
 
     def convertToBibtex(self):
 
+
         bibtexList = list()
+        singleBibtex = list()
 
-        for el in self.ListOfBibtex:
+        for bibtex in self.ListOfArticles:
+            if bibtex.get('Author') is None:
+                if bibtex.get("AuthorCount") is not None:
+                    if bibtex.get("Year") is not None:  
+                        header =  "@article{" + "Coauthored by " +  str(bibtex.get("AuthorCount")) + " authors" + ":" + str(bibtex['Year']) + ","
+                    else:
+                        header = "@article{" + "Coauthored by " +  str(bibtex.get("AuthorCount")) + " authors"
+                else:
+                        if bibtex.get("Year") is not None:  
+                            header = "@article{"+ "Anonymous" + ":" + str(bibtex['Year']) + ","
+                        else:
+                            header = "@article{"+ "Anonymous"
+            else:
+                if bibtex.get("Year") is not None: 
+                    header = "@article{"+ bibtex.get("Author") + ":" + str(bibtex['Year']) + ","
+                else:
+                    header = "@article{"+ bibtex.get("Author")
 
-            bibtexList.append(["@article{" + str(el['Author']) + ":" + str(el['Year']) + ",",
-                                "author =  " + str(el['Author']) + " and " +str(el['AuthorCount']) + " other authors",
-                                "title =  " + str(el['Title']) + ",",
-                                "journal =  " + str(el['Journal']) + ",",
-                                "year =  " + str(el['Year']) + ",",
-                                "volume =  " + str(el['Volume']) + ",",
-                                "pages =  " + str(el['Pages']) + ",",
-                                "collaboration =  " + str(el['Collaboration']) + ",",
-                                "doi =  " + str(el['DOI']) + ",",
-                                "eprint =  " + str(el['Eprint']) + ",",
-                                "}"]
-            )
+            singleBibtex.append(header)
+
+            if bibtex.get('Author') is not  None:
+                if bibtex.get("AuthorCount") is not None:
+                    author = "author =  " + str(bibtex['Author']) + " and " +str(bibtex['AuthorCount']) + " others"
+            else:
+                if bibtex.get("AuthorCount") is not None:
+                    author = "Coauthored by " +  str(bibtex.get("AuthorCount")) + " authors"
+                else:
+                    author = "Anonymous"
+
+            singleBibtex.append(author)
+    
+            if bibtex.get('Title') is not None:
+                title = "title =  " + str(bibtex['Title']) + ","
+                singleBibtex.append(title)
+            
+            if bibtex.get('Journal') is not None:
+                journal = "journal =  " + str(bibtex['Journal']) + ","
+                singleBibtex.append(journal)
+            
+            if bibtex.get('Year') is not None:
+                year = "year =  " + str(bibtex['Year']) + ","
+                singleBibtex.append(year)
+            
+            if bibtex.get('Volume') is not None:
+                volume = "volume =  " + str(bibtex['Volume']) + ","
+                singleBibtex.append(volume)
+            
+            if bibtex.get('Pages') is not None:
+                pages = "pages =  " + str(bibtex['Pages']) + ","
+                singleBibtex.append(pages)
+            
+            if bibtex.get('Collaboration') is not None:
+                collaboration = "collaboration =  " + str(bibtex['Collaboration']) + ","
+                singleBibtex.append(collaboration)
+            
+            if bibtex.get('Doi') is not None:
+                doi = "doi =  " + str(bibtex['Doi']) + ","
+                singleBibtex.append(doi)
+            
+            if bibtex.get('Eprint') is not None:
+                eprint = "eprint =  " + str(bibtex['Eprint']) + ","
+                singleBibtex.append(eprint)
+
+            bibtexList.append(singleBibtex.copy())
+            singleBibtex.clear()
+
 
         return bibtexList
     
