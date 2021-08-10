@@ -37,9 +37,6 @@ class ArxivHelper:
             f_in.write(r.content.decode('utf-8'))
 
 
-
-
-
 class ArxivParser:
 
     def __init__(self, filename):
@@ -219,7 +216,7 @@ class ArxivParser:
             for el in dic:
                 print(el + ": " + str(dic[el]))
 
-    def standarizeXmlFile(self):
+    def standardizeXmlFile(self):
         with open(self.filename, 'r') as file_r:
             data = file_r.readlines()
             with open(self.filename, 'w') as file_w:

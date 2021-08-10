@@ -2,9 +2,6 @@
 import sys
 from datetime import datetime
 import json
-import argparse
-import subprocess
-
 
 from APIS.HEP.HepClasses import HepHelper, HepParser
 from APIS.ARXIV.ArxivClasses import ArxivHelper, ArxivParser
@@ -107,7 +104,7 @@ def main():
         
         # Load , standardize and save data
 
-        arxivParser.standarizeXmlFile()
+        arxivParser.standardizeXmlFile()
         arxivParser.parseXML()
 
         arxivParser.writeData(ArxivOutput + "arxtest")
