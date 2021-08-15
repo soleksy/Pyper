@@ -6,8 +6,9 @@ from xml.etree import ElementTree as ET
 
 
 class ArxivHelper:
+    data = ""
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "20"
+        self.CONST_QUERY_RESULTS = "10"
 
     def url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -90,7 +91,7 @@ class ArxivParser:
 
     def getDatePublished(self, entry):
         if entry.find('published').text is not None:
-            published = entry.find('published').text     
+            published = entry.find('published').text.split("-", 1)[0]    
         else:
             published= None
         return published 
@@ -102,6 +103,20 @@ class ArxivParser:
             updated = None
         
         return updated
+
+    def getSummary(self,entry):
+        if entry.find('summary').text is not None:
+            summary = entry.find('summary').text
+        else:
+            summary = None
+        return summary
+
+    def getID(self,entry):
+        if entry.find('id').text is not None:
+            id = entry.find('id').text
+        else:
+            id = None
+        return id
 
     def parseXML(self):
         singleArticle = dict()
@@ -120,11 +135,28 @@ class ArxivParser:
             singleArticle['Doi'] = self.getDoi(entry)
             singleArticle['Authors'] = self.getAuthors(entry)
             singleArticle['Eprint'] = self.getEprint(entry)
-            singleArticle['NumberOfAuthors'] = len(self.getAuthors(entry))
+            singleArticle['AuthorCount'] = len(self.getAuthors(entry))
             singleArticle['Title'] = self.getTitle(entry)
-            singleArticle['DatePublished'] = self.getDatePublished(entry)
+            singleArticle['Year'] = self.getDatePublished(entry)
             singleArticle['LastUpdate']= self.getLastUpdate(entry)
+
+
+            comment = self.getComment(entry)
+            if comment is None:
+                numberOfPages = None
+            else:
+                pagesOccurence = comment.find('pages')
+                if pagesOccurence-3 == -1:
+                    numberOfPages = comment[pagesOccurence-2:pagesOccurence]
+                else:
+                    numberOfPages = comment[pagesOccurence-3:pagesOccurence]
+
             singleArticle['Comment'] = self.getComment(entry)
+            singleArticle['NumberOfPages'] = numberOfPages
+
+
+            singleArticle['Summary'] = self.getSummary(entry)
+            singleArticle['Source'] = self.getID(entry)
             
             self.ListOfArticles.append(singleArticle.copy())
             singleArticle.clear()
@@ -133,55 +165,56 @@ class ArxivParser:
     def convertToBibtex(self):
 
         bibtexList = list()
-        singleBibtex = list()
+        singleBibtex = dict()
     
         for article in self.ListOfArticles:
 
             
-            header = "@article{" + str(article['Authors'][0]) + ":" + str(article['DatePublished']).split("-", 1)[0] + ","
-            author = "author = "
+            header = "@article{ " + str(article['Authors'][0]) + ":" + str(article['Year']).split("-", 1)[0]
+            author = "author = { "
 
             if len(article['Authors']) == 1:
-                author = str("author = " + article['Authors'][0]+  ",")
+                author = str("author = { " + article['Authors'][0])
             else:
                 authorListLenght = len(article['Authors'])
                 for i in range(0, authorListLenght):
                     if i == 3:
-                        author += "and " + str(len(str(article['Authors'])) - 3) +" others,"
+                        author += "and " + str(len(str(article['Authors'])) - 3) +" others}"
                         break
                     else:
                         if(i == authorListLenght-1):
-                            author += article['Authors'][i] + ","
+                            author += article['Authors'][i] 
                         else:
                             author += article['Authors'][i] + " and "
 
-            singleBibtex.append(header)
-            singleBibtex.append(author)
+            singleBibtex['header'] = header
+            singleBibtex['author'] = author
 
             if article.get("Title") is not None:
                 title = article["Title"]
-                singleBibtex.append("title = " + title  + ",")
+                singleBibtex['title'] = "title = { " + title
             if article.get("Journal") is not None:
                 journal = article["Journal"]
-                singleBibtex.append("journal = " + journal +",")
-            if article.get("DatePublished") is not None:
-                year = str(article['DatePublished']).split("-", 1)[0]
-                singleBibtex.append("year = " + year + ",")
+                singleBibtex['journal'] = "journal = { " + journal
+            if article.get("Year") is not None:
+                year = str(article['Year']).split("-", 1)[0]
+                singleBibtex['year'] = "year = { " + year 
             if article.get("Eprint") is not None:
                 eprint = article["Eprint"]
                 if 'http://arxiv.org/abs/physics/' in eprint:
-                    singleBibtex.append("eprint = " + eprint.strip('http://arxiv.org/abs/physics/') + ",")
+                    singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/physics/')
                 else:
-                    singleBibtex.append("eprint = " + eprint.strip('http://arxiv.org/abs/') + ",")
+                    singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/')
 
             if article.get("Comment") is not None:
                 comment = article["Comment"]
                 pagesOccurence = comment.find('pages')
-                numberOfPages = comment[pagesOccurence-2:pagesOccurence]
-                singleBibtex.append("pages = " + numberOfPages + ",")
+                if pagesOccurence-3 == -1:
+                    numberOfPages = comment[pagesOccurence-2:pagesOccurence]
+                else:
+                    numberOfPages = comment[pagesOccurence-3:pagesOccurence]
+                singleBibtex['pages'] = "pages = { " + numberOfPages
 
-            size = len(singleBibtex)
-            singleBibtex[size-1] = singleBibtex[size-1].replace(",","}",1)
             bibtexList.append(singleBibtex.copy())
             singleBibtex.clear()
 
@@ -192,13 +225,15 @@ class ArxivParser:
         with open(filename, 'w') as f:
             for article in self.ListOfArticles:
                 f.write(str(article['Authors']) + ": \n " )
-                f.write(str(article['DatePublished']) + ": \n ")
+                f.write(str(article['Year']) + ": \n ")
                 f.write(str(article['LastUpdate']) + ": \n ")
                 f.write(str(article['Title']) + ": \n ")
                 f.write(str(article['Eprint']) + ": \n ")
                 f.write(str(article['Doi']) + ": \n ")
                 f.write(str(article['Journal']) + ": \n ")
-                f.write(str(article['NumberOfAuthors']) + ": \n ")
+                f.write(str(article['AuthorCount']) + ": \n ")
+                f.write(str(article['Summary']) + ": \n ")
+                f.write(str(article['Source']) + ": \n ")
                 f.write("\n")
             f.write('\n')
 

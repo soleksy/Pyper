@@ -1,11 +1,12 @@
 import json
+from re import S
 from urllib.request import urlopen
 from collections import defaultdict
 
 
 class HepHelper:
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "5"
+        self.CONST_QUERY_RESULTS = "10"
 
     def hepUrlEncode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -16,7 +17,7 @@ class HepHelper:
     def hepUrlGenerator(self, command_string):
         
         url = "https://inspirehep.net/api/literature?sort=mostarticled&page=1&q=" + command_string + "&of=recjson" + \
-            "&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count&size=" + \
+            "&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count,abstracts&size=" + \
             self.CONST_QUERY_RESULTS
 
         print(url)
@@ -72,6 +73,7 @@ class HepParser:
             else:
                 journal = dic['metadata']['publication_info'][0]["journal_title"]
 
+
         elif dic['metadata']['publication_info'].get("journal_title") is None:
                 journal = None
         else:
@@ -85,6 +87,18 @@ class HepParser:
         else:
             title = None
         return title
+    
+    def getAbstract(self,dic):
+        if dic['metadata'].get('abstracts') is None:
+            abstract = None
+        elif isinstance(dic['metadata']['abstracts'], list):
+            if dic['metadata']['abstracts'][0].get("value") is None:
+                abstract = None
+            else:
+                abstract = dic['metadata']['abstracts'][0]['value']
+        else:
+            abstract = dic['metadata']['abstracts']['value']
+        return abstract
 
     def getDoi(self,dic):
         if dic['metadata'].get('dois') is not None:
@@ -137,6 +151,13 @@ class HepParser:
             eprint = dic['metadata']['arxiv_eprints'][0]["value"]
         return eprint
 
+    def getID(self,dic):
+        if dic['metadata'].get('id') is None:
+            id = None
+        else:
+            id = dic['metadata']['id']
+        return id
+
     
     def parseJsonFile(self):
         singleArticle = dict()
@@ -153,7 +174,8 @@ class HepParser:
             pages = self.getPages(dic)
             volume = self.getVolume(dic)
             eprint = self.getEprint(dic)
-            
+            abstract = self.getAbstract(dic)       
+            id = self.getID(dic)     
 
             if author is not None:
                 singleArticle['Author'] = author
@@ -175,6 +197,10 @@ class HepParser:
                 singleArticle['Volume'] = volume
             if eprint is not None:
                 singleArticle['Eprint'] = eprint
+            if abstract is not None:
+                singleArticle['Abstract'] = abstract
+            if id is not None:
+                singleArticle['Source'] = f'https://inspirehep.net/literature/{id}'
   
             self.ListOfArticles.append(singleArticle.copy())
 

@@ -1,0 +1,118 @@
+{% extends 'base.html' %} {% block title %} Article {% endblock %} {% block
+content%}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<textarea>");
+  var brRegex = /<br\s*[\/]?>/gi;
+  var empty = /^\s*$(?:\r\n?|\n)/gm;
+  
+  var text = $(element).html().replace(brRegex, "")
+  $("body").append($temp);
+  $temp.val(text.replace(empty, "")).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+</script>
+     
+<div class="centered">
+  <div class="container-row-40">
+    <div class="wrapper">
+      <div class="form-wrapper">
+        <article>
+          <h2>{{article['Title']}}</h2>
+          <section>
+            <p>{{article['Summary']}}</p>
+          </section>
+
+          <section>
+            <ul class="list-group">
+
+            {% if article['Authors'][0] %}
+              <li class="list-group-item">
+              First author : <b>{{article['Authors'][0]}}</b>
+              </li>
+            {% endif %}
+
+            {% if  article['Year'] %}
+              <li class="list-group-item">
+              Year published : <b>{{ article['Year']}} </b>
+              </li>
+            {% endif %}
+
+            {% if article['AuthorCount']  %}
+              <li class="list-group-item">
+              Number of authors : <b>{{ article['AuthorCount']}} </b>
+              </li>
+            {% endif %}
+
+            {% if article['Doi']  %}
+              <li class="list-group-item">
+              DOI : <b>{{ article['Doi']}} </b>
+              </li>
+            {% endif %}
+
+            {% if article['Eprint']  %}
+              <li class="list-group-item">
+              Eprint : <a href={{article['Eprint']}}>{{ article['Eprint']}} </a>
+              </li>
+            {% endif %}
+
+            {% if article['Journal']  %}
+              <li class="list-group-item">
+              Journal : <b >{{ article['Journal']}} </b>
+              </li>
+            {% endif %}
+
+            {% if article['Volume']  %}
+              <li class="list-group-item">
+              Volume : <b >{{ article['Volume']}} </b>
+              </li>
+            {% endif %}
+
+            {% if article['NumberOfPages']  %}
+              <li class="list-group-item">
+              Pages : <b >{{ article['NumberOfPages']}} </b>
+              </li>
+            {% endif %}
+            </ul>
+            
+          </section>
+        </article>
+      </div>
+    </div>
+      <a type="button" class="btn btn-primary btn-lg"  href={{searchURL}}> Back to search results</a>
+  </div>
+
+  <div class="container-row-40">
+    <div class="wrapper">
+      <div class="form-wrapper">
+        <article>
+          <h2>Cite as bibtex</h2>
+          <section>
+            <p>The purpose of BibTeX is to make it easy to cite sources in a consistent manner, by separating bibliographic information from the presentation of this information, similarly to the separation of content and presentation/style supported by LaTeX itself.</p>
+          </section>
+          <section id='copyme'>
+            {% if bibtex['header'] %} {{ bibtex['header'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['author'] %}{{ bibtex['author'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['title'] %}{{ bibtex['title'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['journal'] %}{{ bibtex['journal'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['year'] %}{{ bibtex['year'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['eprint'] %}{{ bibtex['eprint'] + ' },'}} <br/>{% endif %}
+            {% if bibtex['pages'] %}{{ bibtex['pages'] + '}'}} <br/>{% endif %}
+            }
+          </section>
+        </article>
+              <a type="button" class="btn btn-primary btn-m-0"  onClick = "copyToClipboard('section#copyme')"> Copy to clipboard</a>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+
+
+
+{% endblock %}

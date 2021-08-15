@@ -1,7 +1,35 @@
-{% extends 'base.html' %} {% block title %} Search Results {% endblock %} 
+{% extends 'base.html' %} {% block title %} Search Results {% endblock %} {%
+block content %} {% set count = namespace(value=0) %} {% for x in
+results.ListOfArticles %}
 
-{% block content %}
-{% for x in results %}
-  <p> {{x['Title']}} </p> 
-  {% endfor %}
-{% endblock %}
+<div class="container-column-30">
+  <div class="wrapper">
+    <div class="form-wrapper">
+      <article>
+        <h2>{{x['Title']}}</h2>
+        <section>
+          <p>{{x['Summary']}}</p>
+        </section>
+      </article>
+      <form action="#" method="post">
+        <input
+          type="text"
+          class="btn-check"
+          name="info"
+          value="{{count.value}}"
+        />
+
+        <button
+          class="btn btn-outline-primary fs-5 fw-bold"
+          type="submit"
+          value="submit"
+        >
+          More information
+        </button>
+        {% set count.value = count.value + 1 %}
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endfor %} {% endblock %}
