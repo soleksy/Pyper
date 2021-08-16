@@ -1,14 +1,14 @@
 from urllib.request import urlopen
 import requests
 import os
-from xml.etree import ElementTree as ET
+from xml.etree.ElementTree import fromstring, ElementTree
 
 
 
 class ArxivHelper:
     data = ""
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "10"
+        self.CONST_QUERY_RESULTS = "20"
 
     def url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -36,13 +36,14 @@ class ArxivHelper:
         r = requests.get(url)
         with open(file_name, 'w') as f_in:
             f_in.write(r.content.decode('utf-8'))
+    
 
 
 class ArxivParser:
 
-    def __init__(self, filename):
+    def __init__(self, contents):
         self.ListOfArticles = list()
-        self.filename = filename
+        self.contents = contents
 
     def getComment(self,entry):
         if entry.find('comment') is not None:
@@ -66,11 +67,9 @@ class ArxivParser:
         return doi
     
     def getAuthors(self, entry):
-        Authors = list()
         authorList = entry.findall('author')
-        for el in authorList:
-            Authors.append(el.find('name').text)
-        return Authors
+        firstAuthor= authorList[0].find('name').text
+        return firstAuthor
 
     def getEprint(self, entry):
         if entry.find('id').text is not None:
@@ -120,20 +119,14 @@ class ArxivParser:
 
     def parseXML(self):
         singleArticle = dict()
-        with open(self.filename, 'r') as file:
-            root = ET.fromstring(file.read())
-
-        full_name = os.path.abspath(os.path.join('', self.filename))
-
-        tree = ET.parse(full_name)
+        tree = ElementTree(fromstring(self.contents))
         root = tree.getroot()
-
         entries = root.findall('entry')
 
         for entry in entries:
             singleArticle['Journal'] = self.getJournal(entry)
             singleArticle['Doi'] = self.getDoi(entry)
-            singleArticle['Authors'] = self.getAuthors(entry)
+            singleArticle['FirstAuthor'] = self.getAuthors(entry)
             singleArticle['Eprint'] = self.getEprint(entry)
             singleArticle['AuthorCount'] = len(self.getAuthors(entry))
             singleArticle['Title'] = self.getTitle(entry)
@@ -152,73 +145,51 @@ class ArxivParser:
                     numberOfPages = comment[pagesOccurence-3:pagesOccurence]
 
             singleArticle['Comment'] = self.getComment(entry)
-            singleArticle['NumberOfPages'] = numberOfPages
+            singleArticle['Pages'] = numberOfPages
 
 
             singleArticle['Summary'] = self.getSummary(entry)
-            singleArticle['Source'] = self.getID(entry)
-            
+            singleArticle['Source'] = self.getID(entry) 
+            singleArticle['Bibtex'] = self.convertToBibtex(singleArticle)
+
             self.ListOfArticles.append(singleArticle.copy())
             singleArticle.clear()
 
 
-    def convertToBibtex(self):
-
-        bibtexList = list()
+    def convertToBibtex(self,article):  
         singleBibtex = dict()
-    
-        for article in self.ListOfArticles:
 
-            
-            header = "@article{ " + str(article['Authors'][0]) + ":" + str(article['Year']).split("-", 1)[0]
-            author = "author = { "
+        header = "@article{ " + str(article['FirstAuthor']) + ":" + str(article['Year']).split("-", 1)[0]
+        author = str("author = { " + article['FirstAuthor'])
+        singleBibtex['header'] = header
+        singleBibtex['author'] = author
 
-            if len(article['Authors']) == 1:
-                author = str("author = { " + article['Authors'][0])
+        if article.get("Title") is not None:
+            title = article["Title"]
+            singleBibtex['title'] = "title = { " + title
+        if article.get("Journal") is not None:
+            journal = article["Journal"]
+            singleBibtex['journal'] = "journal = { " + journal
+        if article.get("Year") is not None:
+            year = str(article['Year']).split("-", 1)[0]
+            singleBibtex['year'] = "year = { " + year 
+        if article.get("Eprint") is not None:
+            eprint = article["Eprint"]
+            if 'http://arxiv.org/abs/physics/' in eprint:
+                singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/physics/')
             else:
-                authorListLenght = len(article['Authors'])
-                for i in range(0, authorListLenght):
-                    if i == 3:
-                        author += "and " + str(len(str(article['Authors'])) - 3) +" others}"
-                        break
-                    else:
-                        if(i == authorListLenght-1):
-                            author += article['Authors'][i] 
-                        else:
-                            author += article['Authors'][i] + " and "
+                singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/')
 
-            singleBibtex['header'] = header
-            singleBibtex['author'] = author
+        if article.get("Comment") is not None:
+            comment = article["Comment"]
+            pagesOccurence = comment.find('pages')
+            if pagesOccurence-3 == -1:
+                numberOfPages = comment[pagesOccurence-2:pagesOccurence]
+            else:
+                numberOfPages = comment[pagesOccurence-3:pagesOccurence]
+            singleBibtex['pages'] = "pages = { " + numberOfPages
 
-            if article.get("Title") is not None:
-                title = article["Title"]
-                singleBibtex['title'] = "title = { " + title
-            if article.get("Journal") is not None:
-                journal = article["Journal"]
-                singleBibtex['journal'] = "journal = { " + journal
-            if article.get("Year") is not None:
-                year = str(article['Year']).split("-", 1)[0]
-                singleBibtex['year'] = "year = { " + year 
-            if article.get("Eprint") is not None:
-                eprint = article["Eprint"]
-                if 'http://arxiv.org/abs/physics/' in eprint:
-                    singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/physics/')
-                else:
-                    singleBibtex['eprint'] = "eprint = { " + eprint.strip('http://arxiv.org/abs/')
-
-            if article.get("Comment") is not None:
-                comment = article["Comment"]
-                pagesOccurence = comment.find('pages')
-                if pagesOccurence-3 == -1:
-                    numberOfPages = comment[pagesOccurence-2:pagesOccurence]
-                else:
-                    numberOfPages = comment[pagesOccurence-3:pagesOccurence]
-                singleBibtex['pages'] = "pages = { " + numberOfPages
-
-            bibtexList.append(singleBibtex.copy())
-            singleBibtex.clear()
-
-        return bibtexList
+        return singleBibtex
 
 
     def writeData(self, filename):
@@ -251,20 +222,15 @@ class ArxivParser:
             for el in dic:
                 print(el + ": " + str(dic[el]))
 
-    def standardizeXmlFile(self):
-        with open(self.filename, 'r') as file_r:
-            data = file_r.readlines()
-            with open(self.filename, 'w') as file_w:
-                for d in data:
-                    d = d.replace(' xmlns="http://www.w3.org/2005/Atom"', '')
-                    d = d.replace(
-                        ' xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"', '')
-                    d = d.replace('opensearch:', '')
-                    d = d.replace('arxiv:', '')
-                    d = d.replace(
-                        ' xmlns:arxiv="http://arxiv.org/schemas/atom"', '')
-
-                    file_w.write(d)
+    def standardizeXml(self):
+        self.contents = self.contents.decode("utf-8")
+        self.contents = self.contents.replace(' xmlns="http://www.w3.org/2005/Atom"', '')
+        self.contents = self.contents.replace(
+            ' xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"', '')
+        self.contents = self.contents.replace('opensearch:', '')
+        self.contents = self.contents.replace('arxiv:', '')
+        self.contents = self.contents.replace(
+            ' xmlns:arxiv="http://arxiv.org/schemas/atom"', '')
 
     def filterRange(self, range):
         temp_list = list()

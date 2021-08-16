@@ -30,9 +30,9 @@ function copyToClipboard(element) {
           <section>
             <ul class="list-group">
 
-            {% if article['Authors'][0] %}
+            {% if article['FirstAuthor'] %}
               <li class="list-group-item">
-              First author : <b>{{article['Authors'][0]}}</b>
+              First author : <b>{{article['FirstAuthor']}}</b>
               </li>
             {% endif %}
 
@@ -72,9 +72,9 @@ function copyToClipboard(element) {
               </li>
             {% endif %}
 
-            {% if article['NumberOfPages']  %}
+            {% if article['Pages']  %}
               <li class="list-group-item">
-              Pages : <b >{{ article['NumberOfPages']}} </b>
+              Pages : <b >{{ article['Pages']}} </b>
               </li>
             {% endif %}
             </ul>
@@ -101,7 +101,7 @@ function copyToClipboard(element) {
             {% if bibtex['journal'] %}{{ bibtex['journal'] + ' },'}} <br/>{% endif %}
             {% if bibtex['year'] %}{{ bibtex['year'] + ' },'}} <br/>{% endif %}
             {% if bibtex['eprint'] %}{{ bibtex['eprint'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['pages'] %}{{ bibtex['pages'] + '}'}} <br/>{% endif %}
+            {% if bibtex['pages'] %}{{ bibtex['pages'] + ' }'}} <br/>{% endif %}
             }
           </section>
         </article>

@@ -1,16 +1,21 @@
 from re import search
 from flask import Flask , render_template ,redirect,url_for,request ,session
 from APIS.ARXIV.ArxivClasses import ArxivHelper , ArxivParser
+from APIS.HEP.HepClasses import HepHelper,HepParser
+import asyncio , aiohttp , httpx
+import time
 app = Flask(__name__)
 
-articlesInstance = ArxivParser('')
+articleList = []
 searchController = 0
 
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
 
 def updateList(articles):
-    global articlesInstance
-    articlesInstance = articles
+    global articleList
+    articleList = articles
+
+
 
 @app.route('/' , methods=['GET' ,'POST'])
 def indexPage():
@@ -28,47 +33,74 @@ def indexPage():
         if HEP == None:
             HEP = 'off'
         
-
         return redirect(url_for('searchResults',txt=text,hep=HEP,arxiv=ARXIV))
     else:
         return render_template('index.html')
 
 @app.route('/search_results/<txt>/hep<hep>/arx<arxiv>' , methods=['GET' ,'POST'])
-def searchResults(txt,hep,arxiv ):
+async def searchResults(txt,hep,arxiv ):
+
     global searchController
-    global articlesInstance
+    global articleList
+
+    arxivArticleList = []
+    hepArticleList = []
+
+    dbToSearch = []
+    listOfApiCalls = []
+
+    index = 0
+
     session['searchURL'] = f"/search_results/{txt}/hep{hep}/arx{arxiv}"
+
     if request.method == "POST":
         articleID = request.form.get("info")
         return redirect(url_for('articlePage',id = articleID))
 
     elif searchController == 1:
-        arxivHelper = ArxivHelper()
-        queryURL = ""
+        
+        if (arxiv == 'on'):
+            arxivHelper = ArxivHelper()
+            queryURL = arxivHelper.allParamSearch(txt)
+            listOfApiCalls.append(httpx.AsyncClient().get(queryURL))
 
-        queryURL = arxivHelper.allParamSearch(txt)
+        if (hep == 'on'):
+            hepHelper = HepHelper()
+            url = hepHelper.hepUrlGenerator(txt)
+            listOfApiCalls.append(httpx.AsyncClient().get(url))
 
-        file_to_parse_arxiv = 'data/ARXIV_OUTPUT.xml'
+        async with httpx.AsyncClient():
+            dbToSearch = await asyncio.gather(
+                *listOfApiCalls
+            )
+        
+        if (arxiv=='on'):
+            arxivParser = ArxivParser(dbToSearch[index].content)
+            arxivParser.standardizeXml()
+            arxivParser.parseXML()
+            arxivArticleList = arxivParser.ListOfArticles
+            index += 1
+        if (hep == 'on'):
+            hepParser = HepParser(dbToSearch[index].content)
+            hepParser.parseJsonFile()
+            hepArticleList = hepParser.ListOfArticles
+            index += 1
 
-        arxivHelper.apiToFile(queryURL, file_to_parse_arxiv)
-
-        arxivParser = ArxivParser(file_to_parse_arxiv)
-
-        arxivParser.standardizeXmlFile()
-        arxivParser.parseXML()
         searchController = 0
-        updateList(arxivParser)
-        return render_template('search_results.html' , results=articlesInstance)
+        updateList(hepArticleList + arxivArticleList)
+
+        return render_template('search_results.html' , results=arxivArticleList+hepArticleList)
+
     else:
-        return render_template('search_results.html' , results=articlesInstance)
+        return render_template('search_results.html' , results=articleList)
 
 @app.route('/search_results/<id>')
 def articlePage(id):
 
-    global articlesInstance
-    bibtexList = articlesInstance.convertToBibtex()
-    article = articlesInstance.ListOfArticles[int(id)]
-    bibtex = bibtexList[int(id)]
+    global articleList
+    article = articleList[int(id)]
+    bibtex = articleList[int(id)]['Bibtex']
+
     return render_template('article.html' , bibtex=bibtex, article=article ,searchURL = session['searchURL'])
 
 
