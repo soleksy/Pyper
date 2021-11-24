@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dall%3Akrzemien%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=all:krzemien&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1O7gV73GWvtw7IhUBlEQ1SfWVxY</id>
+  <updated>2021-08-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">472</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04454v1</id>
+    <updated>2015-01-19T11:19:32Z</updated>
+    <published>2015-01-19T11:19:32Z</published>
+    <title>A new event display for the KLOE-2 experiment</title>
+    <summary>  In this contribution we describe KNEDLE - the new event display for the
+KLOE-2 experiment. The basic objectives and software requirements are
+presented. The current status of the development is given along with a short
+discussion of the future plans.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">for the KLOE-2 Collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5506/APhysPolB.46.95</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.95" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.04454v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.04454v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.0747v1</id>
+    <updated>2014-01-03T22:39:16Z</updated>
+    <published>2014-01-03T22:39:16Z</published>
+    <title>Studies of mesic nuclei via decay reactions</title>
+    <summary>  Collisions in a system of two particles at energies close to a bound state in
+different channels are discussed. Next, the bound state decays into a third
+coupled channel. A phenomenological approach to dd-&gt;pi-p3He reaction is
+presented.
+</summary>
+    <author>
+      <name>Slawomir Wycech</name>
+    </author>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5506/APhysPolB.45.745</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.45.745" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 1 figure Presented at International Symposium on Mesic
+  Nuclei, Krakow, Sept. 20, 2013</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Acta Phys. Polon. B 45, 745 (2014)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1401.0747v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.0747v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.10589v1</id>
+    <updated>2019-11-24T18:50:12Z</updated>
+    <published>2019-11-24T18:50:12Z</published>
+    <title>Feasibility of ortho-positronium lifetime studies with the J-PET
+  detector in context of mirror matter models</title>
+    <summary>  We discuss the possibility to perform the experimental searches of invisible
+decays in the ortho-positronium system with the J-PET detector
+</summary>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>E. Perez del Rio</name>
+    </author>
+    <author>
+      <name>Krzysztof Kacprzak</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5506/APhysPolB.51.165</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.51.165" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 2 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Acta Phys. Pol. B 51 (2020) 165</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1911.10589v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.10589v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1513v1</id>
+    <updated>2009-03-09T10:32:13Z</updated>
+    <published>2009-03-09T10:32:13Z</published>
+    <title>Search for eta-mesic helium using the WASA-AT-COSY detector</title>
+    <summary>  We conduct a search for the 4He-eta bound state with the WASA-at-COSY
+facility via the measurement of the excitation function for the reaction
+dd-&gt;3Heppi-. In first experiment performed in June 2008, we used COSY deuteron
+beam with a slowly ramped beam momentum corresponding to a variation of the
+excess energy for the 4He-eta system from -51.4 MeV to 22 MeV. Here we report
+on the status of the measurement and the data evaluation.
+</summary>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <author>
+      <name>J. Smyrski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Presented at Symposium on Meson Physics: extended COSY-11
+  collaboration meeting, Cracow, Poland, 1-4 Oct 2008, 8 pages, 5 figures,</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Acta Phys.Polon.Supp.2:141-148,2009</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0903.1513v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0903.1513v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.08281v1</id>
+    <updated>2015-04-30T15:48:23Z</updated>
+    <published>2015-04-30T15:48:23Z</published>
+    <title>Search for eta-mesic nuclei with WASA-at-COSY</title>
+    <summary>  We search for an evidence of eta-mesic He with the WASA detector. Two
+dedicated experiments were performed at the Cooler Synchrotron COSY-Juelich.
+The experimental method is based on the measurement of the excitation functions
+for the two reaction channels: dd-&gt;3Heppi- and dd-&gt;3Henpi0, where the outgoing
+N-pi pairs originate from the conversion of the eta meson on a nucleon inside
+the He nucleus.In this contribution, the experimental method is shortly
+described and the current status of the analysis is presented.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <author>
+      <name>Pawel Moskal</name>
+    </author>
+    <author>
+      <name>Magdalena Skurzok</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5506/APhysPolB.46.757</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.46.757" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 2 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Acta Physica Polonica B46, 757 (2015)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1504.08281v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.08281v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6644v1</id>
+    <updated>2014-01-26T12:47:00Z</updated>
+    <published>2014-01-26T12:47:00Z</published>
+    <title>Search for the manifestation of the mesic-nuclei on the dd--&gt;3HeNpi
+  excitation function measured with WASA-at-COSY</title>
+    <summary>  We search for an evidence of eta-mesic 4He with the WASA-at-COSY detector.
+Two dedicated experiments were performed at the Cooler Synchrotron
+COSY-Juelich. The experimental method is based on the measurement of the
+excitation functions for the two reaction channels: dd--&gt;3Heppi- and
+dd--&gt;3Henpi0, where the outgoing N-pi pairs originate from the conversion of
+the eta meson on a nucleon inside the He nucleus. In this contribution, the
+experimental method is shortly described and preliminary excitation functions
+from the 2010 data are presented.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <author>
+      <name>Pawel Moskal</name>
+    </author>
+    <author>
+      <name>Magdalena Skurzok</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5506/APhysPolB.45.689</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5506/APhysPolB.45.689" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 12 figures, Presented at International Symposium on Mesic
+  Nuclei, Krakow, Sept. 20, 2013</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Acta Phys. Polon. B 45, 689 (2014)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1401.6644v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.6644v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.09007v1</id>
+    <updated>2018-01-26T23:44:41Z</updated>
+    <published>2018-01-26T23:44:41Z</published>
+    <title>Recent results from KLOE-2</title>
+    <summary>  The most recent results from the KLOE experiment are presented, covering: the
+measurement of the running fine-structure constant alpha_em,the Dalitz plot
+measurement of eta to pi+pi-pi0, the search of a U boson, tests of discrete
+symmetries and quantum coherence. The KLOE-2 Collaboration will take data until
+mid 2018 aiming to collect 5 inversed fb increasing the data set, in order to
+produce new precision measurements and continue studies of fundamental
+symmetries and New Physics.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">on behalf of the KLOE-2 collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S2010194518600285</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S2010194518600285" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 4 figures. talk presented at Particles and Nuclei
+  International Conference 2017 (PANIC 2017)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.09007v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.09007v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.09313v1</id>
+    <updated>2018-01-28T22:50:40Z</updated>
+    <published>2018-01-28T22:50:40Z</published>
+    <title>Mixing and CPV in charm hadrons at LHCb</title>
+    <summary>  LHCb continues to expand its world-leading sample of charmed hadrons
+collected during LHC's Run 1 (2010-2012) and Run 2 (2015-present). This sample
+is yielding some of the most stringent tests of the Standard Model
+understanding of charm physics. This includes precise measurements of the
+neutral D-meson mixing parameters and some of the most sensitive searches for
+direct and indirect CP violation in charm interactions.
+</summary>
+    <author>
+      <name>Wojciech Krzemien</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">on behalf of the LHCb collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S2010194518600674</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S2010194518600674" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 1 figure, presented at 21st Particles and Nuclei
+  International Conference 2017 (PANIC 2017)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.09313v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.09313v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.06757v1</id>
+    <updated>2016-02-22T12:56:07Z</updated>
+    <published>2016-02-22T12:56:07Z</published>
+    <title>Status and Perspectives of the Search for Eta-Mesic Nuclei</title>
+    <summary>  In this report the search for eta-mesic nuclei is reviewed. The brief
+description of the experimental studies is presented with a focus on the
+possible production of the eta-nucleus bound states for light nuclei like 4He
+and 3He.
+</summary>
+    <author>
+      <name>Pawel Moskal</name>
+    </author>
+    <author>
+      <name>Magdalena Skurzok</name>
+    </author>
+    <author>
+      <name>Wojciech Krzemien</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1063/1.4955353</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1063/1.4955353" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Conference Proceedings: The 11th Latin American Symposium on Nuclear
+  Physics and Applications (XI LASNPA), 30.11-04.12.2015, Medellin, Columbia</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.06757v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.06757v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.2330v2</id>
+    <updated>2009-03-11T12:28:32Z</updated>
+    <published>2008-10-13T23:07:58Z</published>
+    <title>Search for the 3He-eta bound state at COSY-11</title>
+    <summary>  We have measured excitation function for dp -&gt; ppp_pi- reaction near the eta
+production threshold. We observe an enhancement of the counting rate above the
+threshold which can originate from the production of the eta meson in the
+reaction dp -&gt; 3He eta and its subsequent absorption on neutron in the 3He
+nucleus leading to creation of the p_pi- pair.
+</summary>
+    <author>
+      <name>W. Krzemien</name>
+    </author>
+    <author>
+      <name>J. Smyrski</name>
+    </author>
+    <author>
+      <name>A. Budzanowski</name>
+    </author>
+    <author>
+      <name>E. Czerwinski</name>
+    </author>
+    <author>
+      <name>R. Czyzykiewicz</name>
+    </author>
+    <author>
+      <name>D. Gil</name>
+    </author>
+    <author>
+      <name>D. Grzonka</name>
+    </author>
+    <author>
+      <name>L. Jarczyk</name>
+    </author>
+    <author>
+      <name>B. Kamys</name>
+    </author>
+    <author>
+      <name>A. Khoukaz</name>
+    </author>
+    <author>
+      <name>P. Klaja</name>
+    </author>
+    <author>
+      <name>P. Moskal</name>
+    </author>
+    <author>
+      <name>W. Oelert</name>
+    </author>
+    <author>
+      <name>J. Przerwa</name>
+    </author>
+    <author>
+      <name>J. Ritman</name>
+    </author>
+    <author>
+      <name>T. Sefzick</name>
+    </author>
+    <author>
+      <name>M. Siemaszko</name>
+    </author>
+    <author>
+      <name>M. Silarski</name>
+    </author>
+    <author>
+      <name>A. Taeschner</name>
+    </author>
+    <author>
+      <name>M. Wolke</name>
+    </author>
+    <author>
+      <name>P. Wuestner</name>
+    </author>
+    <author>
+      <name>J. Zdebik</name>
+    </author>
+    <author>
+      <name>M. J. Zielinski</name>
+    </author>
+    <author>
+      <name>W. Zipper</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S0217751X09044115</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S0217751X09044115" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Presented at 10th International Workshop on Meson Production,
+  Properties and Interaction (MESON 2008), Cracow, Poland, 6 - 10 June 2008, 4
+  pages, 4 figures,references added</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int.J.Mod.Phys.A24:576-580,2009</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0810.2330v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0810.2330v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -8,7 +8,7 @@ from xml.etree.ElementTree import fromstring, ElementTree
 class ArxivHelper:
     data = ""
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "20"
+        self.CONST_QUERY_RESULTS = "100"
 
     def url_encode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -36,8 +36,9 @@ class ArxivHelper:
         r = requests.get(url)
         with open(file_name, 'w') as f_in:
             f_in.write(r.content.decode('utf-8'))
-    
-
+    def apiToString(self,url):
+        r = requests.get(url)
+        return r.content.decode('utf-8')
 
 class ArxivParser:
 
@@ -74,8 +75,7 @@ class ArxivParser:
     def getEprint(self, entry):
         if entry.find('id').text is not None:
             ID = entry.find('id').text
-            ID = ID[:-2]
-            ID.replace("http://arxiv.org/abs/",'')    
+            ID = ID[:-2]  
         else:
             ID= None
 
@@ -90,9 +90,9 @@ class ArxivParser:
 
     def getDatePublished(self, entry):
         if entry.find('published').text is not None:
-            published = entry.find('published').text.split("-", 1)[0]    
+            published = int(entry.find('published').text.split("-", 1)[0])    
         else:
-            published= None
+            published=0
         return published 
 
     def getLastUpdate(self, entry):
@@ -151,6 +151,7 @@ class ArxivParser:
             singleArticle['Summary'] = self.getSummary(entry)
             singleArticle['Source'] = self.getID(entry) 
             singleArticle['Bibtex'] = self.convertToBibtex(singleArticle)
+            singleArticle['DB'] = "https://arxiv.org/"
 
             self.ListOfArticles.append(singleArticle.copy())
             singleArticle.clear()
@@ -170,7 +171,7 @@ class ArxivParser:
         if article.get("Journal") is not None:
             journal = article["Journal"]
             singleBibtex['journal'] = "journal = { " + journal
-        if article.get("Year") is not None:
+        if article.get("Year") is not 0:
             year = str(article['Year']).split("-", 1)[0]
             singleBibtex['year'] = "year = { " + year 
         if article.get("Eprint") is not None:
@@ -195,7 +196,7 @@ class ArxivParser:
     def writeData(self, filename):
         with open(filename, 'w') as f:
             for article in self.ListOfArticles:
-                f.write(str(article['Authors']) + ": \n " )
+                f.write(str(article['FirstAuthor']) + ": \n " )
                 f.write(str(article['Year']) + ": \n ")
                 f.write(str(article['LastUpdate']) + ": \n ")
                 f.write(str(article['Title']) + ": \n ")
@@ -209,11 +210,14 @@ class ArxivParser:
             f.write('\n')
 
     def writeBibtex(self, filename):
-        citation_list = self.convertToBibtex()
+        bibtexList = []
+        for article in self.ListOfArticles:
+            bibtexList.append(self.convertToBibtex(article))
+        
         with open(filename, 'w') as f:
-            for article in citation_list:
-                for entry in article:
-                    f.write(entry + "\n")
+            for article in bibtexList:
+                for k,v in article.items():
+                    f.write( v + " } " + "\n")
                 f.write("\n")
 
     def show(self):
@@ -223,7 +227,8 @@ class ArxivParser:
                 print(el + ": " + str(dic[el]))
 
     def standardizeXml(self):
-        self.contents = self.contents.decode("utf-8")
+        if type(self.contents) is not str:
+            self.contents = self.contents.decode("utf-8")
         self.contents = self.contents.replace(' xmlns="http://www.w3.org/2005/Atom"', '')
         self.contents = self.contents.replace(
             ' xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"', '')

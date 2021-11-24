@@ -1,0 +1,734 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "id": "1265431",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "Bormio2013",
+              "artid": "036",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1227725"
+              },
+              "year": 2013,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213080"
+              },
+              "page_start": "036",
+              "journal_title": "PoS",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/1326273"
+              },
+              "cnum": "C13-01-21.2"
+            }
+          ],
+          "citation_count": 2,
+          "number_of_pages": 8,
+          "collaborations": [
+            {
+              "value": "WASA-at-COSY"
+            }
+          ],
+          "first_author": {
+            "full_name": "Krzemien, Wojciech",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "last_name": "Krzemien",
+            "first_name": "Wojciech",
+            "recid": 1061521
+          },
+          "control_number": 1265431,
+          "dois": [
+            {
+              "value": "10.22323/1.184.0036"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Search for $\\eta$-mesic $^{4}He$ with the WASA-at-COSY detector"
+            }
+          ],
+          "author_count": 4
+        },
+        "created": "2013-11-21T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1265431?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1265431?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1265431?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1265431?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1265431"
+        },
+        "updated": "2021-06-25T19:31:53.653086+00:00"
+      },
+      {
+        "id": "1292658",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "66",
+              "artid": "09009",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1235909"
+              },
+              "year": 2014,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1211782"
+              },
+              "journal_title": "EPJ Web Conf.",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/1287788"
+              },
+              "cnum": "C13-06-02.3"
+            }
+          ],
+          "citation_count": 4,
+          "number_of_pages": 4,
+          "collaborations": [
+            {
+              "value": "WASA-at-COSY"
+            }
+          ],
+          "first_author": {
+            "full_name": "Krzemien, W.",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "last_name": "Krzemien",
+            "first_name": "W.",
+            "recid": 1061521
+          },
+          "control_number": 1292658,
+          "dois": [
+            {
+              "value": "10.1051/epjconf/20146609009"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Search for the $\\eta$-mesic $^4$He with WASA-at-COSY"
+            }
+          ],
+          "author_count": 4
+        },
+        "created": "2014-04-28T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1292658?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1292658?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1292658?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1292658?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1292658"
+        },
+        "updated": "2021-06-26T05:16:01.295101+00:00"
+      },
+      {
+        "id": "1428853",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "57",
+              "page_end": "425",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1207349"
+              },
+              "year": 2012,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1211635"
+              },
+              "page_start": "424",
+              "journal_title": "DAE Symp.Nucl.Phys.",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/1427344"
+              },
+              "cnum": "C12-12-03.4"
+            }
+          ],
+          "citation_count": 0,
+          "number_of_pages": 2,
+          "first_author": {
+            "full_name": "Skurzok, Magdalena",
+            "last_name": "Skurzok",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "M.Skurzok.1"
+              }
+            ],
+            "first_name": "Magdalena",
+            "recid": 1072191
+          },
+          "control_number": 1428853,
+          "titles": [
+            {
+              "title": "Search for $^{4}$He-$\\eta$ bound states with the WASA-at-COSY facility,"
+            }
+          ],
+          "author_count": 3
+        },
+        "created": "2016-03-17T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1428853?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1428853?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1428853?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1428853?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1428853"
+        },
+        "updated": "2021-06-26T05:57:27.408062+00:00"
+      },
+      {
+        "id": "1340091",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "46",
+              "page_end": "99",
+              "year": 2015,
+              "page_start": "95",
+              "journal_issue": "1",
+              "journal_title": "Acta Phys.Polon.B"
+            }
+          ],
+          "citation_count": 1,
+          "number_of_pages": 5,
+          "collaborations": [
+            {
+              "value": "KLOE-2"
+            }
+          ],
+          "abstracts": [
+            {
+              "source": "arXiv",
+              "value": "In this contribution we describe KNEDLE - the new event display for the KLOE-2 experiment. The basic objectives and software requirements are presented. The current status of the development is given along with a short discussion of the future plans.",
+              "abstract_source_suggest": {
+                "input": "arXiv"
+              }
+            }
+          ],
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "A new event display for the KLOE-2 experiment"
+            }
+          ],
+          "author_count": 1,
+          "first_author": {
+            "full_name": "Krzemien, Wojciech",
+            "last_name": "Krzemien",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "first_name": "Wojciech",
+            "recid": 1061521
+          },
+          "control_number": 1340091,
+          "dois": [
+            {
+              "source": "ADS",
+              "value": "10.5506/APhysPolB.46.95"
+            },
+            {
+              "material": "publication",
+              "source": "arXiv",
+              "value": "10.5506/APhysPolB.46.95"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "physics.ins-det",
+                "hep-ex"
+              ],
+              "value": "1501.04454"
+            }
+          ]
+        },
+        "created": "2015-01-20T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1340091?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1340091?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1340091?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1340091?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1340091"
+        },
+        "updated": "2021-07-05T11:30:46.188469+00:00"
+      },
+      {
+        "id": "822792",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "2",
+              "page_end": "140",
+              "year": 2009,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1214851"
+              },
+              "page_start": "133",
+              "journal_title": "Acta Phys.Polon.Supp."
+            },
+            {
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/980092"
+              },
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/850180"
+              },
+              "cnum": "C08-10-01.2"
+            }
+          ],
+          "citation_count": 7,
+          "number_of_pages": 8,
+          "collaborations": [
+            {
+              "record": {
+                "$ref": "https://inspirehep.net/api/experiments/1110494"
+              },
+              "value": "COSY-11"
+            }
+          ],
+          "first_author": {
+            "full_name": "Smyrski, Jerzy",
+            "last_name": "Smyrski",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Jerzy.Smyrski.1"
+              }
+            ],
+            "first_name": "Jerzy",
+            "recid": 1029455
+          },
+          "control_number": 822792,
+          "titles": [
+            {
+              "title": "Study of the d p ---> p p p pi- reaction near the eta production threshold"
+            }
+          ],
+          "author_count": 3
+        },
+        "created": "2009-06-11T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/822792?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/822792?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/822792?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/822792?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A822792"
+        },
+        "updated": "2021-06-25T22:02:58.769306+00:00"
+      },
+      {
+        "id": "773568",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "950",
+              "page_end": "267",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/979000"
+              },
+              "year": 2007,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1213302"
+              },
+              "page_start": "265",
+              "journal_issue": "1",
+              "journal_title": "AIP Conf.Proc.",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/769194"
+              },
+              "cnum": "C07-06-17.5"
+            }
+          ],
+          "citation_count": 1,
+          "number_of_pages": 3,
+          "abstracts": [
+            {
+              "source": "AIP",
+              "value": "We propose to search for the 4 He \u2212\u03b7 bound state via measurement of the excitation functions for the dd\u2192 3 H p\u03c0 0 , 3 H n\u03c0 + , 3 He n\u03c0 0 , 3 He p\u03c0 \u2212 reactions where the outgoing N\u2212\u03c0 pairs originate from the conversion of the \u03b7 meson on a nucleon inside the 4 He nucleus. Precise determination of the profile of the expected Breit\u2010Wigner distribution in the excitation curves will allow to determine the binding energy and the width of the 4 He \u2212\u03b7 bound state.",
+              "abstract_source_suggest": {
+                "input": "AIP"
+              }
+            },
+            {
+              "source": "AIP",
+              "value": "We propose to search for the 4He\u2212\u03b7 bound state via measurement of the excitation functions for the dd\u21923Hp\u03c00, 3Hn\u03c0+, 3Hen\u03c00, 3Hep\u03c0\u2212 reactions where the outgoing N\u2212\u03c0 pairs originate from the conversion of the \u03b7 meson on a nucleon inside the 4He nucleus. Precise determination of the profile of the expected Breit\u2010Wigner distribution in the excitation curves will allow to determine the binding energy and the width of the 4He\u2212\u03b7 bound state.",
+              "abstract_source_suggest": {
+                "input": "AIP"
+              }
+            }
+          ],
+          "first_author": {
+            "full_name": "Krzemien, W.",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "last_name": "Krzemien",
+            "first_name": "W.",
+            "recid": 1061521
+          },
+          "control_number": 773568,
+          "dois": [
+            {
+              "value": "10.1063/1.2819046"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Search for the He-4 eta bound state with WASA-at-COSY"
+            }
+          ],
+          "author_count": 2
+        },
+        "created": "2008-02-04T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/773568?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/773568?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/773568?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/773568?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A773568"
+        },
+        "updated": "2021-06-25T21:49:25.526577+00:00"
+      },
+      {
+        "id": "1650888",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "46",
+              "artid": "1860067",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1486833"
+              },
+              "year": 2018,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1211646"
+              },
+              "journal_title": "Int.J.Mod.Phys.Conf.Ser.",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/1671848"
+              },
+              "cnum": "C17-09-01"
+            }
+          ],
+          "citation_count": 0,
+          "number_of_pages": 6,
+          "collaborations": [
+            {
+              "value": "LHCb"
+            }
+          ],
+          "abstracts": [
+            {
+              "source": "WSP",
+              "value": "LHCb continues to expand its world-leading sample of charmed hadrons collected during LHCs Run 1 (2010-2012) and Run 2 (2015-present). This sample is yielding some of the most stringent tests of the Standard Model understanding of charm physics. This includes precise measurements of the neutral D-meson mixing parameters and some of the most sensitive searches for direct and indirect CP violation in charm interactions.",
+              "abstract_source_suggest": {
+                "input": "WSP"
+              }
+            },
+            {
+              "source": "arXiv",
+              "value": "LHCb continues to expand its world-leading sample of charmed hadrons collected during LHC's Run 1 (2010-2012) and Run 2 (2015-present). This sample is yielding some of the most stringent tests of the Standard Model understanding of charm physics. This includes precise measurements of the neutral D-meson mixing parameters and some of the most sensitive searches for direct and indirect CP violation in charm interactions.",
+              "abstract_source_suggest": {
+                "input": "arXiv"
+              }
+            }
+          ],
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Mixing and CPV in charm hadrons at LHCb"
+            }
+          ],
+          "author_count": 1,
+          "first_author": {
+            "full_name": "Krzemien, Wojciech",
+            "ids": [
+              {
+                "schema": "INSPIRE ID",
+                "value": "INSPIRE-00437507"
+              },
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "last_name": "Krzemien",
+            "first_name": "Wojciech",
+            "recid": 1061521
+          },
+          "control_number": 1650888,
+          "dois": [
+            {
+              "source": "bibmatch",
+              "value": "10.1142/S2010194518600674"
+            },
+            {
+              "value": "10.1142/S2010194518600674"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "hep-ex"
+              ],
+              "value": "1801.09313"
+            }
+          ]
+        },
+        "created": "2018-01-30T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1650888?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1650888?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1650888?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1650888?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1650888"
+        },
+        "updated": "2021-06-25T18:01:41.140162+00:00"
+      },
+      {
+        "id": "1308388",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "55",
+              "page_end": "799",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1242351"
+              },
+              "year": 2014,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1214456"
+              },
+              "page_start": "795",
+              "journal_issue": "8-10",
+              "journal_title": "Few Body Syst.",
+              "parent_record": {
+                "$ref": "https://inspirehep.net/api/literature/1308159"
+              },
+              "cnum": "C13-09-09"
+            }
+          ],
+          "citation_count": 7,
+          "number_of_pages": 5,
+          "abstracts": [
+            {
+              "source": "Springer",
+              "value": "An exclusive measurement of the excitation functions for the dd \u2192 3Hep \u03c0 \u2212 and dd \u2192 3Hen \u03c0 0 \u2192 3Hen \u03b3 \u03b3 reactions was performed at the Cooler Synchrotron COSY-J\u00fclich with the WASA-at-COSY detection system. The data were collected in two dedicated experiments in 2008 and in 2010. The experimental method and the current status of the analysis are presented.",
+              "abstract_source_suggest": {
+                "input": "Springer"
+              }
+            },
+            {
+              "source": "Springer",
+              "value": "An exclusive measurement of the excitation functions for the dd \u2192$^{3}$Hep \u03c0$^{\u2212}$ and dd \u2192$^{3}$Hen \u03c0$^{0}$ \u2192$^{3}$Hen \u03b3 \u03b3 reactions was performed at the Cooler Synchrotron COSY-J\u00fclich with the WASA-at-COSY detection system. The data were collected in two dedicated experiments in 2008 and in 2010. The experimental method and the current status of the analysis are presented.",
+              "abstract_source_suggest": {
+                "input": "Springer"
+              }
+            }
+          ],
+          "first_author": {
+            "full_name": "Krzemien, W.",
+            "last_name": "Krzemien",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "first_name": "W.",
+            "recid": 1061521
+          },
+          "control_number": 1308388,
+          "dois": [
+            {
+              "source": "Springer",
+              "value": "10.1007/s00601-013-0782-2"
+            }
+          ],
+          "titles": [
+            {
+              "title": "Search for $\\eta$-Mesic $^{4}$He with WASA-at-COSY"
+            }
+          ],
+          "author_count": 3
+        },
+        "created": "2014-07-28T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1308388?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1308388?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1308388?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1308388?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1308388"
+        },
+        "updated": "2021-06-26T03:40:13.384060+00:00"
+      },
+      {
+        "id": "884422",
+        "metadata": {
+          "citation_count": 8,
+          "number_of_pages": 2,
+          "collaborations": [
+            {
+              "value": "WASA-at-COSY"
+            }
+          ],
+          "abstracts": [
+            {
+              "source": "arXiv",
+              "value": "In June 2008 we performed a search for the 4He-eta bound state by measuring the excitation function of the dd to 3He p pi- reaction near the eta production threshold using the WASA-at-COSY detector. During the experimental run the momentum of the deuteron beam was varied continuously within each acceleration cycle from 2.185 GeV/c to 2.400 GeV/c, crossing the kinematic threshold for the eta production in the dd to 4He eta reaction at 2.336 GeV/c. The preliminary excitation function indicates no structure in the angular range close to the 180 degree where the signal is expected. The preliminary estimation of the upper limit for the eta-mesic production via the dd to (eta 4He)b.s. to 3He p pi- reaction is equal to about 20 nb on a one sigma level. A two-week measurement with WASA-at-COSY for the dd 3He p pi- channel is scheduled for November 2010. After two weeks of measurement with a luminosity of 4 * 10^(30) cm^(-2) s^(-1), we expect a statistical sensitivity of a few nb sigma.",
+              "abstract_source_suggest": {
+                "input": "arXiv"
+              }
+            }
+          ],
+          "first_author": {
+            "full_name": "Krzemien, Wojciech",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "last_name": "Krzemien",
+            "first_name": "Wojciech",
+            "recid": 1061521
+          },
+          "control_number": 884422,
+          "titles": [
+            {
+              "title": "Search for $\\eta$-mesic $^4He$ with WASA-at-COSY"
+            },
+            {
+              "source": "arXiv",
+              "title": "Search for eta-mesic 4He with WASA-at-COSY"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "nucl-ex"
+              ],
+              "value": "1101.3103"
+            }
+          ],
+          "author_count": 1
+        },
+        "created": "2011-01-17T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/884422?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/884422?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/884422?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/884422?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A884422"
+        },
+        "updated": "2021-06-25T22:29:11.031163+00:00"
+      },
+      {
+        "id": "1387668",
+        "metadata": {
+          "publication_info": [
+            {
+              "journal_volume": "60",
+              "pubinfo_freetext": "NUKLEONIKA 2015 60 (4) 745",
+              "artid": "745",
+              "conference_record": {
+                "$ref": "https://inspirehep.net/api/conferences/1493897"
+              },
+              "year": 2015,
+              "journal_record": {
+                "$ref": "https://inspirehep.net/api/journals/1214550"
+              },
+              "page_start": "745",
+              "journal_title": "Nukleonika",
+              "cnum": "C15-06-29.12"
+            }
+          ],
+          "citation_count": 11,
+          "number_of_pages": 8,
+          "collaborations": [
+            {
+              "record": {
+                "$ref": "https://inspirehep.net/api/experiments/1381461"
+              },
+              "value": "J-PET"
+            }
+          ],
+          "abstracts": [
+            {
+              "source": "arXiv",
+              "value": "The Jagiellonian-PET (J-PET) collaboration is developing a prototype TOF-PET detector based on long polymer scintillators. This novel approach exploits the excellent time properties of the plastic scintillators, which permit very precise time measurements. The very fast, FPGA-based front-end electronics and the data acquisition system, as well as, low- and high-level reconstruction algorithms were specially developed to be used with the J-PET scanner. The TOF-PET data processing and reconstruction are time and resource demanding operations, especially in case of a large acceptance detector, which works in triggerless data acquisition mode. In this article, we discuss the parallel computing methods applied to optimize the data processing for the J-PET detector. We begin with general concepts of parallel computing and then we discuss several applications of those techniques in the J-PET data processing.",
+              "abstract_source_suggest": {
+                "input": "arXiv"
+              }
+            }
+          ],
+          "titles": [
+            {
+              "source": "arXiv",
+              "title": "Processing optimization with parallel computing for the J-PET tomography scanner"
+            }
+          ],
+          "author_count": 30,
+          "first_author": {
+            "full_name": "Krzemien, W.",
+            "last_name": "Krzemien",
+            "ids": [
+              {
+                "schema": "INSPIRE BAI",
+                "value": "Wojciech.Krzemien.1"
+              }
+            ],
+            "first_name": "W.",
+            "recid": 1061521
+          },
+          "control_number": 1387668,
+          "dois": [
+            {
+              "value": "10.1515/nuka-2015-0134"
+            }
+          ],
+          "arxiv_eprints": [
+            {
+              "categories": [
+                "physics.ins-det",
+                "physics.comp-ph"
+              ],
+              "value": "1508.02751"
+            }
+          ]
+        },
+        "created": "2015-08-13T00:00:00+00:00",
+        "links": {
+          "bibtex": "https://inspirehep.net/api/literature/1387668?format=bibtex",
+          "latex-eu": "https://inspirehep.net/api/literature/1387668?format=latex-eu",
+          "latex-us": "https://inspirehep.net/api/literature/1387668?format=latex-us",
+          "json": "https://inspirehep.net/api/literature/1387668?format=json",
+          "citations": "https://inspirehep.net/api/literature/?q=refersto%3Arecid%3A1387668"
+        },
+        "updated": "2021-06-26T05:07:03.346244+00:00"
+      }
+    ],
+    "total": 404
+  },
+  "links": {
+    "self": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=1&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count,abstracts",
+    "next": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=2&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count,abstracts",
+    "bibtex": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=1&format=bibtex",
+    "latex-eu": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=1&format=latex-eu",
+    "latex-us": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=1&format=latex-us",
+    "json": "https://inspirehep.net/api/literature/?q=krzemien&size=10&page=1&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count,abstracts&format=json"
+  }
+}

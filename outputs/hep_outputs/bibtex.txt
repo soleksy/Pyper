@@ -1,0 +1,95 @@
+@article{ Krzemien, Wojciech:2013 }
+author = { Krzemien, Wojciech and 3 others }
+title = { Search for η-mesic ^4He with the WASA-at-COSY detector }
+year = { 2013 }
+journal = { PoS }
+volume = { Bormio2013 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.22323/1.184.0036 }
+
+@article{ Krzemien, W.:2014 }
+author = { Krzemien, W. and 3 others }
+title = { Search for the η-mesic ^4He with WASA-at-COSY }
+year = { 2014 }
+journal = { EPJ Web Conf. }
+volume = { 66 }
+pages = { 4 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1051/epjconf/20146609009 }
+
+@article{ Skurzok, Magdalena:2012 }
+author = { Skurzok, Magdalena and 2 others }
+title = { Search for ^4He-η bound states with the WASA-at-COSY facility, }
+year = { 2012 }
+journal = { DAE Symp.Nucl.Phys. }
+volume = { 57 }
+pages = { 2 }
+
+@article{ Krzemien, Wojciech:2015 }
+author = { Krzemien, Wojciech }
+title = { A new event display for the KLOE-2 experiment }
+year = { 2015 }
+journal = { Acta Phys.Polon.B }
+volume = { 46 }
+pages = { 5 }
+collaboration = { KLOE-2  }
+doi = { 10.5506/APhysPolB.46.95 }
+eprint = { 1501.04454 }
+
+@article{ Smyrski, Jerzy:2009 }
+author = { Smyrski, Jerzy and 2 others }
+title = { Study of the d p —> p p p pi- reaction near the eta production threshold }
+year = { 2009 }
+journal = { Acta Phys.Polon.Supp. }
+volume = { 2 }
+pages = { 8 }
+collaboration = { COSY-11  }
+
+@article{ Krzemien, W.:2007 }
+author = { Krzemien, W. and 1 others }
+title = { Search for the He-4 eta bound state with WASA-at-COSY }
+year = { 2007 }
+journal = { AIP Conf.Proc. }
+volume = { 950 }
+pages = { 3 }
+doi = { 10.1063/1.2819046 }
+
+@article{ Krzemien, Wojciech:2018 }
+author = { Krzemien, Wojciech }
+title = { Mixing and CPV in charm hadrons at LHCb }
+year = { 2018 }
+journal = { Int.J.Mod.Phys.Conf.Ser. }
+volume = { 46 }
+pages = { 6 }
+collaboration = { LHCb  }
+doi = { 10.1142/S2010194518600674 }
+eprint = { 1801.09313 }
+
+@article{ Krzemien, W.:2014 }
+author = { Krzemien, W. and 2 others }
+title = { Search for η-Mesic ^4He with WASA-at-COSY }
+year = { 2014 }
+journal = { Few Body Syst. }
+volume = { 55 }
+pages = { 5 }
+doi = { 10.1007/s00601-013-0782-2 }
+
+@article{ Krzemien, Wojciech }
+author = { Krzemien, Wojciech }
+title = { Search for η-mesic ^4He with WASA-at-COSY }
+pages = { 2 }
+collaboration = { WASA-at-COSY  }
+eprint = { 1101.3103 }
+
+@article{ Krzemien, W.:2015 }
+author = { Krzemien, W. and 29 others }
+title = { Processing optimization with parallel computing for the J-PET tomography scanner }
+year = { 2015 }
+journal = { Nukleonika }
+volume = { 60 }
+pages = { 8 }
+collaboration = { J-PET  }
+doi = { 10.1515/nuka-2015-0134 }
+eprint = { 1508.02751 }
+

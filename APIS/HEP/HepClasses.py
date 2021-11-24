@@ -6,7 +6,7 @@ from pylatexenc.latex2text import LatexNodes2Text
 
 class HepHelper:
     def __init__(self):
-        self.CONST_QUERY_RESULTS = "20"
+        self.CONST_QUERY_RESULTS = "100"
 
     def hepUrlEncode(self, string):
         encode_list = [(" ", "%20"), (":", "%3A"), ("/", "%2" + "F")]
@@ -19,7 +19,6 @@ class HepHelper:
         url = "https://inspirehep.net/api/literature?sort=mostarticled&page=1&q=" + command_string + "&of=recjson" + \
             "&fields=titles,citation_count,first_author,dois,publication_info,collaborations,arxiv_eprints,number_of_pages,volume,author_count,abstracts&size=" + \
             self.CONST_QUERY_RESULTS
-
         return url
 
     def getSource(self, url):
@@ -62,6 +61,11 @@ class HepParser:
         else:
             authorCount = None;
         return authorCount
+    def getCitationCount(self,dic):
+        if(dic['metadata'].get('citation_count') is None):
+            citationCount = 0
+        else:
+            citationCount = dic['metadata']['citation_count']
 
     def getJournal(self,dic):
         if dic['metadata'].get('publication_info') is None:
@@ -79,7 +83,7 @@ class HepParser:
                 journal = dic['metadata']['publication_info']["journal_title"]
 
         return journal
-        
+    
     def getTitle(self,dic):
         if dic['metadata'].get('titles') is not None:
             title = dic['metadata']['titles'][0]['title']
@@ -108,11 +112,11 @@ class HepParser:
     def getYear(self,dic):
         if dic['metadata'].get('publication_info') is not None:
             if(type(dic["metadata"]['publication_info'])) == list:
-                    year = dic["metadata"]['publication_info'][0]["year"]
+                    year = dic["metadata"]['publication_info'][0].get("year")
             else:
-                year = dic["metadata"]['publication_info']["year"]
+                year = dic["metadata"]['publication_info'].get("year")
         else:
-            year = None
+            year = 0
         return year
         
     
@@ -147,7 +151,8 @@ class HepParser:
         if dic['metadata'].get('arxiv_eprints') is None:
             eprint = None
         else:
-            eprint = dic['metadata']['arxiv_eprints'][0]["value"]
+            eprint = dic['metadata']['arxiv_eprints'][0].get("value")
+
         return eprint
 
     def getID(self,dic):
@@ -175,9 +180,13 @@ class HepParser:
             eprint = self.getEprint(dic)
             abstract = self.getAbstract(dic)       
             id = self.getID(dic)     
+            citationCount=self.getCitationCount(dic)
+
 
             if author is not None:
                 singleArticle['FirstAuthor'] = author
+            else:
+                singleArticle['FirstAuthor'] = None
             if authorCount is not None:
                 singleArticle['AuthorCount'] = authorCount
             if journal is not None:
@@ -185,7 +194,9 @@ class HepParser:
             if title is not None:
                 singleArticle['Title'] = LatexNodes2Text().latex_to_text(title)
             if year is not None:
-                singleArticle['Year'] = year
+                singleArticle['Year'] = int(year)
+            else:
+                singleArticle['Year'] = 0
             if doi is not None:
                 singleArticle['Doi'] = doi
             if collaboration is not None:
@@ -200,9 +211,11 @@ class HepParser:
                 singleArticle['Summary'] = LatexNodes2Text().latex_to_text(abstract)
             if id is not None:
                 singleArticle['Source'] = f'https://inspirehep.net/literature/{id}'
-            
+            if citationCount is not None:
+                singleArticle['CitationCount'] = citationCount
 
             singleArticle['Bibtex'] = self.convertToBibtex(singleArticle)
+            singleArticle['DB'] = "https://inspirehep.net/"
             self.ListOfArticles.append(singleArticle.copy())
             
             singleArticle.clear()
@@ -214,17 +227,17 @@ class HepParser:
 
         if article.get('FirstAuthor') is None:
             if article.get("AuthorCount") is not None:
-                if article.get("Year") is not None:  
+                if article.get("Year") is not 0:  
                     header =  "@article{ " + "Coauthored by " +  str(article.get("AuthorCount")) + " authors" + ":" + str(article['Year'])
                 else:
                     header = "@article{ " + "Coauthored by " +  str(article.get("AuthorCount")) + " authors"
             else:
-                    if article.get("Year") is not None:  
+                    if article.get("Year") is not 0:  
                         header = "@article{ "+ "Anonymous" + ":" + str(article['Year'])
                     else:
                         header = "@article{ "+ "Anonymous"
         else:
-            if article.get("Year") is not None: 
+            if article.get("Year") is not 0: 
                 header = "@article{ "+ article.get("FirstAuthor") + ":" + str(article['Year'])
             else:
                 header = "@article{ "+ article.get("FirstAuthor")
@@ -251,7 +264,7 @@ class HepParser:
             title = "title = { " + LatexNodes2Text().latex_to_text(str(article['Title']))
             singleBibtex['title'] = title
         
-        if article.get('Year') is not None:
+        if article.get('Year') is not 0:
             year = "year = { " + str(article['Year'])
             singleBibtex['year'] = year
 
@@ -317,8 +330,8 @@ class HepParser:
 
         with open(filename, 'w') as f:
             for article in bibtexList:
-                for el in article:
-                    f.write(el+"\n")
+                for k,v in article.items():
+                    f.write(v +" }" + "\n")
                 f.write('\n')
 
 

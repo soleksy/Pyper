@@ -97,14 +97,14 @@ def main():
         # Load api result to file
         print(queryURL)
 
-        arxivHelper.apiToFile(queryURL, file_to_parse_arxiv)
-
+        #arxivHelper.apiToFile(queryURL, file_to_parse_arxiv)
+        data = arxivHelper.apiToString(queryURL)
         # Initialize Arxiv Parser
-        arxivParser = ArxivParser(file_to_parse_arxiv)
+        arxivParser = ArxivParser(data)
         
         # Load , standardize and save data
 
-        arxivParser.standardizeXmlFile()
+        arxivParser.standardizeXml()
         arxivParser.parseXML()
 
         arxivParser.writeData(ArxivOutput + "arxtest")
