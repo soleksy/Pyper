@@ -16,65 +16,66 @@ function copyToClipboard(element) {
 }
 
 </script>
+    
      
 <div class="centered">
   <div class="container-row-40">
     <div class="wrapper">
       <div class="info-wrapper">
         <article>
-          <h2>{{article['Title']}}</h2>
+          <h2>{{article.title}}</h2>
           <section>
-            <p>{{article['Summary']}}</p>
+            <p>{{article.description}}</p>
           </section>
 
           <section>
             <ul class="list-group">
 
-            {% if article['FirstAuthor'] %}
+            {% if article.firstAuthor %}
               <li class="list-group-item">
-              First author : <b>{{article['FirstAuthor']}}</b>
+              First author : <b>{{article.firstAuthor}}</b>
               </li>
             {% endif %}
 
             {% if  article['Year'] %}
               <li class="list-group-item">
-              Year published : <b>{{ article['Year']}} </b>
+              Year published : <b>{{ article.yearPublished}} </b>
               </li>
             {% endif %}
 
             {% if article['AuthorCount']  %}
               <li class="list-group-item">
-              Number of authors : <b>{{ article['AuthorCount']}} </b>
+              Number of authors : <b>{{ article.numberOfAuthors}} </b>
               </li>
             {% endif %}
 
-            {% if article['Doi']  %}
+            {% if article.DOI %}
               <li class="list-group-item">
-              DOI : <b>{{ article['Doi']}} </b>
+              DOI : <b>{{ article.DOI}} </b>
               </li>
             {% endif %}
 
-            {% if article['Eprint']  %}
+            {% if article.Eprint  %}
               <li class="list-group-item">
-              Eprint : <a href={{article['Eprint']}}>{{ article['Eprint']}} </a>
+              Eprint : <a href={{article['Eprint']}}>{{ article.eprint}} </a>
               </li>
             {% endif %}
 
-            {% if article['Journal']  %}
+            {% if article.journal  %}
               <li class="list-group-item">
-              Journal : <b >{{ article['Journal']}} </b>
+              Journal : <b >{{ article.journal}} </b>
               </li>
             {% endif %}
 
-            {% if article['Volume']  %}
+            {% if article.volume %}
               <li class="list-group-item">
-              Volume : <b >{{ article['Volume']}} </b>
+              Volume : <b >{{ article.volume}} </b>
               </li>
             {% endif %}
 
-            {% if article['Pages']  %}
+            {% if article.pages %}
               <li class="list-group-item">
-              Pages : <b >{{ article['Pages']}} </b>
+              Pages : <b >{{ article.pages}} </b>
               </li>
             {% endif %}
             </ul>
@@ -95,13 +96,13 @@ function copyToClipboard(element) {
             <p>The purpose of BibTeX is to make it easy to cite sources in a consistent manner, by separating bibliographic information from the presentation of this information, similarly to the separation of content and presentation/style supported by LaTeX itself.</p>
           </section>
           <section id='copyme'>
-            {% if bibtex['header'] %} {{ bibtex['header'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['author'] %}{{ bibtex['author'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['title'] %}{{ bibtex['title'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['journal'] %}{{ bibtex['journal'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['year'] %}{{ bibtex['year'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['eprint'] %}{{ bibtex['eprint'] + ' },'}} <br/>{% endif %}
-            {% if bibtex['pages'] %}{{ bibtex['pages'] + ' }'}} <br/>{% endif %}
+            {% if article.bibtex['header'] %} {{ article.bibtex['header'] + ','}} <br/>{% endif %}
+            {% if article.bibtex['author'] %}{{ article.bibtex['author'] + ' },'}} <br/>{% endif %}
+            {% if article.bibtex['title'] %}{{ article.bibtex['title'] + ' },'}} <br/>{% endif %}
+            {% if article.bibtex['journal'] %}{{ article.bibtex['journal'] + ' },'}} <br/>{% endif %}
+            {% if article.bibtex['year'] %}{{ article.bibtex['year'] + ' },'}} <br/>{% endif %}
+            {% if article.bibtex['eprint'] %}{{ article.bibtex['eprint'] + ' },'}} <br/>{% endif %}
+            {% if article.bibtex['pages'] %}{{ article.bibtex['pages'] + ' }'}} <br/>{% endif %}
             }
           </section>
         </article>

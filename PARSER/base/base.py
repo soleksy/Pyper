@@ -6,38 +6,38 @@ BaseParser = argparse.ArgumentParser()
 BaseParser.add_argument(
     "-arxiv",
     required=False,
-    help="If used, your query will be used to search arxiv databse",
+    help="Your query will be used to search arxiv databse",
     action='store_true')
 
 BaseParser.add_argument(
         "-hep",
         required=False,
-        help="If used, your query will be used to search hep-inspire databse",
+        help="Your query will be used to search hep-inspire databse",
         action='store_true')
 
 BaseParser.add_argument(
     "-all",
     required=False,
-    help="Use for keyword search, if used simply write your keywords afterwards",
+    help="Use for keyword search, simply write your keywords afterwards",
     type=str)
 
 BaseParser.add_argument(
     "-a",
     required=False,
-    help="Adds the name/s of the author/s to the query.",
+    help="Add the name/s of the author/s to the query.",
     type=str)
 
 BaseParser.add_argument(
     "-t",
     required=False,
-    help="Adds title of the paper to the query",
+    help="Add title of the paper to the query",
     type=str)
 
 
 BaseParser.add_argument(
     "-arx",
     required=False,
-    help="Adds eprint to the query",
+    help="Add eprint to the query",
     type=str)
 
 
@@ -50,5 +50,5 @@ BaseParser.add_argument(
 BaseParser.add_argument(
     "-j",
     required=False,
-    help="If you’d like to stay up to date with publications of a specific journal, then a search by journal will be helpful ex: -j Physics.Rev.D",
+    help="If you’d like to stay up to date with publications of a specific journal, search by journal will be helpful. ex: -j Physics.Rev.D",
     type=str)

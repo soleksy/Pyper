@@ -13,7 +13,10 @@ def main():
     ArxivOutput = ""
     HepInspireOutput = ""
 
-
+    if len(sys.argv) == 1:
+        print("Use -h flag for more information on usage")
+        quit()
+        
     with open("config.json") as f:
         conf_data = json.load(f)
         ArxivOutput = conf_data["ARXIV_OUTPUT_FOLDER"]

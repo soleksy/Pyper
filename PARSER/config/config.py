@@ -1,4 +1,4 @@
-from PARSERS.BASE.base import subparsers
+from PARSER.base.base import subparsers
 
 parser_CONFIG = subparsers.add_parser('CONFIG' , help = "Modify the current state of configuration file")
 

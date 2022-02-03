@@ -22,17 +22,19 @@
 block content %}
 <div class="main-container">
    <div class="search-result-wrapper">
+       
       <div class="search-results-container" id="style-12">
-         {% set count = namespace(value=0) %} 
-         {% if results is defined and results|length > 0 %}
+         {% set count = namespace(value=0) %}
+         
+         {% if results is defined %}
 
-         {% for x in results %}
+         {% for article in results.items%}
          <div class="article-wrapper">
-            <h3>{{x['Title']}}</h3>
-            <h6>Source: {{x['DB']}}</h6>
-            {% if x['Summary']%}
+            <h3>{{article.title}}</h3>
+            <h6>Source: {{article.source}}</h6>
+            {% if article.description%}
             <section class="ABC{{count.value}}" id="style-12" style="display: none; overflow-y: scroll; max-height: 100px;">
-               <h6>{{x['Summary']}}</h6>
+               <h6>{{article.description}}</h6>
             </section>
             <button class="btn btn-outline-primary fs-5 fw-bold" onclick="toggle_display({{count.value}})">
             Show abstract
@@ -58,9 +60,10 @@ block content %}
 
           </div>
           {% endif %}
-      </div>
+         </div>
+
    </div>
-   {% if results is defined and results|length > 0 %}
+   {% if results is defined %}
    <div class="side-panel-container">
       <div class="side-panel-wrapper1">
          <article>
@@ -93,9 +96,32 @@ block content %}
                 Submit
             </button>
          </form>
-           <a type="button" class="btn btn-primary btn-lg"  href="{{url_for('searchResults',txt=txt,hep=hep,arxiv=arxiv,filters=1)}}"> Clear filters</a>
-         
+           <a type="button" class="btn btn-primary btn-lg"  href="{{url_for('searchResults',page=1,txt=txt,hep=hep,arxiv=arxiv,filters=1)}}"> Clear filters</a>
       </div>
+      <!-- Pagination Links-->
+      <div  div class="pagination-page-info">
+         {% for page_num in results.iter_pages(left_edge=1, right_edge=2, left_current=1, right_current=2) %}
+            {% if page_num %}
+            {% if results.page == page_num %}
+            <a a href="{{ url_for('searchResults', page=page_num,arxiv=arxiv,txt=txt,hep=hep,filters=0) }}"
+               class="btn btn-dark btn-lg">
+                  {{ page_num }}
+            </a>
+            {% else %}
+               <a href="{{ url_for('searchResults',page=page_num,arxiv=arxiv,txt=txt,hep=hep,filters=0) }}"
+                  class="btn btn-outline-dark btn-lg">
+                  {{ page_num }}
+               </a>
+            {% endif %}
+            {% else %}
+               ...
+            {% endif %}
+      {% endfor %}
+
+</div>
+<p class="text-right mt-6 1.2rem">
+Showing page {{ results.page }} of {{ results.pages }}
+</p>
    </div>
    {% endif %}
 </div>

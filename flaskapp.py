@@ -1,39 +1,86 @@
-from re import S, search
+import contextlib
+import json
+import sqlalchemy
+from sqlalchemy.types import TypeDecorator
+from re import L
 from flask import Flask , render_template ,redirect,url_for,request ,session
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.sql.operators import desc_op
+from sqlalchemy import MetaData
 from APIS.ARXIV.ArxivClasses import ArxivHelper , ArxivParser
 from APIS.HEP.HepClasses import HepHelper,HepParser
-import asyncio , aiohttp , httpx
+import asyncio , httpx
 
 from flask_wtf import FlaskForm
 from wtforms.fields.html5 import DateField
 from wtforms.validators import DataRequired
 from wtforms import validators, SubmitField
 
-import time
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+db=SQLAlchemy(app)
 
-articleList = []
-sessionArticleList = []
-sessionArticleListPrev = []
-searchController = 0
-searched = False
 
-startDate = None
-endDate = None
+ITEMS_PER_PAGE = 9
+SIZE=256
+
+
+searchController = 0 # controlls whether the initial search was processed
+searched = False #?
+page = 0
+articles = [] # stores list entities
+filteredArticleList = []
+startDate = None # controlls the filters
+endDate = None # controlls the filters
 
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+
+class TextPickleType(TypeDecorator):
+    impl = sqlalchemy.Text(SIZE)
+
+    def process_bind_param(self, value, dialect):
+        if value is not None:
+            value = json.dumps(value)
+
+        return value
+
+    def process_result_value(self, value, dialect):
+        if value is not None:
+            value = json.loads(value)
+        return value
+    
+class Article(db.Model):
+    id = db.Column(db.Integer,primary_key=True)
+    title = db.Column(db.String(120), unique=False, nullable=True)
+    description = db.Column(db.Text, nullable=True)
+    source = db.Column(db.String(120), unique=False, nullable=True)
+    firstAuthor = db.Column(db.String(120), unique=False, nullable=True)
+    yearPublished = db.Column(db.Integer, unique=False, nullable=True)
+    numberOfAuthors = db.Column(db.Integer, unique=False, nullable=True)
+    journal = db.Column(db.String(120) , unique=False, nullable=True)
+    volume = db.Column(db.Integer, unique=False,nullable = True)
+    pages = db.Column(db.Integer, unique=False,nullable =True)
+    DOI = db.Column(db.String(120), unique=True, nullable=True)
+    eprint = db.Column(db.String(120), unique=True,nullable=True)
+    bibtex = db.Column(TextPickleType())
+    def __repr__(self):
+        return '<Article %r>' % self.title
+    
+db.drop_all()
+db.create_all()
 
 class InfoForm(FlaskForm):
     startDate = DateField('Start Date', format='%Y-%m-%d', validators=(validators.DataRequired(),))
     endDate = DateField('End Date', format='%Y-%m-%d', validators=(validators.DataRequired(),))
     submit = SubmitField('Submit')
 
-def updateArticleList(articles):    
-    global articleList
-    articleList = articles
+def updateArticleList(listOfArticles):    
+    global articles
+    articles = listOfArticles
 
 def sortByDateAscending(list):
     return sorted(list,key=lambda x:x['Year'] , reverse=False)
+
 def sortByDateDescending(list):
     return sorted(list,key=lambda x:x['Year'] , reverse=True)
 
@@ -48,11 +95,11 @@ def filterArticles(list):
             else:
                 articleFilter[article['Doi']] = True
                 newArticleList.append(article)
-        elif article.get('Eprint'):
-            if articleFilter.get(article['Eprint']):
+        elif article.get('eprint'):
+            if articleFilter.get(article['eprint']):
                 continue       
             else:
-                articleFilter[article['Eprint']] = True
+                articleFilter[article['eprint']] = True
                 newArticleList.append(article)
         else:
             if article.get('Title'):
@@ -77,7 +124,18 @@ def filterArticles(list):
                 continue
     return newArticleList
                         
-    
+async def retrieveData(url : str):
+    async with httpx.AsyncClient() as client:
+        resp = await client.get(url,timeout=100)
+        await client.aclose()
+    return resp
+
+def clearData(session):
+    meta = db.metadata
+    for table in reversed(meta.sorted_tables):
+        session.execute(table.delete())
+    session.commit()
+        
 
 @app.route('/' , methods=['GET' ,'POST'])
 def indexPage():
@@ -87,41 +145,46 @@ def indexPage():
         text = request.form["searchText"]
         if text == "":
             text = " "
+            
         ARXIV = request.form.get('arxiv')
         if ARXIV == None:
-            ARXIV = 'off'
+            ARXIV = False
+        else:
+            ARXIV = True
 
         HEP = request.form.get('hep')
         if HEP == None:
-            HEP = 'off'
+            HEP = False
+        else:
+            HEP = True
         
         return redirect(url_for('searchResults',txt=text,hep=HEP,arxiv=ARXIV,filters=0))
     else:
         return render_template('index.html')
+    
 
 @app.route('/search_results/<txt>/hep<hep>/arx<arxiv>/filters<filters>' , methods=['GET' ,'POST'])
 async def searchResults(txt,hep,arxiv,filters):
 
     global searchController
-    global articleList
-    global sessionArticleList
-    global sessionArticleListPrev
     global startDate
     global endDate
+    global articles
     global searched
-
+    global filteredArticleList
+    
     arxivArticleList = []
     hepArticleList = []
     dbToSearch = []
     listOfApiCalls = []
     index = 0
-
-
-    form = InfoForm()
+    LocalArticles = []
+    
     #handle date range submit
+    form = InfoForm()
     if form.validate_on_submit():
-        sessionArticleListPrev = sessionArticleList.copy()
-        sessionArticleList.clear()
+        filteredArticleList = []
+
         tempStartDate = startDate
         tempEndDate = endDate
         startDate = form.startDate.data.strftime("%m/%d/%Y")
@@ -129,112 +192,121 @@ async def searchResults(txt,hep,arxiv,filters):
         startYear = int(form.startDate.data.strftime("%Y"))
         endYear = int(form.endDate.data.strftime("%Y"))
         
-        for article in articleList:
-            if article['Year'] >= startYear and article['Year'] <= endYear:
-                print(article['Year'] , startYear , endYear ,article['Title'])
-                sessionArticleList.append(article)
-        
-        sessionArticleList = sortByDateDescending(sessionArticleList)
+        LocalArticles = Article.query.filter(Article.yearPublished<=endYear,Article.yearPublished>=startYear).paginate(page=1,per_page=ITEMS_PER_PAGE)
+        print(LocalArticles)
 
-        if len(sessionArticleList) == 0:
-            startDate= tempStartDate
-            endDate= tempEndDate
-            return render_template('search_results.html' , hep=hep,txt=txt,arxiv=arxiv, results=sessionArticleList , form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+        if len(filteredArticleList) == 0:
+            startDate = tempStartDate
+            endDate = tempEndDate
+            return render_template('search_results.html' , hep=hep,txt=txt,arxiv=arxiv, results=LocalArticles , form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
         else:
             searched = True
-            return render_template('search_results.html' , hep=hep,arxiv=arxiv,results=sessionArticleList , txt=txt, form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+            return render_template('search_results.html' , hep=hep,arxiv=arxiv,results=LocalArticles,txt=txt, form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
     
     if request.method == "POST":
         articleID = request.form.get("info")
         return redirect(url_for('articlePage',id = articleID))
 
- 
+    
+    
     elif searchController == 1:
-        articleList = []
-        sessionArticleList = []
-        sessionArticleListPrev = []
-        searchController = 0
         searched = False
-
         startDate = None
         endDate = None
+        
 
-        if (arxiv == 'on'):
+        if arxiv:
             arxivHelper = ArxivHelper()
-            queryURL = arxivHelper.allParamSearch(txt)
-            listOfApiCalls.append(httpx.AsyncClient().get(queryURL,timeout=100))
-
-        if (hep == 'on'):
+            url = arxivHelper.allParamSearch(txt)
+            listOfApiCalls.append(retrieveData(url))
+                
+        if hep :
             hepHelper = HepHelper()
             url = hepHelper.hepUrlGenerator(txt)
-            listOfApiCalls.append(httpx.AsyncClient().get(url,timeout=100))
+            listOfApiCalls.append(retrieveData(url))
 
-        async with httpx.AsyncClient():
+        async with httpx.AsyncClient() as client:
             dbToSearch = await asyncio.gather(
                 *listOfApiCalls
             )
-        
-        if (arxiv=='on'):
+            await client.aclose()
+
+        if arxiv :
             arxivParser = ArxivParser(dbToSearch[index].content)
             arxivParser.standardizeXml()
             arxivParser.parseXML()
             arxivArticleList = arxivParser.ListOfArticles
             index += 1
-        if (hep == 'on'):
+        if hep:
             hepParser = HepParser(dbToSearch[index].content)
             hepParser.parseJsonFile()
             hepArticleList = hepParser.ListOfArticles
             index += 1
 
         searchController = 0
-
+    
         updateArticleList(sortByDateDescending(filterArticles(hepArticleList + arxivArticleList)))
-
-        if len(articleList) == 0:
+        
+        if len(articles) == 0:
             session['searchURL'] = None
         else:
+            clearData(db.session)
+            for article in articles:
+                db.session.add(Article(title=article.get('Title'), description=article.get('Summary'), source=article.get('DB')
+                                       ,firstAuthor=article.get('FirstAuthor'), yearPublished=article.get('Year'),
+                                       numberOfAuthors=article.get('AuthorCount'),journal=article.get('Journal'),
+                                       volume=article.get('Volume'),pages=article.get('Pages'),DOI=article.get('Doi'),
+                                       eprint=article.get('eprint'),bibtex=article.get('Bibtex')))
+            db.session.commit()
             session['searchURL'] = f"/search_results/{txt}/hep{hep}/arx{arxiv}/filters{filters}"
-
-        return render_template('search_results.html' ,hep=hep,arxiv=arxiv, results=articleList , txt=txt, form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+            
+            page = request.args.get('page',1,type=int)
+            articles= Article.query.paginate(page=page,per_page=ITEMS_PER_PAGE)
+            
+        print(articles)
+        return render_template('search_results.html' ,page=page,hep=hep,arxiv=arxiv, results=articles  ,txt=txt, form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
         
     else:
+        if(searchController == 0):
+            page = request.args.get('page',1,type=int)
+            articles= Article.query.paginate(page=page,per_page=ITEMS_PER_PAGE)
+            return render_template('search_results.html' ,hep=hep,arxiv=arxiv, results=articles  ,txt=txt, form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+            
         if filters == "1":
-            sessionArticleList = []
-            sessionArticleListPrev = []
+
             searchController = 0
             searched = False
 
             startDate = None
             endDate = None
             
-            return render_template('search_results.html' , hep=hep,arxiv=arxiv, results=articleList, txt=txt ,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
-        if len(sessionArticleList) == 0 and not searched:
+            return render_template('search_results.html' , hep=hep,arxiv=arxiv, results=articles, txt=txt ,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+        if len(filteredArticleList) == 0 and not searched:
             startDate = None
             endDate = None
-            return render_template('search_results.html' ,hep=hep,arxiv=arxiv,  results=articleList, txt=txt ,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
-        elif len(sessionArticleList) == 0 and searched:
-            return render_template('search_results.html' , hep=hep,arxiv=arxiv, results=sessionArticleListPrev, txt=txt,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+            return render_template('search_results.html' ,hep=hep,arxiv=arxiv,  results=articles, txt=txt ,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+        elif len(filteredArticleList) == 0 and searched:
+            return render_template('search_results.html' , hep=hep,arxiv=arxiv, results=articles, txt=txt,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
         else:
-            return render_template('search_results.html' , hep=hep,arxiv=arxiv,results=sessionArticleList, txt=txt,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
+            return render_template('search_results.html' , hep=hep,arxiv=arxiv,results=articles, txt=txt,form=form,startDate=startDate,endDate=endDate,searchURL=session.get('searchURL'))
 
 @app.route('/search_results/<id>')
 def articlePage(id):
-
-    global articleList
-    global sessionArticleList
+    global articles
+    global filteredArticleList
     global searched
     if searched:
-        if len(sessionArticleList) == 0:
-            article = sessionArticleListPrev[int(id)]
-            bibtex = sessionArticleListPrev[int(id)]['Bibtex']
+        if len(articles) == 0:
+            article = articles.items[int(id)]
+            bibtex = articles.items[int(id)].bibtex
         else:
-            article = sessionArticleList[int(id)]
-            bibtex = sessionArticleList[int(id)]['Bibtex']
+            article = articles.items[int(id)]
+            bibtex = articles.items[int(id)].bibtex
     else:
-        article = articleList[int(id)]
-        bibtex = articleList[int(id)]['Bibtex']
+        article = articles.items[int(id)]
+        bibtex = articles.items[int(id)].bibtex
 
-    return render_template('article.html' , bibtex=bibtex, article=article ,searchURL = session['searchURL'])
+    return render_template('article.html' , bibtex=bibtex, article=article ,searchURL=session.get('searchURL'),)
 
 
 @app.route('/about')

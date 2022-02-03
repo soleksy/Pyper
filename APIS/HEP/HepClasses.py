@@ -227,17 +227,17 @@ class HepParser:
 
         if article.get('FirstAuthor') is None:
             if article.get("AuthorCount") is not None:
-                if article.get("Year") is not 0:  
+                if article.get("Year") != 0:  
                     header =  "@article{ " + "Coauthored by " +  str(article.get("AuthorCount")) + " authors" + ":" + str(article['Year'])
                 else:
                     header = "@article{ " + "Coauthored by " +  str(article.get("AuthorCount")) + " authors"
             else:
-                    if article.get("Year") is not 0:  
+                    if article.get("Year") != 0:  
                         header = "@article{ "+ "Anonymous" + ":" + str(article['Year'])
                     else:
                         header = "@article{ "+ "Anonymous"
         else:
-            if article.get("Year") is not 0: 
+            if article.get("Year") != 0: 
                 header = "@article{ "+ article.get("FirstAuthor") + ":" + str(article['Year'])
             else:
                 header = "@article{ "+ article.get("FirstAuthor")
@@ -264,7 +264,7 @@ class HepParser:
             title = "title = { " + LatexNodes2Text().latex_to_text(str(article['Title']))
             singleBibtex['title'] = title
         
-        if article.get('Year') is not 0:
+        if article.get('Year') != 0:
             year = "year = { " + str(article['Year'])
             singleBibtex['year'] = year
 
