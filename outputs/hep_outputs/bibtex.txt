@@ -26,6 +26,15 @@ journal = { DAE Symp.Nucl.Phys. }
 volume = { 57 }
 pages = { 2 }
 
+@article{ Smyrski, Jerzy:2009 }
+author = { Smyrski, Jerzy and 2 others }
+title = { Study of the d p —> p p p pi- reaction near the eta production threshold }
+year = { 2009 }
+journal = { Acta Phys.Polon.Supp. }
+volume = { 2 }
+pages = { 8 }
+collaboration = { COSY-11  }
+
 @article{ Krzemien, Wojciech:2015 }
 author = { Krzemien, Wojciech }
 title = { A new event display for the KLOE-2 experiment }
@@ -37,15 +46,6 @@ collaboration = { KLOE-2  }
 doi = { 10.5506/APhysPolB.46.95 }
 eprint = { 1501.04454 }
 
-@article{ Smyrski, Jerzy:2009 }
-author = { Smyrski, Jerzy and 2 others }
-title = { Study of the d p —> p p p pi- reaction near the eta production threshold }
-year = { 2009 }
-journal = { Acta Phys.Polon.Supp. }
-volume = { 2 }
-pages = { 8 }
-collaboration = { COSY-11  }
-
 @article{ Krzemien, W.:2007 }
 author = { Krzemien, W. and 1 others }
 title = { Search for the He-4 eta bound state with WASA-at-COSY }
@@ -54,6 +54,22 @@ journal = { AIP Conf.Proc. }
 volume = { 950 }
 pages = { 3 }
 doi = { 10.1063/1.2819046 }
+
+@article{ Krzemien, Wojciech }
+author = { Krzemien, Wojciech }
+title = { Search for η-mesic ^4He with WASA-at-COSY }
+pages = { 2 }
+collaboration = { WASA-at-COSY  }
+eprint = { 1101.3103 }
+
+@article{ Krzemien, W.:2014 }
+author = { Krzemien, W. and 2 others }
+title = { Search for η-Mesic ^4He with WASA-at-COSY }
+year = { 2014 }
+journal = { Few Body Syst. }
+volume = { 55 }
+pages = { 5 }
+doi = { 10.1007/s00601-013-0782-2 }
 
 @article{ Krzemien, Wojciech:2018 }
 author = { Krzemien, Wojciech }
@@ -66,22 +82,6 @@ collaboration = { LHCb  }
 doi = { 10.1142/S2010194518600674 }
 eprint = { 1801.09313 }
 
-@article{ Krzemien, W.:2014 }
-author = { Krzemien, W. and 2 others }
-title = { Search for η-Mesic ^4He with WASA-at-COSY }
-year = { 2014 }
-journal = { Few Body Syst. }
-volume = { 55 }
-pages = { 5 }
-doi = { 10.1007/s00601-013-0782-2 }
-
-@article{ Krzemien, Wojciech }
-author = { Krzemien, Wojciech }
-title = { Search for η-mesic ^4He with WASA-at-COSY }
-pages = { 2 }
-collaboration = { WASA-at-COSY  }
-eprint = { 1101.3103 }
-
 @article{ Krzemien, W.:2015 }
 author = { Krzemien, W. and 29 others }
 title = { Processing optimization with parallel computing for the J-PET tomography scanner }
@@ -92,4 +92,900 @@ pages = { 8 }
 collaboration = { J-PET  }
 doi = { 10.1515/nuka-2015-0134 }
 eprint = { 1508.02751 }
+
+@article{ Krzemien, Wojciech:2018 }
+author = { Krzemien, Wojciech }
+title = { Recent results from KLOE-2 }
+year = { 2018 }
+journal = { Int.J.Mod.Phys.Conf.Ser. }
+volume = { 46 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1142/S2010194518600285 }
+eprint = { 1801.09007 }
+
+@article{ Rundel, Oleksandr:2016 }
+author = { Rundel, Oleksandr and 4 others }
+title = { Searching for η-mesic Helium with WASA-at-COSY facility }
+year = { 2016 }
+journal = { EPJ Web Conf. }
+volume = { 130 }
+pages = { 3 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1051/epjconf/201613002008 }
+
+@article{ Krzemien, Wojciech:2020 }
+author = { Krzemien, Wojciech and 2 others }
+title = { Feasibility of ortho-positronium lifetime studies with the J-PET detector in context of mirror matter models }
+year = { 2020 }
+journal = { Acta Phys.Polon.B }
+volume = { 51 }
+pages = { 10 }
+doi = { 10.5506/APhysPolB.51.165 }
+eprint = { 1911.10589 }
+
+@article{ Skurzok, M.:2012 }
+author = { Skurzok, M. and 2 others }
+title = { Search for the He-η bound states with the WASA-at-COSY facility }
+year = { 2012 }
+journal = { EPJ Web Conf. }
+volume = { 37 }
+pages = { 3 }
+doi = { 10.1051/epjconf/20123709034 }
+eprint = { 1208.5977 }
+
+@article{ Krzemien, Wojciech:2012 }
+author = { Krzemien, Wojciech and 3 others }
+title = { Search for eta-mesic Helium with the WASA-at-COSY detector }
+year = { 2012 }
+journal = { EPJ Web Conf. }
+volume = { 37 }
+pages = { 4 }
+doi = { 10.1051/epjconf/20123702003 }
+eprint = { 1210.4763 }
+
+@article{ Smyrski, J.:2008 }
+author = { Smyrski, J. and 4 others }
+title = { Prototype drift chamber for tracking at small angles in the PANDA experiment }
+year = { 2008 }
+pages = { 5 }
+doi = { 10.1142/9789812819093_0171 }
+
+@article{ Krzemien, W.:2009 }
+author = { Krzemien, W. and 23 others }
+title = { Search for the 3He-eta bound state at COSY-11 }
+year = { 2009 }
+journal = { Int.J.Mod.Phys.A }
+volume = { 24 }
+pages = { 4 }
+doi = { 10.1142/S0217751X09044115 }
+eprint = { 0810.2330 }
+
+@article{ Moskal, P.:2013 }
+author = { Moskal, P. and 2 others }
+title = { Search for the eta-mesic helium by means of WASA detector at COSY }
+year = { 2013 }
+journal = { PoS }
+volume = { Hadron2013 }
+pages = { 5 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.22323/1.205.0163 }
+eprint = { 1402.1152 }
+
+@article{ Czerwinski, E.:2010 }
+author = { Czerwinski, E. and 21 others }
+title = { Determination of the total width of the η' meson }
+year = { 2010 }
+journal = { Phys.Rev.Lett. }
+volume = { 105 }
+pages = { 4 }
+collaboration = { COSY  }
+doi = { 10.1103/PhysRevLett.105.122001 }
+eprint = { 1008.5294 }
+
+@article{ Stagni, F.:2017 }
+author = { Stagni, F. and 3 others }
+title = { DIRAC universal pilots }
+year = { 2017 }
+journal = { J.Phys.Conf.Ser. }
+volume = { 898 }
+pages = { 7 }
+collaboration = { DIRAC  }
+doi = { 10.1088/1742-6596/898/9/092024 }
+
+@article{ Krzemien, Wojciech:2011 }
+author = { Krzemien, Wojciech }
+title = { Search for the 4He-eta bound state with WASA-at-COSY }
+year = { 2011 }
+journal = { PoS }
+volume = { STORI11 }
+pages = { 8 }
+doi = { 10.22323/1.150.0047 }
+eprint = { 1112.2550 }
+
+@article{ Fröhlich, I.:2008 }
+author = { Fröhlich, I. and 13 others }
+title = { A General Purpose Trigger and Readout Board for HADES and FAIR-Experiments }
+year = { 2008 }
+journal = { IEEE Trans.Nucl.Sci. }
+volume = { 55 }
+pages = { 6 }
+doi = { 10.1109/TNS.2007.913487 }
+
+@article{ Stagni, Federico:2019 }
+author = { Stagni, Federico and 6 others }
+title = { LHCb and DIRAC strategy towards the LHCb upgrade }
+year = { 2019 }
+journal = { EPJ Web Conf. }
+volume = { 214 }
+pages = { 8 }
+collaboration = { LHCb  }
+doi = { 10.1051/epjconf/201921403012 }
+
+@article{ Masełek, R. }
+author = { Masełek, R. and 33 others }
+title = { Towards 2+1 photon tomography: Energy-based selection of two 511 keV photons and a prompt photon with the J-PET scanner }
+pages = { 13 }
+eprint = { 1803.00996 }
+
+@article{ Krzemien, Wojciech:2009 }
+author = { Krzemien, Wojciech and 2 others }
+title = { Search for eta-mesic helium using the WASA-AT-COSY detector }
+year = { 2009 }
+journal = { Acta Phys.Polon.Supp. }
+volume = { 2 }
+pages = { 8 }
+eprint = { 0903.1513 }
+
+@article{ Krzemien, Wojciech }
+author = { Krzemien, Wojciech and 4 others }
+title = { J-PET Framework: Software platform for PET tomography data reconstruction and analysis }
+pages = { 14 }
+doi = { 10.1016/j.softx.2020.100487 }
+eprint = { 2002.10183 }
+
+@article{ Krzemien, Wojciech:2019 }
+author = { Krzemien, Wojciech and 5 others }
+title = { Addressing Scalability with Message Queues: Architecture and Use Cases for DIRAC Interware }
+year = { 2019 }
+journal = { EPJ Web Conf. }
+volume = { 214 }
+pages = { 5 }
+doi = { 10.1051/epjconf/201921403018 }
+eprint = { 1902.09645 }
+
+@article{ Krzemień, W.:2015 }
+author = { Krzemień, W. and 2 others }
+title = { Search for η-mesic Nuclei with WASA-at-COSY }
+year = { 2015 }
+journal = { Acta Phys.Polon.B }
+volume = { 46 }
+pages = { 5 }
+collaboration = { WASA-COSY  }
+doi = { 10.5506/APhysPolB.46.757 }
+eprint = { 1504.08281 }
+
+@article{ Adlarson, P. }
+author = { Adlarson, P. and 48 others }
+title = { Proceedings, second International PrimeNet Workshop }
+pages = { 149 }
+eprint = { 1204.5509 }
+
+@article{ Raczynski, L.:2016 }
+author = { Raczynski, L. and 26 others }
+title = { Application of the Compress Sensing Theory for Improvement of the TOF Resolution in a Novel J-PET Instrument }
+year = { 2016 }
+journal = { Nukleonika }
+volume = { 61 }
+pages = { 11 }
+doi = { 10.1515/nuka-2016-0012 }
+eprint = { 1507.03799 }
+
+@article{ Skurzok, M.:2012 }
+author = { Skurzok, M. and 2 others }
+title = { Search for He-eta bound states with the WASA-at-COSY facility }
+year = { 2012 }
+journal = { Prog.Part.Nucl.Phys. }
+volume = { 67 }
+pages = { 5 }
+doi = { 10.1016/j.ppnp.2012.01.008 }
+eprint = { 1112.2521 }
+
+@article{ Przerwa, J.:2009 }
+author = { Przerwa, J. and 26 others }
+title = { Isospin dependence of the eta-prime meson production in nucleon-nucleon collisions }
+year = { 2009 }
+journal = { Int.J.Mod.Phys.A }
+volume = { 24 }
+pages = { 4 }
+doi = { 10.1142/S0217751X09043845 }
+eprint = { 0810.1406 }
+
+@article{ Fröhlich, I.:2008 }
+author = { Fröhlich, I. and 12 others }
+title = { TRB for HADES and FAIR experiments at GSI }
+year = { 2008 }
+pages = { 5 }
+doi = { 10.1142/9789812819093_0163 }
+eprint = { 0810.4723 }
+
+@article{ Del Grande, Raffaele:2016 }
+author = { Del Grande, Raffaele and 21 others }
+title = { K- multi-nucleon absorption processes in hadronic interaction studies }
+year = { 2016 }
+journal = { PoS }
+volume = { BORMIO2016 }
+pages = { 7 }
+collaboration = { AMADEUS  }
+doi = { 10.22323/1.272.0010 }
+
+@article{ Krzemien, Wojciech:2019 }
+author = { Krzemien, Wojciech and 1 others }
+title = { The KLOE-2 experiment: Overview of recent results }
+year = { 2019 }
+journal = { Int.J.Mod.Phys.A }
+volume = { 34 }
+pages = { 20 }
+collaboration = { KLOE-2  }
+doi = { 10.1142/S0217751X19300126 }
+eprint = { 1909.01233 }
+
+@article{ Vázquez Doce, O.:2017 }
+author = { Vázquez Doce, O. and 21 others }
+title = { Experimental results on multi-nucleonic K^− absorptions in light nuclei }
+year = { 2017 }
+journal = { EPJ Web Conf. }
+volume = { 137 }
+pages = { 7 }
+collaboration = { AMADEUS  }
+doi = { 10.1051/epjconf/201713709010 }
+
+@article{ Skurzok, M.:2014 }
+author = { Skurzok, M. and 2 others }
+title = { Search for the ^4He-η bound state in dd → (^4He-η)_bound→ ^3Heππ^0 and dd → (^4He-η)_bound→ ^3He pπ^- reactions with the WASA-at-COSY facility }
+year = { 2014 }
+journal = { EPJ Web Conf. }
+volume = { 81 }
+pages = { 4 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1051/epjconf/20148102020 }
+eprint = { 1408.0893 }
+
+@article{ Piscicchia, K.:2018 }
+author = { Piscicchia, K. and 26 others }
+title = { First measurement of the K^- n →Λπ^− non-resonant transition amplitude below threshold }
+year = { 2018 }
+journal = { Phys.Lett.B }
+volume = { 782 }
+pages = { 7 }
+doi = { 10.1016/j.physletb.2018.05.025 }
+
+@article{ Krzemień, W.:2014 }
+author = { Krzemień, W. and 27 others }
+title = { J-PET analysis framework for the prototype TOF-PET detector }
+year = { 2014 }
+journal = { Bio-Alg.Med-Syst. }
+volume = { 10 }
+pages = { 4 }
+doi = { 10.1515/bams-2013-0109 }
+eprint = { 1311.6153 }
+
+@article{ Babusci, D. }
+author = { Babusci, D. and 57 others }
+title = { Precision tests of Quantum Mechanics and CPT symmetry with entangled neutral kaons at KLOE }
+pages = { 19 }
+collaboration = { KLOE-2  }
+eprint = { 2111.04328 }
+
+@article{ Moskal, P.:2015 }
+author = { Moskal, P. and 30 others }
+title = { Hit Time and Hit Position Reconstruction in the J-PET Detector Based on a Library of Averaged Model Signals }
+year = { 2015 }
+journal = { Acta Phys.Polon.A }
+volume = { 127 }
+pages = { 5 }
+doi = { 10.12693/APhysPolA.127.1495 }
+eprint = { 1502.07886 }
+
+@article{ Krzemień, W. }
+author = { Krzemień, W. and 21 others }
+title = { Overview of the software architecture and data flow for the J-PET tomography device }
+pages = { 8 }
+eprint = { 1602.05516 }
+
+@article{ Klaja, P.:2010 }
+author = { Klaja, P. and 21 others }
+title = { Two-proton correlation function for the pp -> pp+eta and pp -> pp+pions reactions }
+year = { 2010 }
+journal = { J.Phys.G }
+volume = { 37 }
+pages = { 9 }
+doi = { 10.1088/0954-3899/37/5/055003 }
+eprint = { 1003.4377 }
+
+@article{ Krzemień, W.:2016 }
+author = { Krzemień, W. and 21 others }
+title = { Overview of the software architecture and data flow for the J-PET tomography device }
+year = { 2016 }
+journal = { Acta Phys.Polon.B }
+volume = { 47 }
+pages = { 8 }
+collaboration = { J-PET  }
+doi = { 10.5506/APhysPolB.47.561 }
+eprint = { 1508.02451 }
+
+@article{ Czerwinski, E.:2014 }
+author = { Czerwinski, E. and 15 others }
+title = { Determination of the eta'-proton scattering length in free space }
+year = { 2014 }
+journal = { Phys.Rev.Lett. }
+volume = { 113 }
+pages = { 5 }
+doi = { 10.1103/PhysRevLett.113.062004 }
+eprint = { 1404.5436 }
+
+@article{ Babusci, D.:2014 }
+author = { Babusci, D. and 65 others }
+title = { Measurement of the absolute branching ratio of the K^+ →π^+π^-π^+(γ) decay with the KLOE detector }
+year = { 2014 }
+journal = { Phys.Lett.B }
+volume = { 738 }
+pages = { 6 }
+collaboration = { KLOE KLOE-2  }
+doi = { 10.1016/j.physletb.2014.09.033 }
+eprint = { 1407.2028 }
+
+@article{ Krzemień, Wojciech:2016 }
+author = { Krzemień, Wojciech and 6 others }
+title = { Production and interaction of the η meson with nucleons and nuclei }
+year = { 2016 }
+journal = { EPJ Web Conf. }
+volume = { 130 }
+pages = { 4 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1051/epjconf/201613003004 }
+eprint = { 1611.02136 }
+
+@article{ Vázquez Doce, O.:2016 }
+author = { Vázquez Doce, O. and 20 others }
+title = { K^- absorption on two nucleons and ppK^- bound state search in the Σ^0p final state }
+year = { 2016 }
+journal = { Phys.Lett.B }
+volume = { 758 }
+pages = { 6 }
+doi = { 10.1016/j.physletb.2016.05.001 }
+eprint = { 1511.04496 }
+
+@article{ Sharma, N.G. }
+author = { Sharma, N.G. and 34 others }
+title = { Hit-time and hit-position reconstruction in strips of plastic scintillators using multi-threshold readouts }
+eprint = { 2004.12742 }
+
+@article{ Adlarson, P.:2013 }
+author = { Adlarson, P. and 114 others }
+title = { Search for a dark photon in the π^0 → e^+e^-γ decay }
+year = { 2013 }
+journal = { Phys.Lett.B }
+volume = { 726 }
+pages = { 7 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1016/j.physletb.2013.08.055 }
+eprint = { 1304.0671 }
+
+@article{ Krzemien, Wojciech }
+author = { Krzemien, Wojciech }
+title = { Search for eta-mesic 4He with the WASA-at-COSY detector }
+pages = { 122 }
+eprint = { 1202.5794 }
+
+@article{ Babusci, D.:2014 }
+author = { Babusci, D. and 68 others }
+title = { Search for light vector boson production in e^+e^- →μ^+ μ^- γ interactions with the KLOE experiment }
+year = { 2014 }
+journal = { Phys.Lett.B }
+volume = { 736 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2014.08.005 }
+eprint = { 1404.7772 }
+
+@article{ Klaja, J.:2010 }
+author = { Klaja, J. and 24 others }
+title = { Upper limit of the total cross section for the pn –> pn eta' reaction }
+year = { 2010 }
+journal = { Phys.Rev.C }
+volume = { 81 }
+pages = { 6 }
+doi = { 10.1103/PhysRevC.81.035209 }
+eprint = { 1003.4378 }
+
+@article{ Anastasi, A.:2018 }
+author = { Anastasi, A. and 62 others }
+title = { Combination of KLOE σ(e^+e^-→π^+π^-γ(γ)) measurements and determination of a_μ^π^+π^- in the energy range 0.10 < s < 0.95 GeV^2 }
+year = { 2018 }
+journal = { JHEP }
+volume = { 03 }
+pages = { 20 }
+collaboration = { KLOE-2  }
+doi = { 10.1007/JHEP03(2018)173 }
+eprint = { 1711.03085 }
+
+@article{ Sharma, S. }
+author = { Sharma, S. and 38 others }
+title = { Estimating relationship between the Time Over Threshold and energy loss by photons in plastic scintillators used in the J-PET scanner }
+pages = { 14 }
+eprint = { 1911.12059 }
+
+@article{ Adlarson, P.:2014 }
+author = { Adlarson, P. and 109 others }
+title = { Measurement of the η→π^+π^-π^0 Dalitz plot distribution }
+year = { 2014 }
+journal = { Phys.Rev.C }
+volume = { 90 }
+pages = { 10 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.90.045207 }
+eprint = { 1406.2505 }
+
+@article{ Adolph, C.:2009 }
+author = { Adolph, C. and 138 others }
+title = { Measurement of the eta —> 3 pi0 Dalitz Plot Distribution with the WASA Detector at COSY }
+year = { 2009 }
+journal = { Phys.Lett.B }
+volume = { 677 }
+pages = { 6 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1016/j.physletb.2009.03.063 }
+eprint = { 0811.2763 }
+
+@article{ Anastasi, A.:2016 }
+author = { Anastasi, A. and 63 others }
+title = { Measurement of the ϕ→π^0 e^+e^- transition form factor with the KLOE detector }
+year = { 2016 }
+journal = { Phys.Lett.B }
+volume = { 757 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2016.04.015 }
+eprint = { 1601.06565 }
+
+@article{ Anastasi, A.:2018 }
+author = { Anastasi, A. and 57 others }
+title = { Combined limit on the production of a light gauge boson decaying into μ^+μ^- and π^+π^- }
+year = { 2018 }
+journal = { Phys.Lett.B }
+volume = { 784 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2018.08.012 }
+eprint = { 1807.02691 }
+
+@article{ Krzemień, Wojciech:2014 }
+author = { Krzemień, Wojciech and 2 others }
+title = { Search for the Manifestation of the Mesic Nuclei on the dd →^3HeN π Excitation Function Measured with WASA-at-COSY }
+year = { 2014 }
+journal = { Acta Phys.Polon.B }
+volume = { 45 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.5506/APhysPolB.45.689 }
+eprint = { 1401.6644 }
+
+@article{ Krzemień, W.:2015 }
+author = { Krzemień, W. and 30 others }
+title = { Analysis framework for the J-PET scanner }
+year = { 2015 }
+journal = { Acta Phys.Polon.A }
+volume = { 127 }
+pages = { 4 }
+doi = { 10.12693/APhysPolA.127.1491 }
+eprint = { 1503.00465 }
+
+@article{ Adlarson, P.:2011 }
+author = { Adlarson, P. and 122 others }
+title = { ABC Effect in Basic Double-Pionic Fusion — Observation of a new resonance? }
+year = { 2011 }
+journal = { Phys.Rev.Lett. }
+volume = { 106 }
+pages = { 4 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevLett.106.242302 }
+eprint = { 1104.0123 }
+
+@article{ Adlarson, P.:2014 }
+author = { Adlarson, P. and 106 others }
+title = { Cross section ratio and angular distributions of the reaction p + d -> 3He + eta at 48.8 MeV and 59.8 MeV excess energy }
+year = { 2014 }
+journal = { Eur.Phys.J.A }
+volume = { 50 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1140/epja/i2014-14100-4 }
+eprint = { 1402.3469 }
+
+@article{ Babusci, D.:2020 }
+author = { Babusci, D. and 55 others }
+title = { Upper limit on the η→π^+π^- branching fraction with the KLOE experiment }
+year = { 2020 }
+journal = { JHEP }
+volume = { 10 }
+pages = { 11 }
+collaboration = { KLOE-2  }
+doi = { 10.1007/JHEP10(2020)047 }
+eprint = { 2006.14710 }
+
+@article{ Anastasi, A.:2015 }
+author = { Anastasi, A. and 63 others }
+title = { Limit on the production of a low-mass vector boson in e^+e^-→Uγ, U→e^+e^- with the KLOE experiment }
+year = { 2015 }
+journal = { Phys.Lett.B }
+volume = { 750 }
+pages = { 5 }
+doi = { 10.1016/j.physletb.2015.10.003 }
+eprint = { 1509.00740 }
+
+@article{ Silarski, M.:2009 }
+author = { Silarski, M. and 23 others }
+title = { Generalized Dalitz Plot analysis of the near threshold pp —> ppK+K- reaction in view of the K+K- final state interaction }
+year = { 2009 }
+journal = { Phys.Rev.C }
+volume = { 80 }
+pages = { 8 }
+collaboration = { COSY-11  }
+doi = { 10.1103/PhysRevC.80.045202 }
+eprint = { 0909.3974 }
+
+@article{ Adlarson, P.:2012 }
+author = { Adlarson, P. and 121 others }
+title = { Exclusive Measurement of the η→π^+ π^- γ Decay }
+year = { 2012 }
+journal = { Phys.Lett.B }
+volume = { 707 }
+pages = { 6 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1016/j.physletb.2011.12.027 }
+eprint = { 1107.5277 }
+
+@article{ Anastasi, A.:2017 }
+author = { Anastasi, A. and 64 others }
+title = { Measurement of the running of the fine structure constant below 1 GeV with the KLOE Detector }
+year = { 2017 }
+journal = { Phys.Lett.B }
+volume = { 767 }
+pages = { 8 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2016.12.016 }
+eprint = { 1609.06631 }
+
+@article{ Anastasi, A.:2016 }
+author = { Anastasi, A. and 63 others }
+title = { Limit on the production of a new vector boson in e^+ e^-→ Uγ, U→π^+π^- with the KLOE experiment }
+year = { 2016 }
+journal = { Phys.Lett.B }
+volume = { 757 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2016.04.019 }
+eprint = { 1603.06086 }
+
+@article{ Anastasi, A.:2015 }
+author = { Anastasi, A. and 63 others }
+title = { Search for dark Higgsstrahlung in e^+e^−→μ^+μ^− and missing energy events with the KLOE experiment }
+year = { 2015 }
+journal = { Phys.Lett.B }
+volume = { 747 }
+pages = { 8 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2015.06.015 }
+eprint = { 1501.06795 }
+
+@article{ Babusci, D.:2015 }
+author = { Babusci, D. and 65 others }
+title = { Study of the Dalitz decay ϕ→η e^+e^- with the KLOE detector }
+year = { 2015 }
+journal = { Phys.Lett.B }
+volume = { 742 }
+pages = { 6 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2015.01.011 }
+eprint = { 1409.4582 }
+
+@article{ Babusci, D.:2020 }
+author = { Babusci, D. and 55 others }
+title = { Measurement of the branching fraction for the decay K_S →πμν with the KLOE detector }
+year = { 2020 }
+journal = { Phys.Lett.B }
+volume = { 804 }
+pages = { 16 }
+collaboration = { KLOE-2  }
+doi = { 10.1016/j.physletb.2020.135378 }
+eprint = { 1912.05990 }
+
+@article{ Adlarson, P.:2013 }
+author = { Adlarson, P. and 113 others }
+title = { Search for η-mesic ^4He with the WASA-at-COSY detector }
+year = { 2013 }
+journal = { Phys.Rev.C }
+volume = { 87 }
+pages = { 7 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.87.035204 }
+eprint = { 1301.0843 }
+
+@article{ Adlarson, P.:2012 }
+author = { Adlarson, P. and 111 others }
+title = { Abashian-Booth-Crowe resonance structure in the double pionic fusion to He-4 }
+year = { 2012 }
+journal = { Phys.Rev.C }
+volume = { 86 }
+pages = { 5 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.86.032201 }
+eprint = { 1206.6337 }
+
+@article{ Adlarson, P.:2014 }
+author = { Adlarson, P. and 108 others }
+title = { Evidence for a New Resonance from Polarized Neutron-Proton Scattering }
+year = { 2014 }
+journal = { Phys.Rev.Lett. }
+volume = { 112 }
+pages = { 6 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevLett.112.202301 }
+eprint = { 1402.6844 }
+
+@article{ Anastasi, A.:2016 }
+author = { Anastasi, A. and 62 others }
+title = { Precision measurement of the η→π^+π^-π^0 Dalitz plot distribution with the KLOE detector }
+year = { 2016 }
+journal = { JHEP }
+volume = { 05 }
+pages = { 11 }
+collaboration = { KLOE-2  }
+doi = { 10.1007/JHEP05(2016)019 }
+eprint = { 1601.06985 }
+
+@article{ Adlarson, P.:2013 }
+author = { Adlarson, P. and 112 others }
+title = { Measurement of the pn → ppπ^0π^- reaction in search for the recently observed resonance structure in dπ^0π^0 and dπ^+π^- systems }
+year = { 2013 }
+journal = { Phys.Rev.C }
+volume = { 88 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.88.055208 }
+eprint = { 1306.5130 }
+
+@article{ Adlarson, P.:2015 }
+author = { Adlarson, P. and 102 others }
+title = { ABC effect and resonance structure in the double-pionic fusion to ^3He }
+year = { 2015 }
+journal = { Phys.Rev.C }
+volume = { 91 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.91.015201 }
+eprint = { 1408.5744 }
+
+@article{ Adlarson, P.:2013 }
+author = { Adlarson, P. and 113 others }
+title = { Isospin Decomposition of the Basic Double-Pionic Fusion in the Region of the ABC Effect }
+year = { 2013 }
+journal = { Phys.Lett.B }
+volume = { 721 }
+pages = { 8 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1016/j.physletb.2013.03.019 }
+eprint = { 1212.2881 }
+
+@article{ Erni, W. }
+author = { Erni, W. and 398 others }
+title = { Technical Design Report for PANDA Electromagnetic Calorimeter (EMC) }
+pages = { 199 }
+collaboration = { PANDA  }
+eprint = { 0810.1216 }
+
+@article{ Erni, W. }
+author = { Erni, W. and 409 others }
+title = { Technical Design Report for the PANDA Solenoid and Dipole Spectrometer Magnets }
+pages = { 10 }
+collaboration = { PANDA  }
+eprint = { 0907.0169 }
+
+@article{ Adlarson, P.:2014 }
+author = { Adlarson, P. and 108 others }
+title = { Neutron-proton scattering in the context of the d* (2380) resonance }
+year = { 2014 }
+journal = { Phys.Rev.C }
+volume = { 90 }
+pages = { 11 }
+collaboration = { WASA-at-COSY  }
+doi = { 10.1103/PhysRevC.90.035204 }
+eprint = { 1408.4928 }
+
+@article{ Lutz, M.F.M. }
+author = { Lutz, M.F.M. and 413 others }
+title = { Physics Performance Report for PANDA: Strong Interaction Studies with Antiprotons }
+pages = { 216 }
+collaboration = { PANDA  }
+eprint = { 0903.3905 }
+
+@article{ Erni, W.:2013 }
+author = { Erni, W. and 476 others }
+title = { Technical design report for the PANDA (AntiProton Annihilations at Darmstadt) Straw Tube Tracker }
+year = { 2013 }
+journal = { Eur.Phys.J.A }
+volume = { 49 }
+pages = { 104 }
+collaboration = { PANDA  }
+doi = { 10.1140/epja/i2013-13025-8 }
+eprint = { 1205.5441 }
+
+@article{ Erni, W. }
+author = { Erni, W. and 459 others }
+title = { Technical Design Report for the: PANDA Micro Vertex Detector }
+pages = { 189 }
+collaboration = { PANDA  }
+eprint = { 1207.6581 }
+
+@article{ Aaij, R.:2022 }
+author = { Aaij, R. and 159 others }
+title = { A Comparison of CPU and GPU Implementations for the LHCb Experiment Run 3 Trigger }
+year = { 2022 }
+journal = { Comput.Softw.Big Sci. }
+volume = { 6 }
+pages = { 30 }
+collaboration = { LHCb  }
+doi = { 10.1007/s41781-021-00070-2 }
+eprint = { 2105.04031 }
+
+@article{ Davi, F. }
+author = { Davi, F. and 461 others }
+title = { Technical Design Report for the PANDA Endcap Disc DIRC }
+pages = { 97 }
+collaboration = { PANDA  }
+eprint = { 1912.12638 }
+
+@article{ Singh, B.:2016 }
+author = { Singh, B. and 503 others }
+title = { Feasibility studies of time-like proton electromagnetic form factors at PANDA at FAIR }
+year = { 2016 }
+journal = { Eur.Phys.J.A }
+volume = { 52 }
+pages = { 25 }
+collaboration = { PANDA  }
+doi = { 10.1140/epja/i2016-16325-5 }
+eprint = { 1606.01118 }
+
+@article{ Singh, B.P.:2015 }
+author = { Singh, B.P. and 535 others }
+title = { Experimental access to Transition Distribution Amplitudes with the P̄ANDA experiment at FAIR }
+year = { 2015 }
+journal = { Eur.Phys.J.A }
+volume = { 51 }
+pages = { 16 }
+collaboration = { PANDA  }
+doi = { 10.1140/epja/i2015-15107-y }
+eprint = { 1409.0865 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 733 others }
+title = { Model-independent evidence for J/ψ p contributions to Λ_b^0→ J/ψ p K^- decays }
+year = { 2016 }
+journal = { Phys.Rev.Lett. }
+volume = { 117 }
+pages = { 9 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevLett.117.082002 }
+eprint = { 1604.05708 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 733 others }
+title = { A precise measurement of the B^0 meson oscillation frequency }
+year = { 2016 }
+journal = { Eur.Phys.J.C }
+volume = { 76 }
+pages = { 27 }
+collaboration = { LHCb  }
+doi = { 10.1140/epjc/s10052-016-4250-2 }
+eprint = { 1604.03475 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 732 others }
+title = { Search for B_c^+ decays to the pp̅π^+ final state }
+year = { 2016 }
+journal = { Phys.Lett.B }
+volume = { 759 }
+pages = { 9 }
+collaboration = { LHCb  }
+doi = { 10.1016/j.physletb.2016.05.074 }
+eprint = { 1603.07037 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 738 others }
+title = { Measurement of the CP asymmetry in B_s^0-B_s^0 mixing }
+year = { 2016 }
+journal = { Phys.Rev.Lett. }
+volume = { 117 }
+pages = { 9 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevLett.117.061803 }
+eprint = { 1605.09768 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 733 others }
+title = { First observation of the rare B^+→ D^+ K^+π^- decay }
+year = { 2016 }
+journal = { Phys.Rev.D }
+volume = { 93 }
+pages = { 11 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevD.93.051101 }
+eprint = { 1512.02494 }
+
+@article{ Aaij, Roel:2015 }
+author = { Aaij, Roel and 727 others }
+title = { Evidence for the strangeness-changing weak decay Ξ_b^-→Λ_b^0π^- }
+year = { 2015 }
+journal = { Phys.Rev.Lett. }
+volume = { 115 }
+pages = { 10 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevLett.115.241801 }
+eprint = { 1510.03829 }
+
+@article{ Aaij, R.:2018 }
+author = { Aaij, R. and 796 others }
+title = { Search for the rare decay Λ_c^+→ pμ^+μ^- }
+year = { 2018 }
+journal = { Phys.Rev.D }
+volume = { 97 }
+pages = { 10 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevD.97.091101 }
+eprint = { 1712.07938 }
+
+@article{ Aaij, Roel:2017 }
+author = { Aaij, Roel and 767 others }
+title = { Observation of the decay Ξ_b^- → p K^-K^- }
+year = { 2017 }
+journal = { Phys.Rev.Lett. }
+volume = { 118 }
+pages = { 11 }
+collaboration = { LHCb  }
+doi = { 10.1103/PhysRevLett.118.071801 }
+eprint = { 1612.02244 }
+
+@article{ Aaij, Roel:2017 }
+author = { Aaij, Roel and 753 others }
+title = { Observation of η_c(2S) → p p̅ and search for X(3872) → p p̅ decays }
+year = { 2017 }
+journal = { Phys.Lett.B }
+volume = { 769 }
+pages = { 9 }
+collaboration = { LHCb  }
+doi = { 10.1016/j.physletb.2017.03.046 }
+eprint = { 1607.06446 }
+
+@article{ Aaij, Roel:2016 }
+author = { Aaij, Roel and 733 others }
+title = { First observation of the decay D^0→ K^-π^+μ^+μ^- in the ρ^0-ω region of the dimuon mass spectrum }
+year = { 2016 }
+journal = { Phys.Lett.B }
+volume = { 757 }
+pages = { 10 }
+collaboration = { LHCb  }
+doi = { 10.1016/j.physletb.2016.04.029 }
+eprint = { 1510.08367 }
+
+@article{ Aaij, Roel:2015 }
+author = { Aaij, Roel and 726 others }
+title = { First measurement of the differential branching fraction and CP asymmetry of the B^±→π^±μ^+μ^- decay }
+year = { 2015 }
+journal = { JHEP }
+volume = { 10 }
+pages = { 22 }
+collaboration = { LHCb  }
+doi = { 10.1007/JHEP10(2015)034 }
+eprint = { 1509.00414 }
 
